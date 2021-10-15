@@ -37,6 +37,9 @@ McGraw Studio
 - Group Meeting Notetaker: Take notes for group meetings
 - External Project Coordinator: Go to TAs’ office hour if we need help with coding or design
 - Internal Project Coordinator: Check the team work progress; help schedule team meetings
+- Meeting scheduler: Send Zoom links for weekly meeting.
+
+We will rotate our roles each week.
 
 6. How will we hold ourselves and one another accountable? What (exactly) will we say to a team member who appears not to be contributing equally? To a team member who fails to deliver what was promised?
 
