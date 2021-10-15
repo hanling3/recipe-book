@@ -14,29 +14,29 @@ McGraw Studio
 
 2. To what goals do we all commit?
 
--- Have a high quality product by the end of the semester
--- Making sure we give our best efforts to contribute to the product and attend team meetings consistently 
+- Have a high quality product by the end of the semester
+- Making sure we give our best efforts to contribute to the product and attend team meetings consistently 
 
 
 3. What are our “ground rules”? (Don't make an exhaustive list—stick with just a few.)
 
--- Have all work completed 24 hours before milestone due dates 
--- Communicate at least a day in advance if you’re missing team studio time / external team meetings
--- Hold team meetings as long as 3 out of 4 team members are present
+- Have all work completed 24 hours before milestone due dates 
+- Communicate at least a day in advance if you’re missing team studio time / external team meetings
+- Hold team meetings as long as 3 out of 4 team members are present
 
 
 4. By what means and how frequently will we meet or communicate?
 
--- Once a week outside of class via Zoom, or in-person when necessary, at 2-3pm on Sundays.
--- Communicate via Messenger 
--- Respond within 24 hours to messages 
+- Once a week outside of class via Zoom, or in-person when necessary, at 2-3pm on Sundays.
+- Communicate via Messenger 
+- Respond within 24 hours to messages 
 
 
 5. What roles will we create? Include a description of exactly what each role is responsible for.
 
--- Group Meeting Notetaker: Take notes for group meetings
--- External Project Coordinator: Go to TAs’ office hour if we need help with coding or design
--- Internal Project Coordinator: Check the team work progress; help schedule team meetings
+- Group Meeting Notetaker: Take notes for group meetings
+- External Project Coordinator: Go to TAs’ office hour if we need help with coding or design
+- Internal Project Coordinator: Check the team work progress; help schedule team meetings
 
 6. How will we hold ourselves and one another accountable? What (exactly) will we say to a team member who appears not to be contributing equally? To a team member who fails to deliver what was promised?
 
@@ -48,13 +48,13 @@ McGraw Studio
 
 8. What are our procedures for re-visiting this contract?
 
--- We will revisit this contract if we find that a rule doesn’t work for a team, or there’s repeated conflict.
+- We will revisit this contract if we find that a rule doesn’t work for a team, or there’s repeated conflict.
 
 
 9. What else do we want to include in this contract? (Think about a *fun* clause... not everything is always about work! Sometimes you need to celebrate your accomplishments!)
 
--- Wear clothes in the same color to the class if we have a big accomplishment
--- Drink Boba together after completing each milestone
+- Wear clothes in the same color to the class if we have a big accomplishment
+- Drink Boba together after completing each milestone
 
 
 ## Signed
