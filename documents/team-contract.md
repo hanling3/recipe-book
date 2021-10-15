@@ -10,21 +10,16 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 1. Team name or project name.
 
-    McGraw Studio 
+    TODO
 
 2. To what goals do we all commit?
 
--- Have a high quality product by the end of the semester
--- Making sure we give our best efforts to contribute to the product and attend team meetings consistently 
-
+    TODO
 
 
 3. What are our “ground rules”? (Don't make an exhaustive list—stick with just a few.)
 
--- Have all work completed 24 hours before milestone due dates 
--- Communicate at least a day in advance if you’re missing team studio time / external team meetings
--- Hold team meetings as long as 3 out of 4 team members are present
-
+    TODO
 
 4. By what means and how frequently will we meet or communicate?
 
@@ -59,7 +54,7 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 **Add your full name and the date you signed this contract.**
 
-- Hanling Yang, 10/14/2021
+- TODO
 - TODO
 - TODO
 - Xuanhui Chen, 10/14/2021
