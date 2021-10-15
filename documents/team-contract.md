@@ -10,7 +10,6 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 1. Team name or project name.
 
-    TODO
 
 2. To what goals do we all commit?
 
@@ -23,11 +22,16 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 4. By what means and how frequently will we meet or communicate?
 
-    TODO
+-- Once a week outside of class via Zoom, or in-person when necessary, at 2-3pm on Sundays.
+-- Communicate via Messenger 
+-- Respond within 24 hours to messages 
+
 
 5. What roles will we create? Include a description of exactly what each role is responsible for.
 
-    TODO
+-- Group Meeting Notetaker: Take notes for group meetings
+-- External Project Coordinator: Go to TAs’ office hour if we need help with coding or design
+-- Internal Project Coordinator: Check the team work progress; help schedule team meetings
 
 6. How will we hold ourselves and one another accountable? What (exactly) will we say to a team member who appears not to be contributing equally? To a team member who fails to deliver what was promised?
 
@@ -51,7 +55,7 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 **Add your full name and the date you signed this contract.**
 
-- TODO
+- Ada Chai 10/14/21
 - TODO
 - TODO
 - ...
