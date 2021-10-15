@@ -55,7 +55,6 @@ McGraw Studio
 
 - Wear clothes in the same color to the class if we have a big accomplishment
 - Drink Boba together after completing each milestone
-- testing vs code 
 
 
 ## Signed
