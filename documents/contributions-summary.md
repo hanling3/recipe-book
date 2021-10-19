@@ -4,7 +4,6 @@
 
 - Ada wrote responses to questions 4 and 5, discussed and revised responses to other questions, and signed the team contract. 
 - Hedy participated in the team meeting #1, worked with team members to finish the team contract
-
 - Xinlu contributed to write answers to questions 6 and 7, and discussed with teammates about other responses.
 - Xuanhui contributed to write answers to questions 8 and 9, discussed responses and fixed problems.
 
