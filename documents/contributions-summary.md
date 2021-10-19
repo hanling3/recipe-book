@@ -2,7 +2,7 @@
 
 # Milestone 1
 
-TODO 
+-- Hedy Yang: participated in the team meeting #1, worked with team members to finish the team contract
 
 # Milestone 2 
 
