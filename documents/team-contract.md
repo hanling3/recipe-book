@@ -47,15 +47,12 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 8. What are our procedures for re-visiting this contract?
 
--- We will revisit this contract if we find that a rule doesn’t work for a team, or there’s repeated conflict. 
+    TODO
 
 
 9. What else do we want to include in this contract? (Think about a *fun* clause... not everything is always about work! Sometimes you need to celebrate your accomplishments!)
 
--- Wear clothes in the same color to the class if we have a big accomplishment
--- Drink Boba together after completing each milestone
--- Try “using” the karaoke we built.
-
+    TODO
 
 
 ## Signed
