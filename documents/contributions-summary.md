@@ -2,7 +2,10 @@
 
 # Milestone 1
 
-TODO 
+- Ada wrote responses to questions 4 and 5, discussed and revised responses to other questions, and signed the team contract. 
+- Hedy.. 
+- Xinlu..
+- Justice..
 
 # Milestone 2 
 
