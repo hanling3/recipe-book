@@ -69,5 +69,5 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 
 - Hanling Yang, 10/14/2021
 - TODO
-- Xinlu Zhou, 10/17/2021
+- TODO
 - Xuanhui Chen, 10/14/2021
