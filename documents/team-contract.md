@@ -43,11 +43,19 @@ We will rotate our roles each week.
 
 6. How will we hold ourselves and one another accountable? What (exactly) will we say to a team member who appears not to be contributing equally? To a team member who fails to deliver what was promised?
 
-    TODO
+-- We’ll distribute tasks equally and based on everyone’s skill sets.
+-- We’ll hold each other accountable by regularly updating each other on the progress that we have made with tasks, and checking in with each other during team meetings to see if anyone needs help. 
+-- For team members who don’t contribute equally, we will take an empathetic approach and check in with them to understand why they’re not contributing. After checking in, and they continue to fail to contribute after discussion, we will inform the instructor of the conflict.
+-- We’ll learn if there's an inappropriate role assigned and accommodate our roles if needed. 
+
 
 7. What do we do when we disagree? What approach to conflict to we all agree to uphold?
 
-    TODO
+-- Voting, majority rule (e.g. ¾ team members. If there’s a 2-2 split, then we can re-discuss the options and revote). 
+-- Ask for TAs or Kyle’s suggestions
+-- Update the team contract as needed
+-- Provide opportunities for all team members to fully communicate their ideas
+
 
 8. What are our procedures for re-visiting this contract?
 
@@ -66,5 +74,5 @@ We will rotate our roles each week.
 
 - Ada Chai 10/14/21
 - Hanling Yang 10/14/21
-- TODO
+- Xinlu Zhou 10/14/21
 - Xuanhui Chen 10/14/21
