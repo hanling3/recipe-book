@@ -17,7 +17,6 @@ McGraw Studio
 - Have a high quality product by the end of the semester
 - Making sure we give our best efforts to contribute to the product and attend team meetings consistently 
 
-
 3. What are our “ground rules”? (Don't make an exhaustive list—stick with just a few.)
 
 - Have all work completed 24 hours before milestone due dates 
@@ -48,7 +47,6 @@ We will rotate our roles each week.
 - For team members who don’t contribute equally, we will take an empathetic approach and check in with them to understand why they’re not contributing. After checking in, and they continue to fail to contribute after discussion, we will inform the instructor of the conflict.
 - We’ll learn if there's an inappropriate role assigned and accommodate our roles if needed. 
 
-
 7. What do we do when we disagree? What approach to conflict to we all agree to uphold?
 
 - Voting, majority rule (e.g. ¾ team members. If there’s a 2-2 split, then we can re-discuss the options and revote). 
@@ -60,7 +58,6 @@ We will rotate our roles each week.
 8. What are our procedures for re-visiting this contract?
 
 - We will revisit this contract if we find that a rule doesn’t work for a team, or there’s repeated conflict.
-
 
 9. What else do we want to include in this contract? (Think about a *fun* clause... not everything is always about work! Sometimes you need to celebrate your accomplishments!)
 
