@@ -3,7 +3,8 @@
 # Milestone 1
 
 - Ada wrote responses to questions 4 and 5, discussed and revised responses to other questions, and signed the team contract. 
-- Hedy.. 
+- Hedy participated in the team meeting #1, worked with team members to finish the team contract
+
 - Xinlu..
 - Justice..
 
