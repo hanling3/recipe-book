@@ -1,12 +1,37 @@
 # Discovry and Planning
 
 # 1. Users
-Who are your users? Identify users that need assistance “finding recipes” or need a karaoke diversion.
+Users: students living off campus cooking for themselves for the first time; trying to cook efficiently and eat healthy
 
 
 # 2. Gather Information
-You should collect information from at least 6 users (graduate teams) 
-Clearly state how many users you interviewed/studied. Provide a brief summary of each user and what you learned from them. Lastly, provide an executive summary of key points that you learned about the users’ goals. Note, you will need to use affinity diagramming (document this process with photos) to help you identify themes in your data.
+Interview Questions:
+
+    3. Cook Related
+        When was the last time you cooked?
+        What did you cook?
+        Who did you cook with?
+        Where did you cook?
+        Why did you cook?
+        How did you cook (i.e. cooking process)?
+        How long have you been cooking?
+        How often do you cook?
+        What kind of food do you usually cook? Easy, Intermediate or elaborate?
+        How long did it take you to prepare your last meal? 
+        Do you cook for yourself or do this for someone else?
+        Do you cook by yourself or do this with someone else?
+        How confident are you in your cooking? 
+    4. Recipes
+        Do you have any experience using recipe apps? 
+        If so, which one and how was your experience? 
+        When was the last time you looked for a recipe?
+        What occasion was it for?
+        How did you find the recipe?
+        Do you like traditional recipes or do you like to experiment with more unfamiliar meals?
+        Do you collect/save different recipes?
+        How do you save your recipes?
+        How much time did it take you to decide on your last meal/recipe?
+
 
 
 # 3. Problems
