@@ -12,6 +12,11 @@ All non-app related artifacts must be listed here to be graded. If it's not list
 
 ### Milestone 2: Discovery and Planning
 - [1. Users](documents/discovery-and-planning.md)
-- [2. Gather Information](documents/discovery-and-planning.md)
-- [Interview Protocol](documents/discovery-and-planning.md)
 
+- [2. Gather Information](documents/discovery-and-planning.md)
+    - [Interview Protocol](documents/discovery-and-planning.md)
+- [3. Problems](documents/discovery-and-planning.md)
+- [4. Value Propositions](documents/discovery-and-planning.md)
+- [5. Scenarios](documents/discovery-and-planning.md)
+- [6. Persona](documents/discovery-and-planning.md)
+- [7. Project Themes](documents/discovery-and-planning.md)
