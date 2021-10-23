@@ -7,3 +7,7 @@ All non-app related artifacts must be listed here to be graded. If it's not list
 - [Team Contract](documents/team-contract.md)
 - [Summary of Contributions](documents/contributions-summary.md)
 - [Discovery and Planning](documents/discovery-and-planning.md)
+- [1. Users](documents/discovery-and-planning.md)
+- [2. Gather Information](documents/discovery-and-planning.md)
+- [3. Interview Protocol](documents/discovery-and-planning.md)
+
