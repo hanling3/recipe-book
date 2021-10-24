@@ -43,7 +43,26 @@ Hi, thank you for joining us today. The purpose of this interview is to better u
 
 
 # 4. Value Propositions
-You should define the value propositions of your product. These value propositions should address the key problems you identified. You need to identify why your users will want to use your product. See your text for examples.
+Should contain: 
+- Target users + their motivation(s) for using a product / feature
+- The alternatives
+- Benefits of the product / feature (compared to the alternatives)
+- Costs (e.g. money, time, etc) (compared to alternatives)
+- Why target users will prefer the product / feature over alternatives
+
+Tips:
+- Sounds like smth target users would say
+
+
+Possible ideas: 
+- Insert budget
+- How much time you have to prepare
+- Customize app to their experiences
+- filters/categories for recipes - e.g. chinese, american, etc
+- Plan meals - don't have to think about dinner / lunch - better control time + budget
+ 
+College students are busy and have limited budgets to dining out, and they want to have healthy and delicious meals prepared quickly in their apartments. They are motivated to use a product that can help them prepare meals quickly and efficiently under an amount of budget. The current alternatives students have are apps like BBC good food and Xiachufang. These apps allow users to upload their recipes, and chef-made recipes and tutorial videos will also be available to users. Compared to the alternatives, our product can be customized. Our users can insert their weekly grocery budget, the time they plan to spend on preparing each meal, and the food category they want to eat in the app. Then, the app will create a list of ingredients for the week and the recipes for each meal based on the restrictions. Our app helps users to save money by allowing them to purchase all they need in a week (or more) at one time, and therefore, the cost is lower and food wasting is avoided. Times for meal preparation will be much shorter, because the weekly meal plan has been auto generated, and users will not need to decide what they want and how to cook before every meal. Target users will prefer our product over the alternatives because our app is much more customizable than the alternatives.
+
 
 
 
