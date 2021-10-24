@@ -36,6 +36,33 @@ Hi, thank you for joining us today. The purpose of this interview is to better u
 - What did you have?
 - Where did you buy it?
 
+### Cook Related
+- When was the last time you cooked?
+- What did you cook?
+- Who did you cook with?
+- Where did you cook?
+- Why did you cook?
+- How did you cook (i.e. cooking process)?
+- How long have you been cooking?
+- How often do you cook?
+- What kind of food do you usually cook? Easy, Intermediate or elaborate?
+- How long did it take you to prepare your last meal? 
+- Do you cook for yourself or do this for someone else?
+- Do you cook by yourself or do this with someone else?
+- How confident are you in your cooking? 
+
+### Recipes
+- Do you have any experience using recipe apps? 
+- If so, which one and how was your experience? 
+- When was the last time you looked for a recipe?
+- What occasion was it for?
+- How did you find the recipe?
+- Do you like traditional recipes or do you like to experiment with more unfamiliar meals?
+- Do you collect/save different recipes?
+- How do you save your recipes?
+- How much time did it take you to decide on your last meal/recipe?
+- What types of recipes do you usually look for? 
+
 
 
 # 3. Problems
