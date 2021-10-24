@@ -46,6 +46,7 @@ We will rotate our roles each week.
 - We’ll hold each other accountable by regularly updating each other on the progress that we have made with tasks, and checking in with each other during team meetings to see if anyone needs help. 
 - For team members who don’t contribute equally, we will take an empathetic approach and check in with them to understand why they’re not contributing. After checking in, and they continue to fail to contribute after discussion, we will inform the instructor of the conflict.
 - We’ll learn if there's an inappropriate role assigned and accommodate our roles if needed. 
+- Respond to the messages in the messenger to let each other know that you have read the messages
 
 7. What do we do when we disagree? What approach to conflict to we all agree to uphold?
 
