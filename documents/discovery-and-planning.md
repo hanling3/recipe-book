@@ -1,9 +1,9 @@
 # Discovery and Planning
 
 # 1. Users
-We first brainstormed our possible users. Then we conducted 1 round of unstructed interview to finalize our target users. The detail of this interview can be found in the "User Interview Summaries" section below.
+We first brainstormed our possible users. Then we conducted 1 round of unstructured interview to finalize our target users. The detail of this interview can be found in the "User Interview Summaries" section below.
 
-Brainstorming the User: 
+## Brainstorming the User 
 - College students who often cook at their apartments
 - Housewife who prepares food for her family
 - Cook
@@ -28,9 +28,9 @@ Brainstorming the User:
 - College students, faculty, high school students, family members, Ithaca staff members
 
 
-Users: students living off campus trying to cook efficiently, save money, and eat healthy and delicious meals.
+## Target Users
+students living off campus trying to cook efficiently, save money, and eat healthy and delicious meals.
 	
-
 
 # 2. Gather Information
 You should collect information from at least 6 users (graduate teams). 
