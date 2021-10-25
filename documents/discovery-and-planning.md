@@ -129,6 +129,10 @@ Overall, we interviewed 15 users - 8 users in our first round of interviews, and
 
 Round 1: Unstructured
 
+- User 5: She cooks because there is a limited number of Uber drivers for food delivery in Ithaca. Her cooking process is: find recipes, buy ingredients, and cook. She uses the recipe apps Xiachufang. She has no dietary restrictions.
+
+- User 6: She cooks because the food in the school dining hall sucks and it’s expensive to order Chinese food in Ithaca. Her cooking process is: slide everything first, and then basically stir fry everything. She follows the recipes on Xiaohongshu, where she can just type in what she has in her fridge like potatoes and see how she could cook it. She has no dietary restrictions.
+
 Round 2: Semi-structured
 - User 1: 
 - User 2: The user was a female graduate student currently living in Collegetown. We learned that she prioritizes convenience and frequently uses meal delivery services such as HelloFresh and SunBasket. She is not confident in her cooking skills and is trying to best to teach herself. She cooks in order to eat healthier and to save money.
