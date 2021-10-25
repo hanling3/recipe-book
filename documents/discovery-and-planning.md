@@ -33,8 +33,6 @@ Students living off campus trying to cook efficiently, save money, and eat healt
 
 
 # 2. Gather Information
-You should collect information from at least 6 users (graduate teams). 
-Clearly state how many users you interviewed/studied. Provide a brief summary of each user and what you learned from them. Lastly, provide an executive summary of key points that you learned about the users’ goals. Note, you will need to use affinity diagramming (document this process with photos) to help you identify themes in your data.
 
 Interview Expected Time: 30 minutes
 
@@ -77,11 +75,11 @@ Thank you for your time. If you want to have your responses not included in our 
 
 #### (3) Cook Related
 - When was the last time you cooked?
-- What did you cook?
-- Who did you cook with?
-- Where did you cook?
-- Why did you cook?
-- How did you cook (i.e. cooking process)?
+    - What did you cook?
+    - Who did you cook with?
+    - Where did you cook?
+    - Why did you cook?
+    - How did you cook (i.e. cooking process)?
 - How long have you been cooking?
 - How often do you cook?
 - What kind of food do you usually cook? Easy, Intermediate or elaborate?
@@ -92,14 +90,14 @@ Thank you for your time. If you want to have your responses not included in our 
 
 #### (4) Recipes
 - Do you have any experience using recipe apps? 
-- If so, which one and how was your experience? 
+    - If so, which one and how was your experience? 
 - When was the last time you looked for a recipe?
-- What occasion was it for?
-- How did you find the recipe?
+    - What occasion was it for?
+    - How did you find the recipe?
 - Do you like traditional recipes or do you like to experiment with more unfamiliar meals?
 - Do you collect/save different recipes?
-- How do you save your recipes?
-- How much time did it take you to decide on your last meal/recipe?
+    - How do you save your recipes?
+    - How much time did it take you to decide on your last meal/recipe?
 - What types of recipes do you usually look for? 
 
 #### (5) Groceries
