@@ -137,7 +137,7 @@ Round 2: Semi-structured
 
 - User 5: The user was a female graduate student currently living in North side of campus. We learned that she is very confident at his cooking and she cooks everyday. She does not have a budget for grocery. She eats 2 meals a day, and it usually takes her 5 minuts to decide the recipe and 30-40 minutes to prepare a meal. Most of the time she creates her own recipes, and sometimes she will search recipes on YouTube or Xiaohongshu. She cooks because she wants to eat Asian food and cooking is much cheaper than dining out.
 
-- User 6: The user was a female graduate student currently libing in Collegetown Terrace. We learned that she started cooking since middle school, and she cooks almost everyday. She is very condifent about cooking. It takes her 20-30 minuts to prepare a meal, and she searches recipes on Xiachufang. She does not have a budget on grocery and dining out. She likes to cook because she can decide what to eat.
+- User 6: The user was a female graduate student currently living in Collegetown Terrace. We learned that she started cooking since middle school, and she cooks almost everyday. She is very condifent about cooking. It takes her 20-30 minutes to prepare a meal, and she searches recipes on Xiachufang. She does not have a budget on grocery and dining out. She likes to cook because she can decide what to eat.
 
 
 ## Affinity Diagramming
@@ -154,22 +154,34 @@ We created an affinity diagram based on our user interview notes. We categorized
 
 ## Executive Summary: Key Insights
 - Beliefs
-    - Most users purchase groceries at least 2 to 4 times a month because stores are located far away
-    - Most users eat 2 meals a day
-    - Users value convenience and speed when preparing meals
-        - Users tend to prepare super fast meals for breakfast
-        - Users always buy lunch at or close to school
-        - Users tend to prepare dinner and eat at home
-        - Users usually spend minimal time deciding their meals
-    - Users have little to no dietary restrictions
+    - Most users purchase groceries at least 2 to 4 times a month because stores are located far away.
+    - Most users eat 2 meals a day.
+    - Users value convenience and speed when preparing meals.
+        - Users tend to prepare super fast meals for breakfast.
+        - Users always buy lunch at or close to school.
+        - Users tend to prepare dinner and eat at home.
+        - Users usually spend minimal time deciding their meals.
+    - Users have little to no dietary restrictions.
     - Some users cook almost everyday, while others will cook once or twice to prepare for the rest of the week. 
-    - Users primarily cook and eat independently
+    - Users primarily cook and eat independently.
     - Most users started cooking when they began college.
-    - User primarily plan their meals before buy ingredients
+    - User primarily plan their meals before buy ingredients.
     - Some users are very confident in their cooking abilities, while others feel average or unconfident in their abilities. 
     - Users tend to search recipes online or from apps.
     - Users have a preference for foods that are familiar to them and/or remind them of home
     - Some users never save recipes since they will memorize the recipe or create their own.
+    - Users primarily have no strict budgets for grocery but they avoid dining out.
+    - Users like both traditional and unfamiliar recipes.
+    - Users primarily plan their meal before they buy ingredients.
+    - Users snack on ready made items.
+    - Most users grab groceries with their friends by car or bus.
+    - Most users have no experience using recipe apps.
+    - Some users prefer healthy food.
+
+- Motivations
+    - Some users tend to save recipes on their phones or in apps for convenience.
+    - Users search for recipes of food that they've never cooked before or they forgot the steps to cook.
+    - Users will get groceries delivered to save time. 
 
 
 # 3. Problems
