@@ -153,7 +153,7 @@ We created an affinity diagram based on our user interview notes. We categorized
 ![Affinity Diagram, part 7](images/affinity_diagram/ad7.png)
 
 ## Executive Summary: Key Insights
-Beliefs
+- Beliefs
     - Most users purchase groceries at least 2 to 4 times a month because stores are located far away
     - Most users eat 2 meals a day
     - Users value convenience and speed when preparing meals
@@ -178,8 +178,7 @@ Beliefs
 
 # 4. Value Propositions
 
-Brainstorming: 
-    Possible ideas: 
+Possible ideas: 
     - Insert budget
     - How much time you have to prepare
     - Customize app to their experiences
