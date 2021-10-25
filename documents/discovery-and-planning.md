@@ -65,8 +65,16 @@ Hi, thank you for joining us today. The purpose of this interview is to better u
 
 
 ## User Interview Summaries
-TODO
 
+Overall, we interviewed 15 users - 8 users in our first round of interviews, and 7 users in our second round of interviews. Our first round was more unstructured, in that we held brief 5 minute conversations with peers we could find around us, such as roommates, classmates, those walking around in Duffield, etc. After we looked at our insights for the first round, we narrowed down a user group and created an interview protocol so that we can pinpoint some specific insights from our target users. Below are 
+
+Round 1: Unstructured
+
+Round 2: Semi-structured
+- User 1: 
+- User 2: The user was a female graduate student currently living in Collegetown. We learned that she prioritizes convenience and frequently uses meal delivery services such as HelloFresh and SunBasket. She is not confident in her cooking skills and is trying to best to teach herself. She cooks in order to eat healthier and to save money.
+
+- User 3: The user was a male graduate student currently living in Collegetown Terrace. He has several dietary restrictions, including nuts and various fruits. We learned that he is relatively confident in his cooking skills, and cooks on a daily basis, doesn't really have a budget when cooking, and oftentimes finds himself looking up recipes for dishes his mom used to prepare for him, in order to double check details such as sauce ratios. He cooks because he enjoys having control over his diet. 
 
 ## Affinity Diagramming
 
@@ -80,7 +88,7 @@ We created an affinity diagram based on our user interview notes. We categorized
 ![Affinity Diagram, part 6](images/affinity_diagram/ad6.png)
 ![Affinity Diagram, part 7](images/affinity_diagram/ad7.png)
 
-## Key Insights
+## Executive Summary: Key Insights
 TODO 
 
 # 3. Problems
