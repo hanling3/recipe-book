@@ -133,6 +133,10 @@ Round 1: Unstructured
 
 - User 6: She cooks because the food in the school dining hall sucks and it’s expensive to order Chinese food in Ithaca. Her cooking process is: slide everything first, and then basically stir fry everything. She follows the recipes on Xiaohongshu, where she can just type in what she has in her fridge like potatoes and see how she could cook it. She has no dietary restrictions.
 
+- User 7: She cooks because Ithaca does not have many delicious Asian foods, and cooking by herself is healthier and cheaper than dining out. Her cooking process is: going grocery shopping, deciding what to eat, finding recipes and making changes according to her own flavor, and lastly following the instructions on the recipes. Basically she follows the recipes on Xiachufang. She has no dietary restrictions.
+
+- User 8: She cooks because cooking is definitely healthier and cheaper than going to the restaurants and ordering food deliveries. She cooks based on her past experiences in which she found the recipes on Xiaohongshu. If she can’t remember the recipes, she will look up recipes she saved on Xiaohongshu again. She mainly used Xiaohongshu to find recipes. She has no dietary restrictions.
+
 Round 2: Semi-structured
 - User 1: 
 - User 2: The user was a female graduate student currently living in Collegetown. We learned that she prioritizes convenience and frequently uses meal delivery services such as HelloFresh and SunBasket. She is not confident in her cooking skills and is trying to best to teach herself. She cooks in order to eat healthier and to save money.
