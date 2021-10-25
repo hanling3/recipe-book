@@ -124,6 +124,40 @@ Produce a scenario for each key problem/value proposition. Note you will likely 
 
 # 6. Persona
 
+Name: Tim Cook
+Quote: "Plan ahead and get healthy."
+
+Occupation: Student
+Year: Junior
+Age: 21
+Diet: None
+Country: Spain
+
+Motivation:
+- Time Saving
+- Budget Saving
+- Home Food
+
+User Profile:
+An international student who doesn't have too much time to cook due to the large workload but wants to eat healthy homemade food. To him, time is money, and his course works are the priorities. He intends to organize his college life by always planning. He misses Spanish food so much, but he can hardly return to Spain because of the pandemic. Dining out is too expensive for him, and he tries to avoid it. He wants to search for recipes that list budgets, the time needed; find recipes under specific cuisines categories, and build up a meal plan.
+
+Needs:
+- He needs to set up a budget for each meal.
+- He needs information on time spent on each meal. 
+- He wants to plan ahead for cooking.
+- He wants to have his personal recipes.
+- He prefers finding home food recipes.​
+
+Frustrations:
+- Doesn't want to take too much time on cooking.
+- Misses home food.
+- Doesn't want to spend money on dining out.
+- Grocery stores are far away.
+- Not confident at cooking.
+- Doesn't remember recipes he has used.​​
+
+
+
 
 # 7. Project Themes
 
