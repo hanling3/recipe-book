@@ -156,7 +156,7 @@ Frustrations:
 - Not confident at cooking.
 - Doesn't remember recipes he has used.​​
 
-
+![Persona](images/user persona/persona.png)
 
 
 # 7. Project Themes
