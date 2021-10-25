@@ -64,6 +64,23 @@ Hi, thank you for joining us today. The purpose of this interview is to better u
 - What types of recipes do you usually look for? 
 
 
+## User Interview Summaries
+TODO
+
+
+## Affinity Diagramming
+
+We created an affinity diagram based on our user interview notes. We categorized our notes as seen in the images provided:
+
+![Affinity Diagram, part 1](images/ad1.png)
+![Affinity Diagram, part 2](images/ad2.png)
+![Affinity Diagram, part 3](images/ad3.png)
+![Affinity Diagram, part 4](images/ad4.png)
+![Affinity Diagram, part 5](images/ad5.png)
+![Affinity Diagram, part 6](images/ad6.png)
+![Affinity Diagram, part 7](images/ad7.png)
+
+
 
 # 3. Problems
  identify 1 or 2 key problems that your team wants to address. 
