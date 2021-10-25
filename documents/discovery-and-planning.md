@@ -42,16 +42,24 @@ Interview Expected Time: 30 minutes
 
 Hi, thank you for joining us today. The purpose of this interview is to better understand the users’ needs for a recipe finder. Is it okay if we record this interview today? [Start Zoom recording or audio recording if consent is received. 
 
-## Interview Questions 
+## Interview Questions
 
-### Personal questions (random icebreaker)
+### Round 1: Unstructued Interview
+- Do you cook? 
+    - Why or why not?
+- [If yes] Describe to me your process of cooking
+- How do you find your recipes?
+- Any dietary restrictions?
+
+### Round 2: Semi-Structured
+#### (1) Personal questions (random icebreaker)
 - What is your name, age, major?
 - Where do you live off campus (e.g. North, West, Collegetown, etc)?
 - Is there any grocery store nearby?
 - Do you have a car? 
 - If not, how do you go grocery shopping?
 
-### Eating Habit
+#### (2) Eating Habit
 - Do you prefer home cooked meals or fast meals? Why?
 - Do you have any dietary restrictions?
 - Do you often eat alone or with other people?
@@ -64,7 +72,7 @@ Hi, thank you for joining us today. The purpose of this interview is to better u
 - What did you have?
 - Where did you buy it?
 
-### Cook Related
+#### (3) Cook Related
 - When was the last time you cooked?
 - What did you cook?
 - Who did you cook with?
@@ -79,7 +87,7 @@ Hi, thank you for joining us today. The purpose of this interview is to better u
 - Do you cook by yourself or do this with someone else?
 - How confident are you in your cooking? 
 
-### Recipes
+#### (4) Recipes
 - Do you have any experience using recipe apps? 
 - If so, which one and how was your experience? 
 - When was the last time you looked for a recipe?
@@ -103,6 +111,10 @@ Round 2: Semi-structured
 - User 2: The user was a female graduate student currently living in Collegetown. We learned that she prioritizes convenience and frequently uses meal delivery services such as HelloFresh and SunBasket. She is not confident in her cooking skills and is trying to best to teach herself. She cooks in order to eat healthier and to save money.
 
 - User 3: The user was a male graduate student currently living in Collegetown Terrace. He has several dietary restrictions, including nuts and various fruits. We learned that he is relatively confident in his cooking skills, and cooks on a daily basis, doesn't really have a budget when cooking, and oftentimes finds himself looking up recipes for dishes his mom used to prepare for him, in order to double check details such as sauce ratios. He cooks because he enjoys having control over his diet. 
+
+- User 4: The user was a female graduate student currently living in North side of campus. We learned that she is very confident at his cooking and she cooks everyday. She does not have a budget for grocery. She eats 2 meals a day, and it usually takes her 5 minuts to decide the recipe and 30-40 minutes to prepare a meal. Most of the time she creates her own recipes, and sometimes she will search recipes on YouTube or Xiaohongshu. She cooks because she wants to eat Asian food and cooking is much cheaper than dining out.
+
+- User 5: The user was a female graduate student currently libing in Collegetown Terrace. We learned that she started cooking since middle school, and she cooks almost everyday. She is very condifent about cooking. It takes her 20-30 minuts to prepare a meal, and she searches recipes on Xiachufang. She does not have a budget on grocery and dining out. She likes to cook because she can decide what to eat.
 
 ## Affinity Diagramming
 
