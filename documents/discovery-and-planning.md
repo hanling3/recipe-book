@@ -62,6 +62,11 @@ You should define the value propositions of your product. These value propositio
 # 5. Scenarios
 Produce a scenario for each key problem/value proposition. Note you will likely need more than one scenario.
 
+Scenario1
+You are very busy during the midterm week so you want to spent less than 30mins to cook for each meals and save enough time for studying. Searching a 30 mins quick dish and follow the recipe to cook.
+
+Scenario2
+You’ve studied abroad for 2 years and not been able to go back home that often. You missed the food in your hometown and wanted to cook some Beijing dishes for dinner. Try to search Beijing dishes recipes and choose your favorite food to cook.
 
 # 6. Persona
 
