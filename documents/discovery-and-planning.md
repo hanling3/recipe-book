@@ -131,8 +131,6 @@ You are very busy during the midterm week so you want to spent less than 30mins 
 Scenarios 2
 You’ve studied abroad for 2 years and not be able to go back home that often. You missed the food in your hometown and wanted to cook some Beijing dishes for dinner. Try to search Beijing dishes recipes and choose your favorite food to cook.
 
-# 6. Persona
-
 
 # 7. Project Themes
 
