@@ -157,11 +157,11 @@ College students want to save money and time at eating, and they need healthy an
 # 5. Scenarios
 Produce a scenario for each key problem/value proposition. Note you will likely need more than one scenario.
 
-Scenarios 1
-You are very busy during the midterm week so you want to spent less than 30mins to cook for each meals and save enough time for studying. Searching a 30 mins quick dish and follow the recipe to cook.
+Scenario 1
+You are very busy during the midterm week so you want to spend less than 30mins to cook for each meal and save enough time for studying. Navigating in the recipe app and looking for a recipe of 30 mins quick dishes to cook.
 
-Scenarios 2
-You’ve studied abroad for 2 years and not be able to go back home that often. You missed the food in your hometown and wanted to cook some Beijing dishes for dinner. Try to search Beijing dishes recipes and choose your favorite food to cook.
+Scenario 2
+You’ve studied abroad for 2 years and missed the food in your hometown, but ordering Asian food delivery is too expensive for you. Therefore, you want to cook some hometown dishes within a $20 budget for dinner. Try to navigate yourself to recipes of your hometown dishes in the app and choose one recipe within your budget to cook.
 
 
 # 7. Project Themes
