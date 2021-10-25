@@ -165,25 +165,26 @@ We created an affinity diagram based on our user interview notes. We categorized
 
 # 4. Value Propositions
 
-Should contain: 
-- Target users + their motivation(s) for using a product / feature
-- The alternatives
-- Benefits of the product / feature (compared to the alternatives)
-- Costs (e.g. money, time, etc) (compared to alternatives)
-- Why target users will prefer the product / feature over alternatives
+Brainstorming: 
+    Should contain: 
+    - Target users + their motivation(s) for using a product / feature
+    - The alternatives
+    - Benefits of the product / feature (compared to the alternatives)
+    - Costs (e.g. money, time, etc) (compared to alternatives)
+    - Why target users will prefer the product / feature over alternatives
 
-Tips:
-- Sounds like smth target users would say
+    Tips:
+    - Sounds like smth target users would say
 
+    Possible ideas: 
+    - Insert budget
+    - How much time you have to prepare
+    - Customize app to their experiences
+    - filters/categories for recipes - e.g. chinese, american, etc
+    - Plan meals - don't have to think about dinner / lunch - better control time + budget
 
-Possible ideas: 
-- Insert budget
-- How much time you have to prepare
-- Customize app to their experiences
-- filters/categories for recipes - e.g. chinese, american, etc
-- Plan meals - don't have to think about dinner / lunch - better control time + budget
- 
-College students are busy and have limited budgets to dining out, and they want to have healthy and delicious meals prepared quickly in their apartments. They are motivated to use a product that can help them prepare meals quickly and efficiently under an amount of budget. The current alternatives students have are apps like BBC good food and Xiachufang. These apps allow users to upload their recipes, and chef-made recipes and tutorial videos will also be available to users. Compared to the alternatives, our product can be customized. Our users can insert their weekly grocery budget, the time they plan to spend on preparing each meal, and the food category they want to eat in the app. Then, the app will create a list of ingredients for the week and the recipes for each meal based on the restrictions. Our app helps users to save money by allowing them to purchase all they need in a week (or more) at one time, and therefore, the cost is lower and food wasting is avoided. Times for meal preparation will be much shorter, because the weekly meal plan has been auto generated, and users will not need to decide what they want and how to cook before every meal. Target users will prefer our product over the alternatives because our app is much more customizable than the alternatives.
+Value Propositions:
+College students want to save money and time at eating, and they need healthy and delicious meals that can be prepared quickly in their apartments. They need such a product that help them cook delicious meals quickly within the budget. The current alternatives students have are recipe apps like BBC good food and Xiachufang. Users can upload their own recipes, check the chef-made recipes and tutorial videos in the app. These apps have the limit that they cannot help users to plan the time and money spent on cooking. But our product can do that. Our product can filter the recipes by the country category, budget, and time of cooking. After users insert their weekly grocery budget, the time planned on preparing meals, and the food category, the app will create a list of ingredients and the recipes for each meal of the week. Users can purchse all of these ingredients in one grocery shopping, and the product will remind them of the recipe before each meal. A customized meal plan is designed for you in just a few clicks, and this feature is only in our product.
 
 
 # 5. Scenarios
