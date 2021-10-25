@@ -72,21 +72,23 @@ TODO
 
 We created an affinity diagram based on our user interview notes. We categorized our notes as seen in the images provided:
 
-![Affinity Diagram, part 1](images/ad1.png)
-![Affinity Diagram, part 2](images/ad2.png)
-![Affinity Diagram, part 3](images/ad3.png)
-![Affinity Diagram, part 4](images/ad4.png)
-![Affinity Diagram, part 5](images/ad5.png)
-![Affinity Diagram, part 6](images/ad6.png)
-![Affinity Diagram, part 7](images/ad7.png)
+![Affinity Diagram, part 1](images/affinity_diagram/ad1.png)
+![Affinity Diagram, part 2](images/affinity_diagram/ad2.png)
+![Affinity Diagram, part 3](images/affinity_diagram/ad3.png)
+![Affinity Diagram, part 4](images/affinity_diagram/ad4.png)
+![Affinity Diagram, part 5](images/affinity_diagram/ad5.png)
+![Affinity Diagram, part 6](images/affinity_diagram/ad6.png)
+![Affinity Diagram, part 7](images/affinity_diagram/ad7.png)
 
-
+## Key Insights
+TODO 
 
 # 3. Problems
  identify 1 or 2 key problems that your team wants to address. 
 
 
 # 4. Value Propositions
+
 Should contain: 
 - Target users + their motivation(s) for using a product / feature
 - The alternatives
@@ -108,8 +110,6 @@ Possible ideas:
 College students are busy and have limited budgets to dining out, and they want to have healthy and delicious meals prepared quickly in their apartments. They are motivated to use a product that can help them prepare meals quickly and efficiently under an amount of budget. The current alternatives students have are apps like BBC good food and Xiachufang. These apps allow users to upload their recipes, and chef-made recipes and tutorial videos will also be available to users. Compared to the alternatives, our product can be customized. Our users can insert their weekly grocery budget, the time they plan to spend on preparing each meal, and the food category they want to eat in the app. Then, the app will create a list of ingredients for the week and the recipes for each meal based on the restrictions. Our app helps users to save money by allowing them to purchase all they need in a week (or more) at one time, and therefore, the cost is lower and food wasting is avoided. Times for meal preparation will be much shorter, because the weekly meal plan has been auto generated, and users will not need to decide what they want and how to cook before every meal. Target users will prefer our product over the alternatives because our app is much more customizable than the alternatives.
 
 
-
-
 # 5. Scenarios
 Produce a scenario for each key problem/value proposition. Note you will likely need more than one scenario.
 
@@ -118,3 +118,5 @@ Produce a scenario for each key problem/value proposition. Note you will likely 
 
 
 # 7. Project Themes
+
+The 
