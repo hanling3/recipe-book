@@ -17,6 +17,7 @@ All non-app related artifacts must be listed here to be graded. If it's not list
     - [Interview Protocol](documents/discovery-and-planning.md#interview-protocol)
     - [Interview Questions](documents/discovery-and-planning.md#interview-questions)
     - [User Interview Raw Notes](documents/discovery-and-planning.md#user-interview-summaries)
+        - [Round 1 Notes](documents/interview_notes/round-1-interview-notes.md)
         - [User 2 Notes](documents/interview_notes/user2.md)
         - [User 4 Notes](documents/interview_notes/user4.md)
         - [User 5 Notes](documents/interview_notes/user5.md)
