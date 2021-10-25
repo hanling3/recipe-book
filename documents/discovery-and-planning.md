@@ -1,7 +1,35 @@
 # Discovery and Planning
 
 # 1. Users
-Who are your users? Identify users that need assistance “finding recipes” or need a karaoke diversion.
+We first brainstormed our possible users. Then we conducted 1 round of unstructured interview to finalize our target users. The detail of this interview can be found in the "User Interview Summaries" section below.
+
+## Brainstorming the User
+- College students who often cook at their apartments
+- Housewife who prepares food for her family
+- Cook
+- Students who volunteer at non-profit organizations to serve the homeless
+- Adults who hold party at home and treat their friends for a holiday / special occasion
+- Bloggers/Youtubers/Vloggers who produce cooking videos.
+- Quarantined people who try to learn how to cook at home.
+- Students who are trying to recreate their favorite foods from applefest
+- People start learning how to cook
+- College students who need healthy meals
+- E.g. college students who enjoy drinking
+- College students
+- Possible restrictions: vegetarian / vegan / dietary restrictions / pescitarian / gluten-free
+- Cooking beginners
+- learning how to cook 
+- no meal plan
+- need healthy meals
+- saving money 
+- efficiency?
+- ppl who would be interested in meals from where they’re from 
+- dessert finder
+- College students, faculty, high school students, family members, Ithaca staff members
+
+
+## Target Users
+Students living off campus trying to cook efficiently, save money, and eat healthy and delicious meals.
 
 
 # 2. Gather Information
@@ -16,14 +44,23 @@ Hi, thank you for joining us today. The purpose of this interview is to better u
 
 ## Interview Questions 
 
-### Personal questions (random icebreaker)
+### Round 1: Unstructued Interview
+- Do you cook? 
+    - Why or why not?
+- [If yes] Describe to me your process of cooking
+- How do you find your recipes?
+- Any dietary restrictions?
+
+### Round 2: Semi-Structured
+
+#### (1) Personal questions (random icebreaker)
 - What is your name, age, major?
 - Where do you live off campus (e.g. North, West, Collegetown, etc)?
 - Is there any grocery store nearby?
 - Do you have a car? 
 - If not, how do you go grocery shopping?
 
-### Eating Habit
+#### (2) Eating Habit
 - Do you prefer home cooked meals or fast meals? Why?
 - Do you have any dietary restrictions?
 - Do you often eat alone or with other people?
@@ -36,7 +73,7 @@ Hi, thank you for joining us today. The purpose of this interview is to better u
 - What did you have?
 - Where did you buy it?
 
-### Cook Related
+#### (3) Cook Related
 - When was the last time you cooked?
 - What did you cook?
 - Who did you cook with?
@@ -51,7 +88,7 @@ Hi, thank you for joining us today. The purpose of this interview is to better u
 - Do you cook by yourself or do this with someone else?
 - How confident are you in your cooking? 
 
-### Recipes
+#### (4) Recipes
 - Do you have any experience using recipe apps? 
 - If so, which one and how was your experience? 
 - When was the last time you looked for a recipe?
@@ -79,6 +116,11 @@ Round 2: Semi-structured
 
 - User 3: The user was a male graduate student currently living in Collegetown Terrace. He has several dietary restrictions, including nuts and various fruits. We learned that he is relatively confident in his cooking skills, and cooks on a daily basis, doesn't really have a budget when cooking, and oftentimes finds himself looking up recipes for dishes his mom used to prepare for him, in order to double check details such as sauce ratios. He cooks because he enjoys having control over his diet. 
 
+- User 4: The user was a female graduate student currently living in North side of campus. We learned that she is very confident at his cooking and she cooks everyday. She does not have a budget for grocery. She eats 2 meals a day, and it usually takes her 5 minuts to decide the recipe and 30-40 minutes to prepare a meal. Most of the time she creates her own recipes, and sometimes she will search recipes on YouTube or Xiaohongshu. She cooks because she wants to eat Asian food and cooking is much cheaper than dining out.
+
+- User 5: The user was a female graduate student currently libing in Collegetown Terrace. We learned that she started cooking since middle school, and she cooks almost everyday. She is very condifent about cooking. It takes her 20-30 minuts to prepare a meal, and she searches recipes on Xiachufang. She does not have a budget on grocery and dining out. She likes to cook because she can decide what to eat.
+
+
 ## Affinity Diagramming
 
 We created an affinity diagram based on our user interview notes. We categorized our notes as seen in the images provided:
@@ -101,16 +143,6 @@ TODO
 # 4. Value Propositions
 
 Brainstorming: 
-    Should contain: 
-    - Target users + their motivation(s) for using a product / feature
-    - The alternatives
-    - Benefits of the product / feature (compared to the alternatives)
-    - Costs (e.g. money, time, etc) (compared to alternatives)
-    - Why target users will prefer the product / feature over alternatives
-
-    Tips:
-    - Sounds like smth target users would say
-
     Possible ideas: 
     - Insert budget
     - How much time you have to prepare
