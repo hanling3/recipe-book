@@ -89,7 +89,37 @@ We created an affinity diagram based on our user interview notes. We categorized
 ![Affinity Diagram, part 7](images/affinity_diagram/ad7.png)
 
 ## Executive Summary: Key Insights
-TODO 
+- Beliefs
+    - Most users purchase groceries at least 2 to 4 times a month because stores are located far away
+    - Most users eat 2 meals a day
+    - Users value convenience and speed when preparing meals
+        - Users tend to prepare super fast meals for breakfast
+        - Users always buy lunch at or close to school
+        - Users tend to prepare dinner and eat at home
+        - Users usually spend minimal time deciding their meals
+    - Users have little to no dietary restrictions
+    - Some users cook almost everyday, while others will cook once or twice to prepare for the rest of the week. 
+    - Users primarily cook and eat independently
+    - Most users started cooking when they began college.
+    - User primarily plan their meals before buy ingredients
+    - Some users are very confident in their cooking abilities, while others feel average or unconfident in their abilities. 
+    - Users tend to search recipes online or from apps.
+    - Users have a preference for foods that are familiar to them and/or remind them of home
+    - Some users never save recipes since they will memorize the recipe or create their own.
+    Users primarily have no strict budgets for grocery but they avoid dining out.
+    - Users like both traditional and unfamiliar recipes.
+    - Users primarily plan their meal before they buy ingredients.
+    - Users snack on ready made items.
+    - Most users grab groceries with their friends by car or bus.
+    - Most users have no experience using recipe apps.
+    - Some users prefer healthy food.
+- Motivations
+    - Some users tend to save recipes on their phones or in apps for convenience.
+    - Users search for recipes of food that they've never cooked before or they forgot the steps to cook 
+    - Users will get groceries delivered to save time. 
+
+
+ 
 
 # 3. Problems
  identify 1 or 2 key problems that your team wants to address. 
