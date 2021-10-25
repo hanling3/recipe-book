@@ -119,8 +119,6 @@ We created an affinity diagram based on our user interview notes. We categorized
     - Users will get groceries delivered to save time. 
 
 
- 
-
 # 3. Problems
  identify 1 or 2 key problems that your team wants to address. 
 
