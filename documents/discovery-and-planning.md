@@ -189,7 +189,7 @@ We identify 2 key problems that our team wants to address:
 
 # 4. Value Propositions
 
-Possible ideas: 
+- Possible ideas: 
     - Insert budget
     - How much time you have to prepare
     - Customize app to their experiences
