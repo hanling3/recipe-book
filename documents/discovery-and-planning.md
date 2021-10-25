@@ -209,6 +209,40 @@ You are very busy during the midterm week so you want to spend less than 30mins 
 Scenario 2
 You’ve studied abroad for 2 years and missed the food in your hometown, but ordering Asian food delivery is too expensive for you. Therefore, you want to cook some hometown dishes within a $20 budget for dinner. Try to navigate yourself to recipes of your hometown dishes in the app and choose one recipe within your budget to cook.
 
+# 6. Persona
+Name: Robo Hu
+Quote: "Plan ahead and get healthy."
+
+Occupation: Student
+Year: Junior
+Age: 21
+Diet: None
+Country: China
+
+Motivation:
+- Time Saving
+- Budget Saving
+- Home Food
+
+User Profile:
+An international student who doesn't have too much time to cook due to the large workload but wants to eat healthy homemade food. To her, time is money, and his course works are the priorities. She intends to organize her college life by always planning. She misses Chinese food so much, but she can hardly return to China because of the pandemic. Dining out is too expensive for her, and she tries to avoid it. She wants to cook fast Chinese food within her budgets and plans for what to eat everyday.
+
+Needs:
+- She needs to set up a budget for each meal.
+- She needs information on time spent on each meal. 
+- She wants to plan ahead for cooking.
+- She wants to have his personal recipes.
+- She prefers finding home food recipes.​
+
+Frustrations:
+- Doesn't want to take too much time on cooking.
+- Misses home food.
+- Doesn't want to spend money on dining out.
+- Grocery stores are far away.
+- Not confident at cooking.
+- Doesn't remember recipes he has used.​​
+
+![Persona](images/user_persona/persona.png)
 
 # 7. Project Themes
 
