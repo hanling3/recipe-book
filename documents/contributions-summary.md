@@ -13,15 +13,15 @@
 
 - Hedy 
     - wrote part of the interview questions, value propositions.
-    - interviewed two users in each rounds of interview, wrote the corrsponding interview summary
+    - interviewed two users in each round of interview, wrote the corrsponding interview summary
     - created the affinity diagram and insights together with teammates
-    - discussed and brainstormed other part with teammates
+    - discussed and brainstormed other parts with teammates
 
 - Justice
-    - wrote part of the interview questions; created the persona diagram.
-    - interviewed two users in each rounds of interview, wrote the corrsponding interview summary
-    - created the affinity diagram and insights together with teammates
-    - discussed and brainstormed other part with teammates
+    - created part of the interview questions and the persona part.
+    - found and interviewed two users in each round of interview; wrote the corrsponding interview summary
+    - created the affinity diagram, categorized and summarized insights together with teammates
+    - discussed and brainstormed other parts with teammates
     - reviewed and revised other teammates' parts
 
 # Milestone 3
