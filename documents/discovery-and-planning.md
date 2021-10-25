@@ -41,6 +41,8 @@ Interview Expected Time: 30 minutes
 ## Interview Protocol 
 
 Hi, thank you for joining us today. The purpose of this interview is to better understand the users’ needs for a recipe finder. Is it okay if we record this interview today? [Start Zoom recording or audio recording if consent is received. 
+...
+Thank you for your time. If you want to have your responses not included in our research, please let us know within 24 hours after the interview. If you’re interested in learning more about our interview results, please feel free to contact us at ac2687@cornell.edu (or your own Cornell email).
 
 ## Interview Questions 
 
