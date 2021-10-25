@@ -153,7 +153,24 @@ We created an affinity diagram based on our user interview notes. We categorized
 ![Affinity Diagram, part 7](images/affinity_diagram/ad7.png)
 
 ## Executive Summary: Key Insights
-TODO 
+Beliefs
+    - Most users purchase groceries at least 2 to 4 times a month because stores are located far away
+    - Most users eat 2 meals a day
+    - Users value convenience and speed when preparing meals
+        - Users tend to prepare super fast meals for breakfast
+        - Users always buy lunch at or close to school
+        - Users tend to prepare dinner and eat at home
+        - Users usually spend minimal time deciding their meals
+    - Users have little to no dietary restrictions
+    - Some users cook almost everyday, while others will cook once or twice to prepare for the rest of the week. 
+    - Users primarily cook and eat independently
+    - Most users started cooking when they began college.
+    - User primarily plan their meals before buy ingredients
+    - Some users are very confident in their cooking abilities, while others feel average or unconfident in their abilities. 
+    - Users tend to search recipes online or from apps.
+    - Users have a preference for foods that are familiar to them and/or remind them of home
+    - Some users never save recipes since they will memorize the recipe or create their own.
+
 
 # 3. Problems
  identify 1 or 2 key problems that your team wants to address. 
