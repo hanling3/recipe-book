@@ -16,10 +16,11 @@ All non-app related artifacts must be listed here to be graded. If it's not list
 - [2. Gather Information](documents/discovery-and-planning.md#2-gather-information)
     - [Interview Protocol](documents/discovery-and-planning.md#interview-protocol)
     - [Interview Questions](documents/discovery-and-planning.md#interview-questions)
+    - [User Interview Raw Notes](documents/discovery-and-planning.md#user-interview-summaries)
+        - [User 2 Notes](documents/interview_notes/user2.md)
     - [User Interview Summaries](documents/discovery-and-planning.md#user-interview-summaries)
     - [Affinity Diagramming](documents/discovery-and-planning.md#affinity-diagramming)
     - [Executive Summary: Key Insights](documents/discovery-and-planning.md#executive-summary-key-insights)
-
 - [3. Problems](documents/discovery-and-planning.md#3-problems)
 - [4. Value Propositions](documents/discovery-and-planning.md#4-value-propositions)
 - [5. Scenarios](documents/discovery-and-planning.md#5-scenarios)

@@ -1,36 +1,8 @@
 # Discovery and Planning
 
 # 1. Users
-We first brainstormed our possible users. Then we conducted 1 round of unstructured interview to finalize our target users. The detail of this interview can be found in the "User Interview Summaries" section below.
+Who are your users? Identify users that need assistance “finding recipes” or need a karaoke diversion.
 
-## Brainstorming the User 
-- College students who often cook at their apartments
-- Housewife who prepares food for her family
-- Cook
-- Students who volunteer at non-profit organizations to serve the homeless
-- Adults who hold party at home and treat their friends for a holiday / special occasion
-- Bloggers/Youtubers/Vloggers who produce cooking videos.
-- Quarantined people who try to learn how to cook at home.
-- Students who are trying to recreate their favorite foods from applefest
-- People start learning how to cook
-- College students who need healthy meals
-- E.g. college students who enjoy drinking
-- College students
-- Possible restrictions: vegetarian / vegan / dietary restrictions / pescitarian / gluten-free
-- Cooking beginners
-- learning how to cook 
-- no meal plan
-- need healthy meals
-- saving money 
-- efficiency?
-- ppl who would be interested in meals from where they’re from 
-- dessert finder
-- College students, faculty, high school students, family members, Ithaca staff members
-
-
-## Target Users
-students living off campus trying to cook efficiently, save money, and eat healthy and delicious meals.
-	
 
 # 2. Gather Information
 You should collect information from at least 6 users (graduate teams). 
@@ -42,24 +14,16 @@ Interview Expected Time: 30 minutes
 
 Hi, thank you for joining us today. The purpose of this interview is to better understand the users’ needs for a recipe finder. Is it okay if we record this interview today? [Start Zoom recording or audio recording if consent is received. 
 
-## Interview Questions
+## Interview Questions 
 
-### Round 1: Unstructued Interview
-- Do you cook? 
-    - Why or why not?
-- [If yes] Describe to me your process of cooking
-- How do you find your recipes?
-- Any dietary restrictions?
-
-### Round 2: Semi-Structured
-#### (1) Personal questions (random icebreaker)
+### Personal questions (random icebreaker)
 - What is your name, age, major?
 - Where do you live off campus (e.g. North, West, Collegetown, etc)?
 - Is there any grocery store nearby?
 - Do you have a car? 
 - If not, how do you go grocery shopping?
 
-#### (2) Eating Habit
+### Eating Habit
 - Do you prefer home cooked meals or fast meals? Why?
 - Do you have any dietary restrictions?
 - Do you often eat alone or with other people?
@@ -72,7 +36,7 @@ Hi, thank you for joining us today. The purpose of this interview is to better u
 - What did you have?
 - Where did you buy it?
 
-#### (3) Cook Related
+### Cook Related
 - When was the last time you cooked?
 - What did you cook?
 - Who did you cook with?
@@ -87,7 +51,7 @@ Hi, thank you for joining us today. The purpose of this interview is to better u
 - Do you cook by yourself or do this with someone else?
 - How confident are you in your cooking? 
 
-#### (4) Recipes
+### Recipes
 - Do you have any experience using recipe apps? 
 - If so, which one and how was your experience? 
 - When was the last time you looked for a recipe?
@@ -99,10 +63,13 @@ Hi, thank you for joining us today. The purpose of this interview is to better u
 - How much time did it take you to decide on your last meal/recipe?
 - What types of recipes do you usually look for? 
 
+## User Interview Raw Notes
+
+Please see individual links in the table of contents for raw interview notes. 
 
 ## User Interview Summaries
 
-Overall, we interviewed 15 users - 8 users in our first round of interviews, and 7 users in our second round of interviews. Our first round was more unstructured, in that we held brief 5 minute conversations with peers we could find around us, such as roommates, classmates, those walking around in Duffield, etc. After we looked at our insights for the first round, we narrowed down a user group and created an interview protocol so that we can pinpoint some specific insights from our target users. Below are 
+Overall, we interviewed 15 users - 8 users in our first round of interviews, and 7 users in our second round of interviews. Our first round was more unstructured, in that we held brief 5 minute conversations with peers we could find around us, such as roommates, classmates, those walking around in Duffield, etc. After we looked at our insights for the first round, we narrowed down a user group and created an interview protocol so that we can pinpoint some specific insights from our target users. We have included our raw notes and summaries for each user below.
 
 Round 1: Unstructured
 
@@ -111,10 +78,6 @@ Round 2: Semi-structured
 - User 2: The user was a female graduate student currently living in Collegetown. We learned that she prioritizes convenience and frequently uses meal delivery services such as HelloFresh and SunBasket. She is not confident in her cooking skills and is trying to best to teach herself. She cooks in order to eat healthier and to save money.
 
 - User 3: The user was a male graduate student currently living in Collegetown Terrace. He has several dietary restrictions, including nuts and various fruits. We learned that he is relatively confident in his cooking skills, and cooks on a daily basis, doesn't really have a budget when cooking, and oftentimes finds himself looking up recipes for dishes his mom used to prepare for him, in order to double check details such as sauce ratios. He cooks because he enjoys having control over his diet. 
-
-- User 4: The user was a female graduate student currently living in North side of campus. We learned that she is very confident at his cooking and she cooks everyday. She does not have a budget for grocery. She eats 2 meals a day, and it usually takes her 5 minuts to decide the recipe and 30-40 minutes to prepare a meal. Most of the time she creates her own recipes, and sometimes she will search recipes on YouTube or Xiaohongshu. She cooks because she wants to eat Asian food and cooking is much cheaper than dining out.
-
-- User 5: The user was a female graduate student currently libing in Collegetown Terrace. We learned that she started cooking since middle school, and she cooks almost everyday. She is very condifent about cooking. It takes her 20-30 minuts to prepare a meal, and she searches recipes on Xiachufang. She does not have a budget on grocery and dining out. She likes to cook because she can decide what to eat.
 
 ## Affinity Diagramming
 
@@ -129,35 +92,7 @@ We created an affinity diagram based on our user interview notes. We categorized
 ![Affinity Diagram, part 7](images/affinity_diagram/ad7.png)
 
 ## Executive Summary: Key Insights
-- Beliefs
-    - Most users purchase groceries at least 2 to 4 times a month because stores are located far away
-    - Most users eat 2 meals a day
-    - Users value convenience and speed when preparing meals
-        - Users tend to prepare super fast meals for breakfast
-        - Users always buy lunch at or close to school
-        - Users tend to prepare dinner and eat at home
-        - Users usually spend minimal time deciding their meals
-    - Users have little to no dietary restrictions
-    - Some users cook almost everyday, while others will cook once or twice to prepare for the rest of the week. 
-    - Users primarily cook and eat independently
-    - Most users started cooking when they began college.
-    - User primarily plan their meals before buy ingredients
-    - Some users are very confident in their cooking abilities, while others feel average or unconfident in their abilities. 
-    - Users tend to search recipes online or from apps.
-    - Users have a preference for foods that are familiar to them and/or remind them of home
-    - Some users never save recipes since they will memorize the recipe or create their own.
-    Users primarily have no strict budgets for grocery but they avoid dining out.
-    - Users like both traditional and unfamiliar recipes.
-    - Users primarily plan their meal before they buy ingredients.
-    - Users snack on ready made items.
-    - Most users grab groceries with their friends by car or bus.
-    - Most users have no experience using recipe apps.
-    - Some users prefer healthy food.
-- Motivations
-    - Some users tend to save recipes on their phones or in apps for convenience.
-    - Users search for recipes of food that they've never cooked before or they forgot the steps to cook 
-    - Users will get groceries delivered to save time. 
-
+TODO 
 
 # 3. Problems
  identify 1 or 2 key problems that your team wants to address. 
@@ -191,40 +126,6 @@ Produce a scenario for each key problem/value proposition. Note you will likely 
 
 
 # 6. Persona
-
-Name: Tim Cook
-Quote: "Plan ahead and get healthy."
-
-Occupation: Student
-Year: Junior
-Age: 21
-Diet: None
-Country: Spain
-
-Motivation:
-- Time Saving
-- Budget Saving
-- Home Food
-
-User Profile:
-An international student who doesn't have too much time to cook due to the large workload but wants to eat healthy homemade food. To him, time is money, and his course works are the priorities. He intends to organize his college life by always planning. He misses Spanish food so much, but he can hardly return to Spain because of the pandemic. Dining out is too expensive for him, and he tries to avoid it. He wants to search for recipes that list budgets, the time needed; find recipes under specific cuisines categories, and build up a meal plan.
-
-Needs:
-- He needs to set up a budget for each meal.
-- He needs information on time spent on each meal. 
-- He wants to plan ahead for cooking.
-- He wants to have his personal recipes.
-- He prefers finding home food recipes.​
-
-Frustrations:
-- Doesn't want to take too much time on cooking.
-- Misses home food.
-- Doesn't want to spend money on dining out.
-- Grocery stores are far away.
-- Not confident at cooking.
-- Doesn't remember recipes he has used.​​
-
-![Persona](images/user_persona/persona.png)
 
 
 # 7. Project Themes
