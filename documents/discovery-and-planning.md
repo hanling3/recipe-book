@@ -31,6 +31,23 @@ Interview Questions:
         Do you collect/save different recipes?
         How do you save your recipes?
         How much time did it take you to decide on your last meal/recipe?
+    5. Groceries
+        When was the last time you went grocery shopping?
+            -Who did you go with?
+            -Why did you go? 
+            -Where did you go grocery shopping?
+            -What did you get?
+            -How did you get there? 
+            -How much did you spend on ingredients for meals?
+        Where did you last go for grocery shopping? 
+            -Do you go to any other grocery stores?
+        How often do you go grocery shopping?
+        When you go shopping do you know exactly what you want to cook before getting the groceries or do you just buy the essentials/available/fresh products and then figure out what to cook?
+    6. Budgeting    
+        Do you have a budget for your:
+            -weekly/monthly meal?
+            -For groceries?
+            -For dining out?
 
 
 
