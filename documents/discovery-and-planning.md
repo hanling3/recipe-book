@@ -1,7 +1,35 @@
 # Discovery and Planning
 
 # 1. Users
-Who are your users? Identify users that need assistance “finding recipes” or need a karaoke diversion.
+We first brainstormed our possible users. Then we conducted 1 round of unstructed interview to finalize our target users. The detail of this interview can be found in the "User Interview Summaries" section below.
+
+Brainstorming the User: 
+- College students who often cook at their apartments
+- Housewife who prepares food for her family
+- Cook
+- Students who volunteer at non-profit organizations to serve the homeless
+- Adults who hold party at home and treat their friends for a holiday / special occasion
+- Bloggers/Youtubers/Vloggers who produce cooking videos.
+- Quarantined people who try to learn how to cook at home.
+- Students who are trying to recreate their favorite foods from applefest
+- People start learning how to cook
+- College students who need healthy meals
+- E.g. college students who enjoy drinking
+- College students
+- Possible restrictions: vegetarian / vegan / dietary restrictions / pescitarian / gluten-free
+- Cooking beginners
+- learning how to cook 
+- no meal plan
+- need healthy meals
+- saving money 
+- efficiency?
+- ppl who would be interested in meals from where they’re from 
+- dessert finder
+- College students, faculty, high school students, family members, Ithaca staff members
+
+
+Users: students living off campus trying to cook efficiently, save money, and eat healthy and delicious meals.
+	
 
 
 # 2. Gather Information
