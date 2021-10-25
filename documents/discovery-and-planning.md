@@ -156,7 +156,18 @@ We created an affinity diagram based on our user interview notes. We categorized
 TODO 
 
 # 3. Problems
- identify 1 or 2 key problems that your team wants to address. 
+
+Based on insights we found in the affinity diagram, we summarized the problems below:
+1. Students don’t have too much time for cooking
+2. Students don’t want to spend money on dining out
+3. Students miss home food
+4. Grocery stores are far away
+5. Some students are not confident at cooking
+6. Sometimes students don’t remember the recipes they have used 
+
+We identify 2 key problems that our team wants to address: 
+1. Students don’t have too much time and money for cooking
+2. Students miss home food
 
 
 # 4. Value Propositions
