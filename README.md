@@ -18,6 +18,8 @@ All non-app related artifacts must be listed here to be graded. If it's not list
     - [Interview Questions](documents/discovery-and-planning.md#interview-questions)
     - [User Interview Raw Notes](documents/discovery-and-planning.md#user-interview-summaries)
         - [User 2 Notes](documents/interview_notes/user2.md)
+        - [User 4 Notes](documents/interview_notes/user4.md)
+        - [User 5 Notes](documents/interview_notes/user5.md)
     - [User Interview Summaries](documents/discovery-and-planning.md#user-interview-summaries)
     - [Affinity Diagramming](documents/discovery-and-planning.md#affinity-diagramming)
     - [Executive Summary: Key Insights](documents/discovery-and-planning.md#executive-summary-key-insights)
