@@ -11,7 +11,12 @@
 
 # Milestone 2 
 
-TODO 
+- Hedy 
+    - wrote part of the interview questions, value propositions.
+    - interviewed two users in each rounds of interview, wrote the corrsponding interview summary
+    - created the affinity diagram and insights together with teammates
+    - discussed and brainstormed other part with teammates
+
 
 # Milestone 3
 
