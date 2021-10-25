@@ -127,4 +127,8 @@ Produce a scenario for each key problem/value proposition. Note you will likely 
 
 # 7. Project Themes
 
-The 
+Our Recipe Finder project themes include the following:
+- Mobile-responsive. Develop an app that is responsive both on desktop and mobile. 
+- Budget-friendly. Take advantage of filters and enable users to plan meals according to a filter based on budget. 
+- Time-awareness. Rethink meal planning and allow users to further adjust their meal planning by allowing users to select meals based on time. 
+- Performance. Make it easy for users to navigate and find recipes that remind them of home. 
