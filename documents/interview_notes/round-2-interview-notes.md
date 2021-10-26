@@ -1,6 +1,6 @@
-## Round 2 Raw Interview Notes
+# Round 2 Raw Interview Notes
 
-# Notes for User 1
+## Notes for User 1
 -Mps student, 21years old, collegetown ctt
 -Not super close grocery stores-- at least 10mins walk away
 -No car, have to take bus to target, sometimes go friends with car
@@ -53,7 +53,7 @@ Minimize times to going out eat
 No budget for eating out 3-4 meals 
 
 
-# Notes for User 2 
+## Notes for User 2 
 -MPS student, 22, Collegetown
 -lives near 7 eleven and green star 
 -no car
@@ -200,7 +200,7 @@ Budgeting
 	-maybe will get 3-4 a week
 
 
-# Notes for User 3 
+## Notes for User 3 
 -infosci major, master’s student
 -ctt
 -nearest - greenstar, aldi, trader joe’s wegman
@@ -331,7 +331,7 @@ Last time he looked up a recipe:
 -expenses include netflix, spotify, football, website
 
 
-# Notes for User 4 
+## Notes for User 4 
 -25 master student studied ba at boston university
 -live off campus 10 mins drive + 20 mins subway
 -Yes, closest one 5mins drive aways, 3 big stores
@@ -370,7 +370,7 @@ No collect
 -no budget
 
 
-# Notes for User 5
+## Notes for User 5
 Personal questions (random icebreaker)
 What is your name, age, major?
 Lisa, Information Science, 22
@@ -481,7 +481,7 @@ For groceries? No
 For dining out? 
 
 
-# Notes for User 6
+## Notes for User 6
 Wendy, mpsis, 22, lives in ctt
 Go to wegmans & walmart, no car
 Her roommate has a car and take her to grocery shopping
