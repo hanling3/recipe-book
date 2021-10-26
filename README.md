@@ -31,10 +31,4 @@ All non-app related artifacts must be listed here to be graded. If it's not list
     - Round 1: Unstructured Interviews
         - [Round 1 Notes](documents/interview_notes/round-1-interview-notes.md)
     - Round 2: Semi-structured Interviews
-        - [User 1 Notes](documents/interview_notes/user1.md)
-        - [User 2 Notes](documents/interview_notes/user2.md)
-        - [User 3 Notes](documents/interview_notes/user3.md)
-        - [User 4 Notes](documents/interview_notes/user4.md)
-        - [User 5 Notes](documents/interview_notes/user5.md)
-        - [User 6 Notes](documents/interview_notes/user6.md)
-        - [User 7 Notes]( )
+        - [Round 1 Notes](documents/interview_notes/round-2-interview-notes.md)
