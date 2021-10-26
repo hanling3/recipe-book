@@ -17,10 +17,13 @@ All non-app related artifacts must be listed here to be graded. If it's not list
     - [Interview Protocol](documents/discovery-and-planning.md#interview-protocol)
     - [Interview Questions](documents/discovery-and-planning.md#interview-questions)
     - [User Interview Raw Notes](documents/discovery-and-planning.md#user-interview-summaries)
-        - [Round 1 Notes](documents/interview_notes/round-1-interview-notes.md)
-        - [User 2 Notes](documents/interview_notes/user2.md)
-        - [User 5 Notes](documents/interview_notes/user5.md)
-        - [User 6 Notes](documents/interview_notes/user6.md)
+        - Round 1 Notes
+            - [Round 1 Notes](documents/interview_notes/round-1-interview-notes.md)
+        - Round 2 Notes
+            - [User 2 Notes](documents/interview_notes/user2.md)
+            - [User 3 Notes](documents/interview_notes/user3.md)
+            - [User 5 Notes](documents/interview_notes/user5.md)
+            - [User 6 Notes](documents/interview_notes/user6.md)
     - [User Interview Summaries](documents/discovery-and-planning.md#user-interview-summaries)
     - [Affinity Diagramming](documents/discovery-and-planning.md#affinity-diagramming)
     - [Executive Summary: Key Insights](documents/discovery-and-planning.md#executive-summary-key-insights)

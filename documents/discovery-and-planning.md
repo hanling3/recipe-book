@@ -32,6 +32,7 @@ We first brainstormed our possible users. Then we conducted 1 round of unstructu
 Students living off campus trying to cook efficiently, save money, and eat healthy and delicious meals.
 
 
+
 # 2. Gather Information
 
 Interview Expected Time: 30 minutes

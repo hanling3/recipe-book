@@ -7,6 +7,7 @@
 - Hedy participated in the team meeting #1, worked with team members to finish the team contract and wrote question 1-3.
 
 - Xinlu contributed to write answers to questions 6 and 7, and discussed with teammates about other responses.
+
 - Xuanhui contributed to write answers to questions 8 and 9, discussed responses and fixed problems.
 
 # Milestone 2 
@@ -31,6 +32,12 @@
     - wrote 2 scenarios for key problems.
     - discussed and brainstormed other parts with teammates.
     
+- Ada
+    - developed interview protocol 
+    - conducted two rounds of interviews, interviewing 5 users collectively and taking notes for 2
+    - created affinity diagram and extracted insights
+    - wrote and revised value proposition 
+    - discussed and brainstormed for value proposition and provided feedback on other milestone components
 
 
 # Milestone 3
