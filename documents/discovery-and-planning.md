@@ -1,7 +1,7 @@
 # Discovery and Planning
 
 # 1. Users
-We first brainstormed our possible users. Then we conducted 1 round of unstructured interview to finalize our target users. The detail of this interview can be found in the "User Interview Summaries" section below.
+We first brainstormed our possible users. Then we conducted 1 round of unstructured interview to finalize our target users. The details from these interview can be found in the "User Interview Summaries" section below.
 
 ## Brainstorming the User
 - College students who often cook at their apartments
@@ -124,6 +124,11 @@ Please see individual links in the table of contents for raw interview notes.
 Overall, we interviewed 15 users - 8 users in our first round of interviews, and 7 users in our second round of interviews. Our first round was more unstructured, in that we held brief 5 minute conversations with peers we could find around us, such as roommates, classmates, those walking around in Duffield, etc. After we looked at our insights for the first round, we narrowed down a user group and created an interview protocol so that we can pinpoint some specific insights from our target users. We have included our raw notes and summaries for each user below.
 
 ### Round 1: Unstructured Interviews
+
+- User 1: She cooks because she wants to save money as a student. She is methodical when cooking; her process includes: defrosting ingredients, checking out what's in the fridge, preparing the ingredients, and then cooking. She doesn't actively look for new recipes; instead she relies on recipes she already knows, either taught by her parents or ones that she makes frequently. She doesn't have any dietary restrictions. She cooks 2 to 3 times a week, meal prepping for the rest of the week. She eats lunch on campus so her meals do not get boring. 
+
+- User 2: He cooks because it's cheaper than going out to eat everyday. There are 5 recipes he knows by heart that he reuses over and over. Every week, he thinks about what he wants to eat, then buys the respective groceries and spends around 3 hours cooking. These recipes are the ones he learned from his parents. He always aims to cook simple recipes. Because he does not have a lot of experience cooking, he looks for recipes that take the least amount of time and the fewest number of ingredients. He has dietary restrictions to various nuts and shellfish.
+
 - User 3: He cooks because he wants to save money and time while he is a student. He also said cooking is a very relaxing time for him. He remembers about 10 food recipes that he often used to cook. His cooking process is: decide recipe first, buy ingredient, cook for 1 hour cooking maximum, and clean dish. Personally, he prefers recipes on YouTube than documents. He has no dietary restrictions.
 
 - User 4: She cooks because the food in school dining hall and restaurants near apartments are not delicious. She also emphasized that cooking at home is much cheaper than dine-out. She would only searched for recipes that she’ve never cooked before. Her cooking process: buy ingredient first, decide what to cook based on available ingredients on hand. She tend to cook quick food everyday but she also has high requirement of food taste. She has no dietary restrictions but doesn’t eat food that contain high carbs and sugar.
