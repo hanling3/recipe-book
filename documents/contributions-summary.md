@@ -34,7 +34,7 @@
     
 - Ada
     - developed interview protocol 
-    - conducted two rounds of interviews, interviewing 5 users collectively and taking notes for 2
+    - conducted two rounds of interviews, interviewing 5 users and taking notes for 4
     - created affinity diagram and extracted insights
     - wrote and revised value proposition 
     - discussed and brainstormed for value proposition and provided feedback on other milestone components
