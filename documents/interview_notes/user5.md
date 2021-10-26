@@ -1,45 +1,110 @@
-Wendy, mpsis, 22, lives in ctt
-Go to wegmans & walmart, no car
-Her roommate has a car and take her to grocery shopping
-Eat 
-She prefer to cook, because she can decide what to eat
-She has no dietary restriction
-She usually eats by herself, sometimes with her roommate
-She had chicken wings for today’s lunch at home
-Have chicken wings for lunch once a month
-Not have chicken wings regularly, this was a takeout, but usually cook
-She usually has asian food
-Had snacks last night, had a piece of cake, got it from Ren’s market
-Cooking Relayted
-Cooked last night, a steak, veggies, broccoli, mushroom, tomato
-Cooked by herself
-Cooked at her kitchen
-Cooked because she needed to eat something
-Washed vegetables, put sauces on the steak, cook it for 20 minutes
-She started cooking since middle school
-She cooks almost everyday, sometimes take out
-Cook asian food, chinese food, mapo tofu, fanqiechaodan, chicken wings with coke
-It takes her 20-30 minutes to prepare a meal
-She cooks for herself, sometimes also for her roommate
-Usually cook by herself
-She is really confident in her cooking
-Recipes 
-She uses chinese cooking app: xiachufang
-Follow the steps, find out the ingredients, really helpful
-Used it several days ago
-Was not sure of the temperature of the oven when she was cooking, so she searched it in the app
-She is okay with both traditional and new meals recipes
-She does not save recipes; she searched for recipes if she needs any
-It takes her a couple of minutes to decide her recipe
-Grocery shopping
-Went to grocery shopping last weekend, with Annie
-Went to wegmans and walmart
-Got steak, blueberry, banana, veggie, salmon
-Annie drove her to the grocery store
-Spent over $100
-Also go to Ren’s market for groceries
-She goes to Wegman, Walmart and Ren’s Market for groceries
-She goes grocery shopping twice a month
-She would write down a list about the things she plan to buy, but she would always buy extra things
-She will think before she cook
-She does not have a budget for any meal or grocery or dining out; try to eat out as few as possible.
+## Raw Interview Notes: User 4
+
+Personal questions (random icebreaker)
+What is your name, age, major?
+Lisa, Information Science, 22
+Where do you live off campus (e.g. North, West, Collegetown, etc)?
+North
+Is there any grocery store nearby?
+Tops & Target
+Do you have a car? 
+Yes
+If not, how do you go grocery shopping?
+Eating Habit
+Do you prefer home cooked meals or fast meals? Why?
+Cook everyday
+Don’t have time to eat out, have too many classes all the morning and  afternoon
+Do you have any dietary restrictions?
+No
+Do you often eat alone or with other people?
+Sometimes eat with roommate
+What did you last have for breakfast? For lunch? For dinner?
+Bread; spicy chicken & rice;last night had chicken corn soup & noodle
+Barely have breakfast, 8 am class; 1 or 2 times a week
+[Based on response] How often do you have that for breakfast? Lunch? Dinner?
+[Follow up questions about who, where, when, why, how, etc] 
+Is this the same number of meals that you have regularly?
+2 meals a day, late night dinner
+What kind of food do you usually eat? Fast food? Asian food?
+Asian food
+When was the last time you snacked?
+Yesterday night
+What did you have?
+Strawberry cakes
+Where did you buy it?
+Freshgoo 
+Cook Related
+When was the last time you cooked?
+Today’s lunch
+What did you cook?
+Who did you cook with?
+herself
+Where did you cook?
+In her kitchen
+Why did you cook?
+She likes asian food, cook is much cheaper than eating out
+How did you cook (i.e. cooking process)?
+Buy veggie and meat, decided how to match the materials, and put them all in the pan and cooked
+How long have you been cooking?
+5 years ago, from college
+How often do you cook?
+everyday
+What kind of food do you usually cook? Easy, Intermediate or elaborate?
+Asian food, bread or burgers sometimes 
+How long did it take you to prepare your last meal? 
+Asian food: 30-40 minutes
+Burgers or bread: 10 minutes
+Do you cook for yourself or do this for someone else?
+Cook for her roommates 1-2 a week 
+Do you cook by yourself or do this with someone else?
+Cook alone
+How confident are you in your cooking? 
+Good at cooking, one of her talents
+Recipes
+Do you have any experience using recipe apps? 
+Sometimes check youtubers recipe, but most of time cook by herself
+Never used such a app
+If so, which one and how was your experience? 
+When was the last time you looked for a recipe?
+Last week, Airfrier, tofu, 
+What occasion was it for?
+Planning to buy one since it’s recommended by many other people
+How did you find the recipe?
+Little redbook, it popped up, auto-recommended by the app
+Do you like traditional recipes or do you like to experiment with more unfamiliar meals?
+Like unfamiliar meals, traditional recipes are not her style
+Do you collect/save different recipes?
+Yes, she save for the shrimp pancake
+How do you save your recipes?
+Collect like in the redbook, auto saved
+Paste a link of the youtuber’s recipe to her phone, save to her youtube channel or subscribe to them
+How much time did it take you to decide on your last meal/recipe?
+Decided the meal when go the grocery shopping
+5 minutes
+Groceries(Xinlu)
+When was the last time you went grocery shopping?
+Last thursday
+Who did you go with?
+With her roommate
+Why did you go? 
+She likes drink coffee, need to buy some coffee mates, implement them every week
+Where did you go grocery shopping?
+wegman
+What did you get?
+Beef, corn, milk, cheese
+How did you get there? 
+How much did you spend?
+~$100
+On materials for meals
+Where did you last go for grocery shopping? 
+Do you go to any other grocery stores?
+Trader Joes, Ren’s market
+How often do you go grocery shopping?
+Once a week
+When you go shopping do you know exactly what you want to cook before getting the groceries or do you just buy the essentials/available/fresh products and then figure out what to cook?
+Not really. Go when don’t have class.
+Budgeting(Xinlu)
+Do you have a budget for your:
+weekly/monthly meal? No
+For groceries? No
+For dining out? 
