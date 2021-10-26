@@ -1,7 +1,7 @@
 # Discovery and Planning
 
 # 1. Users
-We first brainstormed and listed our possible users. However, we thought college students are a group of people we may have more chance to reach out to so we choose students as our target user at first stage. Then we tried to make a survey to gather information about their cooking and finding recipes experience but the TA suggested us a more efficient ux research method by  conducting several short semi-interviews with people to figure out their pain points and needs. We conducted 8 user interviews and discussed the insights which led us to our target users below. The detail of this interview can be found in the "User Interview Summaries" section below.
+We first brainstormed and listed our possible users. However, we thought college students are a group of people we may have more chance to reach out to so we choose students as our target user at first stage. Then we tried to make a survey to gather information about their cooking and finding recipes experience but the TA suggested us a more efficient ux research method by  conducting several short semi-interviews with people to figure out their pain points and needs. We conducted 8 user interviews and discussed the insights which led us to our target users below. We have included our summaries and raw notes for each user in the "User Interview Summaries" and "Additional items" section.
 
 ## Target Users
 Students living off campus trying to cook efficiently, save money, and eat healthy and delicious meals.
