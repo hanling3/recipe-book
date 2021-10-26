@@ -123,7 +123,7 @@ Please see individual links in the table of contents for raw interview notes.
 
 Overall, we interviewed 15 users - 8 users in our first round of interviews, and 7 users in our second round of interviews. Our first round was more unstructured, in that we held brief 5 minute conversations with peers we could find around us, such as roommates, classmates, those walking around in Duffield, etc. After we looked at our insights for the first round, we narrowed down a user group and created an interview protocol so that we can pinpoint some specific insights from our target users. We have included our raw notes and summaries for each user below.
 
-Round 1: Unstructured
+### Round 1: Unstructured Interviews
 - User 3: He cooks because he wants to save money and time while he is a student. He also said cooking is a very relaxing time for him. He remembers about 10 food recipes that he often used to cook. His cooking process is: decide recipe first, buy ingredient, cook for 1 hour cooking maximum, and clean dish. Personally, he prefers recipes on YouTube than documents. He has no dietary restrictions.
 
 - User 4: She cooks because the food in school dining hall and restaurants near apartments are not delicious. She also emphasized that cooking at home is much cheaper than dine-out. She would only searched for recipes that she’ve never cooked before. Her cooking process: buy ingredient first, decide what to cook based on available ingredients on hand. She tend to cook quick food everyday but she also has high requirement of food taste. She has no dietary restrictions but doesn’t eat food that contain high carbs and sugar.
@@ -136,7 +136,8 @@ Round 1: Unstructured
 
 - User 8: She cooks because cooking is definitely healthier and cheaper than going to the restaurants and ordering food deliveries. She cooks based on her past experiences in which she found the recipes on Xiaohongshu. If she can’t remember the recipes, she will look up recipes she saved on Xiaohongshu again. She mainly used Xiaohongshu to find recipes. She has no dietary restrictions.
 
-Round 2: Semi-structured
+### Round 2: Semi-structured Interviews
+
 - User 1: The user was a male graduate student currently living in Collegetown Terrace. He has several dietary restrictions, including nuts and shellfish. We learned that he usually eats at school and cooks once or twice a week, also he would save leftover for the next meal. He only cooks limited dishes that he’ve been made several times before and prefers food with straightforward cooking step. In addition, he likes to cook food that his mom used to prepare for him and he would asked his parents for recipe by text message. He has a flexible budget for weekly grocery shopping but will minimize times to going out to eat.
 
 - User 2: The user was a female graduate student currently living in Collegetown. We learned that she prioritizes convenience and frequently uses meal delivery services such as HelloFresh and SunBasket. She is not confident in her cooking skills and is trying to best to teach herself. She cooks in order to eat healthier and to save money.
