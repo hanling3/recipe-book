@@ -169,6 +169,9 @@ We created an affinity diagram based on our user interview notes. We categorized
 ![Affinity Diagram, part 7](images/affinity_diagram/ad7.png)
 
 ## Executive Summary: Key Insights
+
+Based on our affinity digramming, we generated the following key insights regarding our users' beliefs and motivations.
+
 - Beliefs
     - Most users purchase groceries at least 2 to 4 times a month because stores are located far away.
     - Most users eat 2 meals a day.
@@ -199,10 +202,10 @@ We created an affinity diagram based on our user interview notes. We categorized
     - Users search for recipes of food that they've never cooked before or they forgot the steps to cook.
     - Users will get groceries delivered to save time. 
 
-
 # 3. Problems
 
-Based on insights we found in the affinity diagram, we summarized the problems below:
+Based on the insights we found in the affinity diagram, we discovered the following problems:
+
 1. Students don’t have too much time for cooking
 2. Students don’t want to spend money on dining out
 3. Students miss home food
@@ -214,26 +217,22 @@ We identify 2 key problems that our team wants to address:
 1. Students don’t have too much time and money for cooking
 2. Students miss home food
 
+We decided on these 2 key problems because we found that these were the two biggest pain points for our users. In cooking, students are primarily limited by resources, mainly time and money. Additionally, because most students at Cornell don't come from Ithaca themselves, they oftentimes found themselves recreating recipes their parents used to make them and/or they grew up eating.
+
 
 # 4. Value Propositions
 
-- Possible ideas: 
-    - Insert budget
-    - How much time you have to prepare
-    - Customize app to their experiences
-
-Value Propositions:
-College students want to save money and time at eating, and they need healthy and delicious meals that can be prepared quickly in their apartments. They need such a product that help them cook delicious meals quickly within the budget. The current alternatives students have are recipe apps like BBC good food and Xiachufang. Users can upload their own recipes, check the chef-made recipes and tutorial videos in the app. These apps have the limit that they cannot help users to plan the time and money spent on cooking. But our product can do that. Our product can filter the recipes by the country category, budget, and time of cooking. After users insert their weekly grocery budget, the time planned on preparing meals, and the food category, the app will create a list of ingredients and the recipes for each meal of the week. Users can purchse all of these ingredients in one grocery shopping, and the product will remind them of the recipe before each meal. A customized meal plan is designed for you in just a few clicks, and this feature is only in our product.
-
+College students want to save money and time at eating, and they need healthy and delicious meals that can be prepared quickly in their apartments. They need a product that helps them find recipes to cook delicious meals quickly within the budget. Students currently use recipe websites such as BBC Good Food and Xiachufang. Users can upload their own recipes and peruse chef-made recipes and tutorial videos within these apps. These apps however cannot help users meal plan, in terms of time and money (for ingredients). But our product can do that. Our product can filter the recipes by the country category, budget, and time needed for cooking. After users insert their weekly grocery budget, how much time they have for preparing meals, and their chosen food category, the app will generate a list of ingredients and recipes for each meal of the week. Users can then plan to purchase all of these ingredients in one grocery shopping trip, and the product will remind them of the recipe before each meal. A customized meal plan is designed for you in just a few clicks, a feature availble only in our product.
 
 # 5. Scenarios
-Produce a scenario for each key problem/value proposition. Note you will likely need more than one scenario.
 
-Scenario 1
-You are very busy during the midterm week so you want to spend less than 30mins to cook for each meal and save enough time for studying. Navigating in the recipe app and looking for a recipe of 30 mins quick dishes to cook.
+We plan to use the following 2 scenarios to evaluate our app: 
 
-Scenario 2
-You’ve studied abroad for 2 years and missed the food in your hometown, but ordering Asian food delivery is too expensive for you. Therefore, you want to cook some hometown dishes within a $20 budget for dinner. Try to navigate yourself to recipes of your hometown dishes in the app and choose one recipe within your budget to cook.
+## Scenario 1
+You are very busy during the midterm week, so you want to spend less than 30 minutes to cook each meal and save enough time for studying. Navigate the recipe app and see if you can find recipes for 30 minute quick dishes.
+
+## Scenario 2
+You’ve studied abroad for 2 years and missed the food in your hometown, but ordering Asian food delivery is too expensive for you. Therefore, you want to cook some hometown dishes within a $20 budget for dinner. Try to navigate yourself to recipes of your hometown dishes in the app and find one recipe within your budget to cook.
 
 
 # 6. Persona
