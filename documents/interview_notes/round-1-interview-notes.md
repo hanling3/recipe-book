@@ -82,4 +82,14 @@
 - Basically she follows the recipes on Xiaohongshu. You can just type in what you have in your fridge like potatoes and see how you could cook it!
 - No dietary restrictions
 
+## User 7: Elaine
+- Yes. Because Ithaca does not have many delicious Asian foods. And cooking by herself is healthier and cheaper than dining out. 
+- After buying groceries, I will pick what food that I want to cook and eat today. And then I will find what receipt I can use to cook these foods. After that, I will follow the receipt and maybe change a little bit to my flavor.
+- Basically she follows the recipes on Xiachufang.
+- No dietary restrictions
 
+## User 8: Jaymee
+- Yes. Because cooking by herself saves her budget and makes her healthy.  
+- She cooks based on her past experiences in which she found the recipes on Xiaohongshu. If she can’t remember the recipes, she will look up recipes she saved on Xiaohongshu again.
+- Basically she follows the recipes on Xiaohongshu.
+- No dietary restrictions
