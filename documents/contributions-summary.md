@@ -2,13 +2,23 @@
 
 # Milestone 1
 
-- Ada wrote responses to questions 4 and 5, discussed and revised responses to other questions, and signed the team contract. 
+- Ada 
+    - wrote responses to questions 4 and 5
+    - discussed and revised responses to other questions
+    - signed the team contract. 
 
-- Hedy participated in the team meeting #1, worked with team members to finish the team contract and wrote question 1-3.
+- Hedy 
+    - participated in the team meeting #1
+    - worked with team members to finish the team contract 
+    - wrote question 1-3.
 
-- Xinlu contributed to write answers to questions 6 and 7, and discussed with teammates about other responses.
+- Xinlu 
+    - contributed to write answers to questions 6 and 7
+    - discussed with teammates about other responses.
 
-- Xuanhui contributed to write answers to questions 8 and 9, discussed responses and fixed problems.
+- Xuanhui 
+    - contributed to write answers to questions 8 and 9
+    - discussed responses and fixed problems.
 
 # Milestone 2 
 
@@ -34,10 +44,11 @@
     
 - Ada
     - developed interview protocol 
-    - conducted two rounds of interviews, interviewing 5 users and taking notes for 4
+    - conducted two rounds of interviews, interviewing 5 users and taking notes for 4 users
     - created affinity diagram and extracted insights
-    - wrote and revised value proposition 
+    - wrote and revised project themes 
     - discussed and brainstormed for value proposition and provided feedback on other milestone components
+    - wrote decision-making and research process throughout milestone 2
 
 
 # Milestone 3

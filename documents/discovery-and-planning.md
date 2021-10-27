@@ -1,12 +1,15 @@
 # Discovery and Planning
 
 # 1. Users
-We first brainstormed and listed our possible users. However, we thought college students are a group of people we may have more chance to reach out to so we choose students as our target user at first stage. Then we tried to make a survey to gather information about their cooking and finding recipes experience but the TA suggested us a more efficient ux research method by  conducting several short semi-interviews with people to figure out their pain points and needs. We conducted 8 user interviews and discussed the insights which led us to our target users below. We have included our summaries and raw notes for each user in the "User Interview Summaries" and "Additional items" section.
+
+To develop our user group, we first brainstormed and listed possible users, characteristics, problem spaces. Many ideas included college students because they were our most accessible group for interviews, and so we decided to choose college students as our target users for the first stage. Then, in order to narrow down our project scope, we tried to make a Google survey to gather information about their experience with cooking and finding recipes. However, we received feedback from a TA that suggested we use a more efficient UX research method by conducting several brief, unstructured interviews with individuals who we could find immediately around us, in order to figure out their pain points and needs. Thus, for our first round of user research, we conducted 8 user interviews and then came together as a team to discuss the insights. This led us to the target user group we found below. We have included our summaries and raw notes for each user in the "User Interview Summaries" and "Additional Items" section.
 
 ## Target Users
 Students living off campus trying to cook efficiently, save money, and eat healthy and delicious meals.
 
 ## Brainstorming the User
+
+Below is the list of possible user groups, characteristics, and problem spaces our team generated based on personal experiences and experiences of those of friends: 
 - College students who often cook at their apartments
 - Housewife who prepares food for her family
 - Cook
@@ -33,6 +36,8 @@ Students living off campus trying to cook efficiently, save money, and eat healt
 
 # 2. Gather Information
 
+After our initial round of interviews, we decided to conduct more in-depth interviews in order to gain more specific insights about the goals, beliefs, and motivations of our users. Thus, our team worked together to draft a interview protocol, which included a script to introduce and end the interview, and a set of questions, building from personal questions to questions related to grocery shopping, cooking, and recipe finding habits. We anticipated interviews might take around 30 minutes, based on the questions we deemed necessary to ask.
+
 Interview Expected Time: 30 minutes
 
 ## Interview Protocol 
@@ -41,23 +46,26 @@ Thank you for joining us today. The purpose of this interview is to better under
 
 ## Interview Questions 
 
-### Round 1: Unstructued Interview
+### Round 1: Unstructued Interview Questions
+
+While these interviews were generally unstructured, we had a few guiding questions to navigate the conversation.
+
 - Do you cook? 
     - Why or why not?
 - [If yes] Describe to me your process of cooking
 - How do you find your recipes?
 - Any dietary restrictions?
 
-### Round 2: Semi-Structured
+### Round 2: Semi-Structured Interview Questions
 
-#### (1) Personal questions (random icebreaker)
+#### (1) Personal questions
 - What is your name, age, major?
 - Where do you live off campus (e.g. North, West, Collegetown, etc)?
 - Is there any grocery store nearby?
 - Do you have a car? 
 - If not, how do you go grocery shopping?
 
-#### (2) Eating Habit
+#### (2) Eating Habits
 - Do you prefer home cooked meals or fast meals? Why?
 - Do you have any dietary restrictions?
 - Do you often eat alone or with other people?
@@ -113,13 +121,16 @@ Thank you for joining us today. The purpose of this interview is to better under
     - For groceries?
     - For dining out?
 
+#### Conclusion
+Thank you for participating in our interview. If you want to have your responses not included in our research, please let us know within 24 hours after the interview. If you’re interested in learning more about our interview results, please feel free to contact us at ac2687@cornell.edu (or your own Cornell email). 
+
 ## User Interview Raw Notes
 
-Please see individual links in the table of contents for raw interview notes. 
+Please see individual links in the table of contents for raw interview notes, listed under the "Additional Items" section. 
 
 ## User Interview Summaries
 
-Overall, we interviewed 15 users - 8 users in our first round of interviews, and 7 users in our second round of interviews. Our first round was more unstructured, in that we held brief 5 minute conversations with peers we could find around us, such as roommates, classmates, those walking around in Duffield, etc. After we looked at our insights for the first round, we narrowed down a user group and created an interview protocol so that we can pinpoint some specific insights from our target users. We have included our raw notes and summaries for each user below.
+Collectively, we interviewed 15 users - 8 users in our first round of interviews, and 7 users in our second round of interviews. Our first round was unstructured, in that we held brief 5 minute conversations with peers we could find around us, such as roommates, classmates, those walking around in Duffield, etc. After we looked at our insights for the first round, we narrowed down a user group and created an interview protocol so that we can pinpoint some specific insights from our target users in the second round. We have included our raw notes and summaries for each user below.
 
 ### Round 1: Unstructured Interviews
 
@@ -158,7 +169,7 @@ Overall, we interviewed 15 users - 8 users in our first round of interviews, and
 
 ## Affinity Diagramming
 
-We created an affinity diagram based on our user interview notes. We categorized our notes as seen in the images provided:
+After our interviews, we created an affinity diagram based on our user interview notes. We categorized our notes as seen in the images provided:
 
 ![Affinity Diagram, part 1](images/affinity_diagram/ad1.png)
 ![Affinity Diagram, part 2](images/affinity_diagram/ad2.png)
@@ -170,7 +181,7 @@ We created an affinity diagram based on our user interview notes. We categorized
 
 ## Executive Summary: Key Insights
 
-Based on our affinity digramming, we generated the following key insights regarding our users' beliefs and motivations.
+Based on our affinity digram, we generated the following key insights regarding our users' beliefs and motivations.
 
 - Beliefs
     - Most users purchase groceries at least 2 to 4 times a month because stores are located far away.
@@ -204,7 +215,7 @@ Based on our affinity digramming, we generated the following key insights regard
 
 # 3. Problems
 
-Based on the insights we found in the affinity diagram, we discovered the following problems:
+From our insights, we discovered the following problems:
 
 1. Students don’t have too much time for cooking
 2. Students don’t want to spend money on dining out
@@ -213,7 +224,7 @@ Based on the insights we found in the affinity diagram, we discovered the follow
 5. Some students are not confident at cooking
 6. Sometimes students don’t remember the recipes they have used 
 
-We identify 2 key problems that our team wants to address: 
+We identified 2 key problems to address: 
 1. Students don’t have too much time and money for cooking
 2. Students miss home food
 
@@ -229,20 +240,25 @@ College students want to save money and time at eating, and they need healthy an
 We plan to use the following 2 scenarios to evaluate our app: 
 
 ## Scenario 1
-You are very busy during the midterm week, so you want to spend less than 30 minutes to cook each meal and save enough time for studying. Navigate the recipe app and see if you can find recipes for 30 minute quick dishes.
+You find yourself very busy during the midterm week, so you want to spend less than 30 minutes cooking meals in order to save enough time for studying. You stumbled across a recipe app in the App Store, and are interested in recipes for 30 minute quick dishes.
 
 ## Scenario 2
-You’ve studied abroad for 2 years and missed the food in your hometown, but ordering Asian food delivery is too expensive for you. Therefore, you want to cook some hometown dishes within a $20 budget for dinner. Try to navigate yourself to recipes of your hometown dishes in the app and find one recipe within your budget to cook.
+You’ve studied abroad for 2 years and miss the food in your hometown, but ordering Asian food delivery is too expensive for you. Therefore, you want to cook some hometown dishes within a $20 budget for dinner. You wish to discover recipes from your hometown in the app and decide on one that is within your budget to cook.
 
 
 # 6. Persona
 Name: Robo Hu
+
 Quote: "Plan ahead and get healthy."
 
 Occupation: Student
+
 Year: Junior
+
 Age: 21
+
 Diet: None
+
 Country: China
 
 Motivation:
@@ -251,6 +267,7 @@ Motivation:
 - Home Food
 
 User Profile:
+
 An international student who doesn't have too much time to cook due to the large workload but wants to eat healthy homemade food. To her, time is money, and his course works are the priorities. She intends to organize her college life by always planning. She misses Chinese food so much, but she can hardly return to China because of the pandemic. Dining out is too expensive for her, and she tries to avoid it. She wants to cook fast Chinese food within her budgets and plans for what to eat everyday.
 
 Needs:
@@ -274,7 +291,7 @@ Frustrations:
 # 7. Project Themes
 
 Our Recipe Finder project themes include the following:
-- Mobile-responsive. Develop an app that is responsive both on desktop and mobile. 
-- Budget-friendly. Take advantage of filters and enable users to plan meals according to a filter based on budget. 
-- Time-awareness. Rethink meal planning and allow users to further adjust their meal planning by allowing users to select meals based on time. 
+- Device-responsive. Develop an app that is responsive both on desktop and mobile. 
+- Budget-friendly. Take advantage of filters and enable users to plan meals according to an inputted budget amount. 
+- Time-conscious. Rethink meal planning and allow users to customize their meals of the day by filtering recipes based on expected time. 
 - Performance. Make it easy for users to navigate and find recipes that remind them of home. 

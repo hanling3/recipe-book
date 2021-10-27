@@ -28,8 +28,6 @@ All non-app related artifacts must be listed here to be graded. If it's not list
 
 ### Additional Items
 
-Raw Interview Notes
-- Round 1: Unstructured Interviews
-    - [Round 1 Notes](documents/interview_notes/round-1-interview-notes.md)
-- Round 2: Semi-structured Interviews
-    - [Round 1 Notes](documents/interview_notes/round-2-interview-notes.md)
+- Raw Interview Notes
+    - [Round 1: Unstructured Interviews](documents/interview_notes/round-1-interview-notes.md)
+    - [Round 2: Semi-structured Interviews](documents/interview_notes/round-2-interview-notes.md)
