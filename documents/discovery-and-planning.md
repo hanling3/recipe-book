@@ -274,7 +274,7 @@ Needs:
 - She needs to set up a budget for each meal.
 - She needs information on time spent on each meal. 
 - She wants to plan ahead for cooking.
-- She wants to have his personal recipes.
+- She wants to have her personal recipes.
 - She prefers finding home food recipes.​
 
 Frustrations:
