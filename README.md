@@ -23,6 +23,18 @@ All non-app related artifacts must be listed here to be graded. If it's not list
 - [6. Persona](documents/discovery-and-planning.md#6-persona)
 - [7. Project Themes](documents/discovery-and-planning.md#7-project-themes)
 
+### Milestone 3: Design
+- [3. Design](documents/design.md#design)
+    - [Revisions](documents/design.md#revisions)
+    - [Persuasive Design](documents/design.md#persuasive-design)
+    - [Brainstorming](documents/design.md#brainstorming)
+    - [Sketches](documents/design.md#sketches)
+    - [Paper Prototype & Evaluation](documents/design.md#paper-prototype)
+    - [Final Sketches / Wireframes](documents/design.md#final-sketches)
+    - [Rationale](documents/design.md#rationale)
+
+
+
 ### Contributions 
 - [Summary of Contributions](documents/contributions-summary.md)
 
