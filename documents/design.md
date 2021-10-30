@@ -38,10 +38,10 @@ Document your brainstorming session and commit the documentation to your reposit
 
 ## Solution Space
 
-- Favorites
+- Favorites:
 To like a recipe and save it for future reference brings users lots of convenience by saving them the re-searching time. This functionality does not require much effort to achieve, so it is a low effort, high impact task
 
-- Using imagery/media/audio
+- Using imagery/media/audio:
 Implementing recipes with images or videos will make the recipes more vivid and show the users what the dish will look like. Tutorial videos provide an alternative option for users who don’t like reading instructions. This functionality does not require much effort to achieve, so it  is a low effort high impact task.
 
 
