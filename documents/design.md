@@ -25,10 +25,15 @@ Lastly, identify relevant examples of persuasive technology and imitate them. Th
 
 Clearly explain your persuasive design approach, what behavior you are trying to influence, and how your design accomplishes that. Document everything and commit the documentation to your repository.
 
+After defining our target users and key problems, we need to contemplate what we want users to do and design the flow to persuade users to take action. To better come up with the solutions that can elicit the desired actions, we decided to analyze our users’ behavior with the Fogg Behavior Model. 
+Based on the persona that we’ve created in milestone 2, we first indicated the behavior we wish to influence is to help user find a desired recipe quick & start cooking right away. And we pointed out that the two biggest barriers for users are lack of time and budget, and inefficiency to find satisfying recipes. This led us to further infer that the motivation, ability, and prompts that would affect our users’ final decision and behavior below. 
 
+![Motivation](images/brainstorm/motivations.jpg)
+![Ability](images/brainstorm/abilities.jpg)
+![Prompt](images/brainstorm/prompts.jpg)
 
-
-
+From above, we understood that the main potential barriers that prevent people from our target behavior are consumption of time/budget and complexity of the recipes. Thus, we came up with several persuasive technologies that can make users perceive the saving of time/budget, decrease the effort they need to cook dishes, promote the efficiency of finding recipes, and various forms of positive rewards after cooking. We want to those persuasive technologies to change the altitude of users on cooking and encourage them to cook more often.  
+![persuasive technology](images/brainstorm/persuasive_tech.jpg)
 
 
 # Brainstorming
@@ -36,10 +41,8 @@ Before you design anything, you need to explore the design and solution space of
 
 Document your brainstorming session and commit the documentation to your repository. We want to see photos of whiteboard brainstorming1
 
-
-
-
-
+From that, we started brainstorming different ideas as a team that can bring positive behavioral change by either increasing position motivators and simplicity or eliminating factors of demotivation. In this case, we intend to help users better plan their meals by shortening the time of finding quick and cheaper recipes and enabling users to cook with low effort. Then, we brainstormed ideas individually and categorized similar ones into groups.  After coming up with 37 ideas, we decided to use the Impact & Effort matrix template to prioritize them in order of importance and assess their feasibility. Therefore, we will focus on two groups of ideas which are “favorites” and “using imagery/media/audio” that fall in the upper left area of the quadrant to sketch up preliminary sketches.
+![solutions](images/brainstorm/solutions-whole.jpg)
 
 
 # Sketches
