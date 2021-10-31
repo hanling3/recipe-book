@@ -43,6 +43,30 @@ Document your brainstorming session and commit the documentation to your reposit
 
 From that, we started brainstorming different ideas as a team that can bring positive behavioral change by either increasing position motivators and simplicity or eliminating factors of demotivation. In this case, we intend to help users better plan their meals by shortening the time of finding quick and cheaper recipes and enabling users to cook with low effort. Then, we brainstormed ideas individually and categorized similar ones into groups.  After coming up with 37 ideas, we decided to use the Impact & Effort matrix template to prioritize them in order of importance and assess their feasibility. Therefore, we will focus on two groups of ideas which are “favorites” and “using imagery/media/audio” that fall in the upper left area of the quadrant to sketch up preliminary sketches.
 ![solutions](images/brainstorm/solutions-whole.jpg)
+## Solution Space
+
+![Solution Space chart](images/brainstorm/solution-space-chart.png)
+
+After grouping all of our ideas together, we sorted our solution spaces based on effort and impact. As a result, we found that the following 4 concepts / characteristics were our major projectS:
+- meal plan
+    - Part of saving time while cooking is meal planning. This includes batch cooking, or planning the meals one will eat each day. Therefore, we considered this a feature that would be important for our users to have.
+- filter / category system  
+    - Since users mainly wanted to save time and money while cooking, we considered having filters / categories as a priority. Users could then filter through the recipes in our app based on time, number of ingredients, equipment needed, and budget. Limiting ingredients and equipment needed simplifies the process and makes it more efficient.
+- "real" home food recipes
+    - We wanted some means of allowing users to input their own recipes 
+- recommendation system
+    - We wanted some way to recommend recipes to our users based on the app. These are generated based on what the user chooses to cook, what they mark down in their favorites, and how many times they have cooked similar recipes.
+ 
+
+- Favorites:
+To like a recipe and save it for future reference brings users lots of convenience by saving them the re-searching time. This functionality does not require much effort to achieve, so it is a low effort, high impact task
+
+- Using imagery/media/audio:
+Implementing recipes with images or videos will make the recipes more vivid and show the users what the dish will look like. Tutorial videos provide an alternative option for users who don’t like reading instructions. This functionality does not require much effort to achieve, so it  is a low effort high impact task.
+
+
+
+
 
 
 # Sketches
