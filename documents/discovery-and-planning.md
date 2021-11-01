@@ -10,6 +10,9 @@ Students living off campus trying to cook efficiently, save money, and eat healt
 ## Brainstorming the User
 
 Below is the list of possible user groups, characteristics, and problem spaces our team generated based on personal experiences and experiences of those of friends: 
+
+We revised our description based on TA's feedbacks:
+Below is the list of possible user groups, characteristics, and problem spaces our team generated:
 - College students who often cook at their apartments
 - Housewife who prepares food for her family
 - Cook
@@ -244,6 +247,14 @@ You find yourself very busy during the midterm week, so you want to spend less t
 
 ## Scenario 2
 You’ve studied abroad for 2 years and miss the food in your hometown, but ordering Asian food delivery is too expensive for you. Therefore, you want to cook some hometown dishes within a $20 budget for dinner. You wish to discover recipes from your hometown in the app and decide on one that is within your budget to cook.
+
+We revised our scenarios based on the feebacks from TA:
+
+## Scenario 1
+Robo tends to be very busy during the midterm week so she can’t afford to spend more than 30 minutes on cooking each meal, she wants to save enough time for studying. Robo explored the various recipes in the new recipe app and she quickly found several fitting recipes that she wants to save for cooking next week. Robo feels relieved and happy after she finds easy and fast recipes to follow next week.
+
+## Scenario 2 
+Robo has been studying abroad for 2 years and always missed the food in hometown, but ordering Asian food delivery is too expensive for her. She wants to cook some hometown dishes within a $20 budget for dinner. Robo explores hometown recipes in the new recipe app and she quickly found one of her favorite hometown dishes that is easy to cook and total expenses are under her budget. Robo feels so happy and decides to start cooking right away. 
 
 
 # 6. Persona
