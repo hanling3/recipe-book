@@ -76,7 +76,7 @@ Before you design anything, you need to explore the design and solution space of
 Document your brainstorming session and commit the documentation to your repository. We want to see photos of whiteboard brainstorming1
 
 From that, we started brainstorming different ideas as a team that can bring positive behavioral change by either increasing position motivators and simplicity or eliminating factors of demotivation. In this case, we intend to help users better plan their meals by shortening the time of finding quick and cheaper recipes and enabling users to cook with low effort. Then, we brainstormed ideas individually and categorized similar ones into groups.  After coming up with 37 ideas, we decided to use the Impact & Effort matrix template to prioritize them in order of importance and assess their feasibility. Therefore, we will focus on two groups of ideas which are “favorites” and “using imagery/media/audio” that fall in the upper left area of the quadrant to sketch up preliminary sketches.
-![solutions](images/brainstorm/solutions-whole.jpeg)
+![solutions](images/brainstorm/solutions_whole.jpeg)
 ## Solution Space
 
 ![Solution Space chart](images/brainstorm/solution-space-chart.png)
