@@ -112,53 +112,31 @@ Provide a caption for each sketch explaining it.
 
 With your fresh set of ideas from brainstorming, sketch up some preliminary designs and generate more ideas about how you might solve this problem. Remember that sketching is primarily about generating ideas too… it’s just a little more focused than brainstorming. Your sketches should reflect the ideas that you explored in your design space.
 
-- "Favorite" collection recipes: To save all the recipes liked and created by the users, so users can have easy access and quick reference.
-    - Filters "liked" and "uploaded" shows the liked recipes or uploaded recipes only.
-    - The + button on the right up corner allows users to upload new recipes.
+- Filter
 
-Title: "Favorite" collection recipes
-![favorite](images/sketches/favorite.jpg)
+Title: filtering system
+![Filter System](images/sketches/sketch_filter.jpg)
 
-Title: Liked recipes
-![favorite: liked recipes](images/sketches/favorite_liked.jpg)
+Idea: Showing approximate time cost and budget, difficulty level, and recipe name with a food image as background on each recipe card, which is straightforward and conspicuous. Including drop down menus for both sorting and filtering system. The search bar is on the top of the home page. The default sorting system sort time consuming for each recipe because it is the most important key problem in ascending order.
 
-Title: Uploaded recipes
-![favorite: uploaded recipes](images/sketches/favorite_uploaded.jpg)
+- Favorites + Meal Plan
 
-Title: Upload new recipes
-![favorite: upload new recipes](images/sketches/favorite_uploadNew.jpg)
+Title: favorites and meal plan function in profile page
 
-- User "Profile": To act as a motivator. The user profile displays badges showing the accomplishment of users. On the profile page, users can also set up their personal profile as well as preferences of recipes.
-    - The pencil on the top right corner allows users to edit their profile information.
-    - Users can click buttons under preference to explore options for each category.
+![Favorites and Meal Plan](images/sketches/sketch_favorite_mealplan.jpg)
 
-Title: User "Profile"
-![profile](images/sketches/profile.jpg)
+Including both saved list of recipes and meal plan in the profile page because they are user personalized functions. Meal plan are designed to set weekly.
 
-Title: Select user's country
-![profile: user's country](images/sketches/profile_country.jpg)
+- Recommendation System
 
-- Users can expand each continent category and select their countries.
+Title: recommendation system as the default page
 
-Title: Select user's favorite food
-![profile: user's country](images/sketches/profile_favoriteFood.jpg)
+![Recommendation System](images/sketches/sketch_recommendation.jpg)
 
-- Users can multi-select their favorite food categories.
+The default recommendation system analyzes what recipes users would like based on their past choices and sort time consuming for each recipe because it is the most important key problem in ascending order.
 
-Title: Select user's preferred cuisine type of recipes
-![profile: user's preferred cuisine type](images/sketches/profile_cuisine.jpg)
 
-- Users can multi-select their preferred cuisine types.
-
-Title: Select user's preferred time cost of recipes
-![profile: user's preferred time cost](images/sketches/profile_time.jpg)
-
-- Users can set up preferred time cost as well as difficult level of recipes.
-
-Title: Select user's preferred budget of recipes
-![profile: user's preferred budget](images/sketches/profile_budget.jpg)
-
-- Users can set up preferred budget of recipes.
+**Note: Please refer individual links in the table of contents for extra works building up the paper prototype, listed under the "Additional Items" section.**
 
 ## Final Sketches
 ![Final Sketches](images/sketches/final_sketch.jpeg)

@@ -1,2 +1,2 @@
-# High-Fidelity Prototype
+# Milestone 4: High-Fidelity Prototype
 
