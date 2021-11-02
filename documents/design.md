@@ -112,7 +112,31 @@ Provide a caption for each sketch explaining it.
 
 With your fresh set of ideas from brainstorming, sketch up some preliminary designs and generate more ideas about how you might solve this problem. Remember that sketching is primarily about generating ideas too… it’s just a little more focused than brainstorming. Your sketches should reflect the ideas that you explored in your design space.
 
-Please refer individual links in the table of contents for extra works building up the paper prototype, listed under the "Additional Items" section. 
+- Filter
+
+Title: filtering system
+![Filter System](images/sketches/sketch_filter.jpg)
+
+Idea: Showing approximate time cost and budget, difficulty level, and recipe name with a food image as background on each recipe card, which is straightforward and conspicuous. Including drop down menus for both sorting and filtering system. The search bar is on the top of the home page. The default sorting system sort time consuming for each recipe because it is the most important key problem in ascending order.
+
+- Favorites + Meal Plan
+
+Title: favorites and meal plan function in profile page
+
+![Favorites and Meal Plan](images/sketches/sketch_favorite_mealplan.jpg)
+
+Including both saved list of recipes and meal plan in the profile page because they are user personalized functions. Meal plan are designed to set weekly.
+
+- Recommendation System
+
+Title: recommendation system as the default page
+
+![Recommendation System](images/sketches/sketch_recommendation.jpg)
+
+The default recommendation system analyzes what recipes users would like based on their past choices and sort time consuming for each recipe because it is the most important key problem in ascending order.
+
+
+* Please refer individual links in the table of contents for extra works building up the paper prototype, listed under the "Additional Items" section. 
 
 ## Final Sketches
 ![Final Sketches](images/sketches/final_sketch.jpeg)
