@@ -1,4 +1,25 @@
-# Discovery and Planning
+# Milestone 2: Discovery and Planning
+
+# [Revised] 0. Overview
+- Project's Name: Recipe Finder
+- Team Members Name: Ada Chai, Xuanhui Chen, Hedy Yang, Xinlu Zhou
+- Project's choice of focus
+    - Budget-friendly. Take advantage of filters and enable users to plan meals according to an inputted budget amount. 
+    - Time-conscious. Rethink meal planning and allow users to customize their meals of the day by filtering recipes based on expected time. 
+- Outline of the content
+    - 1. Users
+    - 2. Gather Information
+        - User Interview Summaries
+            - Round 1: Unstructured Interviews
+            - Round 2: Semi-structured Interviews
+        - Affinity Diagramming
+        - Executive Summary: Key Insights
+    - 3. Problems
+    - 4. Value Propositions
+    - 5. Scenarios
+    - 6. Persona
+    - 7. Project Themes
+
 
 # 1. Users
 
@@ -7,11 +28,8 @@ To develop our user group, we first brainstormed and listed possible users, char
 ## Target Users
 Students living off campus trying to cook efficiently, save money, and eat healthy and delicious meals.
 
-## Brainstorming the User
+## [Revised] Brainstorming the User
 
-Below is the list of possible user groups, characteristics, and problem spaces our team generated based on personal experiences and experiences of those of friends: 
-
-We revised our description based on TA's feedbacks:
 Below is the list of possible user groups, characteristics, and problem spaces our team generated:
 - College students who often cook at their apartments
 - Housewife who prepares food for her family
@@ -37,17 +55,17 @@ Below is the list of possible user groups, characteristics, and problem spaces o
 - College students, faculty, high school students, family members, Ithaca staff members
 
 
-# 2. Gather Information
+# [Revised] 2. Gather Information
 
 After our initial round of interviews, we decided to conduct more in-depth interviews in order to gain more specific insights about the goals, beliefs, and motivations of our users. Thus, our team worked together to draft a interview protocol, which included a script to introduce and end the interview, and a set of questions, building from personal questions to questions related to grocery shopping, cooking, and recipe finding habits. We anticipated interviews might take around 30 minutes, based on the questions we deemed necessary to ask.
 
 Interview Expected Time: 30 minutes
 
-## Interview Protocol 
+## [Revised] Interview Protocol 
 
 Please see individual links in the table of contents for interview protocal, listed under the "Additional Items" section. 
 
-## Interview Questions 
+## [Revised] Interview Questions 
 
 Please see individual links in the table of contents for interview questions, listed under the "Additional Items" section. 
 
@@ -94,9 +112,9 @@ Collectively, we interviewed 15 users - 8 users in our first round of interviews
 - User 7: The user was a female graduate student currently living in North side of campus. She is just so so with her cooking skills even though she has been cooking since she started her college life. She loves Asian food and cooks Asian cuisines everyday. It took her 15 minutes to prepare her last meal. She usually decides her recipes within 5 minutes. She eats super fast breakfast everyday. She prefers home cooked meals because the extra fees of delivery food are too expensive. Most of the time she can remember the recipes she has used and found on Xiachufang, and she saves the recipes on her phone or in her notebook. She doesn't have a budget for groceries but avoids dining out because she thinks cooking at home is much cheaper.
 
 
-## Affinity Diagramming
+## [Revised] Affinity Diagramming
 
-After our interviews, we created an affinity diagram based on our user interview notes. We categorized our notes as seen in the images provided:
+After our interviews, we created an affinity diagram based on our user interview notes. We categorized our notes as seen in the images provided. Note that different colors represent different users.
 
 ![Affinity Diagram, part 1](images/affinity_diagram/ad1.png)
 ![Affinity Diagram, part 2](images/affinity_diagram/ad2.png)
@@ -105,9 +123,6 @@ After our interviews, we created an affinity diagram based on our user interview
 ![Affinity Diagram, part 5](images/affinity_diagram/ad5.png)
 ![Affinity Diagram, part 6](images/affinity_diagram/ad6.png)
 ![Affinity Diagram, part 7](images/affinity_diagram/ad7.png)
-
-Revision: 
-Note that different colors represent different users.
 
 ## Executive Summary: Key Insights
 
@@ -161,21 +176,14 @@ We identified 2 key problems to address:
 We decided on these 2 key problems because we found that these were the two biggest pain points for our users. In cooking, students are primarily limited by resources, mainly time and money. Additionally, because most students at Cornell don't come from Ithaca themselves, they oftentimes found themselves recreating recipes their parents used to make them and/or they grew up eating.
 
 
-# 4. Value Propositions
+# [Revised] 4. Value Propositions
+- Target users are college students who want to save money and time at eating, and they need healthy and delicious meals that can be prepared quickly in their apartments.
+- The users' motivation for using this kind product is to cook delicious and affordable meals quickly.
+- The alternatives users have are cooking websites and apps such as BBC Good Food and Xiachufang, where users can upload their own recipes and peruse chef-made recipes and tutorial videos within these apps. 
+- Benefit of our product is that users can filter the recipes by the country category, budget, and time needed for cooking. 
 
-College students want to save money and time at eating, and they need healthy and delicious meals that can be prepared quickly in their apartments. They need a product that helps them find recipes to cook delicious meals quickly within the budget. Students currently use recipe websites such as BBC Good Food and Xiachufang. Users can upload their own recipes and peruse chef-made recipes and tutorial videos within these apps. These apps however cannot help users meal plan, in terms of time and money (for ingredients). But our product can do that. Our product can filter the recipes by the country category, budget, and time needed for cooking. After users insert their weekly grocery budget, how much time they have for preparing meals, and their chosen food category, the app will generate a list of ingredients and recipes for each meal of the week. Users can then plan to purchase all of these ingredients in one grocery shopping trip, and the product will remind them of the recipe before each meal. A customized meal plan is designed for you in just a few clicks, a feature availble only in our product.
 
-# 5. Scenarios
-
-We plan to use the following 2 scenarios to evaluate our app: 
-
-## Scenario 1
-You find yourself very busy during the midterm week, so you want to spend less than 30 minutes cooking meals in order to save enough time for studying. You stumbled across a recipe app in the App Store, and are interested in recipes for 30 minute quick dishes.
-
-## Scenario 2
-You’ve studied abroad for 2 years and miss the food in your hometown, but ordering Asian food delivery is too expensive for you. Therefore, you want to cook some hometown dishes within a $20 budget for dinner. You wish to discover recipes from your hometown in the app and decide on one that is within your budget to cook.
-
-We revised our scenarios based on the feebacks from TA:
+# [Revised] 5. Scenarios
 
 ## Scenario 1
 Robo tends to be very busy during the midterm week so she can’t afford to spend more than 30 minutes on cooking each meal, she wants to save enough time for studying. Robo explored the various recipes in the new recipe app and she quickly found several fitting recipes that she wants to save for cooking next week. Robo feels relieved and happy after she finds easy and fast recipes to follow next week.
