@@ -83,7 +83,6 @@
 - No dietary restrictions
 
 
-
 ## User 7: Elaine
 - Yes. Because Ithaca does not have many delicious Asian foods. And cooking by herself is healthier and cheaper than dining out. 
 - After buying groceries, I will pick what food that I want to cook and eat today. And then I will find what receipt I can use to cook these foods. After that, I will follow the receipt and maybe change a little bit to my flavor.
