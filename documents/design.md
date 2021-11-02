@@ -128,6 +128,27 @@ Title: Uploaded recipes
 Title: Upload new recipes
 ![favorite: upload new recipes](images/sketches/favorite_uploadNew.jpg)
 
+- User "Profile": To act as a motivator. The user profile displays badges showing the accomplishment of users. On the profile page, users can also set up their personal profile as well as preferences of recipes.
+    - The pencil on the top right corner allows users to edit their profile information.
+    - Users can click buttons under preference to explore options for each category.
+
+Title: User "Profile"
+![profile](images/sketches/profile.jpg)
+
+Title: Select user's country
+![profile: user's country](images/sketches/profile_country.jpg)
+
+Title: Select user's favorite food
+![profile: user's country](images/sketches/profile_favoriteFood.jpg)
+
+Title: Select user's preferred cuisine type of recipes
+![profile: user's preferred cuisine type](images/sketches/profile_cuisine.jpg)
+
+Title: Select user's preferred time cost of recipes
+![profile: user's preferred time cost](images/sketches/profile_time.jpg)
+
+Title: Select user's preferred budget of recipes
+![profile: user's preferred budget](images/sketches/profile_budget.jpg)
 
 ## Final Sketches
 ![Final Sketches](images/sketches/final_sketch.jpeg)
