@@ -56,7 +56,7 @@
 - Hedy
     - wrote revisions section in milestone 3, overview section in milestone 2 and 3
     - revised value proposition in milestone 2
-    - draw and justified the "favorite" skeches
+    - draw and justified the "favorite" sketches
     - discussed and brainstormed the persuasive design, brainstorming, solution space, sketch, and paper prototype with teammates
     
 - Ada
@@ -65,6 +65,13 @@
     - Analyzed wireframes and constructed a paper prototype with team
     - Finalized a new information hierarchy and low-fidelity wireframes with Xinlu
     - Wrote final rationale for milestone 3
+
+- Justice
+    - Discussed and generated solutions of the persuasive design, brainstorming, solution space, sketch, and paper prototype with teammates
+    - wrote explanations of discarded solutions generated from the brainstorming section.
+    - drew and explained the idea of the "profile" sketches.
+    - helped team to do user testing and took notes.
+    - revised and created new supporting files in miletone 2.
 
 
 # Milestone 4 
