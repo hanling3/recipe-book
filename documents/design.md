@@ -136,7 +136,7 @@ Title: recommendation system as the default page
 The default recommendation system analyzes what recipes users would like based on their past choices and sort time consuming for each recipe because it is the most important key problem in ascending order.
 
 
-**Please refer individual links in the table of contents for extra works building up the paper prototype, listed under the "Additional Items" section.**
+**Note: Please refer individual links in the table of contents for extra works building up the paper prototype, listed under the "Additional Items" section.**
 
 ## Final Sketches
 ![Final Sketches](images/sketches/final_sketch.jpeg)
