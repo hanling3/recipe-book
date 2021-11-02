@@ -66,8 +66,8 @@ Based on the persona that we’ve created in milestone 2, we first indicated the
 ![Prompt](images/brainstorm/prompts.JPG)
 
 From above, we understood that the main potential barriers that prevent people from our target behavior are consumption of time/budget and complexity of the recipes. Thus, we came up with several persuasive technologies that can make users perceive the saving of time/budget, decrease the effort they need to cook dishes, promote the efficiency of finding recipes, and various forms of positive rewards after cooking. We want to use those persuasive technologies to change the altitude of users on cooking and encourage them to cook more often. Badge and reward system can record user's behaviors on app and give them corresponding incentives once they get some accomplishments, which could significantly build users’ confidence on cooking and inspire them cook more often. As for report system and score card, these can reflect the total time and budget users have been spent on cooking, and we believe those specific data can make users perceive the benefits from cooking more straightforward. Shopping list can ensure no ingredients are missing while users are cooking. Finally, if users can see recipes that friends have been followed or recommended, they may more likely to try those recipes and cook.
-![persuasive technology](images/brainstorm/persuasive_tech.jpg)
-![persuasive technology](images/brainstorm/persuasive_tech2.jpg)
+![persuasive technology](images/brainstorm/persuasive_tech.IPG)
+![persuasive technology](images/brainstorm/persuasive_tech2.jpeg)
 
 
 # Brainstorming
@@ -76,7 +76,7 @@ Before you design anything, you need to explore the design and solution space of
 Document your brainstorming session and commit the documentation to your repository. We want to see photos of whiteboard brainstorming1
 
 From that, we started brainstorming different ideas as a team that can bring positive behavioral change by either increasing position motivators and simplicity or eliminating factors of demotivation. In this case, we intend to help users better plan their meals by shortening the time of finding quick and cheaper recipes and enabling users to cook with low effort. Then, we brainstormed ideas individually and categorized similar ones into groups.  After coming up with 37 ideas, we decided to use the Impact & Effort matrix template to prioritize them in order of importance and assess their feasibility. Therefore, we will focus on two groups of ideas which are “favorites” and “using imagery/media/audio” that fall in the upper left area of the quadrant to sketch up preliminary sketches.
-![solutions](images/brainstorm/solutions-whole.jpg)
+![solutions](images/brainstorm/solutions-whole.jpeg)
 ## Solution Space
 
 ![Solution Space chart](images/brainstorm/solution-space-chart.png)
@@ -116,9 +116,16 @@ With your fresh set of ideas from brainstorming, sketch up some preliminary desi
     - Filters "liked" and "uploaded" shows the liked recipes or uploaded recipes only.
     - The + button on the right up corner allows users to upload new recipes.
 
+Title: "Favorite" collection recipes
 ![favorite](images/sketch/favorite.jpg)
+
+Title: Liked recipes
 ![favorite: liked recipes](images/sketch/favorite_liked.jpg)
+
+Title: Uploaded recipes
 ![favorite: uploaded recipes](images/sketch/favorite_uploaded.jpg)
+
+Title: Upload new recipes
 ![favorite: upload new recipes](images/sketch/favorite_uploadNew.jpg)
 
 
