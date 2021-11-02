@@ -17,14 +17,30 @@
     - Rationale
 
 # Revisions 
-If you need to make revisions to your previous milestones artifacts, make that clear in your submission. Explain what new information you gained that required you changing these artifacts, etc.
 
-In the table of contents, clearly explain what you revised, when, why, and what you changed.
+We made the following revisions on the "Milestone 2: Discovery and Planning" document based on the feedbacks from Neta and Kyle. The title of the revised sections starts with "[Revised]" and can be located from the README.md file.
 
-
-
-
-
+- Revision 1: "0. Overview"
+    - Why we changed: We did not have a project description / milestone opening, and it would be inconvenient for readers to quickly get a sense of what's happening.
+    - What we changed: We added the project overview at the beginning of the document, including project's name, team members' names, project's choice of focus, table of content/outline of the content.
+- Revision 2: "1. Users - Brainstorming the User"
+    - Why we changed: We mispresented the process of brainstorming, and it looked like we added our own experience.
+    - What we changed: We rewote the first sentence. The revised version is: "Below is the list of possible user groups, characteristics, and problem spaces our team generated".
+- Revision 3: "2. Gather Information"
+    - Why we changed: We placed the interview protocol and questions in the body of the milestone 2 file, but they should be added as supporting documents.
+    - What we changed: We moved the interview protocol and questions to the "Additional Items" sections as supporting documents. We also noted the location of these two files in the body of milestone 2 for the readers' convenience.
+- Revision 4: "2. Gather Information - Affinity Diagram"
+    - Why we changed: We did not explain the meaning of the different colors.
+    - What we changed: We explained the meaning of the different colors by adding this sentence at the end of the first paragraph: "Note that different colors represent different users."
+- Revision 5: "4. Value Propositions"
+    - Why we changed: We wrote the value proposition as a paragraph and it was not as effective as bullet points to communicate.
+    - What we changed: We formatted the paragraph as a bullet list.
+- Revision 6: "5. Scenarios"
+    - Why we changed: We wrote the scenarios as we would for a task in a user study.
+    - What we changed:
+        - We used a more general desciption: "Robo tends to be very busy during the midterm week so she can’t afford to spend more than 30 minutes on cooking each meal, she wants to save enough time for studying" 
+        - We described users performing task: "Robo explores hometown recipes in the new recipe app and she quickly found one of her favorite hometown dishes that is easy to cook and total expenses are under her budget. "
+        - We finished the scenaios by describing users feeling: "Robo feels relieved and happy after she finds easy and fast recipes to follow next week." "Robo feels so happy and decides to start cooking right away."
 
 
 # Persuasive Design
