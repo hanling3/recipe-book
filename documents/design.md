@@ -138,17 +138,27 @@ Title: User "Profile"
 Title: Select user's country
 ![profile: user's country](images/sketches/profile_country.jpg)
 
+- Users can expand each continent category and select their countries.
+
 Title: Select user's favorite food
 ![profile: user's country](images/sketches/profile_favoriteFood.jpg)
+
+- Users can multi-select their favorite food categories.
 
 Title: Select user's preferred cuisine type of recipes
 ![profile: user's preferred cuisine type](images/sketches/profile_cuisine.jpg)
 
+- Users can multi-select their preferred cuisine types.
+
 Title: Select user's preferred time cost of recipes
 ![profile: user's preferred time cost](images/sketches/profile_time.jpg)
 
+- Users can set up preferred time cost as well as difficult level of recipes.
+
 Title: Select user's preferred budget of recipes
 ![profile: user's preferred budget](images/sketches/profile_budget.jpg)
+
+- Users can set up preferred budget of recipes.
 
 ## Final Sketches
 ![Final Sketches](images/sketches/final_sketch.jpeg)
