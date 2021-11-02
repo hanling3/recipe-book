@@ -77,6 +77,7 @@ Document your brainstorming session and commit the documentation to your reposit
 
 From that, we started brainstorming different ideas as a team that can bring positive behavioral change by either increasing position motivators and simplicity or eliminating factors of demotivation. In this case, we intend to help users better plan their meals by shortening the time of finding quick and cheaper recipes and enabling users to cook with low effort. Then, we brainstormed ideas individually and categorized similar ones into groups.  After coming up with 37 ideas, we decided to use the Impact & Effort matrix template to prioritize them in order of importance and assess their feasibility. Therefore, we will focus on two groups of ideas which are “favorites” and “using imagery/media/audio” that fall in the upper left area of the quadrant to sketch up preliminary sketches.
 ![solutions](images/whiteboard_solutions/solutions_whole.jpeg)
+
 ## Solution Space
 
 ![Solution Space chart](images/whiteboard_solutions/solution-space-chart.png)
@@ -112,10 +113,49 @@ Provide a caption for each sketch explaining it.
 
 With your fresh set of ideas from brainstorming, sketch up some preliminary designs and generate more ideas about how you might solve this problem. Remember that sketching is primarily about generating ideas too… it’s just a little more focused than brainstorming. Your sketches should reflect the ideas that you explored in your design space.
 
+- Filter
+    - Function: enable users to look at recent search, recent filter, and create new filters based on budget, cooking time, and food category.
+    - UI element options: input box, drop-down list, slide bar, check box.
+    - Filter in the app frame and web frame have the same function. The only difference is the location of the UI elements.
+
+Title: Filter in app frame
+![Filter in app frame](images/sketches/hedy_filter_app.jpg)
+
+Title: Filter in web frame
+![Filter in web frame](images/sketches/hedy_filter_web.jpg)
+
+- Home page
+    - A menu bar including "recommend syste", "upload recipes", "check meal plan", "favorite", "personal profile" icons.
+    - Each recipe rectangle imcludes the picture, title, short intro of the recipe, buttons to comment and like the recipe.
+    - Seach bar allows users to search different recipes
+    - Sorting (it should be filter) button can filter the recipes based on users' recent search or only display home food based om users' personal information.
+    - Home page in the app frame and web frame have the same function. The only difference is the location of the UI elements.
+
+Title: Home page in app frame
+![Home page in app frame](images/sketches/hedy_homepage_app.jpeg)
+
+Title: Home page in web frame
+![Home page in web frame](images/sketches/hedy_homepage_web.jpg)
+
+- Meal plan
+    - A customized meal plan can be generated based on the input information
+    - Meal plan displays in the form of tables, divided by days and meals.
+    - Meal plan in the app frame and web frame have the same function. The only difference is the location of the UI elements.
+
+Titel: Meal plan in app frame
+![Meal plan in app frame](images/sketches/hedy_mealplan_app.jpg)
+
+Title: Meal plan in web frame
+![Meal plan in web frame](images/sketches/hedy_mealplan_web.jpg)
+
+
+# Paper prototype
 Please refer individual links in the table of contents for extra works building up the paper prototype, listed under the "Additional Items" section. 
 
-## Final Sketches
+
+# Final Sketches
 ![Final Sketches](images/sketches/final_sketch.jpeg)
+
 
 # Rationale
 
