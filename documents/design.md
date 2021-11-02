@@ -8,13 +8,13 @@
     - Budget-friendly. Take advantage of filters and enable users to plan meals according to an inputted budget amount. 
     - Time-conscious. Rethink meal planning and allow users to customize their meals of the day by filtering recipes based on expected time. 
 - Outline of the content
-    - 1. Milestone 2 Revisions
-    - 2. Persuasive Design
-    - 3. Brainstorming
-    - 4. Sketches
-    - 5. Paper Prototype & Evaluation
-    - 6. Final Sketches / Wireframes
-    - 7. Rationale
+    - Milestone 2 Revisions
+    - Persuasive Design
+    - Brainstorming
+    - Sketches
+    - Paper Prototype & Evaluation
+    - Final Sketches / Wireframes
+    - Rationale
 
 # Revisions 
 If you need to make revisions to your previous milestones artifacts, make that clear in your submission. Explain what new information you gained that required you changing these artifacts, etc.

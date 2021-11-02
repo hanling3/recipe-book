@@ -7,18 +7,18 @@
     - Budget-friendly. Take advantage of filters and enable users to plan meals according to an inputted budget amount. 
     - Time-conscious. Rethink meal planning and allow users to customize their meals of the day by filtering recipes based on expected time. 
 - Outline of the content
-    - 1. Users
-    - 2. Gather Information
+    - Users
+    - Gather Information
         - User Interview Summaries
             - Round 1: Unstructured Interviews
             - Round 2: Semi-structured Interviews
         - Affinity Diagramming
         - Executive Summary: Key Insights
-    - 3. Problems
-    - 4. Value Propositions
-    - 5. Scenarios
-    - 6. Persona
-    - 7. Project Themes
+    - Problems
+    - Value Propositions
+    - Scenarios
+    - Persona
+    - Project Themes
 
 
 # 1. Users
