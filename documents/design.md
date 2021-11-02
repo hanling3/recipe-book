@@ -1,14 +1,46 @@
-# Design
+# Milestone 3: Design
+
+# Overview
+
+- Project's Name: Recipe Finder
+- Team Members Name: Ada Chai, Xuanhui Chen, Hedy Yang, Xinlu Zhou
+- Project's choice of focus
+    - Budget-friendly. Take advantage of filters and enable users to plan meals according to an inputted budget amount. 
+    - Time-conscious. Rethink meal planning and allow users to customize their meals of the day by filtering recipes based on expected time. 
+- Outline of the content
+    - Milestone 2 Revisions
+    - Persuasive Design
+    - Brainstorming
+    - Sketches
+    - Paper Prototype & Evaluation
+    - Final Sketches / Wireframes
+    - Rationale
 
 # Revisions 
-If you need to make revisions to your previous milestones artifacts, make that clear in your submission. Explain what new information you gained that required you changing these artifacts, etc.
 
-In the table of contents, clearly explain what you revised, when, why, and what you changed.
+We made the following revisions on the "Milestone 2: Discovery and Planning" document based on the feedbacks from Neta and Kyle. The title of the revised sections starts with "[Revised]" and can be located from the README.md file.
 
-
-
-
-
+- Revision 1: "0. Overview"
+    - Why we changed: We did not have a project description / milestone opening, and it would be inconvenient for readers to quickly get a sense of what's happening.
+    - What we changed: We added the project overview at the beginning of the document, including project's name, team members' names, project's choice of focus, table of content/outline of the content.
+- Revision 2: "1. Users - Brainstorming the User"
+    - Why we changed: We mispresented the process of brainstorming, and it looked like we added our own experience.
+    - What we changed: We rewote the first sentence. The revised version is: "Below is the list of possible user groups, characteristics, and problem spaces our team generated".
+- Revision 3: "2. Gather Information"
+    - Why we changed: We placed the interview protocol and questions in the body of the milestone 2 file, but they should be added as supporting documents.
+    - What we changed: We moved the interview protocol and questions to the "Additional Items" sections as supporting documents. We also noted the location of these two files in the body of milestone 2 for the readers' convenience.
+- Revision 4: "2. Gather Information - Affinity Diagram"
+    - Why we changed: We did not explain the meaning of the different colors.
+    - What we changed: We explained the meaning of the different colors by adding this sentence at the end of the first paragraph: "Note that different colors represent different users."
+- Revision 5: "4. Value Propositions"
+    - Why we changed: We wrote the value proposition as a paragraph and it was not as effective as bullet points to communicate.
+    - What we changed: We formatted the paragraph as a bullet list.
+- Revision 6: "5. Scenarios"
+    - Why we changed: We wrote the scenarios as we would for a task in a user study.
+    - What we changed:
+        - We used a more general desciption: "Robo tends to be very busy during the midterm week so she can’t afford to spend more than 30 minutes on cooking each meal, she wants to save enough time for studying" 
+        - We described users performing task: "Robo explores hometown recipes in the new recipe app and she quickly found one of her favorite hometown dishes that is easy to cook and total expenses are under her budget. "
+        - We finished the scenaios by describing users feeling: "Robo feels relieved and happy after she finds easy and fast recipes to follow next week." "Robo feels so happy and decides to start cooking right away."
 
 
 # Persuasive Design
@@ -28,14 +60,14 @@ Clearly explain your persuasive design approach, what behavior you are trying to
 After defining our target users and key problems, we need to contemplate what we want users to do and design the flow to persuade users to take action. To better come up with the solutions that can elicit the desired actions, we decided to analyze our users’ behavior with the Fogg Behavior Model. 
 Based on the persona that we’ve created in milestone 2, we first indicated the behavior we wish to influence is to help user find a desired recipe quick & start cooking right away. And we pointed out that the two biggest barriers for users are lack of time and budget, and inefficiency to find satisfying recipes. This led us to further infer that the motivation, ability, and prompts that would affect our users’ final decision and behavior below. 
 
-![Motivation](images/brainstorm/motivations.jpg)
-![Motivation](images/brainstorm/motivation2.jpg)
-![Ability](images/brainstorm/abilities.jpg)
-![Prompt](images/brainstorm/prompts.jpg)
+![Motivation](images/brainstorm/motivations.JPG)
+![Motivation](images/brainstorm/motivation2.jpeg)
+![Ability](images/brainstorm/abilities.JPG)
+![Prompt](images/brainstorm/prompts.JPG)
 
 From above, we understood that the main potential barriers that prevent people from our target behavior are consumption of time/budget and complexity of the recipes. Thus, we came up with several persuasive technologies that can make users perceive the saving of time/budget, decrease the effort they need to cook dishes, promote the efficiency of finding recipes, and various forms of positive rewards after cooking. We want to use those persuasive technologies to change the altitude of users on cooking and encourage them to cook more often. Badge and reward system can record user's behaviors on app and give them corresponding incentives once they get some accomplishments, which could significantly build users’ confidence on cooking and inspire them cook more often. As for report system and score card, these can reflect the total time and budget users have been spent on cooking, and we believe those specific data can make users perceive the benefits from cooking more straightforward. Shopping list can ensure no ingredients are missing while users are cooking. Finally, if users can see recipes that friends have been followed or recommended, they may more likely to try those recipes and cook.
-![persuasive technology](images/brainstorm/persuasive_tech.jpg)
-![persuasive technology](images/brainstorm/persuasive_tech2.jpg)
+![persuasive technology](images/brainstorm/persuasive_tech.JPG)
+![persuasive technology](images/brainstorm/persuasive_tech2.jpeg)
 
 
 # Brainstorming
@@ -44,12 +76,12 @@ Before you design anything, you need to explore the design and solution space of
 Document your brainstorming session and commit the documentation to your repository. We want to see photos of whiteboard brainstorming1
 
 From that, we started brainstorming different ideas as a team that can bring positive behavioral change by either increasing position motivators and simplicity or eliminating factors of demotivation. In this case, we intend to help users better plan their meals by shortening the time of finding quick and cheaper recipes and enabling users to cook with low effort. Then, we brainstormed ideas individually and categorized similar ones into groups.  After coming up with 37 ideas, we decided to use the Impact & Effort matrix template to prioritize them in order of importance and assess their feasibility. Therefore, we will focus on two groups of ideas which are “favorites” and “using imagery/media/audio” that fall in the upper left area of the quadrant to sketch up preliminary sketches.
-![solutions](images/brainstorm/solutions-whole.jpg)
+![solutions](images/brainstorm/solutions_whole.jpeg)
 ## Solution Space
 
 ![Solution Space chart](images/brainstorm/solution-space-chart.png)
 
-After grouping all of our ideas together, we sorted our solution spaces based on effort and impact. As a result, we found that the following 4 concepts / characteristics were our major projectS:
+After grouping all of our ideas together, we sorted our solution spaces based on effort and impact. As a result, we found that the following 4 concepts / characteristics were our major projects:
 - meal plan
     - Part of saving time while cooking is meal planning. This includes batch cooking, or planning the meals one will eat each day. Therefore, we considered this a feature that would be important for our users to have.
 - filter / category system  
@@ -58,7 +90,7 @@ After grouping all of our ideas together, we sorted our solution spaces based on
     - We wanted some means of allowing users to input their own recipes 
 - recommendation system
     - We wanted some way to recommend recipes to our users based on the app. These are generated based on what the user chooses to cook, what they mark down in their favorites, and how many times they have cooked similar recipes.
- 
+
 
 - Favorites:
 To like a recipe and save it for future reference brings users lots of convenience by saving them the re-searching time. This functionality does not require much effort to achieve, so it is a low effort, high impact task
@@ -66,13 +98,35 @@ To like a recipe and save it for future reference brings users lots of convenien
 - Using imagery/media/audio:
 Implementing recipes with images or videos will make the recipes more vivid and show the users what the dish will look like. Tutorial videos provide an alternative option for users who don’t like reading instructions. This functionality does not require much effort to achieve, so it  is a low effort high impact task.
 
-
-
-
+We discarded the following three concepts based on effort and impact:
+- Social activity
+    - Even though it is a good idea, for it may be both a motivator and home food collector, it needs super high efforts to implement this solution, e.g., large data set.  On the other hand, it has low impacts: it is not the primary goal of our recipe app because we want to focus on recipe findings that meet our users' needs.
+- Availability of kitchens/ingredients
+    - It needs super high efforts but low impacts because other efficient apps have similar goals, e.g., delivery apps like instacart. Implementing this solution requires collecting related information from different apps/grocery shops.
+- Calculation/conversion
+    - It needs moderate-high efforts but low impacts because it is unnecessary and not the focal point of our recipe app. It is more efficient to use other apps with similar functions. Implementing calculation/conversion solutions will possibly sacrifice other functions of our product.
 
 
 # Sketches
+Provide a caption for each sketch explaining it.
+
 With your fresh set of ideas from brainstorming, sketch up some preliminary designs and generate more ideas about how you might solve this problem. Remember that sketching is primarily about generating ideas too… it’s just a little more focused than brainstorming. Your sketches should reflect the ideas that you explored in your design space.
+
+- "Favorite" collection recipes: To save all the recipes liked and created by the users, so users can have easy access and quick reference.
+    - Filters "liked" and "uploaded" shows the liked recipes or uploaded recipes only.
+    - The + button on the right up corner allows users to upload new recipes.
+
+Title: "Favorite" collection recipes
+![favorite](images/sketch/favorite.jpg)
+
+Title: Liked recipes
+![favorite: liked recipes](images/sketch/favorite_liked.jpg)
+
+Title: Uploaded recipes
+![favorite: uploaded recipes](images/sketch/favorite_uploaded.jpg)
+
+Title: Upload new recipes
+![favorite: upload new recipes](images/sketch/favorite_uploadNew.jpg)
 
 
 ## Final Sketch
