@@ -130,7 +130,7 @@ Title: Upload new recipes
 
 
 ## Final Sketch
-![Final Sketch](images/brainstorm/final_sketch.jpeg)
+![Final Sketch](images/sketch/final_sketch.jpeg)
 
 
 
