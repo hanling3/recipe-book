@@ -75,7 +75,8 @@ Implementing recipes with images or videos will make the recipes more vivid and 
 With your fresh set of ideas from brainstorming, sketch up some preliminary designs and generate more ideas about how you might solve this problem. Remember that sketching is primarily about generating ideas too… it’s just a little more focused than brainstorming. Your sketches should reflect the ideas that you explored in your design space.
 
 
-
+## Final Sketch
+![Final Sketch](images/brainstorm/final_sketch.jpeg)
 
 
 
