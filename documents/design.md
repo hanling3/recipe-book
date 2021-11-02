@@ -66,7 +66,7 @@ Based on the persona that we’ve created in milestone 2, we first indicated the
 ![Prompt](images/brainstorm/prompts.JPG)
 
 From above, we understood that the main potential barriers that prevent people from our target behavior are consumption of time/budget and complexity of the recipes. Thus, we came up with several persuasive technologies that can make users perceive the saving of time/budget, decrease the effort they need to cook dishes, promote the efficiency of finding recipes, and various forms of positive rewards after cooking. We want to use those persuasive technologies to change the altitude of users on cooking and encourage them to cook more often. Badge and reward system can record user's behaviors on app and give them corresponding incentives once they get some accomplishments, which could significantly build users’ confidence on cooking and inspire them cook more often. As for report system and score card, these can reflect the total time and budget users have been spent on cooking, and we believe those specific data can make users perceive the benefits from cooking more straightforward. Shopping list can ensure no ingredients are missing while users are cooking. Finally, if users can see recipes that friends have been followed or recommended, they may more likely to try those recipes and cook.
-![persuasive technology](images/brainstorm/persuasive_tech.IPG)
+![persuasive technology](images/brainstorm/persuasive_tech.JPG)
 ![persuasive technology](images/brainstorm/persuasive_tech2.jpeg)
 
 
