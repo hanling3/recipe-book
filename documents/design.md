@@ -60,10 +60,10 @@ Clearly explain your persuasive design approach, what behavior you are trying to
 After defining our target users and key problems, we need to contemplate what we want users to do and design the flow to persuade users to take action. To better come up with the solutions that can elicit the desired actions, we decided to analyze our users’ behavior with the Fogg Behavior Model. 
 Based on the persona that we’ve created in milestone 2, we first indicated the behavior we wish to influence is to help user find a desired recipe quick & start cooking right away. And we pointed out that the two biggest barriers for users are lack of time and budget, and inefficiency to find satisfying recipes. This led us to further infer that the motivation, ability, and prompts that would affect our users’ final decision and behavior below. 
 
-![Motivation](images/brainstorm/motivations.jpg)
-![Motivation](images/brainstorm/motivation2.jpg)
-![Ability](images/brainstorm/abilities.jpg)
-![Prompt](images/brainstorm/prompts.jpg)
+![Motivation](images/brainstorm/motivations.JPG)
+![Motivation](images/brainstorm/motivation2.jpeg)
+![Ability](images/brainstorm/abilities.JPG)
+![Prompt](images/brainstorm/prompts.JPG)
 
 From above, we understood that the main potential barriers that prevent people from our target behavior are consumption of time/budget and complexity of the recipes. Thus, we came up with several persuasive technologies that can make users perceive the saving of time/budget, decrease the effort they need to cook dishes, promote the efficiency of finding recipes, and various forms of positive rewards after cooking. We want to use those persuasive technologies to change the altitude of users on cooking and encourage them to cook more often. Badge and reward system can record user's behaviors on app and give them corresponding incentives once they get some accomplishments, which could significantly build users’ confidence on cooking and inspire them cook more often. As for report system and score card, these can reflect the total time and budget users have been spent on cooking, and we believe those specific data can make users perceive the benefits from cooking more straightforward. Shopping list can ensure no ingredients are missing while users are cooking. Finally, if users can see recipes that friends have been followed or recommended, they may more likely to try those recipes and cook.
 ![persuasive technology](images/brainstorm/persuasive_tech.jpg)
@@ -108,7 +108,18 @@ We discarded the following three concepts based on effort and impact:
 
 
 # Sketches
+Provide a caption for each sketch explaining it.
+
 With your fresh set of ideas from brainstorming, sketch up some preliminary designs and generate more ideas about how you might solve this problem. Remember that sketching is primarily about generating ideas too… it’s just a little more focused than brainstorming. Your sketches should reflect the ideas that you explored in your design space.
+
+- "Favorite" collection recipes: To save all the recipes liked and created by the users, so users can have easy access and quick reference.
+    - Filters "liked" and "uploaded" shows the liked recipes or uploaded recipes only.
+    - The + button on the right up corner allows users to upload new recipes.
+
+![favorite](images/sketch/favorite.jpg)
+![favorite: liked recipes](images/sketch/favorite_liked.jpg)
+![favorite: uploaded recipes](images/sketch/favorite_uploaded.jpg)
+![favorite: upload new recipes](images/sketch/favorite_uploadNew.jpg)
 
 
 
