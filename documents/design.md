@@ -2,11 +2,13 @@
 
 # Overview
 
-- Project's Name: Recipe Finder
-- Team Members Name: Ada Chai, Xuanhui Chen, Hedy Yang, Xinlu Zhou
-- Project's choice of focus
+- Project Name: Recipe Finder
+- Team Name: McGraw Studio 
+- Team Members: Ada Chai, Xuanhui Chen, Hedy Yang, Xinlu Zhou)
+- Project Focus:
     - Budget-friendly. Take advantage of filters and enable users to plan meals according to an inputted budget amount. 
     - Time-conscious. Rethink meal planning and allow users to customize their meals of the day by filtering recipes based on expected time. 
+    - Performance. Make it easy for users to navigate and find recipes that remind them of home. 
 - Outline of the content
     - Milestone 2 Revisions
     - Persuasive Design
@@ -44,21 +46,6 @@ We made the following revisions on the "Milestone 2: Discovery and Planning" doc
 
 
 # Persuasive Design
-When designing to influence your users’ behavior, use the Fogg Behavior Model (FBM): https://www.behaviormodel.org. The FBM has three dimensions: Motivation, Ability (Simplicity), and Prompts (Triggers). Think about each of these dimensions especially during your brainstorming and sketching activities.
-
-When identifying the behavior you wish to influence, think small. Don’t try to solve global warning, instead encourage users to bring reusable bags. Select the smallest, simplest behavior that matters.
-
-Next, find what prevents the target behavior. This is typically a combination of the following factors:
-
-lack of motivation
-lack of ability
-lack of well-timed prompt to perform the behavior
-Lastly, identify relevant examples of persuasive technology and imitate them. This may be a badge system, scavenger hunt, score card, etc.
-
-Clearly explain your persuasive design approach, what behavior you are trying to influence, and how your design accomplishes that. Document everything and commit the documentation to your repository.
-
-After defining our target users and key problems, we need to contemplate what we want users to do and design the flow to persuade users to take action. To better come up with the solutions that can elicit the desired actions, we decided to analyze our users’ behavior with the Fogg Behavior Model. 
-Based on the persona that we’ve created in milestone 2, we first indicated the behavior we wish to influence is to help user find a desired recipe quick & start cooking right away. And we pointed out that the two biggest barriers for users are lack of time and budget, and inefficiency to find satisfying recipes. This led us to further infer that the motivation, ability, and prompts that would affect our users’ final decision and behavior below. 
 
 ![Motivation](images/whiteboard_brainstorm/motivations.JPG)
 ![Motivation](images/whiteboard_brainstorm/motivation2.jpeg)
@@ -71,11 +58,21 @@ From above, we understood that the main potential barriers that prevent people f
 
 
 # Brainstorming
-Before you design anything, you need to explore the design and solution space of your problem. Explore the space by brainstorming with your team. Brainstorming is about ideas.
-
-Document your brainstorming session and commit the documentation to your repository. We want to see photos of whiteboard brainstorming1
-
 From that, we started brainstorming different ideas as a team that can bring positive behavioral change by either increasing position motivators and simplicity or eliminating factors of demotivation. In this case, we intend to help users better plan their meals by shortening the time of finding quick and cheaper recipes and enabling users to cook with low effort. Then, we brainstormed ideas individually and categorized similar ones into groups.  After coming up with 37 ideas, we decided to use the Impact & Effort matrix template to prioritize them in order of importance and assess their feasibility. Therefore, we will focus on two groups of ideas which are “favorites” and “using imagery/media/audio” that fall in the upper left area of the quadrant to sketch up preliminary sketches.
+
+Below is an overview of all the different solution spaces we generated: 
+![solutions](images/whiteboard_solutions/solutions_whole.jpeg)
+
+One may view the different solutions in detail below.
+
+![solutions](images/whiteboard_solutions/solutions_availability.jpg)
+![solutions](images/whiteboard_solutions/solutions_calculation.jpeg)
+![solutions](images/whiteboard_solutions/solutions_filter.jpeg)
+![solutions](images/whiteboard_solutions/solutions_mealPlan.jpeg)
+![solutions](images/whiteboard_solutions/solutions_recommendation.jpeg)
+![solutions](images/whiteboard_solutions/solutions_saveList.jpeg)
+![solutions](images/whiteboard_solutions/solutions_social_homeFood.jpg)
+![solutions](images/whiteboard_solutions/solutions_useOfImagery.jpg)
 ![solutions](images/whiteboard_solutions/solutions_whole.jpeg)
 
 ## Solution Space
@@ -109,9 +106,9 @@ We discarded the following three concepts based on effort and impact:
 
 
 # Sketches
-Provide a caption for each sketch explaining it.
+Please refer individual links in the table of contents for extra works building up the paper prototype, listed under the "Additional Items" section. 
 
-With your fresh set of ideas from brainstorming, sketch up some preliminary designs and generate more ideas about how you might solve this problem. Remember that sketching is primarily about generating ideas too… it’s just a little more focused than brainstorming. Your sketches should reflect the ideas that you explored in your design space.
+## Initial Sketches
 
 - Filter
     - Function: enable users to look at recent search, recent filter, and create new filters based on budget, cooking time, and food category.
@@ -154,32 +151,17 @@ Please refer individual links in the table of contents for extra works building 
 
 ### Filter
 
-Title: filtering system
-![Filter System](images/sketches/sketch_filter.jpg)
+TODO - description
 
-Idea: Showing approximate time cost and budget, difficulty level, and recipe name with a food image as background on each recipe card, which is straightforward and conspicuous. Including drop down menus for both sorting and filtering system. The search bar is on the top of the home page. The default sorting system sort time consuming for each recipe because it is the most important key problem in ascending order.
-
-### Favorites + Meal Plan
-
-Title: favorites and meal plan function in profile page
-
-![Favorites and Meal Plan](images/sketches/sketch_favorite_mealplan.jpg)
-
-Including both saved list of recipes and meal plan in the profile page because they are user personalized functions. Meal plan are designed to set weekly.
-
-### Recommendation System
-
-Title: recommendation system as the default page
-
-![Recommendation System](images/sketches/sketch_recommendation.jpg)
-
-The default recommendation system analyzes what recipes users would like based on their past choices and sort time consuming for each recipe because it is the most important key problem in ascending order.
+[include remaining initial sketches here]
 
 
-**Note: Please refer individual links in the table of contents for extra works building up the paper prototype, listed under the "Additional Items" section.**
 
+# Initial Sketches
+![Initial Sketches](images/sketches/ada_sketches.jpg)
 
-# Final Sketches
+## Final Sketches
+
 ![Final Sketches](images/sketches/final_sketch.jpeg)
 
 
