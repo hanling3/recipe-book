@@ -53,7 +53,12 @@
 
 # Milestone 3
 
-TODO 
+- Hedy
+    - wrote revisions section in milstone 3, overview section in milestone 2 and 3
+    - revised value proposition in milestone 2
+    - draw and justified the "favorite" skeches
+    - discussed and brainstormed the persuasive design, brainstorming, solution space, sketch, and paper prototype with teammates
+    
 
 # Milestone 4 
 
