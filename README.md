@@ -41,6 +41,8 @@ All non-app related artifacts must be listed here to be graded. If it's not list
 
 ### Additional Items
 - Interview
-    - [Interview Protocoal and Questions](documents/interview/interview-protocal-questions.md)
+    - [Interview Protocol and Questions](documents/interview/interview-protocal-questions.md)
     - [Round 1: Unstructured Interviews Raw Notes](documents/interview/round-1-interview-notes.md)
     - [Round 2: Semi-structured Interviews Raw Notes](documents/interview/round-2-interview-notes.md)
+- Paper Prototype
+    - [Paper Prototype](documents/misc/paper-prototype.md)
