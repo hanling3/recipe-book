@@ -73,6 +73,12 @@
     - helped team to do user testing and took notes.
     - revised and created new supporting files in miletone 2.
 
+- Xinlu
+    - Revised our scenarios in milestone 2 based on TA's feedback.
+    - Generated and brainstormed solutions in context of persuasive design during the whiteboard brainstorm, and wrote design rational of our persuasive design.
+    - Created several sketches of our ideas.
+    - Developed an information hierarchy and a low-fidelity wireframes with Ada
+    - Drew the final sketch of the App
 
 # Milestone 4 
 
