@@ -54,11 +54,18 @@
 # Milestone 3
 
 - Hedy
-    - wrote revisions section in milstone 3, overview section in milestone 2 and 3
+    - wrote revisions section in milestone 3, overview section in milestone 2 and 3
     - revised value proposition in milestone 2
     - draw and justified the "favorite" skeches
     - discussed and brainstormed the persuasive design, brainstorming, solution space, sketch, and paper prototype with teammates
     
+- Ada
+    - Generated and analyzed solutions in context of persuasive design during the whiteboard brainstorm
+    - Drafted initial wireframes based on interview insights
+    - Analyzed wireframes and constructed a paper prototype with team
+    - Finalized a new information hierarchy and low-fidelity wireframes with Xinlu
+    - Wrote final rationale for milestone 3
+
 
 # Milestone 4 
 

@@ -60,14 +60,14 @@ Clearly explain your persuasive design approach, what behavior you are trying to
 After defining our target users and key problems, we need to contemplate what we want users to do and design the flow to persuade users to take action. To better come up with the solutions that can elicit the desired actions, we decided to analyze our users’ behavior with the Fogg Behavior Model. 
 Based on the persona that we’ve created in milestone 2, we first indicated the behavior we wish to influence is to help user find a desired recipe quick & start cooking right away. And we pointed out that the two biggest barriers for users are lack of time and budget, and inefficiency to find satisfying recipes. This led us to further infer that the motivation, ability, and prompts that would affect our users’ final decision and behavior below. 
 
-![Motivation](images/brainstorm/motivations.JPG)
-![Motivation](images/brainstorm/motivation2.jpeg)
-![Ability](images/brainstorm/abilities.JPG)
-![Prompt](images/brainstorm/prompts.JPG)
+![Motivation](images/whiteboard_brainstorm/motivations.JPG)
+![Motivation](images/whiteboard_brainstorm/motivation2.jpeg)
+![Ability](images/whiteboard_brainstorm/abilities.JPG)
+![Prompt](images/whiteboard_brainstorm/prompts.JPG)
 
 From above, we understood that the main potential barriers that prevent people from our target behavior are consumption of time/budget and complexity of the recipes. Thus, we came up with several persuasive technologies that can make users perceive the saving of time/budget, decrease the effort they need to cook dishes, promote the efficiency of finding recipes, and various forms of positive rewards after cooking. We want to use those persuasive technologies to change the altitude of users on cooking and encourage them to cook more often. Badge and reward system can record user's behaviors on app and give them corresponding incentives once they get some accomplishments, which could significantly build users’ confidence on cooking and inspire them cook more often. As for report system and score card, these can reflect the total time and budget users have been spent on cooking, and we believe those specific data can make users perceive the benefits from cooking more straightforward. Shopping list can ensure no ingredients are missing while users are cooking. Finally, if users can see recipes that friends have been followed or recommended, they may more likely to try those recipes and cook.
-![persuasive technology](images/brainstorm/persuasive_tech.JPG)
-![persuasive technology](images/brainstorm/persuasive_tech2.jpeg)
+![persuasive technology](images/whiteboard_brainstorm/persuasive_tech.JPG)
+![persuasive technology](images/whiteboard_brainstorm/persuasive_tech2.jpeg)
 
 
 # Brainstorming
@@ -76,10 +76,10 @@ Before you design anything, you need to explore the design and solution space of
 Document your brainstorming session and commit the documentation to your repository. We want to see photos of whiteboard brainstorming1
 
 From that, we started brainstorming different ideas as a team that can bring positive behavioral change by either increasing position motivators and simplicity or eliminating factors of demotivation. In this case, we intend to help users better plan their meals by shortening the time of finding quick and cheaper recipes and enabling users to cook with low effort. Then, we brainstormed ideas individually and categorized similar ones into groups.  After coming up with 37 ideas, we decided to use the Impact & Effort matrix template to prioritize them in order of importance and assess their feasibility. Therefore, we will focus on two groups of ideas which are “favorites” and “using imagery/media/audio” that fall in the upper left area of the quadrant to sketch up preliminary sketches.
-![solutions](images/brainstorm/solutions_whole.jpeg)
+![solutions](images/whiteboard_solutions/solutions_whole.jpeg)
 ## Solution Space
 
-![Solution Space chart](images/brainstorm/solution-space-chart.png)
+![Solution Space chart](images/whiteboard_solutions/solution-space-chart.png)
 
 After grouping all of our ideas together, we sorted our solution spaces based on effort and impact. As a result, we found that the following 4 concepts / characteristics were our major projects:
 - meal plan
@@ -117,56 +117,38 @@ With your fresh set of ideas from brainstorming, sketch up some preliminary desi
     - The + button on the right up corner allows users to upload new recipes.
 
 Title: "Favorite" collection recipes
-![favorite](images/sketch/favorite.jpg)
+![favorite](images/sketches/favorite.jpg)
 
 Title: Liked recipes
-![favorite: liked recipes](images/sketch/favorite_liked.jpg)
+![favorite: liked recipes](images/sketches/favorite_liked.jpg)
 
 Title: Uploaded recipes
-![favorite: uploaded recipes](images/sketch/favorite_uploaded.jpg)
+![favorite: uploaded recipes](images/sketches/favorite_uploaded.jpg)
 
 Title: Upload new recipes
-![favorite: upload new recipes](images/sketch/favorite_uploadNew.jpg)
+![favorite: upload new recipes](images/sketches/favorite_uploadNew.jpg)
 
 
-## Final Sketch
-![Final Sketch](images/sketch/final_sketch.jpeg)
-
-
-
-
-
-# Paper Prototype
-You’ll need to evaluate your preliminary design to make sure it’s meeting your users’ needs before you spend the effort to build it. You should produce a paper prototype of your design and test it with your target audiences.
-
-Paper prototypes are implemented with paper. No part of this should be digital. You should draw out your prototype on physical paper and test it. You may not use a sketching program to “print” out your prototype and test it.
-
-You must test your design with a minimum of 4 distinct users. You should evaluate each scenario you identified in the previous milestone for all users.
-
-Document your testing, results, etc. and submit them to your repository. You are required to include your user testing notes and the debrief from your testing. All artifacts should be logically organized in your table of contents and should be easy to find.
-
-
-
-
-
-
-
-# Final Sketches
-Using the results of your user testing, refine your design. Produce a set of final sketches (wireframes are acceptable here; mock-ups are not) of your app’s design. These sketches will be your “blueprints” for the next milestone.
-
-Connect the different screens of your app with arrows. These arrows should show the flow through the app.
-
-Note: You are only required to submit final sketches. Save yourself the time and don’t bother with anything nicer. Yes Figma is fun, but it’s not going to get you any extra points here. Final sketches are all that you need for full credit. Be smart with your time… that’s what professionals do!
-
-
-
-
-
-
+## Final Sketches
+![Final Sketches](images/sketches/final_sketch.jpeg)
 
 # Rationale
-Briefly explain your app’s design, how it solves the key problems you identified in the previous milestone, and how it influences user behavior. Use “conversations” to justify why your design effectively communicates with your users (See Chapter 5: The Design Process.)
 
-Tip: How does your final design meet the goals of your users through the lens of the scenarios you identified in the previous milestone?
+Our app includes 3 main functions:
+- meal planning: 
+    - Users can choose a date and add a recipe for each meal of the day (breakfast, lunch, dinner). Adding a recipe brings them to a browsing page, where they can filter their options based on their personal constraints. If they click an image, it will lead the user to a recipe card, where it will display the time needed, estimated cost of the meal, ingredients, cooking ware, and recipe itself. Users can indicate whether they've cooked a meal by clicking the "cooked" button; they can also schedule a meal that they found by selecting "add to meal plan." 
 
-This should probably be around a few paragraphs. There is no length requirement. If you can explain your design, whether it effectively communicates with your users, and how you know it meets your target audiences goals, then you’ve done what you’re suppose to do.
+- favorites: 
+    - This is where the user's saved recipes are stored. They can browse their favorited recipes from the app or view the recipes they uploaded and/or recorded themselves, perhaps from a family member or a friend.
+    - If users choose to record their own recipe, they can fill out a recipe card template to make the process more efficient.
+- profile page
+    - Users can view badges they've earned and a report of their cooking statistics from the week. 
+    
+
+The app solves our user's key problems by allowing the user to jump straight into meal planning on the landing page of the app. They can immediately start selecting recipes for each meal of the day, and filtering recipes based on time, budget, and cuisine, which solves our user's key problems of time and money for cooking. Additionally, our "favorites" section features an opportunity for users to record their own home recipes from family and friends, as well as saving recipes from the app that remind them of home, solving the key problem of users missing familiar recipes. 
+
+The app influences user behavior by persuading them to plan ahead and encouraging them to cook more often. Planning ahead will save them time and money, as they won't be forced to buy takeout, or make as many meals impromptu because they will have already planned and prepared their meals beforehand. Additionally, the badge system and cooking metrics will reinforce a positive feedback loop, where the user sees the achievements they've earned and will encouraged to cook even more often.
+
+Our design effectively communicates with the user because the user can ask for more information as needed, similar to a normal conversation. For example, recipes are not immediately displayed - users have to click recipe images to find out more details. Additionally, the communication on the navigation bar is clear, as each function and icon is labeled with its purpose. 
+
+Thus, we meet our target audience's goals by allowing them to save money, time, and quickly access home recipes as needed using our app, effectively satisfying the scenarios we wrote beforehand.
