@@ -1,5 +1,33 @@
 # Paper Prototype
 
+Below we have included pictures of all components of the paper prototype we constructed. Our paper prototype has four main features in the navigation bar:
+- Browse
+- Saved / Favorites
+- Planning
+- Profile
+
+We go more in-depth regarding the specific purposes of eac feature below. 
+
+## 1. Browse
+
+- Browse: Users can browse for recipes that they wish to cook.
+    - They can choose to filter their recipes based on time, budget, or cuisine type. 
+    - When users click on a recipe image, it will take them to a specific recipe card, where they can read additional details including the time required, cookware, ingredients, and recipe. 
+
+Title: "Browse" landing page 
+![browse: landing page](images/paper_prototype/browse_landing.jpg)
+
+Title: "Browse" filter page 
+![browse: filter page](images/paper_prototype/browse_filter.jpg)
+
+Title: "Browse" recipe card
+![browse: recipe card](images/paper_prototype/browse_recipe_card.jpg)
+
+
+
+
+## 2. Favorites
+
 - "Favorite" collection recipes: To save all the recipes liked and created by the users, so users can have easy access and quick reference.
     - Filters "liked" and "uploaded" shows the liked recipes or uploaded recipes only.
     - The + button on the right up corner allows users to upload new recipes.
@@ -15,6 +43,18 @@ Title: Uploaded recipes
 
 Title: Upload new recipes
 ![favorite: upload new recipes](images/paper_prototype/favorite_uploadNew.jpg)
+
+
+
+
+## 3. Planning
+
+TODO
+
+
+
+
+## 4. Profile
 
 - User "Profile": To act as a motivator. The user profile displays badges showing the accomplishment of users. On the profile page, users can also set up their personal profile as well as preferences of recipes.
     - The pencil on the top right corner allows users to edit their profile information.
