@@ -49,7 +49,7 @@ From that, we started brainstorming different ideas as a team that can bring pos
 
 ![Solution Space chart](images/brainstorm/solution-space-chart.png)
 
-After grouping all of our ideas together, we sorted our solution spaces based on effort and impact. As a result, we found that the following 4 concepts / characteristics were our major projectS:
+After grouping all of our ideas together, we sorted our solution spaces based on effort and impact. As a result, we found that the following 4 concepts / characteristics were our major projects:
 - meal plan
     - Part of saving time while cooking is meal planning. This includes batch cooking, or planning the meals one will eat each day. Therefore, we considered this a feature that would be important for our users to have.
 - filter / category system  
@@ -58,6 +58,14 @@ After grouping all of our ideas together, we sorted our solution spaces based on
     - We wanted some means of allowing users to input their own recipes 
 - recommendation system
     - We wanted some way to recommend recipes to our users based on the app. These are generated based on what the user chooses to cook, what they mark down in their favorites, and how many times they have cooked similar recipes.
+
+We discarded the following four concepts based on effort and impact:
+- Social activity
+    - Even though it is a good idea, for it may be both a motivator and home food collector, it needs super high efforts to implement this solution, e.g., large data set.  On the other hand, it has low impacts: it is not the primary goal of our recipe app because we want to focus on recipe findings that meet our users' needs.
+- Availability of kitchens/ingredients
+    - It needs super high efforts but low impacts because other efficient apps have similar goals, e.g., delivery apps like instacart. Implementing this solution requires collecting related information from different apps/grocery shops.
+- Calculation/conversion
+    - It needs moderate-high efforts but low impacts because it is unnecessary and not the focal point of our recipe app. It is more efficient to use other apps with similar functions. Implementing calculation/conversion solutions will possibly sacrifice other functions of our product.
  
 
 - Favorites:
