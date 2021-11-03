@@ -58,7 +58,7 @@ From above, we understood that the main potential barriers that prevent people f
 
 
 # Brainstorming
-From that, we started brainstorming different ideas as a team that can bring positive behavioral change by either increasing position motivators and simplicity or eliminating factors of demotivation. In this case, we intend to help users better plan their meals by shortening the time of finding quick and cheaper recipes and enabling users to cook with low effort. Then, we brainstormed ideas individually and categorized similar ones into groups.  After coming up with 37 ideas, we decided to use the Impact & Effort matrix template to prioritize them in order of importance and assess their feasibility. Therefore, we will focus on two groups of ideas which are “favorites” and “using imagery/media/audio” that fall in the upper left area of the quadrant to sketch up preliminary sketches.
+From that, we started brainstorming different ideas as a team that can bring positive behavioral change by either increasing position motivators and simplicity or eliminating factors of demotivation. In this case, we intend to help users better plan their meals by shortening the time of finding quick and cheaper recipes and enabling users to cook with low effort. Then, we brainstormed ideas individually and categorized similar ones into groups.  After coming up with 37 ideas, we decided to use the Impact & Effort matrix template to prioritize them in order of importance and assess their feasibility.
 
 Below is an overview of all the different solution spaces we generated: 
 ![solutions](images/whiteboard_solutions/solutions_whole.jpeg)
@@ -125,6 +125,12 @@ Title: Filter in web frame
     - UI element options: input box, drop-down list, slide bar, check box.
     - Filter in the app frame and web frame have the same function. The only difference is the location of the UI elements.
 
+Title: Filter
+
+![Customized filter](images/sketches/xinlu_filter.jpg)
+
+Filter tags are put right above the recipe cards and users can customize those tags by their preferences, which is very convenient and efficient for them sort out their desired recipes. 
+
 ### Favorites + Meal Plan
 
 Title: favorites and meal plan function in profile page
@@ -143,6 +149,11 @@ Title: Meal plan in web frame
     - A customized meal plan can be generated based on the input information
     - Meal plan displays in the form of tables, divided by days and meals.
     - Meal plan in the app frame and web frame have the same function. The only difference is the location of the UI elements.
+
+Title: Meal plan
+![Meal Plan](images/sketches/xinlu_mealplan.jpg)
+
+Users can customize their meal plans by selecting a specific date first and directly add their favorite recipes to each box of breakfast, lunch and dinner.
 
 ### Recommendation System
 
@@ -167,6 +178,12 @@ Title: Home page in web frame
     - Sorting (it should be filter) button can filter the recipes based on users' recent search or only display home food based om users' personal information.
     - Home page in the app frame and web frame have the same function. The only difference is the location of the UI elements.
 
+### "Real" home food recipes
+
+Title: Create your own recipe by collaborating with your family and friends
+![Upload own recipe](images/sketches/xinlu_addrecipe.jpg)
+
+On “favorites” page, users can browse two collections of recipe which are saved recipes and their own recipes. The add button at bottom right allows users to upload their own recipes by filling out an empty recipe template. Users are also able to invite their family and friends to work on the same recipe by clicking the add button on the top right. 
 
 Title: Possible App Solutions
 ![Initial Sketches](images/sketches/ada_sketches.jpg)
@@ -175,6 +192,9 @@ These sketches features 2 main app designs:
 
 Sketch 1 features a browsing landing page, with filters and recipe cards that users can click into with more information. This app has 4 main functions: recipes, planning, favorites, and profile. Users will primarily find recipes by filtering through options. 
 
+[include remaining initial sketches here]
+Xinlu's full initial sketch
+![Other Initial Sketch](images/sketches/xinlu_fullsketch.jpg)
 Sketch 2 also features a browsing landing page, except it maximizes the use of screen space to include photos of recipes, and gives the users immediate recommendations, based on categories such as "For you" (based on onboarding information), "top dishes," and other categories. 
 
 Both sketches focus on the mobile design, with a responsive desktop version. 
