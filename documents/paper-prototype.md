@@ -15,13 +15,13 @@ We go more in-depth regarding the specific purposes of each feature below.
     - When users click on a recipe image, it will take them to a specific recipe card, where they can read additional details including the time required, cookware, ingredients, and recipe. 
 
 Title: "Browse" landing page 
-![browse: landing page](images/paper_prototype/browse_landing.jpg)
+![browse: landing page](images/paper_prototype/browse_landing.JPG)
 
 Title: "Browse" filter page 
-![browse: filter page](images/paper_prototype/browse_filter.jpg)
+![browse: filter page](images/paper_prototype/browse_filter.JPG)
 
 Title: "Browse" recipe card
-![browse: recipe card](images/paper_prototype/browse_recipe_card.jpg)
+![browse: recipe card](images/paper_prototype/browse_recipe_card.JPG)
 
 
 
