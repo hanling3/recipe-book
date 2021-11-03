@@ -49,8 +49,20 @@ Title: Upload new recipes
 
 ## 3. Planning
 
-TODO
+- "Planning": this feature allows users to plan their 3 meals of the day, for any day of the week. 
+    - When adding a meal, they can select the "+" button, which will bring them to a new screen. The new screen will allow them to either type a specific item, or they can select a recipe from their saved list.
 
+Title: Add recipes to meal plan 
+![planning: add page](images/paper_prototype/planning_add_page.jpeg)
+
+Title: Breakfast item added to meal plan
+![planning: breakfast added](images/paper_prototype/planning_breakfast.JPG)
+
+Title: Browse 
+![planning: browse page](images/paper_prototype/planning_browse.JPG)
+
+Title: Browse, keyboard included
+![planning: keyboard included](images/paper_prototype/planning_browse_keyboard.JPG)
 
 
 

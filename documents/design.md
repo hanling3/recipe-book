@@ -79,7 +79,7 @@ One may view the different solutions in detail below.
 
 ![Solution Space chart](images/whiteboard_solutions/solution-space-chart.png)
 
-After grouping all of our ideas together, we sorted our solution spaces based on effort and impact. As a result, we found that the following 4 concepts / characteristics were our major projects:
+After grouping all of our ideas together, we sorted our solution spaces based on effort and impact. As a result, we found that the following 6 concepts / characteristics were our priorities:
 - meal plan
     - Part of saving time while cooking is meal planning. This includes batch cooking, or planning the meals one will eat each day. Therefore, we considered this a feature that would be important for our users to have.
 - filter / category system  
@@ -89,23 +89,24 @@ After grouping all of our ideas together, we sorted our solution spaces based on
 - recommendation system
     - We wanted some way to recommend recipes to our users based on the app. These are generated based on what the user chooses to cook, what they mark down in their favorites, and how many times they have cooked similar recipes.
 
-
-- Favorites:
+- favorites:
 To like a recipe and save it for future reference brings users lots of convenience by saving them the re-searching time. This functionality does not require much effort to achieve, so it is a low effort, high impact task
 
-- Using imagery/media/audio:
+- using imagery/media/audio:
 Implementing recipes with images or videos will make the recipes more vivid and show the users what the dish will look like. Tutorial videos provide an alternative option for users who don’t like reading instructions. This functionality does not require much effort to achieve, so it  is a low effort high impact task.
 
 We discarded the following three concepts based on effort and impact:
-- Social activity
+- social activity
     - Even though it is a good idea, for it may be both a motivator and home food collector, it needs super high efforts to implement this solution, e.g., large data set.  On the other hand, it has low impacts: it is not the primary goal of our recipe app because we want to focus on recipe findings that meet our users' needs.
-- Availability of kitchens/ingredients
+- availability of kitchens/ingredients
     - It needs super high efforts but low impacts because other efficient apps have similar goals, e.g., delivery apps like instacart. Implementing this solution requires collecting related information from different apps/grocery shops.
-- Calculation/conversion
+- calculation/conversion
     - It needs moderate-high efforts but low impacts because it is unnecessary and not the focal point of our recipe app. It is more efficient to use other apps with similar functions. Implementing calculation/conversion solutions will possibly sacrifice other functions of our product.
 
 
-# Initial Sketches
+# Sketches
+
+Each team member came up with their own set up of sketches that encapsulated the six main solution spaces we discussed above. 
 
 ### Filter
 Title: filtering system
@@ -184,20 +185,22 @@ Title: Create your own recipe by collaborating with your family and friends
 
 On “favorites” page, users can browse two collections of recipe which are saved recipes and their own recipes. The add button at bottom right allows users to upload their own recipes by filling out an empty recipe template. Users are also able to invite their family and friends to work on the same recipe by clicking the add button on the top right. 
 
-
-
-# Ada's Initial Sketches
+Title: Possible App Solutions
 ![Initial Sketches](images/sketches/ada_sketches.jpg)
 
-TODO - description
+These sketches features 2 main app designs:
+
+Sketch 1 features a browsing landing page, with filters and recipe cards that users can click into with more information. This app has 4 main functions: recipes, planning, favorites, and profile. Users will primarily find recipes by filtering through options. 
 
 [include remaining initial sketches here]
 Xinlu's full initial sketch
 ![Other Initial Sketch](images/sketches/xinlu_fullsketch.jpg)
+Sketch 2 also features a browsing landing page, except it maximizes the use of screen space to include photos of recipes, and gives the users immediate recommendations, based on categories such as "For you" (based on onboarding information), "top dishes," and other categories. 
 
+Both sketches focus on the mobile design, with a responsive desktop version. 
 
-# Paper prototype
-Please refer individual links in the table of contents for extra works building up the paper prototype, listed under the "Additional Items" section. 
+# Paper Prototype
+Please refer to the "Additional Items" section in the table of contents for images of the paper prototype we constructed.
 
 
 # Final Sketches
