@@ -4,7 +4,7 @@
 
 - Project Name: Recipe Finder
 - Team Name: McGraw Studio 
-- Team Members: Ada Chai, Xuanhui Chen, Hedy Yang, Xinlu Zhou)
+- Team Members: Ada Chai, Xuanhui Chen, Hedy Yang, Xinlu Zhou
 - Project Focus:
     - Budget-friendly. Take advantage of filters and enable users to plan meals according to an inputted budget amount. 
     - Time-conscious. Rethink meal planning and allow users to customize their meals of the day by filtering recipes based on expected time. 
@@ -65,14 +65,14 @@ Below is an overview of all the different solution spaces we generated:
 
 One may view the different solutions in detail below.
 
-![solutions](images/whiteboard_solutions/solutions_availability.jpg)
+![solutions](images/whiteboard_solutions/solutions_availability.JPG)
 ![solutions](images/whiteboard_solutions/solutions_calculation.jpeg)
 ![solutions](images/whiteboard_solutions/solutions_filter.jpeg)
 ![solutions](images/whiteboard_solutions/solutions_mealPlan.jpeg)
 ![solutions](images/whiteboard_solutions/solutions_recommendation.jpeg)
 ![solutions](images/whiteboard_solutions/solutions_saveList.jpeg)
-![solutions](images/whiteboard_solutions/solutions_social_homeFood.jpg)
-![solutions](images/whiteboard_solutions/solutions_useOfImagery.jpg)
+![solutions](images/whiteboard_solutions/solutions_social_homeFood.JPG)
+![solutions](images/whiteboard_solutions/solutions_useOfImagery.JPG)
 ![solutions](images/whiteboard_solutions/solutions_whole.jpeg)
 
 ## Solution Space
@@ -154,7 +154,7 @@ The default recommendation system analyzes what recipes users would like based o
 ### Home page
 
 Title: Home page in app frame
-![Home page in app frame](images/sketches/hedy_homepage_app.jpeg)
+![Home page in app frame](images/sketches/hedy_homepage_app.jpg)
 
 Title: Home page in web frame
 ![Home page in web frame](images/sketches/hedy_homepage_web.jpg)
