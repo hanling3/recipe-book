@@ -46,7 +46,8 @@ We made the following revisions on the "Milestone 2: Discovery and Planning" doc
 
 
 # Persuasive Design
-
+![Pursuasive Design](images/whiteboard_brainstorm/persuasive_design_brainstorm1.jpg)
+![Pursuasive Design](images/whiteboard_brainstorm/persuasive_design_brainstorm2.jpg)
 ![Motivation](images/whiteboard_brainstorm/motivations.JPG)
 ![Motivation](images/whiteboard_brainstorm/motivation2.jpeg)
 ![Ability](images/whiteboard_brainstorm/abilities.JPG)
