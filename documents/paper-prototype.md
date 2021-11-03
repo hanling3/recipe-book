@@ -1,3 +1,4 @@
+
 # Paper Prototype
 
 Below we have included pictures of all components of the paper prototype we constructed. Our paper prototype has four main features in the navigation bar:
@@ -15,7 +16,7 @@ We go more in-depth regarding the specific purposes of each feature below.
     - When users click on a recipe image, it will take them to a specific recipe card, where they can read additional details including the time required, cookware, ingredients, and recipe. 
 
 Title: "Browse" landing page 
-![browse: landing page](images/paper_prototype/browse_landing.JPG)
+![browse:landing_page](images/paper_prototype/browse_landing.JPG)
 
 Title: "Browse" filter page 
 ![browse: filter page](images/paper_prototype/browse_filter.JPG)
@@ -49,8 +50,20 @@ Title: Upload new recipes
 
 ## 3. Planning
 
-TODO
+- "Planning": this feature allows users to plan their 3 meals of the day, for any day of the week. 
+    - When adding a meal, they can select the "+" button, which will bring them to a new screen. The new screen will allow them to either type a specific item, or they can select a recipe from their saved list.
 
+Title: Add recipes to meal plan 
+![planning: add page](images/paper_prototype/planning_add_page.jpeg)
+
+Title: Breakfast item added to meal plan
+![planning: breakfast added](images/paper_prototype/planning_breakfast.JPG)
+
+Title: Browse 
+![planning: browse page](images/paper_prototype/planning_browse.JPG)
+
+Title: Browse, keyboard included
+![planning: keyboard included](images/paper_prototype/planning_browse_keyboard.JPG)
 
 
 
