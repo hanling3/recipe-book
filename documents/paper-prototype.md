@@ -6,7 +6,7 @@ Below we have included pictures of all components of the paper prototype we cons
 - Planning
 - Profile
 
-We go more in-depth regarding the specific purposes of eac feature below. 
+We go more in-depth regarding the specific purposes of each feature below. 
 
 ## 1. Browse
 
