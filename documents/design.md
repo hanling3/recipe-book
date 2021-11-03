@@ -105,21 +105,59 @@ We discarded the following three concepts based on effort and impact:
     - It needs moderate-high efforts but low impacts because it is unnecessary and not the focal point of our recipe app. It is more efficient to use other apps with similar functions. Implementing calculation/conversion solutions will possibly sacrifice other functions of our product.
 
 
-# Sketches
-Please refer individual links in the table of contents for extra works building up the paper prototype, listed under the "Additional Items" section. 
+# Initial Sketches
 
-## Initial Sketches
+### Filter
+Title: filtering system
+![Filter System](images/sketches/sketch_filter.jpg)
 
-- Filter
-    - Function: enable users to look at recent search, recent filter, and create new filters based on budget, cooking time, and food category.
-    - UI element options: input box, drop-down list, slide bar, check box.
-    - Filter in the app frame and web frame have the same function. The only difference is the location of the UI elements.
+Idea: Showing approximate time cost and budget, difficulty level, and recipe name with a food image as background on each recipe card, which is straightforward and conspicuous. Including drop down menus for both sorting and filtering system. The search bar is on the top of the home page. The default sorting system sort time consuming for each recipe because it is the most important key problem in ascending order.
 
 Title: Filter in app frame
 ![Filter in app frame](images/sketches/hedy_filter_app.jpg)
 
 Title: Filter in web frame
 ![Filter in web frame](images/sketches/hedy_filter_web.jpg)
+
+- Filter
+    - Function: enable users to look at recent search, recent filter, and create new filters based on budget, cooking time, and food category.
+    - UI element options: input box, drop-down list, slide bar, check box.
+    - Filter in the app frame and web frame have the same function. The only difference is the location of the UI elements.
+
+### Favorites + Meal Plan
+
+Title: favorites and meal plan function in profile page
+
+![Favorites and Meal Plan](images/sketches/sketch_favorite_mealplan.jpg)
+
+Including both saved list of recipes and meal plan in the profile page because they are user personalized functions. Meal plan are designed to set weekly.
+
+Titel: Meal plan in app frame
+![Meal plan in app frame](images/sketches/hedy_mealplan_app.jpg)
+
+Title: Meal plan in web frame
+![Meal plan in web frame](images/sketches/hedy_mealplan_web.jpg)
+
+- Meal plan
+    - A customized meal plan can be generated based on the input information
+    - Meal plan displays in the form of tables, divided by days and meals.
+    - Meal plan in the app frame and web frame have the same function. The only difference is the location of the UI elements.
+
+### Recommendation System
+
+Title: recommendation system as the default page
+
+![Recommendation System](images/sketches/sketch_recommendation.jpg)
+
+The default recommendation system analyzes what recipes users would like based on their past choices and sort time consuming for each recipe because it is the most important key problem in ascending order.
+
+### Home page
+
+Title: Home page in app frame
+![Home page in app frame](images/sketches/hedy_homepage_app.jpeg)
+
+Title: Home page in web frame
+![Home page in web frame](images/sketches/hedy_homepage_web.jpg)
 
 - Home page
     - A menu bar including "recommend syste", "upload recipes", "check meal plan", "favorite", "personal profile" icons.
@@ -128,39 +166,22 @@ Title: Filter in web frame
     - Sorting (it should be filter) button can filter the recipes based on users' recent search or only display home food based om users' personal information.
     - Home page in the app frame and web frame have the same function. The only difference is the location of the UI elements.
 
-Title: Home page in app frame
-![Home page in app frame](images/sketches/hedy_homepage_app.jpeg)
-
-Title: Home page in web frame
-![Home page in web frame](images/sketches/hedy_homepage_web.jpg)
-
-- Meal plan
-    - A customized meal plan can be generated based on the input information
-    - Meal plan displays in the form of tables, divided by days and meals.
-    - Meal plan in the app frame and web frame have the same function. The only difference is the location of the UI elements.
-
-Titel: Meal plan in app frame
-![Meal plan in app frame](images/sketches/hedy_mealplan_app.jpg)
-
-Title: Meal plan in web frame
-![Meal plan in web frame](images/sketches/hedy_mealplan_web.jpg)
 
 
-# Paper prototype
-Please refer individual links in the table of contents for extra works building up the paper prototype, listed under the "Additional Items" section. 
 
-### Filter
+# Ada's Initial Sketches
+![Initial Sketches](images/sketches/ada_sketches.jpg)
 
 TODO - description
 
 [include remaining initial sketches here]
 
 
+# Paper prototype
+Please refer individual links in the table of contents for extra works building up the paper prototype, listed under the "Additional Items" section. 
 
-# Initial Sketches
-![Initial Sketches](images/sketches/ada_sketches.jpg)
 
-## Final Sketches
+# Final Sketches
 
 ![Final Sketches](images/sketches/final_sketch.jpeg)
 
