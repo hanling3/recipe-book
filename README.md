@@ -46,3 +46,6 @@ All non-app related artifacts must be listed here to be graded. If it's not list
     - [Round 2: Semi-structured Interviews Raw Notes](documents/interview/round-2-interview-notes.md)
 - Paper Prototype
     - [Paper Prototype](documents/paper-prototype.md)
+- User Testing
+    - [User Testiing Protocol](documents/user-testing/user-testing-protocol.md)
+    - [User Tesing Raw Notes](documents/user-testing/user-testing-raw-notes.md)
