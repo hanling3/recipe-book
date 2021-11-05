@@ -185,11 +185,17 @@ We decided on these 2 key problems because we found that these were the two bigg
 
 # [Revised] 5. Scenarios
 
-## Scenario 1
-Robo tends to be very busy during the midterm week so she can’t afford to spend more than 30 minutes on cooking each meal, she wants to save enough time for studying. Robo explored the various recipes in the new recipe app and she quickly found several fitting recipes that she wants to save for cooking next week. Robo feels relieved and happy after she finds easy and fast recipes to follow next week.
+## Scenario 1: (Browse -> Filter)
+Robo has been studying abroad for 2 years and they miss the food in their hometown. Dining out is too expensive, so they want to cook some hometown dishes for dinner. Robo only has a $20 budget for this meal and 30 minutes to cook. They explore the various recipes in the Recipe Finder app and quickly find a fitting recipe for their needs. Robo is so happy about the recipe they find, and they cannot wait to show the finished dish to their friends. 
 
-## Scenario 2 
-Robo has been studying abroad for 2 years and always missed the food in hometown, but ordering Asian food delivery is too expensive for her. She wants to cook some hometown dishes within a $20 budget for dinner. Robo explores hometown recipes in the new recipe app and she quickly found one of her favorite hometown dishes that is easy to cook and total expenses are under her budget. Robo feels so happy and decides to start cooking right away. 
+## Scenario 2: (Add to Meal Plan)
+Robo tends to be very busy during the midterm week, and they can’t afford to spend more than 30 minutes on cooking each meal. To save them some time during the midterm week, they want to plan that week’s meal in advance. Robo starts by adding meal recipes to the calendar, and they finish planning the meals quickly. Robo is so happy that they don’t have to think about what to eat next week.
+
+## Scenario 3: (Add Recipes & Check Created Recipes)
+Robo creates a new dish and they cannot wait to share this recipe with their friends. They first upload a hand-written recipe picture, but the picture quality is not that good, so they decide to type in the recipe details. They show their friends all the recipes they created and receive lots of compliments. Roho feels so proud that they cook more and more often.
+
+## Scenario 4: (Profile + Mark as Cooked) 
+Robo is new to cooking, and their friends recommend this recipe app. Robo downloads this app, searches and follows 2 recipes for lunch and dinner on the same day. Robo marks these two recipes as cooked and saves one of them for future reference. Then they notice that they get a new badge “Cooking Journey Begins” on their profile. They are very excited about this accomplishment as a beginner and looking forward to recording her cooking journey. 
 
 
 # 6. Persona
