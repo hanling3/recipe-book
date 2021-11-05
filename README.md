@@ -47,5 +47,5 @@ All non-app related artifacts must be listed here to be graded. If it's not list
 - Paper Prototype
     - [Paper Prototype](documents/paper-prototype.md)
 - User Testing
-    - [User Testiing Protocol](documents/user-testing/user-testing-protocol.md)
+    - [User Testing Protocol](documents/user-testing/user-testing-protocol.md)
     - [User Tesing Raw Notes](documents/user-testing/user-testing-raw-notes.md)
