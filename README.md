@@ -1,8 +1,24 @@
-# INFO 4340 Final Project
+# mcgraw-studio-project
 
-## Table of Contents
+## Project setup
+```
+npm install
+```
 
-All non-app related artifacts must be listed here to be graded. If it's not listed here, we won't grade it! **No Exceptions!**
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-- [Team Contract](documents/team-contract.md)
-- [Summary of Contributions](documents/contributions-summary.md)
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
