@@ -1,14 +1,35 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      
+          <router-view/>
+    <b-container class="d-flex">  
+      <!-- <h1> Recipe Finder App </h1> -->
+        <router-link to="/plan" tag="button">Plan</router-link>
+        <router-link to="/favorites" tag="button">Favorites</router-link>
+        <router-link to="/profile" tag="button">Profile</router-link>
+
+    </b-container>  
     </div>
-    <router-view/>
   </div>
 </template>
 
 <style>
+
+.d-flex {
+  /* display: flex; */
+  /* flex-direction: row; */
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  left: 35%;
+  top: 100%; 
+  /* -ms-transform: translateY(-50%);
+  transform: translateY(-50%);  */
+  text-align: center; 
+  justify-content: center; 
+ } 
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
