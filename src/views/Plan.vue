@@ -1,29 +1,9 @@
 <template>
-  <!-- <div class="plan">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div> -->
-
   <div class="plan">
     <h1>Meal Plan </h1>
-    <p class="content"> 
-      <!-- feel free to comment this out when you start coding -->
-      sample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text 
-        sample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text   sample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text   sample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text 
-
-    </p>
+    <div id="datepicker">
+      <draggable-cal></draggable-cal>
+    </div>
   </div>
 
 </template>
@@ -33,12 +13,14 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 
-// export default {
-//   name: '',
-//   components: {
-//     HelloWorld
-//   }
-// }
+import DraggableCal from 'vue-draggable-cal';
+
+  export default {
+    name: 'plan',
+    components: {
+      DraggableCal
+    }
+  }
 </script>
 
 <style>
