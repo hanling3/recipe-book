@@ -2,7 +2,6 @@
   <div id="app">
     <div id="nav">
       <router-view />
-      <b-container class="d-flex">
         <!-- <h1> Recipe Finder App </h1> -->
       <!-- <b-container class="d-flex">
         <h1>Recipe Finder App</h1>
