@@ -63,7 +63,7 @@
             <div class="card h-400 bg-light text-center" style=" height: 10rem; line-height:120px;">
               <div class="card-body align-items-center">
                 <p id="cardcontent" class="card-text text-muted">
-                  <b-icon icon="search" id="search"></b-icon> Find a recipe.
+                  <b-icon :icon="iconContent" id="search"></b-icon> {{planFind}}
                 </p>
               </div>
             </div>
@@ -90,6 +90,7 @@ import DraggableCal from 'vue-draggable-cal';
     data() {
       return {
         planFind: "Find a recipe.",
+        iconContent: "search"
       }
     },
     methods: {
