@@ -1,5 +1,6 @@
-{
-    "tomato and egg stir fry": {
+[
+    {
+        "dish": "tomato and egg stir fry",
         "difficulty": "2/5",
         "cook time": 15,
         "budget": "$6",
@@ -22,8 +23,8 @@
         "utensil": {},
         "tips": "Adjust sugar and soy sauce as needed."
     },
-
-    "miso ramen": {
+    {
+        "dish": "miso ramen",
         "difficulty": "1.5/5",
         "cook time": 10,
         "budget": "$8",
@@ -36,8 +37,8 @@
         "utensil": {},
         "tips": ""
     },
-
-    "kung pao chicken": {
+    {
+        "dish": "kung pao chicken",
         "difficulty": "2/5",
         "cook time": 30,
         "budget": "$12",
@@ -50,4 +51,4 @@
         "utensil": {},
         "tips": ""
     }
-}
+]
