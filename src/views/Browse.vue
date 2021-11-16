@@ -1,17 +1,28 @@
 <template>
-  <div class="Browse">
+<div>
+  <recipeCard/>
+</div>
+
+  <!-- <div class="Browse">
     <div class="row">
       <div class="col text-start">
         <h1>Browse</h1>
+      
       </div>
     </div>
+
 
     <div id="section-favorites">
       <b-row id="title-favorites">
         <b-col class="text-start">
           <h3>Favorites</h3>
+
         </b-col>
       </b-row>
+
+      
+
+
 
       <b-row>
         <b-col>
@@ -92,37 +103,19 @@
       </b-row>
     </div>
     </div>
-    
+    -->
 
-   
-
-    
-
-    <!--<div class="nav-bar">
-      <b-row>
-        <b-col>
-          <router-link to="/plan" tag="button">
-            <b-icon icon="calendar2-week" scale="1"></b-icon>
-            <p>Plan</p>
-          </router-link>
-        </b-col>
-        <b-col>
-          <router-link to="/favorites" tag="button">
-            <b-icon icon="heart" scale="1"></b-icon>
-            <p>Saved</p>
-          </router-link>
-        </b-col>
-        <b-col>
-          <router-link to="/profile" tag="button">
-            <b-icon icon="person" scale="1"></b-icon>
-            <p>Profile</p>
-          </router-link>
-        </b-col>
-      </b-row>
-    </div>-->
+  
 
 </template>
 
 <script>
+import recipeCard from "@/components/RecipeCard.vue";
+export default {
+  components: {
+    recipeCard
+  }
+}
+
 </script>
 
