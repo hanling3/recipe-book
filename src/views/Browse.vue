@@ -89,7 +89,7 @@
       </b-row>
     </div>
 
-    <div class="nav-bar">
+    <!--<div class="nav-bar">
       <b-row>
         <b-col>
           <router-link to="/plan" tag="button">
@@ -98,19 +98,20 @@
           </router-link>
         </b-col>
         <b-col>
-          <router-link to="/Favorites" tag="button">
+          <router-link to="/favorites" tag="button">
             <b-icon icon="heart" scale="1"></b-icon>
             <p>Saved</p>
           </router-link>
         </b-col>
         <b-col>
-          <router-link to="/Proile" tag="button">
+          <router-link to="/profile" tag="button">
             <b-icon icon="person" scale="1"></b-icon>
             <p>Profile</p>
           </router-link>
         </b-col>
       </b-row>
-    </div>
+    </div>-->
+    
   </div>
 </template>
 
