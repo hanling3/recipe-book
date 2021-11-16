@@ -4,11 +4,34 @@
       <router-view />
       <!-- <b-container class="d-flex">
         <h1>Recipe Finder App</h1>
-        --><router-link to="/plan" tag="button">Plan</router-link><!--
+        <router-link to="/plan" tag="button">Plan</router-link>
         <router-link to="/browse" tag="button">Browse</router-link>
         <router-link to="/favorites" tag="button">Favorites</router-link>
         <router-link to="/profile" tag="button">Profile</router-link>
       </b-container> -->
+      <b-row>
+        <b-col class="col-4">
+          <router-link to="/plan" tag="button">
+                <b-icon icon="calendar2-week"></b-icon>
+                <p>Plan</p>
+          </router-link>
+        </b-col>
+
+        <b-col class="col-4">
+          <router-link to="/Favorites" tag="button">
+                <b-icon icon="heart"></b-icon>
+                <p>Saved</p>
+          </router-link>
+        </b-col>
+
+        <b-col class="col-4">
+          <router-link to="/Profile" tag="button">
+                <b-icon icon="person"></b-icon>
+                <p>Profile</p>
+          </router-link>
+        </b-col>
+      </b-row>
+
     </div>
   </div>
 </template>
