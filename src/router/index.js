@@ -38,6 +38,22 @@ const routes = [
     // this generates a separate chunk (profile.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "profile" */ '../components/UploadRecipe.vue')
+  },
+  {
+    path: '/browse',
+    name: 'Browse',
+    // route level code-splitting
+    // this generates a separate chunk (profile.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "browse" */ '../views/Browse.vue')
+  },
+  {
+    path: '/outofscope',
+    name: 'OutOfScope',
+    // route level code-splitting
+    // this generates a separate chunk (profile.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "browse" */ '../views/OutOfScope.vue')
   }
 ]
 

@@ -1,29 +1,76 @@
 <template>
-  <!-- <div class="plan">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div> -->
-
   <div class="plan">
-    <h1>Meal Plan </h1>
-    <p class="content"> 
-      <!-- feel free to comment this out when you start coding -->
-      sample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text 
-        sample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text   sample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text   sample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text ample text ample text 
-      ample text ample text ample text ample text 
+    <div class="row">
+        <div class="col text-start">
+          <h1>Meal Plan</h1>
+        </div>
+    </div>
 
-    </p>
+    <div id="datepicker">
+      <draggable-cal></draggable-cal>
+    </div>
+
+    <div id="meals">
+      <b-row id="breakfast">
+        <b-col class="text-start">
+          <h3>Breakfast</h3>
+        </b-col>
+      </b-row>
+
+      <router-link to="/browse" style="text-decoration: none; color: inherit;">
+        <b-row id="plan1">
+          <div id="plancard" class="col justify-content-center mb-3">
+            <div class="card h-400 bg-light text-center" style=" height: 10rem; line-height:120px;">
+              <div class="card-body align-items-center">
+                <p class="card-text text-muted">
+                  <b-icon-search></b-icon-search> Find a recipe.
+                </p>
+              </div>
+            </div>
+          </div>
+        </b-row>
+      </router-link>
+
+      <b-row id="lunch">
+        <b-col class="text-start">
+          <h3>Lunch</h3>
+        </b-col>
+      </b-row>
+
+      <router-link to="/browse" style="text-decoration: none; color: inherit;">
+        <b-row id="plan2">
+          <div id="plancard" class="col justify-content-center mb-3">
+            <div class="card h-400 bg-light text-center" style=" height: 10rem; line-height:120px;">
+              <div class="card-body align-items-center">
+                <p class="card-text text-muted">
+                  <b-icon-search></b-icon-search> Find a recipe.
+                </p>
+              </div>
+            </div>
+          </div>
+        </b-row>
+      </router-link>
+
+      <b-row id="dinner">
+        <b-col class="text-start">
+          <h3>Dinner</h3>
+        </b-col>
+      </b-row>
+
+      <router-link to="/browse" style="text-decoration: none; color: inherit;">
+        <b-row id="plan3">
+          <div id="plancard" class="col justify-content-center mb-3">
+            <div class="card h-400 bg-light text-center" style=" height: 10rem; line-height:120px;">
+              <div class="card-body align-items-center">
+                <p id="cardcontent" class="card-text text-muted">
+                  <b-icon icon="search" id="search"></b-icon> Find a recipe.
+                </p>
+              </div>
+            </div>
+          </div>
+        </b-row>
+      </router-link>
+    </div>
   </div>
 
 </template>
@@ -33,12 +80,27 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 
-// export default {
-//   name: '',
-//   components: {
-//     HelloWorld
-//   }
-// }
+import DraggableCal from 'vue-draggable-cal';
+
+  export default {
+    name: 'plan',
+    components: {
+      DraggableCal
+    },
+    data() {
+      return {
+        planFind: "Find a recipe.",
+      }
+    },
+    methods: {
+      cardDisplay() {
+        if (this.planFind !== "Find a recipe.") {
+          var searchIcon = document.getElementById("search");
+          searchIcon.remove();
+        }
+      }
+    }
+  }
 </script>
 
 <style>
