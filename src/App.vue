@@ -4,7 +4,7 @@
       <router-view />
       <!-- <b-container class="d-flex">
         <h1>Recipe Finder App</h1>
-        <router-link to="/plan" tag="button">Plan</router-link>
+        --><router-link to="/plan" tag="button">Plan</router-link><!--
         <router-link to="/browse" tag="button">Browse</router-link>
         <router-link to="/favorites" tag="button">Favorites</router-link>
         <router-link to="/profile" tag="button">Profile</router-link>

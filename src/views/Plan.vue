@@ -1,8 +1,69 @@
 <template>
   <div class="plan">
-    <h1>Meal Plan </h1>
+    <div class="row">
+        <div class="col text-start">
+          <h1>Meal Plan</h1>
+        </div>
+    </div>
+
     <div id="datepicker">
       <draggable-cal></draggable-cal>
+    </div>
+
+    <div id="meals">
+      <b-row id="breakfast">
+        <b-col class="text-start">
+          <h3>Breakfast</h3>
+        </b-col>
+      </b-row>
+
+      <b-row id="plan1">
+        <div id="plancard" class="col justify-content-center mb-3">
+          <div class="card h-400 bg-light text-center" style=" height: 10rem; line-height:120px;">
+            <div class="card-body align-items-center">
+              <p class="card-text text-muted">
+                <b-icon-search></b-icon-search> Find a recipe.
+              </p>
+            </div>
+          </div>
+        </div>
+      </b-row>
+
+      <b-row id="lunch">
+        <b-col class="text-start">
+          <h3>Lunch</h3>
+        </b-col>
+      </b-row>
+
+      <b-row id="plan2">
+        <div id="plancard" class="col justify-content-center mb-3">
+          <div class="card h-400 bg-light text-center" style=" height: 10rem; line-height:120px;">
+            <div class="card-body align-items-center">
+              <p class="card-text text-muted">
+                <b-icon-search></b-icon-search> Find a recipe.
+              </p>
+            </div>
+          </div>
+        </div>
+      </b-row>
+
+      <b-row id="dinner">
+        <b-col class="text-start">
+          <h3>Dinner</h3>
+        </b-col>
+      </b-row>
+
+      <b-row id="plan3">
+        <div id="plancard" class="col justify-content-center mb-3">
+          <div class="card h-400 bg-light text-center" style=" height: 10rem; line-height:120px;">
+            <div class="card-body align-items-center">
+              <p class="card-text text-muted">
+                <b-icon-search></b-icon-search> Find a recipe.
+              </p>
+            </div>
+          </div>
+        </div>
+      </b-row>
     </div>
   </div>
 
