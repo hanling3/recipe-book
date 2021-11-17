@@ -2,16 +2,14 @@
   <div class="recipe card">
     <b-row>
       <b-col>
-          <img src="../assets/logo.png" class="rounded mx-auto d-block" alt="...">
-        <!-- {{ dishPic }} -->
+          <img src= {{ dishPic }} class="rounded mx-auto d-block" alt="...">
         dishPic
       </b-col>
     </b-row>
 
     <b-row>
       <b-col>
-        <!-- {{ dishName }} -->
-        dishName
+        {{ dishName }}
       </b-col>
     </b-row>
 
@@ -20,10 +18,10 @@
         <b-icon icon="clock" scale="1"></b-icon>
       </b-col>
       <b-col>
-        <!-- {{ dishCookTime }} -->
+        {{ dishCookTime }}
       </b-col>
       <b-col>
-        <!-- {{ dishCost }} -->
+        $ {{ dishCost }}
       </b-col>
     </b-row>
   </div>
