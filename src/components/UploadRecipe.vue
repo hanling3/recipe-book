@@ -33,65 +33,84 @@
         ></b-form-select>
       </b-form-group>
 
-    <b-form-group
+      <!-- <b-form-group
         id="input-group-3"
         label="Ingredient:"
         label-size="lg"
-        label-for="input-3"
-        inline
         class="mt-3"
-      >
-      <b-row>
-        <b-col>
-          <b-form-group
-        id="input-group-3"
-        label="Item:"
       >
         <b-form-input
           id="input-3"
-          v-model="form.ingredient[item]"
+          v-model="form.item"
           placeholder="Enter item"
           required
         ></b-form-input>
-        </b-form-group>
-        </b-col>
-          <b-col>
-          <b-form-group
-        id="input-group-3"
-        label="Ratio:"
-      >
-        <b-form-input
-          id="input-3"
-          v-model="form.ingredient[ratio]"
-          placeholder="Enter ratio"
-          required
-        ></b-form-input>
-        </b-form-group>
-        </b-col>
-        </b-row>
-</b-form-group>
-
+        <b-button v-on:click="addStep">Add item</b-button>
+      </b-form-group> -->
       <b-form-group
-        id="input-group-1"
-        label="Step:"
+        id="input-group-3"
+        label="Ingredient:"
         label-size="lg"
-        label-for="input-1"
         class="mt-3"
       >
-        <b-form-input
-          id="input-4"
-          v-model="form.step"
-          placeholder="Step"
-          required
-        ></b-form-input>
-        <b-button v-on:click="addStep">Add Step</b-button>
+        <b-form-group
+          class="mt-3"
+          v-for="(ingredient, k) in form.ingredients"
+          :key="k"
+        >
+          <b-form-input
+            v-model="form.ingredients[k]"
+            placeholder="ingredient"
+            label-size="lg"
+            required
+            class="form-control"
+          ></b-form-input>
+          <b-button
+            v-on:click="addItem(true)"
+            v-show="k == form.ingredients.length - 1"
+            >Add item</b-button
+          >
+          <b-button
+            v-on:click="removeItem(true, k)"
+            v-show="k || (!k && form.ingredients.length > 1)"
+            >remove item</b-button
+          >
+        </b-form-group>
+      </b-form-group>
+
+      <b-form-group
+        id="input-group-4"
+        label="Step:"
+        label-size="lg"
+        label-for="input-4"
+        class="mt-3"
+      >
+        <b-form-group v-for="(step, k) in form.steps" :key="k">
+          <b-form-input
+            v-model="form.steps[k]"
+            placeholder="step"
+            label-size="lg"
+            required
+            class="form-control"
+          ></b-form-input>
+          <b-button
+            v-on:click="addItem(false)"
+            v-show="k == form.steps.length - 1"
+            >Add item</b-button
+          >
+          <b-button
+            v-on:click="removeItem(false, k)"
+            v-show="k || (!k && form.steps.length > 1)"
+            >remove item</b-button
+          >
+        </b-form-group>
       </b-form-group>
 
       <b-form-group
         id="input-group-5"
         label="Additional tip:"
         label-size="lg"
-        label-for="input-4"
+        label-for="input-5"
         class="mt-3"
       >
         <b-form-textarea
@@ -114,15 +133,14 @@
 
 <script>
 export default {
+  name:"UploadRecipe",
   data() {
     return {
-      item:"",
-      ratio:"",
       form: {
         name: "",
         time: null,
-        ingredient:[],
-        step: "",
+        ingredients: [""],
+        steps: [""],
         tip: "",
       },
       time: [
@@ -138,6 +156,7 @@ export default {
     onSubmit(event) {
       event.preventDefault();
       alert(JSON.stringify(this.form));
+      this.$emit('newrecipe',this.form);
     },
     onReset(event) {
       event.preventDefault();
@@ -151,13 +170,21 @@ export default {
         this.show = true;
       });
     },
-    addItem(){
-    
-
+    addItem(is_ingredients) {
+      if (is_ingredients) {
+        this.form.ingredients.push("");
+      } else {
+        this.form.steps.push("");
+      }
     },
-    addStep(){
-
-    }
+    removeItem(is_ingredients, k) {
+      if (is_ingredients) {
+        this.form.ingredients.splice(k, 1);
+      } else {
+        this.form.steps.splice(k, 1);
+      }
+    },
+    addStep() {},
   },
 };
 </script>
