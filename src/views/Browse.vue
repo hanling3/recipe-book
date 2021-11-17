@@ -1,15 +1,29 @@
 <template>
-  <div class="browse">
-    <!-- <router-link to="/" tag="button" class="back-button"> ← </router-link> -->
-    <div class="page-titel">
-      <h1>Browse</h1>
+<div>
+  <recipeCard/>
+</div>
+
+  <!-- <div class="Browse">
+    <div class="row">
+      <div class="col text-start">
+        <h1>Browse</h1>
+      
+      </div>
     </div>
 
-    <div class="section-favorites">
-      <h3>Favorites</h3>
-    </div>
 
-    <div class="scrollmenu1">
+    <div id="section-favorites">
+      <b-row id="title-favorites">
+        <b-col class="text-start">
+          <h3>Favorites</h3>
+
+        </b-col>
+      </b-row>
+
+      
+
+
+
       <b-row>
         <b-col>
           <router-link to="/outofscope" tag="button">
@@ -35,10 +49,12 @@
     </div>
 
     <div class="section-recommend">
-      <h3>We recommend</h3>
-    </div>
+       <b-row id="title-recommend">
+        <b-col class="text-start">
+          <h3>We recommend</h3>
+        </b-col>
+      </b-row>
 
-    <div class="dropdown-browse">
       <b-dropdown id="dropdown-1" text="Cook Time" class="m-md-2">
         <b-dropdown-item> &#8804; 30 min </b-dropdown-item>
         <b-dropdown-item> &#8804; 1 h </b-dropdown-item>
@@ -62,9 +78,7 @@
         <b-dropdown-item> Medium </b-dropdown-item>
         <b-dropdown-item> Hard </b-dropdown-item>
       </b-dropdown>
-    </div>
 
-    <div class="scrollmenu2">
       <b-row>
         <b-col>
           <router-link to="/outofscope" tag="button">
@@ -88,85 +102,20 @@
         </b-col>
       </b-row>
     </div>
+    </div>
+    -->
 
-    <!--<div class="nav-bar">
-      <b-row>
-        <b-col>
-          <router-link to="/plan" tag="button">
-            <b-icon icon="calendar2-week" scale="1"></b-icon>
-            <p>Plan</p>
-          </router-link>
-        </b-col>
-        <b-col>
-          <router-link to="/favorites" tag="button">
-            <b-icon icon="heart" scale="1"></b-icon>
-            <p>Saved</p>
-          </router-link>
-        </b-col>
-        <b-col>
-          <router-link to="/profile" tag="button">
-            <b-icon icon="person" scale="1"></b-icon>
-            <p>Profile</p>
-          </router-link>
-        </b-col>
-      </b-row>
-    </div>-->
-    
-  </div>
+  
+
 </template>
 
 <script>
+import recipeCard from "@/components/RecipeCard.vue";
+export default {
+  components: {
+    recipeCard
+  }
+}
+
 </script>
 
-<style>
-.page-titel {
-  position: absolute;
-  top: 2%;
-  width: 10%;
-  left: 15%;
-}
-
-.section-favorites {
-  position: absolute;
-  top: 15%;
-  /* width: 10%; */
-  left: 20%;
-}
-
-.scrollmenu1 {
-  position: absolute;
-  top: 20%;
-  width: 50%;
-  left: 25%;
-  display: inline-block;
-}
-
-.section-recommend {
-  position: absolute;
-  top: 40%;
-  /* width: 10%; */
-  left: 20%;
-}
-
-.dropdown-browse {
-  position: absolute;
-  top: 45%;
-  left: 25%;
-}
-
-.scrollmenu2 {
-  position: absolute;
-  top: 55%;
-  width: 50%;
-  left: 25%;
-  display: inline-block;
-}
-
-.nav-bar {
-  position: absolute;
-  bottom: 0;
-  width: 50%;
-  left: 25%;
-  display: inline-block;
-}
-</style>
