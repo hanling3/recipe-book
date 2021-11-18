@@ -1,33 +1,51 @@
 <template>
-  <div>
-    <b-dropdown id="dropdown-1" text="Cook Time" class="m-md-2">
-      <b-dropdown-item> &#8804; 30 min </b-dropdown-item>
-      <b-dropdown-item> &#8804; 1 h </b-dropdown-item>
-      <b-dropdown-item> &#8805; 1 h </b-dropdown-item>
-    </b-dropdown>
-    <b-dropdown id="dropdown-2" text="Budget" class="m-md-2">
-      <b-dropdown-item> $0 - $10 </b-dropdown-item>
-      <b-dropdown-item> $11 - $20 </b-dropdown-item>
-      <b-dropdown-item> $21 - $30 </b-dropdown-item>
-      <b-dropdown-item> &#8805; $31 </b-dropdown-item>
-    </b-dropdown>
-    <b-dropdown id="dropdown-3" text="Dish Type" class="m-md-2">
-      <b-dropdown-item> Japanese </b-dropdown-item>
-      <b-dropdown-item> Korean </b-dropdown-item>
-      <b-dropdown-item> Chinese </b-dropdown-item>
-      <b-dropdown-item> Mexican </b-dropdown-item>
-      <b-dropdown-item> American </b-dropdown-item>
-    </b-dropdown>
-    <b-dropdown id="dropdown-4" text="Diffculty" class="m-md-2">
-      <b-dropdown-item> Easy </b-dropdown-item>
-      <b-dropdown-item> Medium </b-dropdown-item>
-      <b-dropdown-item> Hard </b-dropdown-item>
-    </b-dropdown>
-  </div>
+  <form>
+    <div class="form-row align-items-center">
+      <div class="col-auto my-1">
+        <!-- <label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label> -->
+        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+          <option selected>Cook Time</option>
+          <option value="1-1">&#8804; 30 min </option>
+          <option value="1-2">&#8804; 1 h </option>
+          <option value="1-3">&#8805; 1 h </option>
+        </select>
+
+         <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+          <option selected>Budget</option>
+          <option value="2-1"> $0 - $10 </option>
+          <option value="2-2"> $11 - $20  </option>
+          <option value="2-3"> $21 - $30  </option>
+          <option value="2-4"> &#8805; $31 </option>
+        </select>
+
+         <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+          <option selected>Dish Type</option>
+          <option value="3-1">American</option>
+          <option value="3-2">Mexican</option>
+          <option value="3-3">Chinese</option>
+          <option value="3-4">Japanese</option>
+          <option value="3-5">Korean</option>
+        </select>
+
+        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+          <option selected>Difficulty</option>
+          <option value="1-1"> Easy </option>
+          <option value="1-2"> Medicum</option>
+          <option value="1-3"> Hard </option>
+        </select>
+      </div>
+    </div>
+  </form>
 </template>
 
 <script>
 export default {
-  name: "dropDownMenu"
+  name: "dropDownMenu",
 };
 </script>
+
+<style scoped>
+#inlineFormCustomSelect {
+    margin-right: 30px;
+}
+</style>
