@@ -47,7 +47,7 @@ For each task, the facilitator will read aloud the task, and then watch as the u
 
 The notetaker will observe whether the user takes the “happy path” and watch as any errors are made.  
 
-### Task 1: Plam
+### Task 1: Plan
 You’re very busy during the midterm week, so you want to save enough time for studying. You figure the best way to do this is by meal planning for the week ahead. Choose a recipe for dinner time next Monday that takes less than 30 minutes, is under $10, is Japanese cuisine, and is easy to cook. 
 
 ### Task 2: Favorites (part 1)
@@ -85,12 +85,11 @@ Lastly, thank you for participating in this user testing session.
 
 Please evaluate your experience of using the app and give us the ratings of usability and desirebility based on criteria below.
 
-- Functionality
-Users must be able to utilize applications to make their meal plans and explore various recipes efficiently.
-- Desirability
-Software must be intriguing and friendly so that users get a feeling to reuse and come back. Needs to facilitate the user so they can gain comfortable riding experience so that they can explore events without transportation-related concerns.
-- Usability
-The application interface should be very legible and easy to navigate so that users across multiple demographics can use it. Graphics for buttons should be clear on  what they are meant for. Ideally accessible from the moment software is opened up until the user chooses to close it based on will not frustration.
+- Functionality: Users must be able to utilize applications to make their meal plans and explore various recipes efficiently.
+
+- Desirability: Software must be intriguing and friendly so that users get a feeling to reuse and come back. Needs to facilitate the user so they can gain comfortable riding experience so that they can explore events without transportation-related concerns.
+
+- Usability: The application interface should be very legible and easy to navigate so that users across multiple demographics can use it. Graphics for buttons should be clear on  what they are meant for. Ideally accessible from the moment software is opened up until the user chooses to close it based on will not frustration.
 
  
 
