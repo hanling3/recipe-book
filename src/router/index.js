@@ -45,7 +45,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (profile.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "browse" */ '../views/Browse.vue')
+    component: () => import(/* webpackChunkName: "browse" */ '../views/Browse')
   },
   {
     path: '/emptyrecipe',
@@ -56,14 +56,14 @@ const routes = [
     component: () => import(/* webpackChunkName: "browse" */ '../views/EmptyRecipe.vue')
   },
 
-  {
-    path: '/recipecard',
-    name: 'RecipeCard',
-    // route level code-splitting
-    // this generates a separate chunk (profile.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "browse" */ '../components/RecipeCard.vue')
-  }
+  // {
+  //   path: '/recipecard',
+  //   name: 'RecipeCard',
+  //   // route level code-splitting
+  //   // this generates a separate chunk (profile.[hash].js) for this route
+  //   // which is lazy-loaded when the route is visited.
+  //   component: () => import(/* webpackChunkName: "browse" */ '../components/RecipeCard.vue')
+  // }
 ]
 
 const router = new VueRouter({

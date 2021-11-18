@@ -1,121 +1,68 @@
 <template>
-<div>
-  <recipeCard/>
-</div>
-
-  <!-- <div class="Browse">
-    <div class="row">
-      <div class="col text-start">
-        <h1>Browse</h1>
-      
-      </div>
-    </div>
-
-
-    <div id="section-favorites">
-      <b-row id="title-favorites">
-        <b-col class="text-start">
-          <h3>Favorites</h3>
-
-        </b-col>
-      </b-row>
-
-      
-
-
-
-      <b-row>
-        <b-col>
-          <router-link to="/outofscope" tag="button">
-            <b-icon icon="card-image" scale="5"></b-icon>
-          </router-link>
-        </b-col>
-        <b-col>
-          <router-link to="/outofscope" tag="button">
-            <b-icon icon="card-image" scale="5"></b-icon>
-          </router-link>
-        </b-col>
-        <b-col>
-          <router-link to="/outofscope" tag="button">
-            <b-icon icon="card-image" scale="5"></b-icon>
-          </router-link>
-        </b-col>
-        <b-col>
-          <router-link to="/outofscope" tag="button">
-            <b-icon icon="card-image" scale="5"></b-icon>
-          </router-link>
-        </b-col>
-      </b-row>
-    </div>
-
-    <div class="section-recommend">
-       <b-row id="title-recommend">
-        <b-col class="text-start">
-          <h3>We recommend</h3>
-        </b-col>
-      </b-row>
-
-      <b-dropdown id="dropdown-1" text="Cook Time" class="m-md-2">
-        <b-dropdown-item> &#8804; 30 min </b-dropdown-item>
-        <b-dropdown-item> &#8804; 1 h </b-dropdown-item>
-        <b-dropdown-item> &#8805; 1 h </b-dropdown-item>
-      </b-dropdown>
-      <b-dropdown id="dropdown-2" text="Budget" class="m-md-2">
-        <b-dropdown-item> $0 - $10 </b-dropdown-item>
-        <b-dropdown-item> $11 - $20 </b-dropdown-item>
-        <b-dropdown-item> $21 - $30 </b-dropdown-item>
-        <b-dropdown-item> &#8805; $31 </b-dropdown-item>
-      </b-dropdown>
-      <b-dropdown id="dropdown-3" text="Dish Type" class="m-md-2">
-        <b-dropdown-item> Japanese </b-dropdown-item>
-        <b-dropdown-item> Korean </b-dropdown-item>
-        <b-dropdown-item> Chinese </b-dropdown-item>
-        <b-dropdown-item> Mexican </b-dropdown-item>
-        <b-dropdown-item> American </b-dropdown-item>
-      </b-dropdown>
-      <b-dropdown id="dropdown-4" text="Diffculty" class="m-md-2">
-        <b-dropdown-item> Easy </b-dropdown-item>
-        <b-dropdown-item> Medium </b-dropdown-item>
-        <b-dropdown-item> Hard </b-dropdown-item>
-      </b-dropdown>
-
-      <b-row>
-        <b-col>
-          <router-link to="/outofscope" tag="button">
-            <b-icon icon="card-image" scale="5"></b-icon>
-          </router-link>
-        </b-col>
-        <b-col>
-          <router-link to="/outofscope" tag="button">
-            <b-icon icon="card-image" scale="5"></b-icon>
-          </router-link>
-        </b-col>
-        <b-col>
-          <router-link to="/outofscope" tag="button">
-            <b-icon icon="card-image" scale="5"></b-icon>
-          </router-link>
-        </b-col>
-        <b-col>
-          <router-link to="/outofscope" tag="button">
-            <b-icon icon="card-image" scale="5"></b-icon>
-          </router-link>
-        </b-col>
-      </b-row>
-    </div>
-    </div>
-    -->
-
-  
-
+  <div>
+    <pageTitle :pageTitle="title" />
+    <section-title :sectionTitle="sectiontitle1" />
+    <recipeCard
+      v-for="item in listOfDish"
+      v-bind:key="item.name"
+      v-bind:dish="item"
+    />
+    <section-title :sectionTitle="sectiontitle2" />
+    <drop-down-menu />
+      <recipeCard
+      v-for="item in listOfDish"
+      v-bind:key="item.name"
+      v-bind:dish="item"
+    />
+    <nav-bar />
+  </div>
 </template>
 
 <script>
 import recipeCard from "@/components/RecipeCard.vue";
+import pageTitle from "@/components/PageTitle.vue";
+import sectionTitle from '../components/SectionTitle.vue';
+import dropDownMenu from './DropDownMenu.vue';
+import navBar from "./NavBar.vue";
 export default {
+  name: "browse",
   components: {
-    recipeCard
-  }
-}
-
+    recipeCard,
+    pageTitle,
+    sectionTitle,
+    dropDownMenu,
+    navBar,
+  },
+  data: () => ({
+    title: "Browse",
+    sectiontitle1: "Favorite",
+    sectiontitle2: "We Recommend",
+    listOfDish: [
+      {
+        name:"Tomato and Egg Stir Fry",
+        image:"https://christieathome.com/wp-content/uploads/2020/10/Chinese-Tomato-Egg-Stirfry-18-1-scaled.jpg",
+        cooktime:"12 min",
+        cost:"$5",
+        difficulty:"Easy",
+        link:"https://docs.google.com/document/d/1-f2XkdXyUBoOxf_4QizudCUTz3t9KBOOOWOhKH8TcUg/edit?usp=sharing"
+      },
+        {
+        name:"Tomato and Egg Stir Fry",
+        image:"https://christieathome.com/wp-content/uploads/2020/10/Chinese-Tomato-Egg-Stirfry-18-1-scaled.jpg",
+        cooktime:"12 min",
+        cost:"$5",
+        difficulty:"Easy",
+        link:"https://docs.google.com/document/d/1-f2XkdXyUBoOxf_4QizudCUTz3t9KBOOOWOhKH8TcUg/edit?usp=sharing"
+      },
+        {
+        name:"Tomato and Egg Stir Fry",
+        image:"https://christieathome.com/wp-content/uploads/2020/10/Chinese-Tomato-Egg-Stirfry-18-1-scaled.jpg",
+        cooktime:"12 min",
+        cost:"$5",
+        difficulty:"Easy",
+        link:"https://docs.google.com/document/d/1-f2XkdXyUBoOxf_4QizudCUTz3t9KBOOOWOhKH8TcUg/edit?usp=sharing"
+      }
+    ]
+  }),
+};
 </script>
-
