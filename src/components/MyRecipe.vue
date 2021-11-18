@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h1>{{name}}</h1>
+      <!-- <h1>{{name}}</h1> -->
   <b-card
     overlay
     img-src="https://picsum.photos/900/250/?image=3"

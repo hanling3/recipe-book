@@ -6,8 +6,8 @@
       <b-tabs content-class="mt-3" fill>
         <b-tab title="Favorites" active><p>I'm the first tab</p></b-tab>
         <b-tab title="Created Recipes">
-          <div v-if="recipes != ''">{{ recipes }}</div>
-          <div v-if="recipes != ''">{{ this.recipes[0].name }}</div>
+          <!-- <div v-if="recipes != ''">{{ recipes }}</div>
+          <div v-if="recipes != ''">{{ this.recipes[0].name }}</div> -->
           <my-recipe v-if="recipes != ''" :name="recipes[0].name" />
 
           <!-- v-for="(ingredient, k) in form.ingredients"
