@@ -9,6 +9,8 @@
 
 ## 2. Planning & Psuedocode
 
+### （1）App Structure
+
 ## 3. Coding
 
 
