@@ -205,7 +205,6 @@ Please refer to the "Additional Items" section in the table of contents for imag
 
 
 # Final Sketches
-
 ![Final Sketches](images/sketches/final_sketch.jpeg)
 
 
