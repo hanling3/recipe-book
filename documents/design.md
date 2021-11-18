@@ -205,7 +205,6 @@ Please refer to the "Additional Items" section in the table of contents for imag
 
 
 # Final Sketches
-We add some arrows and annotation between each pages to help audience better understand app's pages navigation of final sketch.
 ![Final Sketches](images/sketches/final_sketch.jpeg)
 
 
