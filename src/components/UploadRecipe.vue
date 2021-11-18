@@ -121,9 +121,9 @@
           max-rows="6"
         ></b-form-textarea>
       </b-form-group>
-
+<!-- 
       <b-button type="submit" variant="primary" class="mt-4">Submit</b-button>
-      <b-button type="reset" variant="danger" class="mt-4">Reset</b-button>
+      <b-button type="reset" variant="danger" class="mt-4">Reset</b-button> -->
     </b-form>
     <b-card class="mt-3" header="Form Data Result">
       <pre class="m-0">{{ form }}</pre>
@@ -152,11 +152,22 @@ export default {
       show: true,
     };
   },
+  watch: {
+      form: {
+        handler(val){
+          console.log('Item Changed')
+          console.log(val)
+          this.$emit('newrecipe',val);
+
+        },
+        deep: true
+      }
+    },
   methods: {
     onSubmit(event) {
       event.preventDefault();
       alert(JSON.stringify(this.form));
-      this.$emit('newrecipe',this.form);
+      // this.$emit('newrecipe',this.form);
     },
     onReset(event) {
       event.preventDefault();
@@ -184,7 +195,7 @@ export default {
         this.form.steps.splice(k, 1);
       }
     },
-    addStep() {},
+   
   },
 };
 </script>
