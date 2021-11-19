@@ -11,10 +11,27 @@
         <router-link to="/profile" tag="button">Profile</router-link>
       </b-container>
       </b-container> -->
-      
+      <!-- <h1> Recipe Finder </h1> 
+      <h2> by McGraw Studio </h2> 
+      <p> Welcome to our recipe finder! Find delicous recipes, write your own, and track your cooking progress all within our app. 
+        To get started, choose one of the options below.
+      </p> -->
+      <nav-bar />
     </div>
   </div>
 </template>
+
+<script>
+import navBar from "@/components/NavBar.vue";
+
+export default {
+  name: "App",
+  components: {
+    navBar
+  }
+}
+
+</script>
 
 <style>
 .d-flex {

@@ -35,22 +35,22 @@
       <li> <p class="left"> Saved 5 hours cooking throughout the week </p> </li>
     </ul>  
     </div>
-    <nav-bar />
+    <!-- <nav-bar /> -->
   </div>
 </template>
 
 <script>
-import navBar from "../components/NavBar.vue";
+// import navBar from "../components/NavBar.vue";
 
-export default {
-  name: "profile",
-  components: {
-    navBar
-  },
-  data: () => ({
+// export default {
+//   name: "profile",
+//   components: {
+//     navBar
+//   },
+//   data: () => ({
 
-  })
-}
+//   })
+// }
 
 </script>
 

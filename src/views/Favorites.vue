@@ -18,11 +18,12 @@
           <b-modal @ok="handleOk" title="BootstrapVue" id="modal-xl" size="xl">
             <Upload-Recipe v-on:newrecipe="addRecipe"></Upload-Recipe>
           </b-modal>
-          <p>I'm the second tab</p></b-tab
-        >
+          <p>I'm the second tab
+          </p></b-tab>
       </b-tabs>
       <!-- <b-button @click="UploadRecipe()">Add recipe</b-button> -->
     </div>
+    <!-- <nav-bar /> -->
   </div>
 </template>
 
@@ -30,11 +31,14 @@
 // import recipeCard from '../components/RecipeCard.vue'
 import UploadRecipe from "../components/UploadRecipe.vue";
 import myRecipe from "../components/MyRecipe.vue";
+// import navBar from "../components/NavBar.vue";
+
 export default {
   components: {
     // recipeCard,
     UploadRecipe,
     myRecipe,
+    // navBar
   },
   data() {
     return {

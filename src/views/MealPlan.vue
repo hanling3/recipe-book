@@ -28,7 +28,7 @@
 
     </div>
 
-    <nav-bar/>
+    <!-- <nav-bar/> -->
   </div>
 
 </template>
@@ -39,14 +39,14 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 //import DraggableCal from 'vue-draggable-cal';
-import navBar from "@/components/NavBar.vue";
+// import navBar from "@/components/NavBar.vue";
 import RecipeCard from '../components/RecipeCard.vue';
 
   export default {
     name: 'mealplan',
     components: {
       //DraggableCal,
-      navBar,
+      // navBar,
       RecipeCard,
     },
     data() {
