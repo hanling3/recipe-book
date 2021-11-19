@@ -29,12 +29,12 @@ The Figma prototype link can be found here: https://www.figma.com/file/Vzdd7cwBk
 The usability test protocol, raw notes, and summary can be found in the "Additional Items" section.
 
 ### (2）App Structure
-![information hierarchy](mcgraw-studio-project/blob/main/documents/images/information_hierarchy/0_Overview.png)
+![information hierarchy](documents/images/information_hierarchy/0_overview.png)
 
 We drew this information hierarchy to help us plan the app structure. Our app has four main pages: browse, plan, saved, and profile. By analyzing the elements on each page, we compartmentalized the app into the layout part and component part. The layout part is to arrange the UI elements location on every single page, so the app will look like the prototype. Components are the UI elements that shared across pages or used multiple times, such as the recipe card, recipe detail page, and the bottom navigation bar. The component part is implemented, so the information will be exchanged across different app pages, and the app will be functional.
 
 ### (3) Schedule
-![milestone 4 schedule](mcgraw-studio-project/blob/main/documents/images/milestone_4_schedule.png)
+![milestone 4 schedule](images/milestone_4_schedule.png)
 
 We discussed and agreed on this in-team schedule to help us track the progress. We tried to stick to this schedule as close as possible. Most of the work has been finished in time. 
 
