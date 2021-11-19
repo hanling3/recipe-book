@@ -12,6 +12,9 @@ We add some arrows and annotation between each pages to help audience better und
 
 ### （1）App Structure
 
+### (2) Schedule
+
+
 ## 3. Coding
 
 
