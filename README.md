@@ -29,8 +29,15 @@
     - [3. Brainstorming](documents/design.md#brainstorming)
     - [4. Sketches](documents/design.md#sketches)
     - [5. Paper Prototype & Evaluation](documents/design.md#paper-prototype)
-    - [6. Final Sketches / Wireframes](documents/design.md#final-sketches)
+    - [[Revised] 6. Final Sketches / Wireframes](documents/design.md#final-sketches)
     - [7. Rationale](documents/design.md#rationale)
+
+### Milestone 4: High-Fidelity Prototype
+- [High-Fidelity Prototype](documents/high-fidelity-prototype.md#milestone-4-high-fidelity-prototype)
+    - [0. Overview](documents/high-fidelity-prototype.md#0-overview)
+    - [1. Revisions to Prior Work](documents/high-fidelity-prototype.md#1-revisions-to-prior-work)
+    - [2. Planning & Pseudocode](documents/high-fidelity-prototype.md#2-planning-&-pseudocode)
+    - [3. Coding](documents/high-fidelity-prototype.md#3-coding)
 
 ### Contributions 
 - [Summary of Contributions](documents/contributions-summary.md)
