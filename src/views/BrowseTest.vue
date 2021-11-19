@@ -40,14 +40,28 @@ export default {
     listOfDish: [
       {
         name:"Tomato and Egg Stir Fry",
-        image:[require("@/assets/tomato-and-egg-stir-fry.jpg")],
+        image:"https://christieathome.com/wp-content/uploads/2020/10/Chinese-Tomato-Egg-Stirfry-18-1-scaled.jpg",
         cooktime:"12 min",
         cost:"$5",
         difficulty:"Easy",
         link:"https://docs.google.com/document/d/1-f2XkdXyUBoOxf_4QizudCUTz3t9KBOOOWOhKH8TcUg/edit?usp=sharing"
       },
-        
-        
+        {
+        name:"Tomato and Egg Stir Fry",
+        image:"https://christieathome.com/wp-content/uploads/2020/10/Chinese-Tomato-Egg-Stirfry-18-1-scaled.jpg",
+        cooktime:"12 min",
+        cost:"$5",
+        difficulty:"Easy",
+        link:"https://docs.google.com/document/d/1-f2XkdXyUBoOxf_4QizudCUTz3t9KBOOOWOhKH8TcUg/edit?usp=sharing"
+      },
+        {
+        name:"Tomato and Egg Stir Fry",
+        image:"https://christieathome.com/wp-content/uploads/2020/10/Chinese-Tomato-Egg-Stirfry-18-1-scaled.jpg",
+        cooktime:"12 min",
+        cost:"$5",
+        difficulty:"Easy",
+        link:"https://docs.google.com/document/d/1-f2XkdXyUBoOxf_4QizudCUTz3t9KBOOOWOhKH8TcUg/edit?usp=sharing"
+      }
     ]
   }),
 };
