@@ -98,9 +98,10 @@
     - Initialized app, added routing, and constructed profile page
 
 - Hedy
-    - Conducted user testing
+    - Conducted 4 user testing with Xuanhui
+    - Digitalized the informatio hierarchy
     - Constructed browse page and created components
-    - Digitalized information hierarchy with Xuanhui
+    - Wrote the milestone 4 documentation, edited the usability test notes and summary.
 
 # Milestone 5 
 
