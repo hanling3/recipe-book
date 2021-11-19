@@ -91,6 +91,15 @@
     - Held user testing and collected user feedback with Hedy
     - Constructed meal plan page and some other components
 
+- Ada
+    - Developed user testing protocol with Xinlu
+    - Revised tasks
+    - Initialized app, added routing, and constructed profile page
+
+- Hedy
+    - Conducted user testing
+    - Constructed browse page and created components
+
 # Milestone 5 
 
 TODO 
