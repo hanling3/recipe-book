@@ -1,8 +1,4 @@
-# INFO 4340 Final Project
-
-## Table of Contents
-
-All non-app related artifacts must be listed here to be graded. If it's not listed here, we won't grade it! **No Exceptions!**
+# mcgraw-studio-project
 
 ### Milestone 1: Team Contract
 - [Team Contract](documents/team-contract.md)
