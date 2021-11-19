@@ -272,7 +272,7 @@ Motivation:
 
 User Profile:
 
-An international student who doesn't have too much time to cook due to the large workload but wants to eat healthy homemade food. To her, time is money, and his course works are the priorities. She intends to organize her college life by always planning. She misses Chinese food so much, but she can hardly return to China because of the pandemic. Dining out is too expensive for her, and she tries to avoid it. She wants to cook fast Chinese food within her budgets and plans for what to eat everyday.
+Robo is an international student who doesn't have too much time to cook due to her heavy workload, but she wants to eat healthy homemade food. To her, time is money, and her course work is her top priority. She misses eating Chinese food from home, but she has been unable to return to China because of the pandemic. She gets a sense of familarity and comfort at school by cooking dishes that are familiar to her, which she finds through cooking apps and by text messages with her parents. Before she goes on grocery trips, she thinks about what ingredients she will buy and what meals she will prepare so she can save time throughout the week and at the grocery store. Dining out is too expensive for her, so she tries to avoid it. She wants to cook recipes that remind her of home that fall within her budget, and don't take too long to cook.  
 
 Needs:
 - She needs to set up a budget for each meal.
