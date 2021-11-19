@@ -39,7 +39,7 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 //import DraggableCal from 'vue-draggable-cal';
-import navBar from "./NavBar.vue";
+import navBar from "@/components/NavBar.vue";
 import RecipeCard from '../components/RecipeCard.vue';
 
   export default {
