@@ -14,7 +14,7 @@
       v-bind:key="item.name"
       v-bind:dish="item"
     />
-    <nav-bar />
+    <!-- <nav-bar /> -->
   </div>
 </template>
 
@@ -23,14 +23,14 @@ import recipeCard from "@/components/RecipeCard.vue";
 import pageTitle from "@/components/PageTitle.vue";
 import sectionTitle from '@/components/SectionTitle.vue';
 import dropDownMenu from '@/components/DropDownMenu.vue';
-import navBar from "@/components/NavBar.vue";
+// import navBar from "@/components/NavBar.vue";
 export default {
   name: "browse",
   components: {
     recipeCard,
     pageTitle,
     sectionTitle,
-    navBar,
+    // navBar,
     dropDownMenu
   },
   data: () => ({

@@ -1,6 +1,13 @@
 <template>
   <div id="nav">
     <b-card id="navButton">
+      <router-link to="/" tag="button">
+        <b-icon icon="search" class="icons"></b-icon>
+        <p>Browse</p>
+      </router-link>
+    </b-card>
+
+    <b-card id="navButton">
       <router-link to="/mealplan" tag="button">
         <b-icon icon="calendar2-week" class="icons"></b-icon>
         <p>Plan</p>
@@ -30,7 +37,6 @@ export default {
 </script>
 
 <style scoped>
-
 #nav {
   text-align: center;
   background-color: #d4d3d3;
@@ -47,6 +53,4 @@ export default {
   text-align: center;
   background-color: #d4d3d3;
 }
-
-
 </style>
