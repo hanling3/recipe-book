@@ -28,7 +28,7 @@
     - created the affinity diagram and insights together with teammates.
     - discussed and brainstormed other parts with teammates.
 
-- Justice
+- Xuanhui
     - created part of the interview questions and the persona part.
     - found and interviewed two users in each round of interview; wrote the corrsponding interview summary.
     - created the affinity diagram, categorized and summarized insights together with teammates.
@@ -66,7 +66,7 @@
     - Finalized a new information hierarchy and low-fidelity wireframes with Xinlu
     - Wrote final rationale for milestone 3
 
-- Justice
+- Xuanhui
     - Discussed and generated solutions of the persuasive design, brainstorming, solution space, sketch, and paper prototype with teammates
     - wrote explanations of discarded solutions generated from the brainstorming section.
     - drew and explained the idea of the "profile" sketches.
@@ -86,6 +86,10 @@
     - Revised our final sketch in milestone 3 based on TA's feedback.
     - Developed user testing protocol with Ada
     - Construct favorite page to complete task 2/3
+
+- Xuanhui 
+    - Held user testing and collected user feedback with Hedy
+    - Constructed meal plan page and some other components
 
 # Milestone 5 
 
