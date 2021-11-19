@@ -49,3 +49,4 @@ All non-app related artifacts must be listed here to be graded. If it's not list
 - User Testing
     - [Usability Test Protocol](documents/user-testing/usability-test-protocol.md)
     - [Usability Test Raw Notes](documents/user-testing/usability-test-raw-notes.md)
+    - [Usability Test Summary](documents/user-testing/usability-test-summary.md)
