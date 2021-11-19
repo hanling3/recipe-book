@@ -112,6 +112,53 @@ Collectively, we interviewed 15 users - 8 users in our first round of interviews
 - User 7: The user was a female graduate student currently living in North side of campus. She is just so so with her cooking skills even though she has been cooking since she started her college life. She loves Asian food and cooks Asian cuisines everyday. It took her 15 minutes to prepare her last meal. She usually decides her recipes within 5 minutes. She eats super fast breakfast everyday. She prefers home cooked meals because the extra fees of delivery food are too expensive. Most of the time she can remember the recipes she has used and found on Xiachufang, and she saves the recipes on her phone or in her notebook. She doesn't have a budget for groceries but avoids dining out because she thinks cooking at home is much cheaper.
 
 
+# 2. Gather Information
+Interview Questions:
+
+    3. Cook Related
+        When was the last time you cooked?
+        What did you cook?
+        Who did you cook with?
+        Where did you cook?
+        Why did you cook?
+        How did you cook (i.e. cooking process)?
+        How long have you been cooking?
+        How often do you cook?
+        What kind of food do you usually cook? Easy, Intermediate or elaborate?
+        How long did it take you to prepare your last meal? 
+        Do you cook for yourself or do this for someone else?
+        Do you cook by yourself or do this with someone else?
+        How confident are you in your cooking? 
+    4. Recipes
+        Do you have any experience using recipe apps? 
+        If so, which one and how was your experience? 
+        When was the last time you looked for a recipe?
+        What occasion was it for?
+        How did you find the recipe?
+        Do you like traditional recipes or do you like to experiment with more unfamiliar meals?
+        Do you collect/save different recipes?
+        How do you save your recipes?
+        How much time did it take you to decide on your last meal/recipe?
+    5. Groceries
+        When was the last time you went grocery shopping?
+            -Who did you go with?
+            -Why did you go? 
+            -Where did you go grocery shopping?
+            -What did you get?
+            -How did you get there? 
+            -How much did you spend on ingredients for meals?
+        Where did you last go for grocery shopping? 
+            -Do you go to any other grocery stores?
+        How often do you go grocery shopping?
+        When you go shopping do you know exactly what you want to cook before getting the groceries or do you just buy the essentials/available/fresh products and then figure out what to cook?
+    6. Budgeting    
+        Do you have a budget for your:
+            -weekly/monthly meal?
+            -For groceries?
+            -For dining out?
+
+
+
 ## [Revised] Affinity Diagramming
 
 After our interviews, we created an affinity diagram based on our user interview notes. We categorized our notes as seen in the images provided. Note that different colors represent different users.
@@ -197,6 +244,11 @@ Robo creates a new dish and they cannot wait to share this recipe with their fri
 ## Scenario 4: (Profile + Mark as Cooked) 
 Robo is new to cooking, and their friends recommend this recipe app. Robo downloads this app, searches and follows 2 recipes for lunch and dinner on the same day. Robo marks these two recipes as cooked and saves one of them for future reference. Then they notice that they get a new badge “Cooking Journey Begins” on their profile. They are very excited about this accomplishment as a beginner and looking forward to recording her cooking journey. 
 
+Scenario1
+You are very busy during the midterm week so you want to spent less than 30mins to cook for each meals and save enough time for studying. Searching a 30 mins quick dish and follow the recipe to cook.
+
+Scenario2
+You’ve studied abroad for 2 years and not been able to go back home that often. You missed the food in your hometown and wanted to cook some Beijing dishes for dinner. Try to search Beijing dishes recipes and choose your favorite food to cook.
 
 # 6. Persona
 Name: Robo Hu

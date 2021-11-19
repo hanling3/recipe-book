@@ -1,0 +1,54 @@
+[
+    {
+        "dish": "tomato and egg stir fry",
+        "difficulty": "2/5",
+        "cook time": 15,
+        "budget": "$6",
+        "ingredient": {
+            "tomatoes": 4,
+            "eggs": 4,
+            "sesame oil": "1 tablespoon",
+            "soy sauce": "1 tablespoon",
+            "vegetable oil": "1 tablespoon",
+            "sugar": "1 tablespoon"
+        },
+        "instruction": {
+            "1": "Cut tomatoes into quarters.",
+            "2": "Crack all eggs into a bowl and mix with sesame oil and soy sauce.",
+            "3": "Preheat the wok over medium heat. Add eggs and scramble. Then take out and set aside.",
+            "4": "Add in your tomatoes and sugar. Stir fry for 2 minutes.",
+            "5": "Add eggs back into the wok and stir fry together.",
+            "6": "Transfer into a serving dish and serve."
+        },
+        "utensil": {},
+        "tips": "Adjust sugar and soy sauce as needed."
+    },
+    {
+        "dish": "miso ramen",
+        "difficulty": "1.5/5",
+        "cook time": 10,
+        "budget": "$8",
+        "ingredient": {
+            "miso": 2,
+            "onion": 1,
+            "pork": 1
+        },
+        "instruction": {},
+        "utensil": {},
+        "tips": ""
+    },
+    {
+        "dish": "kung pao chicken",
+        "difficulty": "2/5",
+        "cook time": 30,
+        "budget": "$12",
+        "ingredient": {
+            "chicken thgn": 2,
+            "onion": 1,
+            "garlic": 1
+        },
+        "instruction": {},
+        "utensil": {},
+        "tips": ""
+    }
+]
