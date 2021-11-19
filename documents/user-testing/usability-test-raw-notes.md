@@ -1,7 +1,6 @@
 # User 1: Joyce
 
 Participant Name: Joyce
-——————————————————————————————————————
 Facilitator Name: Justice
 Observer Name: Ada, Xinlu, Hedy 
 
@@ -358,7 +357,6 @@ Final state: Badge details for “20 recipes cooked” achievement
 # User 4: Lucy
 
 Participant Name: Lucy 
-——————————————————————————————————————
 Facilitator Name: Justice
 Observer Name: Ada, Xinlu, Hedy 
 
