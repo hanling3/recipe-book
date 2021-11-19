@@ -1,6 +1,18 @@
 <template>
   <div id="app">
-    <router-view />
+    <div id="nav">
+      <router-view />
+        <!-- <h1> Recipe Finder App </h1> -->
+      <!-- <b-container class="d-flex">
+        <h1>Recipe Finder App</h1>
+        <router-link to="/plan" tag="button">Plan</router-link>
+        <router-link to="/browse" tag="button">Browse</router-link>
+        <router-link to="/favorites" tag="button">Favorites</router-link>
+        <router-link to="/profile" tag="button">Profile</router-link>
+      </b-container>
+      </b-container> -->
+      
+    </div>
   </div>
 </template>
 
@@ -28,12 +40,16 @@
   color: #2c3e50;
 }
 
-/* #nav a {
+#nav {
+  padding: 30px;
+}
+
+#nav a {
   font-weight: bold;
   color: #2c3e50;
 }
 
 #nav a.router-link-exact-active {
   color: #42b983;
-} */
+}
 </style>

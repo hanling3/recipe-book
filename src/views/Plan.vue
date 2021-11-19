@@ -59,9 +59,11 @@
 
       <router-link to="/browse" style="text-decoration: none; color: inherit;">
         <b-row id="plan3">
-          <div id="plancard" class="col justify-content-center mb-3">
+          <div id="plancard" :class="planCardClass">
             <div class="card h-400 bg-light text-center" style=" height: 10rem; line-height:120px;">
               <div class="card-body align-items-center">
+                <h5 class="card-title">{{recipeName}}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{recipeDescription}}</h6>
                 <p id="cardcontent" class="card-text text-muted">
                   <b-icon :icon="iconContent" id="search"></b-icon> {{planFind}}
                 </p>
@@ -90,7 +92,10 @@ import DraggableCal from 'vue-draggable-cal';
     data() {
       return {
         planFind: "Find a recipe.",
-        iconContent: "search"
+        iconContent: "search",
+        recipeName: "Miso Ramen",
+        recipeDescription: "",
+        planCardClass: "col justify-content-center mb-3",
       }
     },
     methods: {
