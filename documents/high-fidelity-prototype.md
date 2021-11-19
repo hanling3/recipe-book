@@ -26,6 +26,8 @@ Except for the final sketch we made in the milestone 3, we decided to make a pro
 
 The Figma prototype link can be found here: https://www.figma.com/file/Vzdd7cwBkYE4uABQlfRsJs/App-prototype?node-id=0%3A1
 
+The usability test protocol, raw notes, and summary can be found in the "Additional Items" section.
+
 
 ### (2）App Structure
 ![information hierarchy](images/information_hierarchy/0_Overview.png)
