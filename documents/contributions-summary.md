@@ -84,21 +84,23 @@
 
 - Xinlu
     - Revised our final sketch in milestone 3 based on TA's feedback.
-    - Developed user testing protocol with Ada
+    - Developed user testing protocol and information hierarchy with Ada
     - Construct favorite page to complete task 2/3
 
 - Xuanhui 
     - Held user testing and collected user feedback with Hedy
     - Constructed meal plan page and some other components
+    - Digitalized information hierarchy with Hedy
 
 - Ada
-    - Developed user testing protocol with Xinlu
-    - Revised tasks
+    - Developed user testing protocol and information hierarchy with Xinlu
+    - Revised scenario tasks 
     - Initialized app, added routing, and constructed profile page
 
 - Hedy
     - Conducted user testing
     - Constructed browse page and created components
+    - Digitalized information hierarchy with Xuanhui
 
 # Milestone 5 
 
