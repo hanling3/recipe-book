@@ -18,7 +18,7 @@
     - [3. Problems](documents/discovery-and-planning.md#3-problems)
     - [[Revised] 4. Value Propositions](documents/discovery-and-planning.md#revised-4-value-propositions)
     - [[Revised] 5. Scenarios](documents/discovery-and-planning.md#revised-5-scenarios)
-    - [6. Persona](documents/discovery-and-planning.md#6-persona)
+    - [[Revised] 6. Persona](documents/discovery-and-planning.md#6-persona)
     - [7. Project Themes](documents/discovery-and-planning.md#7-project-themes)
 
 ### Milestone 3: Design

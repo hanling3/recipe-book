@@ -1,6 +1,7 @@
 # Milestone 4: High-Fidelity Prototype
 
 ## 0. Overview
+
 - Project's Name: Recipe Finder
 - Team Members Name: Ada Chai, Xuanhui Chen, Hedy Yang, Xinlu Zhou
 - Project's choice of focus
@@ -15,9 +16,9 @@
     - Coding
 
 ## 1. Revisions to Prior Work
-### Address revisions to persona (Ada)
-### Address revisions from TA - final sketches (Xinlu)
-We add some arrows and annotation between each pages to help audience better understand app's pages navigation of final sketch.
+For this milestone, we revised some items in Milestone 2. In particular, we revised our persona, so that there was a better alignment of our persona's goals and the final creation of our app, and it was clear how our app features connected to our persona's needs.
+
+Additionally, we revised our final sketches, by adding arrows so that the information flow between the UI frames was clearer. 
 
 
 ## 2. Planning & Psuedocode
@@ -25,6 +26,8 @@ We add some arrows and annotation between each pages to help audience better und
 Except for the final sketch we made in the milestone 3, we decided to make a prototype using Figma and conducted usability tests. We volunteered to do the usability tests because we felt it was very necessary to get feedback and revise our design in the early stage. We believed it would actually save us time since we could fix the design problems before we started coding. We chose to use Figma instead of the final sketch for the usability test because the Figma prototype would be much more similar to the final product, and therefore, the feedback received from using Figama should be more accurate than the ones received from using paper prototype.
 
 The Figma prototype link can be found here: https://www.figma.com/file/Vzdd7cwBkYE4uABQlfRsJs/App-prototype?node-id=0%3A1
+
+### (2) Schedule
 
 The usability test protocol, raw notes, and summary can be found in the "Additional Items" section.
 
@@ -40,7 +43,6 @@ We discussed and agreed on this in-team schedule to help us track the progress. 
 
 
 ## 3. Coding
-Please check the "src" folder for the app code.
-
+Please see our "src" folder for our high-fidelity prototype. 
 
 
