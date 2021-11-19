@@ -82,7 +82,10 @@
 
 # Milestone 4 
 
-TODO 
+- Xinlu
+    - Revised our final sketch in milestone 3 based on TA's feedback.
+    - Developed user testing protocol with Ada
+    - Construct favorite page to complete task 2/3
 
 # Milestone 5 
 
