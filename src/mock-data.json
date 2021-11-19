@@ -1,9 +1,11 @@
 [
     {
-        "dish": "tomato and egg stir fry",
-        "difficulty": "2/5",
-        "cook time": 15,
+        "dish": "Tomato and Egg Stir Fry",
+        "difficulty": "Easy",
+        "cooktime": 15,
         "budget": "$6",
+        "type": "Chinese",
+        "image": "tomato-and-egg-stir-fry.jpg",
         "ingredient": {
             "tomatoes": 4,
             "eggs": 4,
@@ -24,10 +26,12 @@
         "tips": "Adjust sugar and soy sauce as needed."
     },
     {
-        "dish": "miso ramen",
-        "difficulty": "1.5/5",
-        "cook time": 10,
+        "dish": "Miso Ramen",
+        "difficulty": "Easy",
+        "cooktime": 10,
         "budget": "$8",
+        "type": "Japanese",
+        "image": "tomato-and-egg-stir-fry.jpg",
         "ingredient": {
             "miso": 2,
             "onion": 1,
@@ -38,10 +42,12 @@
         "tips": ""
     },
     {
-        "dish": "kung pao chicken",
-        "difficulty": "2/5",
-        "cook time": 30,
+        "dish": "Kung Pao Chicken",
+        "difficulty": "Meidum",
+        "cooktime": 40,
         "budget": "$12",
+        "type": "Chinese",
+        "image": "tomato-and-egg-stir-fry.jpg",
         "ingredient": {
             "chicken thgn": 2,
             "onion": 1,

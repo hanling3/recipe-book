@@ -3,14 +3,21 @@
     <pageTitle :pageTitle="title" />
     <section-title :sectionTitle="sectiontitle1" />
     <recipeCard
-      v-for="item in listOfDish"
+      v-for="item in mockdata"
       v-bind:key="item.name"
       v-bind:dish="item"
     />
     <section-title :sectionTitle="sectiontitle2" />
-    <drop-down-menu />
-      <recipeCard
-      v-for="item in listOfDish"
+    <div id="buttons">
+      <drop-down-menu />
+      <br>
+      <button type="button" class="btn btn-dark" v-on:click="visability">
+        {{ filter }}
+      </button>
+    </div>
+    <br>
+    <recipeCard
+      v-for="item in mockdataFavorite"
       v-bind:key="item.name"
       v-bind:dish="item"
     />
@@ -21,8 +28,9 @@
 <script>
 import recipeCard from "@/components/RecipeCard.vue";
 import pageTitle from "@/components/PageTitle.vue";
-import sectionTitle from '@/components/SectionTitle.vue';
-import dropDownMenu from '@/components/DropDownMenu.vue';
+import sectionTitle from "@/components/SectionTitle.vue";
+import dropDownMenu from "@/components/DropDownMenu.vue";
+import mockdata from "@/mock-data.json";
 // import navBar from "@/components/NavBar.vue";
 export default {
   name: "browse",
@@ -31,24 +39,36 @@ export default {
     pageTitle,
     sectionTitle,
     // navBar,
-    dropDownMenu
+    dropDownMenu,
   },
-  data: () => ({
-    title: "Browse",
-    sectiontitle1: "Favorite",
-    sectiontitle2: "We Recommend",
-    listOfDish: [
-      {
-        name:"Tomato and Egg Stir Fry",
-        image:[require("@/assets/tomato-and-egg-stir-fry.jpg")],
-        cooktime:"12 min",
-        cost:"$5",
-        difficulty:"Easy",
-        link:"https://docs.google.com/document/d/1-f2XkdXyUBoOxf_4QizudCUTz3t9KBOOOWOhKH8TcUg/edit?usp=sharing"
-      },
-        
-        
-    ]
-  }),
+  data: function () {
+    return {
+      showAllRecipe: true,
+      filter: "Unfiltered",
+      title: "Browse",
+      sectiontitle1: "Favorite",
+      sectiontitle2: "We Recommend",
+      mockdata: mockdata,
+      mockdataFavorite: mockdata,
+    };
+  },
+
+  methods: {
+    visability: function () {
+      if (this.showAllRecipe == true) {
+        this.showAllRecipe = false;
+        this.filter = "Filtered";
+        this.mockdataFavorite = [mockdata[2]];
+      } else {
+        this.showAllRecipe = true;
+        this.filter = "Unfiltered";
+        this.mockdataFavorite = mockdata;
+      }
+    },
+  },
 };
 </script>
+
+<style scoped>
+
+</style>

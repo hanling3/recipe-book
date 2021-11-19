@@ -1,20 +1,23 @@
 <template>
   <a :href="dish.link">
     <div class="recipeCard">
+      
       <b-card
-        :title="dish.name"
-        :img-src="dish.image"
+        :title="dish.dish"
+        :img-src='require("../assets/" + dish.image)'
         img-alt="Image"
         img-top
         style="max-width: 15rem"
         class="mb-2"
       >
+      
         <b-card-text>
+          <!-- <img id="dishImage" :src='require("../assets/" + dish.image)'> -->
           <b-icon icon="clock" scale="1"></b-icon>
           {{ dish.cooktime }}
           <b-icon icon="cash-stack" scale="1"></b-icon>
-          {{ dish.cost }}
-          {{ dish.diffculty }}
+          {{ dish.budget }}
+          {{ dish.difficulty }}
         </b-card-text>
       </b-card>
     </div>
@@ -41,7 +44,7 @@ a {
   width: 300px;
 }
 
-.dishImage {
+#dishImage {
   width: 200px;
   height: 200px;
 }
