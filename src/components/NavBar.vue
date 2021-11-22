@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <b-card id="navButton">
-      <router-link to="/" tag="button">
+      <router-link to="/browse" tag="button">
         <b-icon icon="search" class="icons"></b-icon>
         <p>Browse</p>
       </router-link>
