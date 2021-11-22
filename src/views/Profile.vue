@@ -5,9 +5,28 @@
     <div class = "header"> 
       <div> <img src="@/assets/profile_propic.jpg" alt="Robo the persona"> </div>
       <div> <h2> Robo  <b-icon icon="pencil"></b-icon> </h2> </div>
+      
+      <div class = "badge-header"> <h4>  My Badges </h4> </div>
+      <div class = "badges">
+        <div> 
+          <b-button class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
+          <h5> Newly Joined </h5>
+        </div>
+
+        <div>   
+          <b-button class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
+          <h5> Consistent Cook </h5>
+        </div>
+
+        <div>
+          <b-button class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
+          <h5> Masterchef </h5>
+        </div> 
+
+      </div>
     </div>
 
-    <div class = "badge-section">
+    <!-- <div class = "badge-section">
       <h4> My Badges </h4> 
       <div class = "badges">
         <div> 
@@ -25,7 +44,7 @@
           <h5> Masterchef </h5>
         </div> 
       </div>  
-    </div>
+    </div> -->
 
     <div class="report">
       <h4> Cooking Report </h4>
@@ -58,8 +77,8 @@
 
 h1 {
   text-align: left;
-  margin-left: 50px;
-  margin-top: 50px;
+  /* margin-left: 25px;
+  margin-top: 25px; */
 }
 
 /* Header */
@@ -115,17 +134,23 @@ h4 {
 }
 
 .badges {
-  text-align: center;
   margin: auto;
-  width: 30%;  
+  width:auto; 
   display: flex;
   flex-direction: row;
+  text-align: center;
 } 
 
-.badge-section {
-  text-align: center;
-  /* margin: 0 auto; */
+.badge-header {
+  margin: auto;
+  margin-top: 30px;
+  width: auto;
 }
+
+/* .badge-section {
+  text-align: center;
+  margin: 0 auto; 
+}  */
 
 /* Report */
 
