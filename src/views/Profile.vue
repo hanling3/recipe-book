@@ -153,6 +153,7 @@ h4 {
   border: 1px solid #d6d6d6;
   padding: 20px;
   margin: 50px;
+  margin-bottom: 200px;
 }
 
 .left {

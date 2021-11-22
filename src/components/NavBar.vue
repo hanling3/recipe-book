@@ -34,32 +34,31 @@
             <b-icon icon="search" style="width: 45px; height: 45px"></b-icon
             ><br />browse
           </button></router-link
-        ></b-col
-      >
+        ></b-col>
       <b-col cols="3"
         ><router-link to="/favorites"
           ><button>
-            <b-icon icon="calendar2-week" style="width: 45px; height: 45px"></b-icon
-            ><br />favorite
+            <b-icon icon="heart" style="width: 45px; height: 45px"></b-icon
+            ><br/>favorites
           </button></router-link
-        ></b-col
-      >
+        ></b-col>
+
+       <b-col cols="3"
+        ><router-link to="/plan"
+          ><button>
+            <b-icon icon="calendar2-week" style="width: 45px; height: 45px"></b-icon
+            ><br />plan
+          </button></router-link>
+      </b-col>
+
       <b-col cols="3"
         ><router-link to="/profile"
           ><button>
-            <b-icon icon="heart" style="width: 45px; height: 45px"></b-icon
-            ><br />profile
-          </button></router-link
-        >
-      </b-col>
-      <b-col cols="3"
-        ><router-link to="/plan"
-          ><button>
             <b-icon icon="person" style="width: 45px; height: 45px"></b-icon
-            ><br />plan
-          </button></router-link
-        >
+            ><br />profile
+          </button></router-link>
       </b-col>
+     
     </b-row>
   </div>
 </template>
@@ -83,8 +82,11 @@ export default {
 }
 
 button{
-color: rgb(184, 184, 184);
-}
+  color: rgb(184, 184, 184);
+  width:100px;
+  height: 100px;
+  margin: 10px;
+  }
 /* .icons {
   width: 50px;
   height: 50px;
