@@ -37,7 +37,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "profile" */ '../views/Profile.vue')
   },
   {
-    path: '/',
+    path: '/browse',
     name: 'Browse',
     // route level code-splitting
     // this generates a separate chunk (profile.[hash].js) for this route
@@ -51,6 +51,14 @@ const routes = [
     // this generates a separate chunk (profile.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "browse" */ '../views/EmptyRecipe.vue')
+  },
+  {
+    path: '/',
+    name: 'welcomepage',
+    // route level code-splitting
+    // this generates a separate chunk (profile.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "landingpage" */ '../views/WelcomePage.vue')
   },
 ]
 
