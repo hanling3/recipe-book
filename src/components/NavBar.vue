@@ -27,40 +27,13 @@
         <p>Profile</p>
       </router-link>
     </b-card> -->
-    <b-row align-h="center" class="text-center">
-      <b-col cols="3"
-        ><router-link to="/browse"
-          ><button>
-            <b-icon icon="search" style="width: 45px; height: 45px"></b-icon
-            ><br />browse
-          </button></router-link
-        ></b-col
-      >
-      <b-col cols="3"
-        ><router-link to="/favorites"
-          ><button>
-            <b-icon icon="calendar2-week" style="width: 45px; height: 45px"></b-icon
-            ><br />favorite
-          </button></router-link
-        ></b-col
-      >
-      <b-col cols="3"
-        ><router-link to="/profile"
-          ><button>
-            <b-icon icon="heart" style="width: 45px; height: 45px"></b-icon
-            ><br />profile
-          </button></router-link
-        >
-      </b-col>
-      <b-col cols="3"
-        ><router-link to="/plan"
-          ><button>
-            <b-icon icon="person" style="width: 45px; height: 45px"></b-icon
-            ><br />plan
-          </button></router-link
-        >
-      </b-col>
-    </b-row>
+    
+  <div class="btn-group btn-group-justified">
+    <router-link to="/browse" class="btn btn-dark"><b-icon icon="search" style="width: 45px; height: 45px"></b-icon><br />browse</router-link>
+    <router-link to="/plan" class="btn btn-dark"><b-icon icon="calendar2-week" style="width: 45px; height: 45px"></b-icon><br />plan</router-link>
+    <router-link to="/favorites" class="btn btn-dark"><b-icon icon="heart" style="width: 45px; height: 45px"></b-icon><br />favorite</router-link>
+    <router-link to="/plan" class="btn btn-dark"><b-icon icon="person" style="width: 45px; height: 45px"></b-icon><br />profile</router-link>
+</div>
   </div>
 </template>
 
@@ -74,7 +47,7 @@ export default {
 #nav {
   width: 100%;
   /* text-align: center; */
-  background-color: #ffffff;
+  background-color: #2c2c2c17;
   /* position: absolute; */
   /* justify-content: center; */
   position: fixed;
@@ -83,7 +56,9 @@ export default {
 }
 
 button{
-color: rgb(184, 184, 184);
+background-color: rgb(216, 216, 216);
+color: rgb(0, 0, 0);
+width: 100%;
 }
 /* .icons {
   width: 50px;

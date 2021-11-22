@@ -1,5 +1,5 @@
 <template>
-  <div class="background ">
+  <div class="background">
     <div class="content text-white text-center">
       <!-- <h1 class="text-white text-center">Find Your Recipe</h1> -->
       <h2 class="title"> Recipe Finder </h2> 
@@ -7,18 +7,8 @@
       <h4> Welcome to our recipe finder! Find delicous recipes, write your own, and track your cooking progress all within our app. 
         To get started, choose one of the options below.
       </h4>
-
-    </div>
-      <!-- <b-row align-h="center" class="text-center">
-          <b-col cols="3"><router-link to="/browse"><button><b-icon icon="search" style="width: 45px; height: 45px;"></b-icon><br>browse</button></router-link></b-col>
-    <b-col cols="3"><router-link to="/favorite"><button><b-icon icon="search" style="width: 45px; height: 45px;"></b-icon><br>favorite</button></router-link></b-col>
-    <b-col cols="3"><router-link to="/profile"><button><b-icon icon="search" style="width: 45px; height: 45px;"></b-icon><br>profile</button></router-link> </b-col>
-        <b-col cols="3"><router-link to="/plan"><button><b-icon icon="search" style="width: 45px; height: 45px;"></b-icon><br>plan</button></router-link> </b-col>
-         </b-row> -->
-
-
   </div>
-  
+    </div>
 </template>
 
 <script>
@@ -57,6 +47,10 @@ export default {
 #nav {
   padding: 0;
 
+}
+
+.btn-group{
+  width: 100%;
 }
 
 </style>
