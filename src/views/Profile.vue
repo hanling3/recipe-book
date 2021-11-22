@@ -14,8 +14,13 @@
         </div>
 
         <div>   
-          <b-button class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
+          <b-button v-b-modal.consistentcook-details class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
           <h5> Consistent Cook </h5>
+
+          <b-modal id="consistentcook-details" centered title="Consistent Cook">
+     
+          <p class="badge2-text"> <b-icon icon="award" class="star"></b-icon> Awarded for cooking 20 recipes on the app. Keep it up!</p>
+          </b-modal>
         </div>
 
         <div>
@@ -25,26 +30,6 @@
 
       </div>
     </div>
-
-    <!-- <div class = "badge-section">
-      <h4> My Badges </h4> 
-      <div class = "badges">
-        <div> 
-          <b-button class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
-          <h5> Newly Joined </h5>
-        </div>
-
-        <div>   
-          <b-button class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
-          <h5> Consistent Cook </h5>
-        </div>
-
-        <div>
-          <b-button class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
-          <h5> Masterchef </h5>
-        </div> 
-      </div>  
-    </div> -->
 
     <div class="report">
       <h4> Cooking Report </h4>
@@ -71,14 +56,22 @@
 //   })
 // }
 
+export default {
+    data() {
+      return {
+      
+      }
+    }
+  }
+
 </script>
 
 <style>
 
 h1 {
   text-align: left;
-  /* margin-left: 25px;
-  margin-top: 25px; */
+  margin-left: 25px;
+  margin-top: 25px;
 }
 
 /* Header */
@@ -126,6 +119,7 @@ h4 {
   /* width: 50px;  
   margin: 5px; 
   padding: 25px; */ 
+
 }
 
 .star {
@@ -159,6 +153,7 @@ h4 {
   border: 1px solid #d6d6d6;
   padding: 20px;
   margin: 50px;
+  margin-bottom: 200px;
 }
 
 .left {
