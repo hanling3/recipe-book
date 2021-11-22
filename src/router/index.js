@@ -44,14 +44,7 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "browse" */ '../views/Browse')
   },
-  {
-    path: '/emptyrecipe',
-    name: 'EmptyRecipe',
-    // route level code-splitting
-    // this generates a separate chunk (profile.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "browse" */ '../views/EmptyRecipe.vue')
-  },
+
   {
     path: '/',
     name: 'welcomepage',
@@ -59,6 +52,15 @@ const routes = [
     // this generates a separate chunk (profile.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "landingpage" */ '../views/WelcomePage.vue')
+  },
+
+  {
+    path: '/recipe-detail/:name',
+    name: 'RecipeDetail',
+    // route level code-splitting
+    // this generates a separate chunk (profile.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "landingpage" */ '../views/RecipeDetail.vue')
   },
 ]
 

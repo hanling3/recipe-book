@@ -1,24 +1,35 @@
 <template>
-  <a :href="dish.link">
+  <!-- <a :href="dish.link">
     <div class="recipeCard">
       <b-card
+        :title="dish.dish" -->
+  <!-- <router-link :to='require("/recipe-detail/" + dish.dish)'>  -->
+    <div id="recipeCard">
+      <b-card
         :title="dish.dish"
+        title-tag="h5"
         :img-src="require('../assets/' + dish.image)"
         img-alt="Image"
         img-top
-        style="max-width: 15rem"
-        class="mb-2"
+        img-height=150rem
+        style="width: 15rem"  
+        class="nowrap d-flex justify-content-center" 
       >
-        <b-card-text>
-          <b-icon icon="clock" scale="1"></b-icon>
-          {{ dish.cooktime }}
+        <b-card-text class="d-flex justify-content-between">
+          <!-- <img id="dishImage" :src='require("../assets/" + dish.image)'> -->
+          <div> 
+            <b-icon icon="clock" scale="1"></b-icon>
+            {{ dish.cooktime }}
+          </div>
+          <div>
           <b-icon icon="cash-stack" scale="1"></b-icon>
           {{ dish.budget }}
+          </div>
           {{ dish.difficulty }}
         </b-card-text>
       </b-card>
     </div>
-  </a>
+  <!-- </router-link> -->
 </template>
 
 <script>
@@ -61,13 +72,14 @@ a {
   color: black;
 }
 
-.recipeCard {
-  display: inline-flex;
-  width: 300px;
+.nowrap {
+  white-space: nowrap;
 }
 
-#dishImage {
-  width: 200px;
-  height: 200px;
+#recipeCard {
+  display: inline-flex;
+  width: 300px;
+
 }
+
 </style>
