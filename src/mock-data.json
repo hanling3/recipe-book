@@ -43,7 +43,7 @@
     },
     {
         "dish": "Kung Pao Chicken",
-        "difficulty": "Meidum",
+        "difficulty": "Medium",
         "cooktime": 40,
         "budget": "$12",
         "type": "Chinese",

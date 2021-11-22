@@ -81,6 +81,10 @@ export default {
   bottom: 0;
 }
 
+#nav selected {
+  background-color: black;
+}
+
 button{
   color: rgb(184, 184, 184);
   width:100px;
