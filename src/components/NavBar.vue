@@ -1,6 +1,6 @@
 <template>
-  <div id="nav">
-    <!-- <b-card id="navButton">
+  <div class="d-flex justify-content-around align-content-end" id="nav">
+    <b-card id="navButton">
       <router-link to="/browse" tag="button">
         <b-icon icon="search" class="icons"></b-icon>
         <p>Browse</p>
@@ -26,8 +26,9 @@
         <b-icon icon="person" class="icons"></b-icon>
         <p>Profile</p>
       </router-link>
-    </b-card> -->
-    <b-row align-h="center" class="text-center">
+    </b-card>
+    
+    <!-- <b-row align-h="center" class="text-center">
       <b-col cols="3"
         ><router-link to="/browse"
           ><button>
@@ -60,7 +61,7 @@
           </button></router-link
         >
       </b-col>
-    </b-row>
+    </b-row> -->
   </div>
 </template>
 
@@ -71,29 +72,30 @@ export default {
 </script>
 
 <style scoped>
-#nav {
+/* #nav {
   width: 100%;
-  /* text-align: center; */
+  text-align: center;
   background-color: #ffffff;
-  /* position: absolute; */
-  /* justify-content: center; */
+  position: absolute;
+  justify-content: center;
   position: fixed;
-  /* left: 0; */
+  left: 0;
   bottom: 0;
-}
+  
+} */
 
-button{
-color: rgb(184, 184, 184);
-}
+/* button{
+  color: rgb(184, 184, 184);
+} */
+
 /* .icons {
   width: 50px;
   height: 50px;
 } */
 
-/* #navButton {
+#navButton {
   display: inline-flex;
   border: none;
   text-align: center;
-  background-color: #d4d3d328;
-} */
+}
 </style>
