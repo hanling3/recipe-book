@@ -1,9 +1,5 @@
 <template>
-  <!-- <a :href="dish.link">
-    <div class="recipeCard">
-      <b-card
-        :title="dish.dish" -->
-  <!-- <router-link :to='require("/recipe-detail/" + dish.dish)'>  -->
+  <router-link :to="`/recipe-detail/${dish.dish}`">
     <div id="recipeCard">
       <b-card
         :title="dish.dish"
@@ -16,7 +12,6 @@
         class="nowrap d-flex justify-content-center" 
       >
         <b-card-text class="d-flex justify-content-between">
-          <!-- <img id="dishImage" :src='require("../assets/" + dish.image)'> -->
           <div> 
             <b-icon icon="clock" scale="1"></b-icon>
             {{ dish.cooktime }}
@@ -29,7 +24,7 @@
         </b-card-text>
       </b-card>
     </div>
-  <!-- </router-link> -->
+  </router-link>
 </template>
 
 <script>
