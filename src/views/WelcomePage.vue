@@ -3,7 +3,7 @@
     <div class="content text-white text-center">
       <!-- <h1 class="text-white text-center">Find Your Recipe</h1> -->
       <h2 class="title"> Recipe Finder </h2> 
-      <h3> by McGraw Studio </h3> 
+      <h4> by McGraw Studio </h4> 
       <h4> Welcome to our recipe finder! Find delicous recipes, write your own, and track your cooking progress all within our app. 
         To get started, choose one of the options below.
       </h4>
@@ -20,6 +20,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .background {
   background-image: linear-gradient(
       to bottom,
@@ -36,6 +37,7 @@ export default {
 }
 .title {
   font-size: 48pt;
+  font-family: 'Pacifico', cursive;
 }
 
 .content h4{
