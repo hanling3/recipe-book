@@ -1,5 +1,5 @@
 <template>
-  <div class="MealPlan">
+  <div class="MealPlan" id="main-page">
     <div class="row">
         <div class="col text-start">
           <h1>Meal Plan</h1>
@@ -41,6 +41,7 @@
 //import DraggableCal from 'vue-draggable-cal';
 // import navBar from "@/components/NavBar.vue";
 import RecipeCard from '../components/RecipeCard.vue';
+import mockdata from "@/mock-data.json";
 
   export default {
     name: 'mealplan',
@@ -52,6 +53,7 @@ import RecipeCard from '../components/RecipeCard.vue';
     data() {
       return {
         today: new Date().toDateString(),
+        mockdata: mockdata,
         listOfPlan: [
             {   
                 date: "Nov.1st",
@@ -79,7 +81,7 @@ import RecipeCard from '../components/RecipeCard.vue';
     computed: {
         sortDates: function() {
             const _ = require("lodash");
-            var newList = _.groupBy(_.sortBy(this.listOfPlan, 'date').reverse(), 'date');
+            var newList = _.groupBy(_.sortBy(this.mockdata, 'date').reverse(), 'date');
             console.log(newList);
             return newList;
         }

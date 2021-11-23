@@ -3,6 +3,8 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import VCalendar from 'v-calendar';
+
 
 // Import Bootstrap an BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
@@ -13,7 +15,12 @@ Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 
+
 Vue.config.productionTip = false
+
+
+// Use v-calendar & v-date-picker components
+Vue.use(VCalendar);
 
 new Vue({
   router,
