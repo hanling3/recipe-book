@@ -30,9 +30,9 @@
             {{ dish.difficulty }}
           </div>
         </b-card-text>
-      </b-card>
-       </router-link>
+        </b-card>
     </div>
+  </router-link>
 </template>
 
 <script>
