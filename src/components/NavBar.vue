@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex justify-content-around align-content-end" id="nav">
-    <b-card id="navButton">
+    <!-- <b-card id="navButton">
       <router-link to="/browse" tag="button">
         <b-icon icon="search" class="icons"></b-icon>
         <p>Browse</p>
@@ -26,7 +26,15 @@
         <b-icon icon="person" class="icons"></b-icon>
         <p>Profile</p>
       </router-link>
-    </b-card>
+    </b-card>  -->
+    
+  <div class="btn-group btn-group-justified">
+    <router-link to="/browse" class="btn btn-dark"><b-icon icon="search" style="width: 45px; height: 45px"></b-icon><br />browse</router-link>
+    <router-link to="/plan" class="btn btn-dark"><b-icon icon="calendar2-week" style="width: 45px; height: 45px"></b-icon><br />plan</router-link>
+    <router-link to="/favorites" class="btn btn-dark"><b-icon icon="heart" style="width: 45px; height: 45px"></b-icon><br />favorite</router-link>
+    <router-link to="/plan" class="btn btn-dark"><b-icon icon="person" style="width: 45px; height: 45px"></b-icon><br />profile</router-link>
+</div>
+    <!-- </b-card> -->
     
     <!-- <b-row align-h="center" class="text-center">
       <b-col cols="3"
@@ -70,22 +78,27 @@ export default {
 </script>
 
 <style scoped>
-/* #nav {
+#nav {
   width: 100%;
-  text-align: center;
-  background-color: #ffffff;
-  position: absolute;
-  justify-content: center;
+  /* text-align: center; */
+  background-color: #2c2c2c17;
+  /* position: absolute; */
+  /* justify-content: center; */
   position: fixed;
   left: 0;
   bottom: 0;
   
-} */
+} 
 
 /* button{
   color: rgb(184, 184, 184);
 } */
 
+button{
+background-color: rgb(216, 216, 216);
+color: rgb(0, 0, 0);
+width: 100%;
+}
 /* .icons {
   width: 50px;
   height: 50px;
