@@ -52,10 +52,27 @@
           <button> Add to Favorite </button>
         </b-col>
         <b-col>
-          <button>Add to Meal Plan</button>
+          <button @click="show=true">Add to Meal Plan</button>
+          <stack-modal
+                :show="show"
+                title="Select A Date"
+                @close="show=false"
+                :modal-class="{ [modalClass]: true }"
+                :saveButton="{ visible: true }"
+                :cancelButton="{ title: 'Close', btnClass: { 'btn btn-light': true } }"
+          >
+            <datepicker />
+            <h4>Choose Meal</h4>
+            <div class="btn-group" role="group" aria-label="MealSelection">
+              <button type="button" class="btn btn-light"><i class="bi-sunrise"></i>Breakfast</button>
+              <button type="button" class="btn btn-light"><i class="bi-sun"></i>Lunch</button>
+              <button type="button" class="btn btn-light"><i class="bi-moon-stars">Dinner</i></button>
+            </div>
+
+          </stack-modal>
         </b-col>
       </b-row>
-      <button class="btn btn-light" @click="show=true">Save To Plan</button>
+      <!--<button class="btn btn-light" @click="show=true">Save To Plan</button>-->
 
       <stack-modal
                 :show="show"

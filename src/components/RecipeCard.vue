@@ -31,8 +31,9 @@
           </div>
         </b-card-text>
       </b-card>
-       </router-link>
-    </div>
+       
+      </div>
+    </router-link>
 </template>
 
 <script>
