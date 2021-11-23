@@ -7,6 +7,7 @@
         "type": "Chinese",
         "image": "tomato-and-egg-stir-fry.jpg",
         "imageCitation": "Photo by Ada Chai from McGraw Studio",
+        "date": "",
         "ingredients": {
             "tomatoes": 4,
             "eggs": 4,
@@ -34,6 +35,7 @@
         "type": "Japanese",
         "image": "miso-ramen.jpg",
         "imageCitation": "Photo by RODNAE Productions from Pexels",
+        "date": "",
         "ingredients": {
             "miso": 2,
             "onion": 1,
@@ -51,6 +53,7 @@
         "type": "Chinese",
         "image": "kung-pao-chicken.jpg",
         "imageCitation": "Photo by Janine Beth Salazar from Pexels",
+        "date": "",
         "ingredients": [
             { "Ingredient": "Chicken Thign", "Quantity": 2 },
             { "Ingredient": "Onion", "Quantity": 1 },
