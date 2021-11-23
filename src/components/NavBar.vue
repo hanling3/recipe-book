@@ -35,8 +35,8 @@
           <button>
             <b-icon icon="search" class="icons"></b-icon><br />
             browse
-          </button></router-link
-        >
+          </button>
+        </router-link>
       </b-col>
 
       <b-col cols="3">
@@ -45,8 +45,8 @@
             <b-icon icon="heart" class="icons"></b-icon><br />
             favorites
           </button>
-        </router-link></b-col
-      >
+        </router-link>
+      </b-col>
 
       <b-col cols="3">
         <router-link to="/plan">
@@ -62,8 +62,8 @@
           <button>
             <b-icon icon="person" class="icons"></b-icon><br />
             profile
-          </button></router-link
-        >
+          </button>
+        </router-link>
       </b-col>
     </b-row>
   </div>
@@ -82,12 +82,22 @@ export default {
   position: fixed;
   /* align-content: end; */
   bottom: 0;
-}
+  
+} 
 
-button {
-  /* color: rgb(184, 184, 184); */
-  color:black;
+/* button{
+  color: rgb(184, 184, 184);
+} */
+
+button{
+background-color: rgb(216, 216, 216);
+color: rgb(0, 0, 0);
+width: 100%;
 }
+/* .icons {
+  width: 50px;
+  height: 50px;
+} */
 
 .icons {
   width: 45px;

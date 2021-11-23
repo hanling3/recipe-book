@@ -55,14 +55,42 @@
           <button>Add to Meal Plan</button>
         </b-col>
       </b-row>
+      <button class="btn btn-light" @click="show=true">Save To Plan</button>
+
+      <stack-modal
+                :show="show"
+                title="Select A Date"
+                @close="show=false"
+                :modal-class="{ [modalClass]: true }"
+                :saveButton="{ visible: true }"
+                :cancelButton="{ title: 'Close', btnClass: { 'btn btn-light': true } }"
+      >
+        <datepicker />
+        <h4>Choose Meal</h4>
+        <div class="btn-group" role="group" aria-label="MealSelection">
+          <button type="button" class="btn btn-light"><i class="bi bi-sunrise"></i></button>
+          <button type="button" class="btn btn-light"><i class="bi bi-sun"></i></button>
+          <button type="button" class="btn btn-light"><i class="bi bi-moon-stars"></i></button>
+        </div>
+
+      </stack-modal>
+      
+
     </b-card>
   </div>
 </template>
 
 <script>
 import mockdata from "@/mock-data.json";
+import StackModal from '@innologica/vue-stackable-modal'
+import datepicker from "@/components/DatePicker.vue";
+
 export default {
   name: "recipeCard",
+  components: {
+    StackModal,
+    datepicker
+  },
   data() {
     return {
       buttonStyle1: "light",
@@ -70,6 +98,12 @@ export default {
       buttonStyle3: "secondary",
       items: mockdata[2]["ingredients"],
       thedish: mockdata[2],
+
+      show: false,
+      show_second: false,
+      show_third: false,
+      modalClass: ''
+
     };
   },
   methods: {
@@ -85,13 +119,13 @@ export default {
         (this.buttonStyle3 = "secondary"),
         (this.items = mockdata[2]["instructions"]);
     },
-    display3: function () {
-      (this.buttonStyle3 = "light"),
-        (this.buttonStyle1 = "secondary"),
-        (this.buttonStyle2 = "secondary"),
-        (this.items = mockdata[2]["utensil"]);
-    },
-  },
+     display3: function() {
+      this.buttonStyle3 = "light",
+      this.buttonStyle1 = "secondary",
+      this.buttonStyle2 = "secondary",
+      this.items = mockdata[2]["utensil"]
+    }, 
+  }
 };
 </script>
 
