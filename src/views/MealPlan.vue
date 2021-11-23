@@ -42,13 +42,13 @@
 // import navBar from "@/components/NavBar.vue";
 import RecipeCard from '../components/RecipeCard.vue';
 import mockdata from "@/mock-data.json";
+import datepicker from "@/components/DatePicker.vue";
 
   export default {
     name: 'mealplan',
     components: {
-      //DraggableCal,
-      // navBar,
       RecipeCard,
+      datepicker
     },
     data() {
       return {
