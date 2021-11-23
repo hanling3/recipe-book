@@ -12,7 +12,7 @@
             v-bind:dish="item"
             />
 
-          <b-button v-b-modal.modal-xl><b-icon icon="plus" style="width: 45px; height: 45px"></b-icon></b-button>
+          <b-button v-b-modal.modal-xl class="addbutton"><b-icon icon="plus" style="width: 45px; height: 45px"></b-icon></b-button>
           <b-modal @ok="handleOk" title="BootstrapVue" id="modal-xl" size="xl">
             <Upload-Recipe v-on:newrecipe="addRecipe"></Upload-Recipe>
           </b-modal>
@@ -80,7 +80,7 @@ export default {
 </script>
 
 <style>
-.btn{
+.addbutton{
     width: 80px;
     height: 80px;
     padding: 6px 0px;

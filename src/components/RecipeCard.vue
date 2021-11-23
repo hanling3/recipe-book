@@ -47,9 +47,9 @@ export default {
       console.log("here");
       this.dish.budget = 100;
     }
-    if (this.dish.image == undefined) {
+    if (this.dish.reference == undefined) {
       console.log("image");
-      this.dish.image = "tomato-and-egg-stir-fry.jpg";
+      this.dish.reference = "tomato-and-egg-stir-fry";
     }
   },
   // watch: {
