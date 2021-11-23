@@ -32,9 +32,9 @@
         <datepicker />
         <h4>Choose Meal</h4>
         <div class="btn-group" role="group" aria-label="MealSelection">
-          <button type="button" class="btn btn-light"><i class="bi bi-sunrise"></i></button>
-          <button type="button" class="btn btn-light"><i class="bi bi-sun"></i></button>
-          <button type="button" class="btn btn-light"><i class="bi bi-moon-stars"></i></button>
+          <button type="button" class="btn btn-light"><i class="bi-sunrise"></i>Breakfast</button>
+          <button type="button" class="btn btn-light"><i class="bi-sun"></i>Lunch</button>
+          <button type="button" class="btn btn-light"><i class="bi-moon-stars">Dinner</i></button>
         </div>
 
       </stack-modal>
