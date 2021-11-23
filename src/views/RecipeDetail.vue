@@ -56,12 +56,13 @@
           <stack-modal
                 :show="show"
                 title="Select A Date"
+                save= "dateReceive"
                 @close="show=false"
                 :modal-class="{ [modalClass]: true }"
                 :saveButton="{ visible: true }"
                 :cancelButton="{ title: 'Close', btnClass: { 'btn btn-light': true } }"
           >
-            <datepicker />
+            <datepicker v-on: dateSend="dateReceive"/> 
             <h4>Choose Meal</h4>
             <div class="btn-group" role="group" aria-label="MealSelection">
               <button type="button" class="btn btn-light"><i class="bi-sunrise"></i>Breakfast</button>
@@ -70,28 +71,11 @@
             </div>
 
           </stack-modal>
+          
         </b-col>
       </b-row>
       <!--<button class="btn btn-light" @click="show=true">Save To Plan</button>-->
 
-      <stack-modal
-                :show="show"
-                title="Select A Date"
-                @close="show=false"
-                :modal-class="{ [modalClass]: true }"
-                :saveButton="{ visible: true }"
-                :cancelButton="{ title: 'Close', btnClass: { 'btn btn-light': true } }"
-      >
-        <datepicker />
-        <h4>Choose Meal</h4>
-        <div class="btn-group" role="group" aria-label="MealSelection">
-          <button type="button" class="btn btn-light"><i class="bi-sunrise"></i>Breakfast</button>
-          <button type="button" class="btn btn-light"><i class="bi-sun"></i>Lunch</button>
-          <button type="button" class="btn btn-light"><i class="bi-moon-stars">Dinner</i></button>
-        </div>
-
-      </stack-modal>
-      
 
     </b-card>
   </div>
@@ -115,12 +99,14 @@ export default {
       buttonStyle3: "secondary",
       items: mockdata[2]["ingredients"],
       thedish: mockdata[2],
+      
+      recipes: mockdata,
 
       show: false,
-      show_second: false,
-      show_third: false,
-      modalClass: ''
+      modalClass: '',
 
+      dateCatch: datepicker.dateSend,
+      planlist: [],
     };
   },
   methods: {
@@ -142,6 +128,11 @@ export default {
       this.buttonStyle2 = "secondary",
       this.items = mockdata[2]["utensil"]
     }, 
+      dateReceive: function(date) {
+        var plan = this.thedish;
+        plan.date = date;
+        console.log(date+"hi");
+    },
   }
 };
 </script>
