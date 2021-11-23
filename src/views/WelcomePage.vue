@@ -43,11 +43,11 @@ export default {
   margin-top: 32pt;
   line-height: 1.75;
 }
-
+/* 
 #nav {
   padding: 0;
 
-}
+} */
 
 .btn-group{
   width: 100%;

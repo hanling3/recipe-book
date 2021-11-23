@@ -1,5 +1,5 @@
 <template>
-  <div class="plan">
+  <div id="main-page">
     <div class="row">
         <div class="col text-start">
           <h1>Meal Plan</h1>

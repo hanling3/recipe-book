@@ -1,12 +1,13 @@
 <template>
-  <div>
+  <div id="main-page">
     <pageTitle :pageTitle="title" />
     <section-title :sectionTitle="sectiontitle1" />
     <recipeCard
       v-for="item in mockdata"
-      v-bind:key="item.name"
+      v-bind:key="item.reference"
       v-bind:dish="item"
     />
+ 
     <section-title :sectionTitle="sectiontitle2" />
     <div id="buttons">
       <drop-down-menu />
@@ -21,7 +22,6 @@
       v-bind:key="item.name"
       v-bind:dish="item"
     />
-    <!-- <nav-bar /> -->
   </div>
 </template>
 
@@ -31,7 +31,7 @@ import pageTitle from "@/components/PageTitle.vue";
 import sectionTitle from "@/components/SectionTitle.vue";
 import dropDownMenu from "@/components/DropDownMenu.vue";
 import mockdata from "@/mock-data.json";
-// import navBar from "@/components/NavBar.vue";
+
 export default {
   name: "browse",
   components: {
@@ -68,7 +68,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-
-</style>
