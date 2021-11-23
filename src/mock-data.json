@@ -5,7 +5,7 @@
         "cooktime": 15,
         "budget": "$6",
         "type": "Chinese",
-        "image": "tomato-and-egg-stir-fry.jpg",
+        "reference": "tomato-and-egg-stir-fry",
         "imageCitation": "Photo by Ada Chai from McGraw Studio",
         "ingredients": {
             "tomatoes": 4,
@@ -32,7 +32,7 @@
         "cooktime": 10,
         "budget": "$8",
         "type": "Japanese",
-        "image": "miso-ramen.jpg",
+        "reference": "miso-ramen",
         "imageCitation": "Photo by RODNAE Productions from Pexels",
         "ingredients": {
             "miso": 2,
@@ -49,7 +49,7 @@
         "cooktime": 40,
         "budget": "$12",
         "type": "Chinese",
-        "image": "kung-pao-chicken.jpg",
+        "reference": "kung-pao-chicken",
         "imageCitation": "Photo by Janine Beth Salazar from Pexels",
         "ingredients": [
             { "Ingredient": "Chicken Thign", "Quantity": 2 },
@@ -57,11 +57,11 @@
             { "Ingredient": "Garlic", "Quantity": 1 }
           ],
         "instructions": [
-            {"Step": "Step 1", "": "xxx"},
-            {"Step": "Step 2", "": "xxx"},
-            {"Step": "Step 3", "": "xxx"}
+            {"Step": "Step 1", "Detail": "xxx"},
+            {"Step": "Step 2", "Detail": "xxx"},
+            {"Step": "Step 3", "Detail": "xxx"}
         ],
-        "utensil": ["xxx"],
+        "utensil":  [{"Utensil": "xxx"}],
         "tips": ""
     }
 ]

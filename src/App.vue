@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <div>
-      <router-view />
-      <nav-bar />
-    </div>
+  <div id="app">
+    <router-view />
+    <nav-bar />
   </div>
 </template>
 
@@ -13,10 +11,9 @@ import navBar from "@/components/NavBar.vue";
 export default {
   name: "App",
   components: {
-    navBar
-  }
-}
-
+    navBar,
+  },
+};
 </script>
 
 <style>
@@ -28,5 +25,9 @@ export default {
   color: #2c3e50;
   margin: 0;
 }
-
+#main-page {
+  padding: 20px;
+  margin: 50px;
+  margin-bottom: 200px;
+}
 </style>

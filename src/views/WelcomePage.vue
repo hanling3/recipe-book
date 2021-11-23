@@ -54,9 +54,4 @@ export default {
   line-height: 1.75;
 }
 
-#nav {
-  padding: 0;
-
-}
-
 </style>
