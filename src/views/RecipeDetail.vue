@@ -57,6 +57,7 @@
                 :show="show"
                 title="Select A Date"
                 save= "dateReceive"
+                @save="sendShow"
                 @close="show=false"
                 :modal-class="{ [modalClass]: true }"
                 :saveButton="{ visible: true }"
@@ -87,7 +88,7 @@ import StackModal from '@innologica/vue-stackable-modal'
 import datepicker from "@/components/DatePicker.vue";
 
 export default {
-  name: "recipeCard",
+  name: "recipeDetail",
   components: {
     StackModal,
     datepicker
@@ -122,16 +123,22 @@ export default {
         (this.buttonStyle3 = "secondary"),
         (this.items = mockdata[2]["instructions"]);
     },
-     display3: function() {
+    display3: function() {
       this.buttonStyle3 = "light",
       this.buttonStyle1 = "secondary",
       this.buttonStyle2 = "secondary",
       this.items = mockdata[2]["utensil"]
     }, 
-      dateReceive: function(date) {
+    dateReceive: function(date) {
         var plan = this.thedish;
         plan.date = date;
         console.log(date+"hi");
+    },
+    sendShow: function() {
+      this.show = false;
+      this.$emit("show-message", this.show);
+      console.log(this.show+"hi")
+      return this.show;
     },
   }
 };

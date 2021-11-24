@@ -2,7 +2,7 @@
   <div class="d-flex justify-content-around align-content-end" id="navBar">
   <div class="btn-group btn-group-justified">
     <router-link to="/browse" class="btn btn-light"><b-icon icon="search" style="width: 45px; height: 45px"></b-icon><br />browse</router-link>
-    <router-link to="/plan" class="btn btn-light"><b-icon icon="calendar2-week" style="width: 45px; height: 45px"></b-icon><br />plan</router-link>
+    <router-link to="/mealplan" class="btn btn-light"><b-icon icon="calendar2-week" style="width: 45px; height: 45px"></b-icon><br />plan</router-link>
     <router-link to="/favorites" class="btn btn-light"><b-icon icon="heart" style="width: 45px; height: 45px"></b-icon><br />favorite</router-link>
     <router-link to="/profile" class="btn btn-light"><b-icon icon="person" style="width: 45px; height: 45px"></b-icon><br />profile</router-link>
 </div>
