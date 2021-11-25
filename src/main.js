@@ -25,6 +25,14 @@ let globalData2 = new Vue({
   options: { $addtoplan: 'false' },
 });
 
+let globalData3 = new Vue({
+  options: { $uploadrecipe: 'false' },
+});
+
+let globalData4 = new Vue({
+  options: { $thedish: {} },
+});
+
 Vue.mixin({
   computed: {
     $addtofav: {
@@ -43,6 +51,24 @@ Vue.mixin({
       set: function (newOption) { 
         console.log('hello from $addtoplan mixin setter!');
         globalData2.$options.$addtoplan = newOption; 
+      }
+    },
+    $uploadrecipe: {
+      get: function () { 
+        console.log('hello from $uploadrecipe mixin getter!');
+        return globalData3.$options.$uploadrecipe },
+      set: function (newOption) { 
+        console.log('hello from $uploadrecipe mixin setter!');
+        globalData3.$options.$uploadrecipe = newOption; 
+      }
+    },
+    $thedish: {
+      get: function () { 
+        console.log('hello from $thedish mixin getter!');
+        return globalData4.$options.$thedish },
+      set: function (newOption) { 
+        console.log('hello from $thedish mixin setter!');
+        globalData4.$options.$thedish = newOption; 
       }
     }
 

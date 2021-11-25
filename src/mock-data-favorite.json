@@ -27,23 +27,6 @@
         "tips": "Adjust sugar and soy sauce as needed."
     },
     {
-        "dish": "Miso Ramen",
-        "difficulty": "Easy",
-        "cooktime": 10,
-        "budget": "$8",
-        "type": "Japanese",
-        "reference": "miso-ramen",
-        "imageCitation": "Photo by RODNAE Productions from Pexels",
-        "ingredients": {
-            "miso": 2,
-            "onion": 1,
-            "pork": 1
-        },
-        "instructions": {},
-        "utensil": {},
-        "tips": ""
-    },
-    {
         "dish": "Kung Pao Chicken",
         "difficulty": "Medium",
         "cooktime": 40,
@@ -52,16 +35,24 @@
         "reference": "kung-pao-chicken",
         "imageCitation": "Photo by Janine Beth Salazar from Pexels",
         "ingredients": [
-            { "Ingredient": "Chicken Thign", "Quantity": 2 },
-            { "Ingredient": "Onion", "Quantity": 1 },
-            { "Ingredient": "Garlic", "Quantity": 1 }
+            { "Ingredient": "Chicken", "Quantity": "800g" },
+            { "Ingredient": "Shaoxing Wine", "Quantity": "1 tablespoon"},
+            { "Ingredient": "Soy Sauce", "Quantity": "1 tablespoon" },
+            { "Ingredient": "Baking Soda", "Quantity": "2 teaspoons" },
+            { "Ingredient": "Cornstarch", "Quantity": "1 tablespoon" },
+            { "Ingredient": "Cooking Oil", "Quantity": "2 tablespoons" }
           ],
         "instructions": [
-            {"Step": "Step 1", "Detail": "xxx"},
-            {"Step": "Step 2", "Detail": "xxx"},
-            {"Step": "Step 3", "Detail": "xxx"}
+            {"Step": "Step 1", "Detail": "Cut chicken into 1 inch cubes"},
+            {"Step": "Step 2", "Detail": "Marinate chicken pieces in a mixture of cornstarch, soy sauce, baking soda and Shaoxing wine for at least 20 minutes"},
+            {"Step": "Step 3", "Detail": "Heat a pan over high heat. Add 2 tablespoons of cooking oil, allow to heat up, then add marinated chicken."},
+            {"Step": "Step 4", "Detail": "Quickly fry chicken in hot oil for 3-4 minutes until edges are browned."}
+            
         ],
-        "utensil":  [{"Utensil": "xxx"}],
+        "utensil":  [
+            {"Utensil": "Pan", "Quantity": "1" },
+            {"Utensil": "Bowe / Plate", "Quantity": "1" }
+        ],
         "tips": ""
     }
 ]

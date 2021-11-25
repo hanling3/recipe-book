@@ -6,8 +6,8 @@
       img-top
     > -->
     <b-card
-      :title="thedish.dish"
-      :img-src="require('../assets/' + thedish.reference + '.jpg')"
+      :title="this.$thedish.dish"
+      :img-src="require('../assets/' + $thedish.reference + '.jpg')"
       img-top
       img-height="300px"
       style="width: 500px"
@@ -16,19 +16,19 @@
       <b-row align-h="center" class="text-center">
         <b-col cols="3">
           <b-icon icon="stopwatch" class="icons"></b-icon><br />
-          {{ thedish.cooktime }} min
+          {{ this.$thedish.cooktime }} min
           <p>COOK TIME</p>
         </b-col>
 
         <b-col cols="3">
           <b-icon icon="cash-stack" class="icons"></b-icon><br />
-          {{ thedish.budget }}
+          {{ this.$thedish.budget }}
           <p>PER SERVE</p>
         </b-col>
 
         <b-col cols="3">
           <b-icon icon="star" class="icons"></b-icon><br />
-          {{ thedish.difficulty }}
+          {{ this.$thedish.difficulty }}
           <p>DIFFICULTY</p>
         </b-col>
       </b-row>
@@ -49,63 +49,65 @@
 
       <b-row align-h="center" class="text-center">
         <b-col>
-          <button @click="favStatus"> Add to Favorite </button>
+          <button @click="favStatus">Add to Favorite</button>
         </b-col>
         <b-col>
           <button @click="planStatus">Add to Meal Plan</button>
           <!-- <button @click="show=true">Add to Meal Plan</button> -->
           <stack-modal
-                :show="show"
-                title="Select A Date"
-                save= "dateReceive"
-                @save="sendShow"
-                @close="show=false"
-                :modal-class="{ [modalClass]: true }"
-                :saveButton="{ visible: true }"
-                :cancelButton="{ title: 'Close', btnClass: { 'btn btn-light': true } }"
+            :show="show"
+            title="Select A Date"
+            save="dateReceive"
+            @save="sendShow"
+            @close="show = false"
+            :modal-class="{ [modalClass]: true }"
+            :saveButton="{ visible: true }"
+            :cancelButton="{
+              title: 'Close',
+              btnClass: { 'btn btn-light': true },
+            }"
           >
-            <datepicker v-on: dateSend="dateReceive"/> 
+            <datepicker v-on: dateSend="dateReceive" />
             <h4>Choose Meal</h4>
             <div class="btn-group" role="group" aria-label="MealSelection">
-              <button type="button" class="btn btn-light"><i class="bi-sunrise"></i>Breakfast</button>
-              <button type="button" class="btn btn-light"><i class="bi-sun"></i>Lunch</button>
-              <button type="button" class="btn btn-light"><i class="bi-moon-stars">Dinner</i></button>
+              <button type="button" class="btn btn-light">
+                <i class="bi-sunrise"></i>Breakfast
+              </button>
+              <button type="button" class="btn btn-light">
+                <i class="bi-sun"></i>Lunch
+              </button>
+              <button type="button" class="btn btn-light">
+                <i class="bi-moon-stars">Dinner</i>
+              </button>
             </div>
-
           </stack-modal>
-          
         </b-col>
       </b-row>
       <!--<button class="btn btn-light" @click="show=true">Save To Plan</button>-->
-
-
     </b-card>
   </div>
 </template>
 
 <script>
-import mockdata from "@/mock-data.json";
-import StackModal from '@innologica/vue-stackable-modal'
+// import mockdataafter from "@/mock-data-after.json";
+import StackModal from "@innologica/vue-stackable-modal";
 import datepicker from "@/components/DatePicker.vue";
 
 export default {
   name: "recipeDetail",
   components: {
     StackModal,
-    datepicker
+    datepicker,
   },
-  data() {
+  data: function () {
     return {
       buttonStyle1: "light",
       buttonStyle2: "secondary",
       buttonStyle3: "secondary",
-      items: mockdata[2]["ingredients"],
-      thedish: mockdata[2],
-      
-      recipes: mockdata,
+      items: this.$thedish.ingredients,
 
       show: false,
-      modalClass: '',
+      modalClass: "",
 
       dateCatch: datepicker.dateSend,
       planlist: [],
@@ -116,48 +118,48 @@ export default {
       (this.buttonStyle1 = "light"),
         (this.buttonStyle2 = "secondary"),
         (this.buttonStyle3 = "secondary"),
-        (this.items = mockdata[2]["ingredients"]);
+        (this.items = this.$thedish.ingredients);
     },
     display2: function () {
       (this.buttonStyle2 = "light"),
         (this.buttonStyle1 = "secondary"),
         (this.buttonStyle3 = "secondary"),
-        (this.items = mockdata[2]["instructions"]);
+        (this.items = this.$thedish.instructions);
     },
-    display3: function() {
-      this.buttonStyle3 = "light",
-      this.buttonStyle1 = "secondary",
-      this.buttonStyle2 = "secondary",
-      this.items = mockdata[2]["utensil"]
-    }, 
-    dateReceive: function(date) {
-        var plan = this.thedish;
-        plan.date = date;
-        console.log(date+"hi");
+    display3: function () {
+      (this.buttonStyle3 = "light"),
+        (this.buttonStyle1 = "secondary"),
+        (this.buttonStyle2 = "secondary"),
+        (this.items = this.$thedish.utensil);
     },
-    sendShow: function() {
+    dateReceive: function (date) {
+      var plan = this.$thedish;
+      plan.date = date;
+      console.log(date + "hi");
+    },
+    sendShow: function () {
       this.show = false;
       this.$emit("show-message", this.show);
-      console.log(this.show+"hi")
+      console.log(this.show + "hi");
       return this.show;
     },
-    favStatus: function() {
-      console.log( "---- favStatus is working ----")
-      if (this.$addtofav == 'false') {
-        this.$addtofav='true';
+    favStatus: function () {
+      console.log("---- favStatus is working ----");
+      if (this.$addtofav == "false") {
+        this.$addtofav = "true";
       } else {
-        this.$addtofav='false';
+        this.$addtofav = "false";
       }
     },
-    planStatus: function() {
-      console.log( "---- planStatus is working ----")
-      if (this.$addtoplan == 'false') {
-        this.$addtoplan='true';
+    planStatus: function () {
+      console.log("---- planStatus is working ----");
+      if (this.$addtoplan == "false") {
+        this.$addtoplan = "true";
       } else {
-        this.$addtoplan='false';
+        this.$addtoplan = "false";
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

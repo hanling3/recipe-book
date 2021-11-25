@@ -1,24 +1,32 @@
 <template>
   <div id="main-page">
     <pageTitle :pageTitle="title" />
-    <section-title :sectionTitle="sectiontitle1" />
-    <recipeCard
-      v-for="item in mockdata"
-      v-bind:key="item.reference"
-      v-bind:dish="item"
-    />
- 
-    <section-title :sectionTitle="sectiontitle2" />
+
+    <!----------------- "Favorite" Section --------------->
+    <section-title sectionTitle="Favorite" />
+    <template v-if="$addtofav == 'true'">
+      <recipeCard
+        v-for="item in [mockdatabefore[1]]"
+        v-bind:key="item.reference"
+        v-bind:dish="item"
+      />
+    </template>
+    <template v-else>
+      <h3 id="hints"> Browse recipes and add them to your favorite list</h3>
+    </template>
+
+    <!----------------- "We Recommend" Section --------------->
+    <section-title sectionTitle="We Recommend" />
     <div id="buttons">
       <drop-down-menu />
-      <br>
+      <br />
       <button type="button" class="btn btn-dark" v-on:click="visability">
         {{ filter }}
       </button>
     </div>
-    <br>
+    <br />
     <recipeCard
-      v-for="item in mockdataFavorite"
+      v-for="item in mockdataFilter"
       v-bind:key="item.name"
       v-bind:dish="item"
     />
@@ -30,7 +38,7 @@ import recipeCard from "@/components/RecipeCard.vue";
 import pageTitle from "@/components/PageTitle.vue";
 import sectionTitle from "@/components/SectionTitle.vue";
 import dropDownMenu from "@/components/DropDownMenu.vue";
-import mockdata from "@/mock-data.json";
+import mockdatabefore from "@/mock-data-before.json";
 
 export default {
   name: "browse",
@@ -38,7 +46,6 @@ export default {
     recipeCard,
     pageTitle,
     sectionTitle,
-    // navBar,
     dropDownMenu,
   },
   data: function () {
@@ -46,25 +53,23 @@ export default {
       showAllRecipe: true,
       filter: "Unfiltered",
       title: "Browse",
-      sectiontitle1: "Favorite",
-      sectiontitle2: "We Recommend",
-      mockdata: mockdata,
-      mockdataFavorite: mockdata,
+      mockdatabefore: mockdatabefore,
+      mockdataFilter: mockdatabefore,
     };
   },
 
   methods: {
     visability: function () {
-      console.log(" --- this.$addtofav ----")
-      console.log(this.$addtofav)
+      console.log(" --- this.$addtofav ----");
+      console.log(this.$addtofav);
       if (this.showAllRecipe == true) {
         this.showAllRecipe = false;
         this.filter = "Filtered";
-        this.mockdataFavorite = [mockdata[2]];
+        this.mockdataFilter = [mockdatabefore[0]];
       } else {
         this.showAllRecipe = true;
         this.filter = "Unfiltered";
-        this.mockdataFavorite = mockdata;
+        this.mockdataFilter = mockdatabefore;
       }
     },
   },

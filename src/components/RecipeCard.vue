@@ -1,8 +1,7 @@
 <template>
   <router-link 
   :to="`/recipe-detail/${dish.dish}`"
-  @click.native="$addtofav='false', $addtoplan='false'"
-
+  @click.native="$addtofav='false', $addtoplan='false', $thedish=dish"
   >
     <div id="recipeCard">
       <!-- <router-link 
@@ -56,20 +55,20 @@ export default {
       this.dish.reference = "tomato-and-egg-stir-fry";
     }
   },
-  // watch: {
-  //   myprop: function (newVal) {
-  //     // watch it
-  //     console.log("Prop changed: ", newVal);
-  //     if (newVal.budget == undefined) {
-  //       console.log("here")
-  //       this.dish.budget = 100;
-  //     }
-  //     if (newVal.image == undefined) {
-  //       console.log("image")
-  //       this.dish.image = "'tomato-and-egg-stir-fry.jpg";
-  //     }
-  //   },
-  // },
+  watch: {
+    myprop: function (newVal) {
+      // watch it
+      console.log("Prop changed: ", newVal);
+      if (newVal.budget == undefined) {
+        console.log("here")
+        this.dish.budget = 100;
+      }
+      if (newVal.image == undefined) {
+        console.log("image")
+        this.dish.image = "'tomato-and-egg-stir-fry.jpg";
+      }
+    },
+  },
 };
 </script>
 

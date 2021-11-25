@@ -1,0 +1,82 @@
+[
+    {
+        "dish": "Tomato and Egg Stir Fry",
+        "difficulty": "Easy",
+        "cooktime": 15,
+        "budget": "$6",
+        "type": "Chinese",
+        "reference": "tomato-and-egg-stir-fry",
+        "imageCitation": "Photo by Ada Chai from McGraw Studio",
+        "ingredients": {
+            "tomatoes": 4,
+            "eggs": 4,
+            "sesame oil": "1 tablespoon",
+            "soy sauce": "1 tablespoon",
+            "vegetable oil": "1 tablespoon",
+            "sugar": "1 tablespoon"
+        },
+        "instructions": {
+            "1": "Cut tomatoes into quarters.",
+            "2": "Crack all eggs into a bowl and mix with sesame oil and soy sauce.",
+            "3": "Preheat the wok over medium heat. Add eggs and scramble. Then take out and set aside.",
+            "4": "Add in your tomatoes and sugar. Stir fry for 2 minutes.",
+            "5": "Add eggs back into the wok and stir fry together.",
+            "6": "Transfer into a serving dish and serve."
+        },
+        "utensil": {},
+        "tips": "Adjust sugar and soy sauce as needed."
+    },
+    {
+        "dish": "Miso Ramen",
+        "difficulty": "Easy",
+        "cooktime": 10,
+        "budget": "$8",
+        "type": "Japanese",
+        "reference": "miso-ramen",
+        "imageCitation": "Photo by RODNAE Productions from Pexels",
+        "ingredients": [
+            { "Ingredient": "Ramen", "Quantity": "6 ounces" },
+            { "Ingredient": "Miso", "Quantity": "2 teaspoons" },
+            { "Ingredient": "Chicken Booth", "Quantity": "4 cups" }
+        ],
+        "instructions": [
+            {"Step": "Step 1", "Detail": "In a pot, bring water to boil. Cook ramen noodles"},
+            {"Step": "Step 2", "Detail": "In another pot, add miso and chicken booth, bring it to a simmer"},
+            {"Step": "Step 3", "Detail": "When noodles are done, serve them into a bowl, add the ramen soup prepared in step 2"}
+        ],
+        "utensil": [
+            {"Utensil": "Pot", "Quantity": "2" },
+            {"Utensil": "Bowl", "Quantity": "1" }
+        ],
+        "tips": ""
+    },
+    {
+        "dish": "Kung Pao Chicken",
+        "difficulty": "Medium",
+        "cooktime": 40,
+        "budget": "$12",
+        "type": "Chinese",
+        "reference": "kung-pao-chicken",
+        "imageCitation": "Photo by Janine Beth Salazar from Pexels",
+        "ingredients": [
+            { "Ingredient": "Chicken", "Quantity": "800g" },
+            { "Ingredient": "Shaoxing Wine", "Quantity": "1 tablespoon"},
+            { "Ingredient": "Soy Sauce", "Quantity": "1 tablespoon" },
+            { "Ingredient": "Baking Soda", "Quantity": "2 teaspoons" },
+            { "Ingredient": "Cornstarch", "Quantity": "1 tablespoon" },
+            { "Ingredient": "Cooking Oil", "Quantity": "2 tablespoons" }
+          ],
+        "instructions": [
+            {"Step": "Step 1", "Detail": "Cut chicken into 1 inch cubes"},
+            {"Step": "Step 2", "Detail": "Marinate chicken pieces in a mixture of cornstarch, soy sauce, baking soda and Shaoxing wine for at least 20 minutes"},
+            {"Step": "Step 3", "Detail": "Heat a pan over high heat. Add 2 tablespoons of cooking oil, allow to heat up, then add marinated chicken."},
+            {"Step": "Step 4", "Detail": "Quickly fry chicken in hot oil for 3-4 minutes until edges are browned."}
+            
+        ],
+        "utensil":  [
+            {"Utensil": "Pan", "Quantity": "1" },
+            {"Utensil": "Bowe / Plate", "Quantity": "1" }
+        ],
+        "tips": ""
+    }
+]

@@ -19,7 +19,7 @@
 <script>
 import pageTitle from "@/components/PageTitle.vue";
 import RecipeCard from '@/components/RecipeCard.vue';
-import mockdata from "@/mock-data.json";
+import mockdatabefore from "@/mock-data-before.json";
 
 
   export default {
@@ -30,7 +30,7 @@ import mockdata from "@/mock-data.json";
     },
     data: function() {
       return {
-        mockdataPlan: [mockdata[1]],
+        mockdataPlan: [mockdatabefore[0]],
         title: "Meal Plan",
       }
     }
