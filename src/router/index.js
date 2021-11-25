@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Plan from '../views/Plan.vue'
+// import Plan from '../views/Plan.vue'
 
 Vue.use(VueRouter)
 
@@ -10,15 +10,11 @@ const routes = [
   //   name: 'Plan',
   //   component: Plan
   // },
-  {
-    path: '/plan',
-    name: 'Plan',
-    component: Plan
-  },
+
   {
     path: '/mealplan',
     name: 'MealPlan',
-    component: () => import(/* webpackChunkName: "mealplan" */ '../views/MealPlan.vue')
+    component: () => import(/* webpackChunkName: "mealplan" */ '../views/Plan-v3.vue')
   },
   {
     path: '/favorites',

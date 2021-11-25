@@ -52,7 +52,8 @@
           <button @click="favStatus"> Add to Favorite </button>
         </b-col>
         <b-col>
-          <button @click="show=true">Add to Meal Plan</button>
+          <button @click="planStatus">Add to Meal Plan</button>
+          <!-- <button @click="show=true">Add to Meal Plan</button> -->
           <stack-modal
                 :show="show"
                 title="Select A Date"
@@ -146,6 +147,14 @@ export default {
         this.$addtofav='true';
       } else {
         this.$addtofav='false';
+      }
+    },
+    planStatus: function() {
+      console.log( "---- planStatus is working ----")
+      if (this.$addtoplan == 'false') {
+        this.$addtoplan='true';
+      } else {
+        this.$addtoplan='false';
       }
     }
   }

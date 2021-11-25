@@ -5,22 +5,7 @@
     <div>
       <b-tabs content-class="mt-3" fill>
         <!-- <b-tab title="Favorites" active><p>Please add your favorite recipe here</p></b-tab> -->
-        <b-tab title="Created Recipes">
-          <recipeCard
-            v-for="item in recipes"
-            v-bind:key="item.name"
-            v-bind:dish="item"
-          />
-
-          <b-button v-b-modal.modal-xl class="addbutton"
-            ><b-icon icon="plus" style="width: 45px; height: 45px"></b-icon
-          ></b-button>
-          <b-modal @ok="handleOk" title="BootstrapVue" id="modal-xl" size="xl">
-            <Upload-Recipe v-on:newrecipe="addRecipe"></Upload-Recipe>
-          </b-modal>
-          <p>Please upload your recipe here</p></b-tab
-        >
-        <!---------------  UPDATED: Display Favorite Recipes ---------------->
+        <!---------------  <Display Favorite Recipes> ---------------->
         <b-tab title="Favorites" active>
           <template v-if="$addtofav == 'true'">
             <recipeCard
@@ -33,6 +18,21 @@
             <p>Please add your favorite recipe here</p>
           </template>
         </b-tab>
+        <b-tab title="Created Recipes">
+          <recipeCard
+            v-for="item in recipes"
+            v-bind:key="item.name"
+            v-bind:dish="item"
+          />
+        <!---------------  </Display Favorite Recipes>  ---------------->
+          <b-button v-b-modal.modal-xl class="addbutton"
+            ><b-icon icon="plus" style="width: 45px; height: 45px"></b-icon
+          ></b-button>
+          <b-modal @ok="handleOk" title="BootstrapVue" id="modal-xl" size="xl">
+            <Upload-Recipe v-on:newrecipe="addRecipe"></Upload-Recipe>
+          </b-modal>
+          <p>Please upload your recipe here</p></b-tab
+        >
       </b-tabs>
       <!-- <b-button @click="UploadRecipe()">Add recipe</b-button> -->
     </div>

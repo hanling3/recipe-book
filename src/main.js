@@ -17,21 +17,35 @@ Vue.use(IconsPlugin)
 
 
 // --------- <Global Variable> -----------------
-let globalData = new Vue({
-  options: { $addtofav: 'false' }
+let globalData1 = new Vue({
+  options: { $addtofav: 'false' },
+});
+
+let globalData2 = new Vue({
+  options: { $addtoplan: 'false' },
 });
 
 Vue.mixin({
   computed: {
     $addtofav: {
       get: function () { 
-        console.log('hello from mixin getter!');
-        return globalData.$options.$addtofav },
+        console.log('hello from $addtofav mixin getter!');
+        return globalData1.$options.$addtofav },
       set: function (newOption) { 
-        console.log('hello from mixin setter!');
-        globalData.$options.$addtofav = newOption; 
+        console.log('hello from $addtofav mixin setter!');
+        globalData1.$options.$addtofav = newOption; 
+      }
+    },
+    $addtoplan: {
+      get: function () { 
+        console.log('hello from $addtoplan mixin getter!');
+        return globalData2.$options.$addtoplan },
+      set: function (newOption) { 
+        console.log('hello from $addtoplan mixin setter!');
+        globalData2.$options.$addtoplan = newOption; 
       }
     }
+
   }
 })
 // --------- </Global Variable> -----------------
