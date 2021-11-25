@@ -60,8 +60,9 @@ export default {
 
   methods: {
     visability: function () {
-      console.log(" --- this.$addtofav ----");
-      console.log(this.$addtofav);
+      this.$addtofav='false';
+      this.$addtoplan='false';
+      this.$thedish=mockdatabefore[0];
       if (this.showAllRecipe == true) {
         this.showAllRecipe = false;
         this.filter = "Filtered";

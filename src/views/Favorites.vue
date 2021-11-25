@@ -7,23 +7,9 @@
         <!-- <b-tab title="Favorites" active><p>Please add your favorite recipe here</p></b-tab> -->
         <!---------------  <Display Favorite Recipes> ---------------->
         <b-tab title="Favorites" active>
-          <template v-if="$addtofav=='true' && $uploadrecipe=='false'">
+          <template v-if="$addtofav=='true'">
             <recipeCard
               v-for="item in [mockdatafavorite[1]]"
-              v-bind:key="item.name"
-              v-bind:dish="item"
-            />
-          </template>
-          <template v-else-if="$addtofav=='true' && $uploadrecipe=='true'">
-            <recipeCard
-              v-for="item in mockdatafavorite"
-              v-bind:key="item.name"
-              v-bind:dish="item"
-            />
-          </template>
-          <template v-else-if="$addtofav=='false' && $uploadrecipe=='true'">
-            <recipeCard
-              v-for="item in [mockdatafavorite[0]]"
               v-bind:key="item.name"
               v-bind:dish="item"
             />
@@ -32,21 +18,23 @@
             <p>Browse recipes and add them to your favorite list</p>
           </template>
         </b-tab>
-        <!---------------  </Display Favorite Recipes>  ---------------->
+        <!---------------  <Display Created Recipes>  ---------------->
         <b-tab title="Created Recipes">
+          <template v-if="$uploadrecipe !='true'">
+            <p>Upload your recipe by clicking the add button in the bottom right corner</p>
+          </template>
           <recipeCard
             v-for="item in recipes"
             v-bind:key="item.name"
             v-bind:dish="item"
           />
-          <b-button v-b-modal.modal-xl class="addbutton"
-            ><b-icon icon="plus" style="width: 45px; height: 45px"></b-icon
-          ></b-button>
+          <b-button v-b-modal.modal-xl class="addbutton">
+            <b-icon icon="plus" style="width: 45px; height: 45px"></b-icon>
+          </b-button>
           <b-modal @ok="handleOk" title="BootstrapVue" id="modal-xl" size="xl">
             <Upload-Recipe v-on:newrecipe="addRecipe"></Upload-Recipe>
           </b-modal>
-          <p>Upload your recipe by clicking the add button in the bottom right corner</p></b-tab
-        >
+        </b-tab>
       </b-tabs>
       <!-- <b-button @click="UploadRecipe()">Add recipe</b-button> -->
     </div>
@@ -122,7 +110,7 @@ export default {
   font-size: 12px;
   line-height: 1.42857;
   float: right;
-  margin-top: 550px;
+  margin-top: 450px;
   margin-right: 48px;
   background-color: #ed6e3a;
   border: none;

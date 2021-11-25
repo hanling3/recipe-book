@@ -1,7 +1,7 @@
 <template>
-  <router-link 
-  :to="`/recipe-detail/${dish.dish}`"
+   <router-link 
   @click.native="$addtofav='false', $addtoplan='false', $thedish=dish"
+  :to="`/recipe-detail/${dish.dish}`"
   >
     <div id="recipeCard">
       <!-- <router-link 

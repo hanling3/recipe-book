@@ -176,6 +176,7 @@ export default {
     },
   methods: {
     onSubmit(event) {
+      this.$uploadrecipe = "true";
       event.preventDefault();
       alert(JSON.stringify(this.form));
       // this.$emit('newrecipe',this.form);

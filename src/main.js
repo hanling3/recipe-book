@@ -41,6 +41,7 @@ Vue.mixin({
         return globalData1.$options.$addtofav },
       set: function (newOption) { 
         console.log('hello from $addtofav mixin setter!');
+        console.log(this.$addtofav)
         globalData1.$options.$addtofav = newOption; 
       }
     },
@@ -50,6 +51,7 @@ Vue.mixin({
         return globalData2.$options.$addtoplan },
       set: function (newOption) { 
         console.log('hello from $addtoplan mixin setter!');
+        console.log(this.$addtoplan)
         globalData2.$options.$addtoplan = newOption; 
       }
     },
@@ -59,6 +61,7 @@ Vue.mixin({
         return globalData3.$options.$uploadrecipe },
       set: function (newOption) { 
         console.log('hello from $uploadrecipe mixin setter!');
+        console.log(this.$uploadrecipe)
         globalData3.$options.$uploadrecipe = newOption; 
       }
     },
@@ -68,6 +71,7 @@ Vue.mixin({
         return globalData4.$options.$thedish },
       set: function (newOption) { 
         console.log('hello from $thedish mixin setter!');
+        console.log(this.$thedish)
         globalData4.$options.$thedish = newOption; 
       }
     }
