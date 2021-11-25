@@ -16,6 +16,26 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
 
+// --------- <Global Variable> -----------------
+let globalData = new Vue({
+  options: { $addtofav: 'false' }
+});
+
+Vue.mixin({
+  computed: {
+    $addtofav: {
+      get: function () { 
+        console.log('hello from mixin getter!');
+        return globalData.$options.$addtofav },
+      set: function (newOption) { 
+        console.log('hello from mixin setter!');
+        globalData.$options.$addtofav = newOption; 
+      }
+    }
+  }
+})
+// --------- </Global Variable> -----------------
+
 Vue.config.productionTip = false
 
 

@@ -4,19 +4,35 @@
     <!-- <h2> Favorites | Created Recipes </h2>  -->
     <div>
       <b-tabs content-class="mt-3" fill>
-        <b-tab title="Favorites" active><p>Please add your favorite recipe here</p></b-tab>
+        <!-- <b-tab title="Favorites" active><p>Please add your favorite recipe here</p></b-tab> -->
         <b-tab title="Created Recipes">
-        <recipeCard
+          <recipeCard
             v-for="item in recipes"
             v-bind:key="item.name"
             v-bind:dish="item"
-            />
+          />
 
-          <b-button v-b-modal.modal-xl class="addbutton"><b-icon icon="plus" style="width: 45px; height: 45px"></b-icon></b-button>
+          <b-button v-b-modal.modal-xl class="addbutton"
+            ><b-icon icon="plus" style="width: 45px; height: 45px"></b-icon
+          ></b-button>
           <b-modal @ok="handleOk" title="BootstrapVue" id="modal-xl" size="xl">
             <Upload-Recipe v-on:newrecipe="addRecipe"></Upload-Recipe>
           </b-modal>
-          <p>Please add your favorite recipe here</p></b-tab>
+          <p>Please upload your recipe here</p></b-tab
+        >
+        <!---------------  UPDATED: Display Favorite Recipes ---------------->
+        <b-tab title="Favorites" active>
+          <template v-if="$addtofav == 'true'">
+            <recipeCard
+              v-for="item in mockdataFavorite"
+              v-bind:key="item.name"
+              v-bind:dish="item"
+            />
+          </template>
+          <template v-else>
+            <p>Please add your favorite recipe here</p>
+          </template>
+        </b-tab>
       </b-tabs>
       <!-- <b-button @click="UploadRecipe()">Add recipe</b-button> -->
     </div>
@@ -25,26 +41,30 @@
 </template>
 
 <script>
-import recipeCard from '../components/RecipeCard.vue'
+import recipeCard from "../components/RecipeCard.vue";
 import UploadRecipe from "../components/UploadRecipe.vue";
+// import RecipeDetail from './RecipeDetail.vue';
+import mockdata from "@/mock-data.json";
 
 export default {
   components: {
     recipeCard,
     UploadRecipe,
+    // RecipeDetail,
   },
   data() {
     return {
       recipes: [],
       tmp_recipe: {},
+      mockdataFavorite: [mockdata[2]],
     };
   },
   mounted() {
-    let local_recipes = JSON.parse(window.localStorage.getItem('recipes'));
+    let local_recipes = JSON.parse(window.localStorage.getItem("recipes"));
     console.log(local_recipes);
     if (local_recipes != null) {
       console.log(local_recipes);
-      this.recipes = local_recipes
+      this.recipes = local_recipes;
     }
   },
   methods: {
@@ -67,8 +87,8 @@ export default {
       // Push the name to submitted names
       this.recipes.push(this.tmp_recipe);
       // save to file
-      const data = JSON.stringify(this.recipes)
-      window.localStorage.setItem('recipes', data);
+      const data = JSON.stringify(this.recipes);
+      window.localStorage.setItem("recipes", data);
 
       // Hide the modal manually
       this.$nextTick(() => {
@@ -80,21 +100,18 @@ export default {
 </script>
 
 <style>
-.addbutton{
-    width: 80px;
-    height: 80px;
-    padding: 6px 0px;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 12px;
-    line-height: 1.42857;
-    float: right;
-    margin-top: 550px;
-    margin-right: 48px;
-    background-color: #ed6e3a;
-    border: none;
-;
+.addbutton {
+  width: 80px;
+  height: 80px;
+  padding: 6px 0px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+  float: right;
+  margin-top: 550px;
+  margin-right: 48px;
+  background-color: #ed6e3a;
+  border: none;
 }
-
-
 </style>

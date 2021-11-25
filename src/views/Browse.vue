@@ -55,6 +55,8 @@ export default {
 
   methods: {
     visability: function () {
+      console.log(" --- this.$addtofav ----")
+      console.log(this.$addtofav)
       if (this.showAllRecipe == true) {
         this.showAllRecipe = false;
         this.filter = "Filtered";

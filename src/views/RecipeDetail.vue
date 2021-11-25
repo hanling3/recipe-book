@@ -49,7 +49,7 @@
 
       <b-row align-h="center" class="text-center">
         <b-col>
-          <button> Add to Favorite </button>
+          <button @click="favStatus"> Add to Favorite </button>
         </b-col>
         <b-col>
           <button @click="show=true">Add to Meal Plan</button>
@@ -140,6 +140,14 @@ export default {
       console.log(this.show+"hi")
       return this.show;
     },
+    favStatus: function() {
+      console.log( "---- favStatus is working ----")
+      if (this.$addtofav == 'false') {
+        this.$addtofav='true';
+      } else {
+        this.$addtofav='false';
+      }
+    }
   }
 };
 </script>
