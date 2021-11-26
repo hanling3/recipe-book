@@ -27,8 +27,6 @@ export default {
   background-color: rgb(243, 243, 243);
 }
 #main-page {
-  padding: 20px;
-  margin: 50px;
-  margin-bottom: 200px;
+  padding: 200px;
 }
 </style>
