@@ -1,54 +1,76 @@
 <template>
-  <div>
-    <pageTitle :pageTitle="title" />
-    <section-title :sectionTitle="sectiontitle1" />
-    <recipeCard
-      v-for="item in listOfDish"
-      v-bind:key="item.name"
-      v-bind:dish="item"
-    />
-    <section-title :sectionTitle="sectiontitle2" />
-    <drop-down-menu />
+  <div id="main-page">
+    <h1>Browse </h1>
+
+    <!----------------- "Favorite" Section --------------->
+    <h2> Favorite </h2>
+    <template v-if="$addtofav == 'true'">
       <recipeCard
-      v-for="item in listOfDish"
+        v-for="item in [mockdatabefore[1]]"
+        v-bind:key="item.reference"
+        v-bind:dish="item"
+      />
+    </template>
+    <template v-else>
+      <h5 id="hints"> Browse recipes and add them to your favorite list</h5>
+    </template>
+
+    <!----------------- "We Recommend" Section --------------->
+    <h2> We Recommend </h2>
+    <div id="buttons">
+      <drop-down-menu />
+      <br />
+      <button type="button" class="btn btn-dark" v-on:click="visability">
+        {{ filter }}
+      </button>
+    </div>
+    <br />
+    <recipeCard
+      v-for="item in mockdataFilter"
       v-bind:key="item.name"
       v-bind:dish="item"
     />
-    <nav-bar />
   </div>
 </template>
 
 <script>
 import recipeCard from "@/components/RecipeCard.vue";
-import pageTitle from "@/components/PageTitle.vue";
-import sectionTitle from '@/components/SectionTitle.vue';
-import dropDownMenu from '@/components/DropDownMenu.vue';
-import navBar from "@/components/NavBar.vue";
+// import pageTitle from "@/components/PageTitle.vue";
+// import sectionTitle from "@/components/SectionTitle.vue";
+import dropDownMenu from "@/components/DropDownMenu.vue";
+import mockdatabefore from "@/mock-data-before.json";
+
 export default {
   name: "browse",
   components: {
     recipeCard,
-    pageTitle,
-    sectionTitle,
-    navBar,
-    dropDownMenu
+    dropDownMenu,
   },
-  data: () => ({
-    title: "Browse",
-    sectiontitle1: "Favorite",
-    sectiontitle2: "We Recommend",
-    listOfDish: [
-      {
-        name:"Tomato and Egg Stir Fry",
-        image:[require("@/assets/tomato-and-egg-stir-fry.jpg")],
-        cooktime:"12 min",
-        cost:"$5",
-        difficulty:"Easy",
-        link:"https://docs.google.com/document/d/1-f2XkdXyUBoOxf_4QizudCUTz3t9KBOOOWOhKH8TcUg/edit?usp=sharing"
-      },
-        
-        
-    ]
-  }),
+  data: function () {
+    return {
+      showAllRecipe: true,
+      filter: "Unfiltered",
+      title: "Browse",
+      mockdatabefore: mockdatabefore,
+      mockdataFilter: mockdatabefore,
+    };
+  },
+
+  methods: {
+    visability: function () {
+      this.$addtofav='false';
+      this.$addtoplan='false';
+      this.$thedish=mockdatabefore[0];
+      if (this.showAllRecipe == true) {
+        this.showAllRecipe = false;
+        this.filter = "Filtered";
+        this.mockdataFilter = [mockdatabefore[0]];
+      } else {
+        this.showAllRecipe = true;
+        this.filter = "Unfiltered";
+        this.mockdataFilter = mockdatabefore;
+      }
+    },
+  },
 };
 </script>

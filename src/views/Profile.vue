@@ -1,14 +1,12 @@
 <template>
-  <div class="profile">
+  <div id="main-page" class="profile">
     <h1>Profile </h1>
 
     <div class = "header"> 
       <div> <img src="@/assets/profile_propic.jpg" alt="Robo the persona"> </div>
-      <div> <h2> Robo  <b-icon icon="pencil"></b-icon> </h2> </div>
-    </div>
-
-    <div class = "badge-section">
-      <h4> My Badges </h4> 
+      <div> <h3> Robo  <b-icon icon="pencil"></b-icon> </h3> </div>
+      
+      <div class = "badge-header"> <h4>  My Badges </h4> </div>
       <div class = "badges">
         <div> 
           <b-button class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
@@ -16,15 +14,21 @@
         </div>
 
         <div>   
-          <b-button class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
+          <b-button v-b-modal.consistentcook-details class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
           <h5> Consistent Cook </h5>
+
+          <b-modal id="consistentcook-details" centered title="Consistent Cook">
+     
+          <p class="badge2-text"> <b-icon icon="award" class="star"></b-icon> Awarded for cooking 20 recipes on the app. Keep it up!</p>
+          </b-modal>
         </div>
 
         <div>
           <b-button class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
           <h5> Masterchef </h5>
         </div> 
-      </div>  
+
+      </div>
     </div>
 
     <div class="report">
@@ -39,28 +43,18 @@
   </div>
 </template>
 
-<script>
-// import navBar from "../components/NavBar.vue";
-
-// export default {
-//   name: "profile",
-//   components: {
-//     navBar
-//   },
-//   data: () => ({
-
-//   })
-// }
-
-</script>
-
 <style>
 
+/* this part is moved to the App.vue
 h1 {
   text-align: left;
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 25px;
+  margin-top: 25px;
+} 
+h2 {
+  font-weight: bold;
 }
+*/
 
 /* Header */
 
@@ -82,9 +76,6 @@ img {
   width: 100px;
 }
 
-h2 {
-  font-weight: bold;
-}
 
 /* Badges */
 
@@ -107,6 +98,7 @@ h4 {
   /* width: 50px;  
   margin: 5px; 
   padding: 25px; */ 
+
 }
 
 .star {
@@ -115,25 +107,34 @@ h4 {
 }
 
 .badges {
-  text-align: center;
   margin: auto;
-  width: 30%;  
+  width:auto; 
   display: flex;
   flex-direction: row;
+  text-align: center;
 } 
 
-.badge-section {
-  text-align: center;
-  /* margin: 0 auto; */
+.badge-header {
+  margin: auto;
+  margin-top: 30px;
+  width: auto;
 }
+
+/* .badge-section {
+  text-align: center;
+  margin: 0 auto; 
+}  */
 
 /* Report */
 
 .report {
   text-align: center;
+  display:inline-block;
   border: 1px solid #d6d6d6;
   padding: 20px;
   margin: 50px;
+  width:60%
+  /* margin-bottom: 200px; */
 }
 
 .left {

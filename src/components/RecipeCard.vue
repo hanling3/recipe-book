@@ -1,24 +1,41 @@
 <template>
-  <a :href="dish.link">
-    <div class="recipeCard">
+   <router-link 
+  @click.native="$addtofav='false', $addtoplan='false', $thedish=dish"
+  :to="`/recipe-detail/${dish.dish}`"
+  >
+    <div id="recipeCard">
+      <!-- <router-link 
+        :to="'/recipe-detail/' + dish.reference"
+        v-on: click="$emit('update-dish', 'kung-pao-chicken')"
+        > -->
+       <!-- <router-link to="/recipe-detail/kung-pao-chicken"> -->
       <b-card
-        :title="dish.name"
-        :img-src="dish.image"
+        :title="dish.dish"
+        title-tag="h5"
+        :img-src="require('../assets/' + dish.reference + '.jpg')"
         img-alt="Image"
         img-top
-        style="max-width: 15rem"
-        class="mb-2"
+        img-height="150rem"
+        style="width: 15rem"
+        class="nowrap d-flex justify-content-center"
       >
-        <b-card-text>
-          <b-icon icon="clock" scale="1"></b-icon>
-          {{ dish.cooktime }}
-          <b-icon icon="cash-stack" scale="1"></b-icon>
-          {{ dish.cost }}
-          {{ dish.diffculty }}
+        <b-card-text class="d-flex justify-content-between">
+          <div> 
+            <b-icon icon="clock" scale="1"></b-icon>
+            {{ dish.cooktime }}
+          </div>
+          <div>
+            <b-icon icon="cash-stack" scale="1"></b-icon>
+            {{ dish.budget }}
+          </div>
+          <div>
+            <b-icon icon="star" scale="1"></b-icon>
+            {{ dish.difficulty }}
+          </div>
         </b-card-text>
-      </b-card>
+        </b-card>
     </div>
-  </a>
+  </router-link>
 </template>
 
 <script>
@@ -26,6 +43,31 @@ export default {
   name: "recipeCard",
   props: {
     dish: Object,
+  },
+  created() {
+    console.log("hi");
+    if (this.dish.budget == undefined) {
+      console.log("here");
+      this.dish.budget = 100;
+    }
+    if (this.dish.reference == undefined) {
+      console.log("image");
+      this.dish.reference = "tomato-and-egg-stir-fry";
+    }
+  },
+  watch: {
+    myprop: function (newVal) {
+      // watch it
+      console.log("Prop changed: ", newVal);
+      if (newVal.budget == undefined) {
+        console.log("here")
+        this.dish.budget = 100;
+      }
+      if (newVal.image == undefined) {
+        console.log("image")
+        this.dish.image = "'tomato-and-egg-stir-fry.jpg";
+      }
+    },
   },
 };
 </script>
@@ -36,13 +78,12 @@ a {
   color: black;
 }
 
-.recipeCard {
-  display: inline-flex;
-  width: 300px;
+.nowrap {
+  white-space: nowrap;
 }
 
-.dishImage {
-  width: 200px;
-  height: 200px;
+#recipeCard {
+  display: inline-flex;
+  width: 300px;
 }
 </style>

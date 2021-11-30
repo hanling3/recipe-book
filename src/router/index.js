@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Plan from '../views/Plan.vue'
+// import Plan from '../views/Plan.vue'
 
 Vue.use(VueRouter)
 
@@ -10,15 +10,11 @@ const routes = [
   //   name: 'Plan',
   //   component: Plan
   // },
-  {
-    path: '/plan',
-    name: 'Plan',
-    component: Plan
-  },
+
   {
     path: '/mealplan',
     name: 'MealPlan',
-    component: () => import(/* webpackChunkName: "mealplan" */ '../views/MealPlan.vue')
+    component: () => import(/* webpackChunkName: "mealplan" */ '../views/Plan-v3.vue')
   },
   {
     path: '/favorites',
@@ -44,13 +40,23 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "browse" */ '../views/Browse')
   },
+
   {
-    path: '/emptyrecipe',
-    name: 'EmptyRecipe',
+    path: '/',
+    name: 'welcomepage',
     // route level code-splitting
     // this generates a separate chunk (profile.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "browse" */ '../views/EmptyRecipe.vue')
+    component: () => import(/* webpackChunkName: "landingpage" */ '../views/WelcomePage.vue')
+  },
+
+  {
+    path: '/recipe-detail/:name',
+    name: 'RecipeDetail',
+    // route level code-splitting
+    // this generates a separate chunk (profile.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "landingpage" */ '../views/RecipeDetail.vue')
   },
 ]
 
