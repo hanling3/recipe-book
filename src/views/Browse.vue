@@ -1,9 +1,9 @@
 <template>
   <div id="main-page">
-    <pageTitle :pageTitle="title" />
+    <h1>Browse </h1>
 
     <!----------------- "Favorite" Section --------------->
-    <section-title sectionTitle="Favorite" />
+    <h2> Favorite </h2>
     <template v-if="$addtofav == 'true'">
       <recipeCard
         v-for="item in [mockdatabefore[1]]"
@@ -12,11 +12,11 @@
       />
     </template>
     <template v-else>
-      <h3 id="hints"> Browse recipes and add them to your favorite list</h3>
+      <h5 id="hints"> Browse recipes and add them to your favorite list</h5>
     </template>
 
     <!----------------- "We Recommend" Section --------------->
-    <section-title sectionTitle="We Recommend" />
+    <h2> We Recommend </h2>
     <div id="buttons">
       <drop-down-menu />
       <br />
@@ -35,8 +35,8 @@
 
 <script>
 import recipeCard from "@/components/RecipeCard.vue";
-import pageTitle from "@/components/PageTitle.vue";
-import sectionTitle from "@/components/SectionTitle.vue";
+// import pageTitle from "@/components/PageTitle.vue";
+// import sectionTitle from "@/components/SectionTitle.vue";
 import dropDownMenu from "@/components/DropDownMenu.vue";
 import mockdatabefore from "@/mock-data-before.json";
 
@@ -44,8 +44,6 @@ export default {
   name: "browse",
   components: {
     recipeCard,
-    pageTitle,
-    sectionTitle,
     dropDownMenu,
   },
   data: function () {

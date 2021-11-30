@@ -33,27 +33,35 @@
         </b-col>
       </b-row>
 
-      <b-button-group>
-        <b-button :variant="buttonStyle1" v-on:click="display1"
-          >INGREDIENTS</b-button
-        >
-        <b-button :variant="buttonStyle2" v-on:click="display2"
-          >INSTRUCTIONS</b-button
-        >
-        <b-button :variant="buttonStyle3" v-on:click="display3"
-          >UTENSIL</b-button
-        >
-      </b-button-group>
-
-      <b-table striped hover :items="items"></b-table>
+      <b-tabs content-class="mt-3" fill>
+        <b-tab title="INGREDIENTS" active>
+          <b-table hover :items="this.$thedish.ingredients"></b-table>
+        </b-tab>
+        <b-tab title="INSTRUCTIONS">
+          <b-table hover :items="this.$thedish.instructions"></b-table>
+        </b-tab>
+         <b-tab title="UTENSIL">
+           <b-table hover :items="this.$thedish.utensil"></b-table>
+        </b-tab>
+      </b-tabs> 
 
       <b-row align-h="center" class="text-center">
         <b-col>
           <button @click="favStatus">Add to Favorite</button>
         </b-col>
         <b-col>
+          <button @click="planStatus">Add to Meal Plan</button> 
+        </b-col>
+      </b-row>
+      
+
+      <!-- <b-row align-h="center" class="text-center">
+        <b-col>
+          <button @click="favStatus">Add to Favorite</button>
+        </b-col>
+        <b-col>
           <button @click="planStatus">Add to Meal Plan</button>
-          <!-- <button @click="show=true">Add to Meal Plan</button> -->
+          <button @click="show=true">Add to Meal Plan</button>
           <stack-modal
             :show="show"
             title="Select A Date"
@@ -82,7 +90,7 @@
             </div>
           </stack-modal>
         </b-col>
-      </b-row>
+      </b-row> -->
       <!--<button class="btn btn-light" @click="show=true">Save To Plan</button>-->
     </b-card>
   </div>
@@ -90,59 +98,36 @@
 
 <script>
 // import mockdataafter from "@/mock-data-after.json";
-import StackModal from "@innologica/vue-stackable-modal";
-import datepicker from "@/components/DatePicker.vue";
+// import StackModal from "@innologica/vue-stackable-modal";
+// import datepicker from "@/components/DatePicker.vue";
 
 export default {
   name: "recipeDetail",
-  components: {
-    StackModal,
-    datepicker,
-  },
-  data: function () {
-    return {
-      buttonStyle1: "light",
-      buttonStyle2: "secondary",
-      buttonStyle3: "secondary",
-      items: this.$thedish.ingredients,
+  // components: {
+  //   StackModal,
+  //   datepicker,
+  // },
+  // data: function () {
+  //   return {
+  //     show: false,
+  //     modalClass: "",
 
-      show: false,
-      modalClass: "",
-
-      dateCatch: datepicker.dateSend,
-      planlist: [],
-    };
-  },
+  //     dateCatch: datepicker.dateSend,
+  //     planlist: [],
+  //   };
+  // },
   methods: {
-    display1: function () {
-      (this.buttonStyle1 = "light"),
-        (this.buttonStyle2 = "secondary"),
-        (this.buttonStyle3 = "secondary"),
-        (this.items = this.$thedish.ingredients);
-    },
-    display2: function () {
-      (this.buttonStyle2 = "light"),
-        (this.buttonStyle1 = "secondary"),
-        (this.buttonStyle3 = "secondary"),
-        (this.items = this.$thedish.instructions);
-    },
-    display3: function () {
-      (this.buttonStyle3 = "light"),
-        (this.buttonStyle1 = "secondary"),
-        (this.buttonStyle2 = "secondary"),
-        (this.items = this.$thedish.utensil);
-    },
-    dateReceive: function (date) {
-      var plan = this.$thedish;
-      plan.date = date;
-      console.log(date + "hi");
-    },
-    sendShow: function () {
-      this.show = false;
-      this.$emit("show-message", this.show);
-      console.log(this.show + "hi");
-      return this.show;
-    },
+    // dateReceive: function (date) {
+    //   var plan = this.$thedish;
+    //   plan.date = date;
+    //   console.log(date + "hi");
+    // },
+    // sendShow: function () {
+    //   this.show = false;
+    //   this.$emit("show-message", this.show);
+    //   console.log(this.show + "hi");
+    //   return this.show;
+    // },
     favStatus: function () {
       console.log("---- favStatus is working ----");
       if (this.$addtofav == "false") {
