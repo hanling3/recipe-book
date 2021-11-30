@@ -39,6 +39,13 @@
     - [2. Planning & Pseudocode](documents/high-fidelity-prototype.md#2-planning-&-pseudocode)
     - [3. Coding](documents/high-fidelity-prototype.md#3-coding)
 
+### Milestone 5: Evaluation & Deployment
+- [Evaluation & Deployment](documents/evaluation-deployment.md#milestone-5-evaluation--deployment)
+    - [0. Overview](documents/evaluation-deployment.md#overview)
+    - [1. Evaluation](documents/evaluation-deployment.md#evaluation)
+    - [2. Revision](documents/evaluation-deployment.md#revision)
+    - [3. Deploy App](documents/evaluation-deployment.md#deploy-app)
+
 ### Contributions 
 - [Summary of Contributions](documents/contributions-summary.md)
 
@@ -49,7 +56,11 @@
     - [Round 2: Semi-structured Interviews Raw Notes](documents/interview/round-2-interview-notes.md)
 - Paper Prototype
     - [Paper Prototype](documents/paper-prototype.md)
-- User Testing
-    - [Usability Test Protocol](documents/user-testing/usability-test-protocol.md)
-    - [Usability Test Raw Notes](documents/user-testing/usability-test-raw-notes.md)
-    - [Usability Test Summary](documents/user-testing/usability-test-summary.md)
+- User Testing (Figma)
+    - [Usability Test Protocol](documents/user-testing-figma/usability-test-protocol.md)
+    - [Usability Test Raw Notes](documents/user-testing-figma/usability-test-raw-notes.md)
+    - [Usability Test Summary](documents/user-testing-figma/usability-test-summary.md)
+- User Testing (App)
+    - [Usability Test Protocol](documents/user-testing-app/usability-test-protocol.md)
+    - [Usability Test Raw Notes](documents/user-testing-app/usability-test-raw-notes.md)
+    - [Usability Test Summary](documents/user-testing-app/usability-test-summary.md)
