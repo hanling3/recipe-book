@@ -105,7 +105,10 @@
 
 # Milestone 5 
 
-TODO 
+- Hedy
+    - Conducted 2 user testings
+    - Constructed the recipe detail page, meal plan page, and the "add to ..." functions
+    - Deployed the app
 
 # Milestone 6 
 
