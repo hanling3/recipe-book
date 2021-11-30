@@ -1,6 +1,6 @@
 <template>
   <form>
-      <div id="dropDownMenus">
+      <div id="dropDownMenuContainer">
         <select id="dropDownMenu">
           <option selected>Cook Time</option>
           <option value="1">&#8804; 30 min</option>
@@ -43,14 +43,11 @@ export default {
 
 <style scoped>
 #dropDownMenu {
-  margin-right: 30px;
+  margin-right: 1%;
   background-color: #5f5f5f;
   color: white;
-  padding: 10px;
-  padding-right: 20px;
-  border-radius: 5px;
-  
-
-
+  padding: 1%;
+  /* padding-right: 1%; */
+  /* border-radius: 1%;  */
 }
 </style>

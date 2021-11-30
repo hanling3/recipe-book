@@ -35,8 +35,6 @@
 
 <script>
 import recipeCard from "@/components/RecipeCard.vue";
-// import pageTitle from "@/components/PageTitle.vue";
-// import sectionTitle from "@/components/SectionTitle.vue";
 import dropDownMenu from "@/components/DropDownMenu.vue";
 import mockdatabefore from "@/mock-data-before.json";
 
