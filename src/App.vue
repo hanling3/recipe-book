@@ -22,11 +22,35 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color:black;
   margin: 0;
   background-color: rgb(243, 243, 243);
 }
 #main-page {
-  padding: 200px;
+  padding-top:1%;
+  padding-bottom:5%
+}
+
+#hints {
+  font-size: 90%;
+  opacity: 70%;
+}
+
+h1 {
+  text-align: left;
+  padding-left: 2%;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: left;
+  padding-left: 4%;
+  padding-top: 1%;
+  font-weight: bold;
+}
+
+h3{
+  text-align: center;
+  font-weight: bold;
 }
 </style>

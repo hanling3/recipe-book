@@ -1,10 +1,10 @@
 <template>
-  <div class="profile">
+  <div id="main-page" class="profile">
     <h1>Profile </h1>
 
     <div class = "header"> 
       <div> <img src="@/assets/profile_propic.jpg" alt="Robo the persona"> </div>
-      <div> <h2> Robo  <b-icon icon="pencil"></b-icon> </h2> </div>
+      <div> <h3> Robo  <b-icon icon="pencil"></b-icon> </h3> </div>
       
       <div class = "badge-header"> <h4>  My Badges </h4> </div>
       <div class = "badges">
@@ -43,36 +43,18 @@
   </div>
 </template>
 
-<script>
-// import navBar from "../components/NavBar.vue";
-
-// export default {
-//   name: "profile",
-//   components: {
-//     navBar
-//   },
-//   data: () => ({
-
-//   })
-// }
-
-export default {
-    data() {
-      return {
-      
-      }
-    }
-  }
-
-</script>
-
 <style>
 
+/* this part is moved to the App.vue
 h1 {
   text-align: left;
   margin-left: 25px;
   margin-top: 25px;
+} 
+h2 {
+  font-weight: bold;
 }
+*/
 
 /* Header */
 
@@ -94,9 +76,6 @@ img {
   width: 100px;
 }
 
-h2 {
-  font-weight: bold;
-}
 
 /* Badges */
 
@@ -150,10 +129,12 @@ h4 {
 
 .report {
   text-align: center;
+  display:inline-block;
   border: 1px solid #d6d6d6;
   padding: 20px;
   margin: 50px;
-  margin-bottom: 200px;
+  width:60%
+  /* margin-bottom: 200px; */
 }
 
 .left {

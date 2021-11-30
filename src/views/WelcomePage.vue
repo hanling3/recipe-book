@@ -2,9 +2,9 @@
   <div class="background">
     <div class="content text-white text-center">
       <!-- <h1 class="text-white text-center">Find Your Recipe</h1> -->
-      <h2 class="title"> Recipe Finder </h2> 
+      <h2 class="title" style="margin-top: 100px"> Recipe Finder </h2> 
       <h4> by McGraw Studio </h4> 
-      <h4> Welcome to our recipe finder! Find delicous recipes, write your own, and track your cooking progress all within our app. 
+      <h4> Welcome to our recipe finder! Find delicous recipes, write your own, and track your cooking progress all within our app. <br>
         To get started, choose one of the options below.
       </h4>
   </div>

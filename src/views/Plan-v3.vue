@@ -1,8 +1,8 @@
 <template>
   <div class="MealPlan" id="main-page">
-    <page-title :pageTitle="title" />
+    <h1> Meal Plan </h1>
     <template v-if="$addtoplan == 'true'">
-      <h3> 12/20/2021 </h3>
+      <!-- <h3> 12/20/2021 </h3> -->
       <recipeCard
         v-for="item in mockdataPlan"
         v-bind:key="item.name"
@@ -10,14 +10,13 @@
       />
     </template>
     <template v-else id="hint"> 
-       <h3> Browse recipes and add them to your meal plan</h3>
+       <h5 id="hints"> Browse recipes and add them to your meal plan</h5>
     </template>
   </div>
 </template>
 
 
 <script>
-import pageTitle from "@/components/PageTitle.vue";
 import RecipeCard from '@/components/RecipeCard.vue';
 import mockdatabefore from "@/mock-data-before.json";
 
@@ -25,13 +24,11 @@ import mockdatabefore from "@/mock-data-before.json";
   export default {
     name: 'mealplan',
     components: {
-      pageTitle,
       RecipeCard,
     },
     data: function() {
       return {
         mockdataPlan: [mockdatabefore[0]],
-        title: "Meal Plan",
       }
     }
     
