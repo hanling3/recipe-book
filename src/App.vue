@@ -42,11 +42,9 @@ h1 {
   font-weight: bold;
 }
 
-h2 {
-  text-align: left;
-  padding-left: 4%;
+#sectionTitle {
+  text-align: center;
   padding-top: 1%;
-  font-weight: bold;
 }
 
 h3{

@@ -3,7 +3,7 @@
     <h1>Browse </h1>
 
     <!----------------- "Favorite" Section --------------->
-    <h2> Favorite </h2>
+    <h2 id="sectionTitle"> Favorite </h2>
     <template v-if="$addtofav == 'true'">
       <recipeCard
         v-for="item in [mockdatabefore[1]]"
@@ -16,7 +16,7 @@
     </template>
 
     <!----------------- "We Recommend" Section --------------->
-    <h2> We Recommend </h2>
+    <h2 id="sectionTitle"> We Recommend </h2>
     <div id="buttons">
       <drop-down-menu />
       <br />
