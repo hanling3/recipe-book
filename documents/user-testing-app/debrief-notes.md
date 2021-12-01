@@ -1,4 +1,7 @@
 # Debrief Notes
+
+After conducting all of our usabiliy tests, our team gathered together and highlighted the following problems from each user:
+
 - User 1: John
     - In task 1&2, the user was not sure if the recipe was added to the meal plan/favorite list successfully, there is no notification pop-up
         - (Need to give users feedback after they click the add button)
