@@ -49,7 +49,7 @@ In order to address the issues uncovered above, we revised our final sketches as
 
 3. We will change the user flow of adding recipes to the meal plan by making the user add recipes to the meal plan using only the specific recipe details page and then schedule the recipe with a specific day of the week on the meal plan page. This is to account for users that only plan 1 week ahead max.
 
-4. We will replace the star icon on badges with other icons that are more related to different implications of badges, which we believe will better communicate with users about what each badges represents.
+4. We will replace the star icon on badges with other icons that are more related to different implications of badges, which we believe will better communicate with users about what each badges represents. As for the cooking report on the profile page, while the appearance is the same in the sketches, we plan to include more relevant metrics, such as perhaps total cost of the recipe vs expected cost of the recipe.
 
 Additionally, we revised the navigation bar so that there are now four main functions: a browse page, meal plan page, favorite page, and profile page. This is to make it more evident to the user how they can explore the recipes on the app.
 
