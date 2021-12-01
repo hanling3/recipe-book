@@ -1,5 +1,10 @@
 # Userability Test Protocol
 
+# Revisions
+
+- User testing platform changed from figma prototype to our app website.
+- Changed scenario 1: plan for next Monday to plan for Nov.29th.
+
 ## Welcome + Introduction Script 
 Hi [user's name]. I'm [your name(s)] from the McGraw Studio. Today we are going to test the prototype of our Recipe Finder app to better understand the performance of our mobile app, which focuses on allowing users to meal plan. 
 
@@ -21,6 +26,7 @@ First, to gain some context about yourself:
 - Do you have experience of using recipe apps? If so, what is the frequency?
 - Do you have a habit of making a weekly meal plan? Why or why not?
     - [If they do make a weekly meal plan] Can you describe to us what your meal planning process looks like? 
+
 
 ## Prototype Interaction Instructions 
 Okay, we will now take a look at our prototype. Facilitator will open the app website home page. 
