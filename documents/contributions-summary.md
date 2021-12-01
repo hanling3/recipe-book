@@ -116,6 +116,11 @@
     - Revised profile page and included badge window details
     - Wrote final sketch justifications and added to milestone writeup
 
+- Xinlu
+    - Extract findings and insights from user testings
+    - Constructed welcome page
+    - Revised final sketch based user testing results and write justifications
+    
 # Milestone 6 
 
 TODO 
