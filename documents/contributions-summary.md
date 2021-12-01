@@ -110,6 +110,11 @@
     - Constructed the recipe detail page, meal plan page, and the "add to ..." functions
     - Deployed the app
 
+- Xinlu
+    - Extract findings and insights from user testings
+    - Constructed welcome page
+    - Revised final sketch based user testing results and write justifications
+    
 # Milestone 6 
 
 TODO 
