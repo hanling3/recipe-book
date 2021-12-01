@@ -14,7 +14,7 @@
 What’s the goal of this app? (To help students save time and money on cooking)
 
 ### Task 1
-You’re very busy during the midterm week, so you want to save enough time for studying. You figure the best way to do this is by meal planning for the week ahead. Choose a recipe for dinner time (next Monday) that takes less than 30 minutes, is under $10, is Japanese cuisine, and is easy to cook. 
+You’re very busy during the midterm week, so you want to save enough time for studying. You figure the best way to do this is by meal planning for the week ahead. Choose a recipe for dinner time (Nov.29th) that takes less than 30 minutes, is under $10, is Japanese cuisine, and is easy to cook. 
 * Notes:
     * Finish the test correctly and quickly
 * Answer: 
@@ -80,7 +80,7 @@ You’ve been using the recipe finder for a while, and you recently received a b
     * NA
 
 ### Task 1
-You’re very busy during the midterm week, so you want to save enough time for studying. You figure the best way to do this is by meal planning for the week ahead. Choose a recipe for dinner time next Monday that takes less than 30 minutes, is under $10, is Japanese cuisine, and is easy to cook. 
+You’re very busy during the midterm week, so you want to save enough time for studying. You figure the best way to do this is by meal planning for the week ahead. Choose a recipe for dinner time (Nov.29th) that takes less than 30 minutes, is under $10, is Japanese cuisine, and is easy to cook. 
 * Notes
     * Found the miso ramen recipe without clicking the filter button. The user said it was because there were only two recipes on the page, so it was easy to locate the recipe that satisfied the requirement without actually filtering.
     * The user was uncertain whether the recipe was added to the meal plan successfully. User checked the meal plan page to confirm
@@ -132,21 +132,28 @@ You’ve been using the recipe finder for a while, and you recently received a b
  
 
 
-# User 3: [TODO]
+# User 3: Qi
 ### Background Questions
 * Could you tell us your name, major, and year?
-    * [TODO] 
+    * Her name is Qi Wu. She is a landscape architecture major second year master student. 
 * Do you have experience of using recipe apps? If so, what is the frequency?
-    * [TODO]
+    * She uses an app called Xiachufang. Since she wants to edit recipes found on Xiachufang according to her own flavor, she wrote down recipes she found in a notebook. When she has recipes based on her own flavor, she no longer needs the app.
 * Do you have a habit of making a weekly meal plan? Why or why not?
-    * [TODO]
+    * Yes.
 * [If they do make a weekly meal plan] Can you describe to us what your meal planning process looks like? 
-    * [TODO]
+    * She will first think about the ingredients she needs for the following week when she goes to the grocery store--she will compare the price of groceries to decide which to buy. Then She will make a meal plan according to the groceries she buys. Basically she has repeated breakfast.
 
 ### Task 1
-You’re very busy during the midterm week, so you want to save enough time for studying. You figure the best way to do this is by meal planning for the week ahead. Choose a recipe for dinner time next Monday that takes less than 30 minutes, is under $10, is Japanese cuisine, and is easy to cook. 
+You’re very busy during the midterm week, so you want to save enough time for studying. You figure the best way to do this is by meal planning for the week ahead. Choose a recipe for dinner time (Nov.29th) that takes less than 30 minutes, is under $10, is Japanese cuisine, and is easy to cook. 
 * Notes
-    * [TODO]
+    * Tap on the “Browse” tab in the navigation bar
+    * Select <30min filter, $0-$10 filter, Japanese filter, and easy from the filter dropdowns
+    * Select “Miso Ramen” card
+    * Click “Add to meal plan”
+    * Select date “November 29” and click dinner button 
+    * Click “Save”
+    * Think for a while and ask if the meal plan has been added to the meal plan page, then try without having the feedback.
+    * Final state: “Miso Ramen” card appears under Nov 29 on the meal plan screen 
 * Answer: 
     * Tap on the “Browse” tab in the navigation bar
     * Select <30min filter, $0-$10 filter, Japanese filter, and easy from the filter dropdowns
@@ -159,7 +166,7 @@ You’re very busy during the midterm week, so you want to save enough time for 
 ### Task 2
 As you’re scheduling recipes for your meal plan, you find a Kung Pao chicken recipe that you really like and want to save it for later. Save this recipe to your favorites list. 
 * Notes:
-    * [TODO]
+    * Correctly finished every step.
 * Answer: 
     * Click on “Browse” tab in the navigation bar 
     * Locate and click into “Kung Pao Chicken” recipe
@@ -170,7 +177,11 @@ As you’re scheduling recipes for your meal plan, you find a Kung Pao chicken r
 ### Task 3
 You’ve been calling your mom about recipes from home. You want to quickly save it somewhere for future reference. Upload the recipe she’s called you about and view it in your favorites list to make sure it is saved. 
 * Notes:
-    * [TODO]
+    * Click Favorites tab in the navigation bar
+    * Find for the button for a while but click on the “+” icon in the bottom right corner to add recipe 
+    * Type in recipe using input fields on the “create your recipe” template page
+    * Tap “Save Recipe” button 
+    * Final state: Your newly added recipe appears under the “created recipes” section in favorites
 * Answer: 
     * Click Favorites tab in the navigation bar
     * Click on the “+” icon in the bottom right corner to add recipe 
@@ -181,14 +192,17 @@ You’ve been calling your mom about recipes from home. You want to quickly save
 ### Task 4
 You’ve been using the recipe finder for a while, and you recently received a badge for cooking 20 recipes from the recipe app. View this badge in your achievement history. 
 * Notes:
-    * [TODO]
+    * Correctly finished every step.
 * Answer: 
     * Tap on the Profile tab on the navigation bar 
     * Select your badge that celebrates your 20 recipe achievement
     * Final state: Badge details for “20 recipes cooked” achievement 
 
 ### Additional Questions / End of Study Notes
-* [TODO]
+* The app is pretty straightforward and clear. She thinks the filter is great. She always aims for a specific recipe she wants when she cooks. She thinks the browse page is interesting, which gives her other choices.
+* She wants to show her classmates about the badges she receives for being a cooking expert. She will use the app to plan her budget, then she will use the cheapest recipes she finds repeatedly. She thinks the created recipe is good for saving real home food recipe.
+* She thinks our app can add a stopwatch function when following the recipes, which is super convenient.
+
 
 
 
@@ -212,7 +226,7 @@ You’ve been using the recipe finder for a while, and you recently received a b
 
 
 ### Task 1
-You’re very busy during the midterm week, so you want to save enough time for studying. You figure the best way to do this is by meal planning for the week ahead. Choose a recipe for dinner time next Monday that takes less than 30 minutes, is under $10, is Japanese cuisine, and is easy to cook. 
+You’re very busy during the midterm week, so you want to save enough time for studying. You figure the best way to do this is by meal planning for the week ahead. Choose a recipe for dinner time (Nov.29th) that takes less than 30 minutes, is under $10, is Japanese cuisine, and is easy to cook. 
 * Notes
     * go to plan button
     * wouldnt browse; plan, calendar symbol indicates which day of the month that he would cook for
@@ -353,7 +367,7 @@ You’ve been using the recipe finder for a while, and you recently received a b
 
 
 ### Task 1
-You’re very busy during the midterm week, so you want to save enough time for studying. You figure the best way to do this is by meal planning for the week ahead. Choose a recipe for dinner time next Monday that takes less than 30 minutes, is under $10, is Japanese cuisine, and is easy to cook. 
+You’re very busy during the midterm week, so you want to save enough time for studying. You figure the best way to do this is by meal planning for the week ahead. Choose a recipe for dinner time (Nov.29th) that takes less than 30 minutes, is under $10, is Japanese cuisine, and is easy to cook. 
 * Notes
     * goes directly to browse page (ask why)
     * filtered

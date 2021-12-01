@@ -120,6 +120,11 @@
     - Extract findings and insights from user testings
     - Constructed welcome page
     - Revised final sketch based user testing results and write justifications
+
+- Xuanhui
+    - Conducted 1 user testings and added notes.
+    - Involved in constructing and revising the meal plan page and recipe detail page.
+    - Wrote app usability test protocal and the debrief notes.
     
 # Milestone 6 
 
