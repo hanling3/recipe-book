@@ -8,6 +8,7 @@
         v-bind:key="item.name"
         v-bind:dish="item"
       />
+      <datepicker />
     </template>
     <template v-else id="hint"> 
        <h5 id="hints"> Browse recipes and add them to your meal plan</h5>
@@ -19,12 +20,13 @@
 <script>
 import RecipeCard from '@/components/RecipeCard.vue';
 import mockdatabefore from "@/mock-data-before.json";
-
+import datepicker from "@/components/DatePicker.vue";
 
   export default {
     name: 'mealplan',
     components: {
       RecipeCard,
+      datepicker
     },
     data: function() {
       return {
