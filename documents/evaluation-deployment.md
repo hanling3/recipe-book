@@ -16,21 +16,45 @@
 
 # Evaluation
 
-# Revision
+To evaluate the usability of our app, our team conducted 5 user tests. We summarized our main findings below. 
+
+For a copy of our user testing protocol, raw interview notes, and debrief notes, please see the "User Testing (App)" section under "Additional Items" in the table of contents.
+
 ## Findings and Insights
-1. Problem1: 5/5 users had hard time to find "upload recipe" button. While we were conducting user testing, almost all of our participants mentioned they would like to see this button in an evident place that can attract their attention. Solution/Plan for next steps: firstly, we will add text to the current icon button to help users better understand action by reducing their cognitive workload. Then, we will change location of the button to center of the page to get user's attention more efficienty. 
+1. Problem 1: 5/5 users had a hard time finding the "upload recipe" button. While we were conducting user testing, almost all of our participants mentioned they would like to see this button in an evident place that can attract their attention. 
 
-2. Problem2: No clear feedbacks on actions. 5/5 users mentioned that they were not sure if the recipe was added to the meal plan/favorite list successfully and we observed that users would switch to certain pages to confirm recipes were successfully added. Solution/Plan for next steps: Provide confirmation message in the form of pop-up window to inform users that actions have been executed successfully.
+2. Problem 2: No clear feedbacks on actions. 5/5 users mentioned that they were not sure if the recipe was added to the meal plan/favorite list successfully. Occasionally we observed that users would switch to certain pages to confirm recipes were successfully added. 
 
-3. Problem3: Users prefer to browse the recipes first and add it to meal plan. Solution/Plan for next steps: We will change the user flow of adding recipe to meal plan by making user add recipes to meal plan in recipe detailed page and then schedule the recipe a specific date on meal plan page.
+3. Problem 3: Users prefer to browse the recipes first and add it to meal plan. We found that our users meal planned one week ahead max.
 
-4. Problem4: Badges with same icon made users confused. As the user said "all the badges look the same and make me confused". Solution/Plan for next steps: We will replace star icon with other icons that are more related to different implications of badges, which we believe that would have a better communication with users about what each badges represents.
+4. Problem 4: Badges with the same icon confused users. One user said that they didn't understand why all the badges looked the same.
+
+# Revision
+
+Below, we have included our revised final sketches. We also included the original sketches for comparison to show what revisions we made.
+
+## Original Sketches (for Comparison)
+![Original Final Sketches](images/sketches/final_sketch.jpeg)
 
 ## Revised Final Sketches
 ![Final Sketches](images/sketches/revised_final_sketch.jpeg)
 
+## Revised Final Sketches Justification
 
+In order to address the issues uncovered above, we revised our final sketches as such:
+
+1. First, we added text to the current icon button to help users better understand the action by reducing their cognitive workload. Then, we will change the location of the button to the center of the page to get user's attention more efficiently. 
+
+2. To address the lack of feedback, we plan to provide confirmation messages in the form of pop-up windows to inform users that actions have been executed successfully. The popup will include the message, "You've successfully added a recipe." 
+
+3. We will change the user flow of adding recipes to the meal plan by making the user add recipes to the meal plan using only the specific recipe details page and then schedule the recipe with a specific day of the week on the meal plan page. This is to account for users that only plan 1 week ahead max.
+
+4. We will replace the star icon on badges with other icons that are more related to different implications of badges, which we believe will better communicate with users about what each badges represents.
+
+Additionally, we revised the navigation bar so that there are now four main functions: a browse page, meal plan page, favorite page, and profile page. This is to make it more evident to the user how they can explore the recipes on the app.
 
 # Deploy App
-https://mcgraw-studio-project.herokuapp.com/
 
+Our PWA can be found here: https://mcgraw-studio-project.herokuapp.com/
+
+We were able to use Chrome's Lighthouse Audit to verify that our PWA meets progressive web app requirements.

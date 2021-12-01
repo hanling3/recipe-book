@@ -45,6 +45,8 @@
     - [1. Evaluation](documents/evaluation-deployment.md#evaluation)
     - [2. Revision](documents/evaluation-deployment.md#revision)
     - [3. Deploy App](documents/evaluation-deployment.md#deploy-app)
+        - PWA Link: https://mcgraw-studio-project.herokuapp.com/
+
 
 ### Contributions 
 - [Summary of Contributions](documents/contributions-summary.md)
@@ -63,4 +65,4 @@
 - User Testing (App)
     - [Usability Test Protocol](documents/user-testing-app/usability-test-protocol.md)
     - [Usability Test Raw Notes](documents/user-testing-app/usability-test-raw-notes.md)
-    - [Usability Test Summary](documents/user-testing-app/usability-test-summary.md)
+    - [Debrief Notes](documents/user-testing-app/debrief-notes.md)

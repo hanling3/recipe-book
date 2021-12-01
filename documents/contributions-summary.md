@@ -110,6 +110,12 @@
     - Constructed the recipe detail page, meal plan page, and the "add to ..." functions
     - Deployed the app
 
+- Ada
+    - Wrote milestone timeline 
+    - Conducted 2 user tests and added notes
+    - Revised profile page and included badge window details
+    - Wrote final sketch justifications and added to milestone writeup
+
 # Milestone 6 
 
 TODO 
