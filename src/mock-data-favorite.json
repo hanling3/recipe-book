@@ -2,7 +2,7 @@
     {
         "dish": "Tomato and Egg Stir Fry",
         "difficulty": "Easy",
-        "cooktime": 15,
+        "cooktime": "15 min",
         "budget": "$6",
         "type": "Chinese",
         "reference": "tomato-and-egg-stir-fry",
@@ -29,7 +29,7 @@
     {
         "dish": "Kung Pao Chicken",
         "difficulty": "Medium",
-        "cooktime": 40,
+        "cooktime": "35 min",
         "budget": "$12",
         "type": "Chinese",
         "reference": "kung-pao-chicken",
