@@ -24,7 +24,7 @@ export default {
   text-align: center;
   color:black;
   margin: 0;
-  background-color: rgb(243, 243, 243);
+  /* background-color: rgb(243, 243, 243); */
 }
 #main-page {
   padding-top:1%;
