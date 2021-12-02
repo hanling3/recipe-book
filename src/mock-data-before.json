@@ -2,7 +2,7 @@
     {
         "dish": "Miso Ramen",
         "difficulty": "Easy",
-        "cooktime": 10,
+        "cooktime": "10 min",
         "budget": "$8",
         "type": "Japanese",
         "reference": "miso-ramen",
@@ -26,7 +26,7 @@
     {
         "dish": "Kung Pao Chicken",
         "difficulty": "Medium",
-        "cooktime": 40,
+        "cooktime": "35 min",
         "budget": "$12",
         "type": "Chinese",
         "reference": "kung-pao-chicken",
@@ -49,6 +49,95 @@
         "utensil":  [
             {"Utensil": "Pan", "Quantity": "1" },
             {"Utensil": "Bowl/Plate", "Quantity": "1" }
+        ],
+        "tips": ""
+    },
+    {
+        "dish": "Budae Jjigae",
+        "difficulty": "Medium",
+        "cooktime": "20 min",
+        "budget": "$10",
+        "type": "Korean",
+        "reference": "budae-jjigae",
+        "imageCitation": "",
+        "ingredients": [
+            { "Ingredient": "Chicken Stock", "Quantity": " 1 litre" },
+            { "Ingredient": "SPAM (sliced)", "Quantity": "200g" },
+            { "Ingredient": "Sausage (sliced)", "Quantity": "150g"},
+            { "Ingredient": "Tofu (sliced)", "Quantity": "250g" },
+            { "Ingredient": "Kimchi", "Quantity": "40g" },
+            { "Ingredient": "Ramen Noodles", "Quantity": "110g" },
+            { "Ingredient": "Rice Cake", "Quantity": "50g" },
+            { "Ingredient": "Cheese", "Quantity": "1 or 2 slices" },
+            { "Ingredient": "Soy Sauce", "Quantity": "1 tablesppon" },
+            { "Ingredient": "Korean Chili Flakes (Gochugaru)", "Quantity": "2 tablesppon" }
+          ],
+        "instructions": [
+            {"Step": "Step 1", "Detail": "Put all ingredients (except for ramen, rice cakes, and cheese) in a pot. Add the sauce in the middle"},
+            {"Step": "Step 2", "Detail": "Boil it on medium high heat until the stock starts to boil"},
+            {"Step": "Step 3", "Detail": "Add the remaining ingredients on top the pot and boil until the noodles are fully cooked "}       
+        ],
+        "utensil":  [
+            {"Utensil": "Pot", "Quantity": "1" }
+        ],
+        "tips": ""
+    },
+    {
+        "dish": "Parmesan Spaghetti",
+        "difficulty": "Easy",
+        "cooktime": "15 min",
+        "budget": "$10",
+        "type": "American",
+        "reference": "spaghetti",
+        "imageCitation": "Photo by Monica Turlui from Pexels",
+        "ingredients": [
+            { "Ingredient": "Spaghetti", "Quantity": " 8 ounces" },
+            { "Ingredient": "Unsalted Butter", "Quantity": "10 tablespoons" },
+            { "Ingredient": "Garlic", "Quantity": "3 cloves"},
+            { "Ingredient": "Parmesan Cheese", "Quantity": "1/2 cup" },
+            { "Ingredient": "Chopped Fresh Parsley Leaves", "Quantity": "2 tablespoons" }
+          ],
+        "instructions": [
+            {"Step": "Step 1", "Detail": "Cook pasta in a large pot of boiling slated water"},
+            {"Step": "Step 2", "Detail": "Add butter, garlic in a saucepan over medium heat, cook until the butter turns a golden brown"},
+            {"Step": "Step 3", "Detail": "Stir the pasta and Parmesan until wll combined"}       
+        ],
+        "utensil":  [
+            {"Utensil": "Pot", "Quantity": "1" },
+            {"Utensil": "Saucepan", "Quantity": "1" }
+        ],
+        "tips": ""
+    },
+    {
+        "dish": "Peking Duck",
+        "difficulty": "Hard",
+        "cooktime": "45 min",
+        "budget": "$20",
+        "type": "Chinese",
+        "reference": "peking-duck",
+        "imageCitation": "Photo by Monica Turlui from Pexels",
+        "ingredients": [
+            { "Ingredient": "Boneless Duck Breasts", "Quantity": " 4 x 200g" },
+            { "Ingredient": "Salt", "Quantity": "1/4 teaspoon" },
+            { "Ingredient": "Soy Sauce", "Quantity": "1 teaspoon"},
+            { "Ingredient": "Shaoxing Wine", "Quantity": "1 teaspoon" },
+            { "Ingredient": "Oil", "Quantity": "1 tablespoon" },
+            { "Ingredient": "Mandarin Pancakes", "Quantity": "10 pieces" },
+            { "Ingredient": "Cucumber", "Quantity": "1" },
+            { "Ingredient": "Garlic", "Quantity": "3 cloves" },
+            { "Ingredient": "Hoisin Sauce", "Quantity": "3 tablespoons" }
+          ],
+        "instructions": [
+            {"Step": "Step 1", "Detail": "Mix the salt, soy sauce, wine, and five spice powder in a small bowl and massage into the duck. Marinate for at least 30 minutes"},
+            {"Step": "Step 2", "Detail": "Heat an oven-proof pan over medium-high heat, and add 1 tablespoon of oil"},
+            {"Step": "Step 3", "Detail": "Sear the duck breasts, skin side down, for 6-8 minutes."},
+            {"Step": "Step 4", "Detail": "when the duck skin is a bit crispy and dark golden brown, carefully drain off the duck fat and discard (or save for later application to other recipes!). Flip the duck breasts (so they are skin side up), and transfer them to the broiler for about 3 minutes. "},
+            {"Step": "Step 5", "Detail": "Remove the duck from the broiler and let rest for 10 to 15 minutes."}, 
+            {"Step": "Step 6", "Detail": "Cut the duck into thin slices. Serve the duck with your warmed pancakes, fixings, and sauce."}       
+        ],
+        "utensil":  [
+            {"Utensil": "Pan", "Quantity": "1" },
+            {"Utensil": "Bowl", "Quantity": "1" }
         ],
         "tips": ""
     }

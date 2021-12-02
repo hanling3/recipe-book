@@ -16,7 +16,7 @@
       <b-row align-h="center" class="text-center">
         <b-col cols="3">
           <b-icon icon="stopwatch" class="icons"></b-icon><br />
-          {{ this.$thedish.cooktime }} min
+          {{ this.$thedish.cooktime }}
           <p>COOK TIME</p>
         </b-col>
 

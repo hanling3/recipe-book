@@ -85,5 +85,6 @@ a {
 #recipeCard {
   display: inline-flex;
   width: 300px;
+  margin-bottom: 1%
 }
 </style>

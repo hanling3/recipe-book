@@ -28,7 +28,7 @@ export default {
 }
 #main-page {
   padding-top:1%;
-  padding-bottom:5%
+  padding-bottom:8%
 }
 
 #hints {
