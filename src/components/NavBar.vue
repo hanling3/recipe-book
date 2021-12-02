@@ -32,6 +32,9 @@ background-color: rgb(216, 216, 216);
 width: 100%;
 }
 
+button:active{
+  background-color: aquamarine;
+}
 .icons {
   width: 45px;
   height: 45px;
