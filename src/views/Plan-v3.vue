@@ -56,4 +56,8 @@ button {
 .content {
   margin: 200px;
 }
+
+body{
+  background-color: #F4F3EF;
+}
 </style>

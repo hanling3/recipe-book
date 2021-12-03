@@ -3,7 +3,10 @@
     <h1>Favorites</h1>
     <!-- <h2> Favorites | Created Recipes </h2>  -->
     <div>
-      <b-tabs content-class="mt-3" fill>
+      <b-card no-body>
+            <b-tabs pills card>
+
+      <!-- <b-tabs content-class="mt-3" fill> -->
         <!-- <b-tab title="Favorites" active><p>Please add your favorite recipe here</p></b-tab> -->
         <!---------------  <Display Favorite Recipes> ---------------->
         <b-tab title="Favorites" active>
@@ -37,8 +40,10 @@
         </b-tab>
       </b-tabs>
       <!-- <b-button @click="UploadRecipe()">Add recipe</b-button> -->
+      </b-card>
     </div>
     <!-- <nav-bar /> -->
+    
   </div>
 </template>
 

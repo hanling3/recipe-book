@@ -3,6 +3,7 @@
     <h1>Browse </h1>
 
     <!----------------- "Favorite" Section --------------->
+    <div class="col-10 offset-2 align-items-center">
     <h2 id="sectionTitle"> Favorite </h2>
     <template v-if="$addtofav == 'true'">
       <recipeCard
@@ -16,11 +17,11 @@
     </template>
 
     <!----------------- "We Recommend" Section --------------->
-    <h2 id="sectionTitle"> We Recommend </h2>
+    <h2 id="sectionTitle" > We Recommend </h2>
     <div id="buttons">
-      <drop-down-menu />
-      <br />
-      <button type="button" class="btn btn-dark" v-on:click="visability">
+      <drop-down-menu class="inline-block"/>
+      <!-- <br /> -->
+      <button type="button" class="btn btn-dark inline-block" v-on:click="visability">
         {{ filter }}
       </button>
     </div>
@@ -30,6 +31,7 @@
       v-bind:key="item.name"
       v-bind:dish="item"
     />
+    </div>
   </div>
 </template>
 
@@ -72,3 +74,6 @@ export default {
   },
 };
 </script>
+<style>
+</style>
+

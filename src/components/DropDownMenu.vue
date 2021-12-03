@@ -43,10 +43,17 @@ export default {
 
 <style scoped>
 #dropDownMenu {
-  margin-right: 1%;
-  background-color: #5f5f5f;
-  color: white;
-  padding: 1%;
+  /* margin-right: 1%; */
+  /* background-color: #FEBD2F; */
+  
+  color: rgb(17, 17, 17);
+  margin-right: 16px;
+  margin-bottom: 24px;
+  border-color: rgb(177, 177, 177);
+  border-width: 1px;
+  border-radius: 8px;
+  font-size: 18px;
+  padding:6px 0px 6px 0px;
   /* padding-right: 1%; */
   /* border-radius: 1%;  */
 }
