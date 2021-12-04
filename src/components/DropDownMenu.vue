@@ -41,8 +41,8 @@ export default {
 };
 </script>
 
-<style scoped>
-#dropDownMenu {
+<style >
+select{
   /* margin-right: 1%; */
   /* background-color: #FEBD2F; */
   

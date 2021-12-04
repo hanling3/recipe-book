@@ -57,7 +57,11 @@ button {
   margin: 200px;
 }
 
-body{
+/* body{
   background-color: #F4F3EF;
+} */
+
+.MealPlan{
+  height: 100vh;
 }
 </style>

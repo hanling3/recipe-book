@@ -1,5 +1,5 @@
 <template>
-  <div class="favorites">
+  <div class="favorites" id="main-page">
     <h1>Favorites</h1>
     <div class="mt-5 d-flex justify-content-center">
       <b-card no-body>
@@ -119,6 +119,7 @@ export default {
 }
 .favorites{
   height: 100vh;
+  width: 100%;
 }
 /* .card-body {
   background-color: #EFAF00;
