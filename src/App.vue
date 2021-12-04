@@ -24,7 +24,7 @@ export default {
   /* text-align: center; */
   color:black;
   margin: 0;
-  background-color: #F4F3EF;
+  background-color: #F7F3EF;
 }
 #main-page {
   padding-top:1%;
@@ -53,5 +53,9 @@ h1 {
 h3{
   text-align: center;
   font-weight: bold;
+}
+
+.button .btn-primary{
+  color: orange;
 }
 </style>

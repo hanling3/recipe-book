@@ -1,6 +1,5 @@
 <template>
   <div class="col-lg-6 col-sm-8 justify-content-center container">
-    <h1>Create Your recipe</h1>
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group
         id="input-group-1"
@@ -213,9 +212,22 @@ export default {
 };
 </script>
 <style>
-.btn{
+.container .btn{
 	box-shadow: none !important;
   text-decoration: none;
+  color: #E57B07;
+  padding-left: 0px;
   
+}
+#input-3{
+  padding: 6px 12px;
+  color: grey;
+  border-color:#e3e7e9;
+}
+
+#input-2{
+  padding: 6px 12px;
+  color: grey;
+  border-color:#e3e7e9;
 }
 </style>

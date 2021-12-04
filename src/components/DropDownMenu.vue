@@ -53,8 +53,13 @@ export default {
   border-width: 1px;
   border-radius: 8px;
   font-size: 18px;
-  padding:6px 0px 6px 0px;
+  padding:6px 16px 6px 16px;
   /* padding-right: 1%; */
   /* border-radius: 1%;  */
+}
+
+#dropDownMenu option{
+  /* padding:6px 0px 6px 0px; */
+
 }
 </style>

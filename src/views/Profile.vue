@@ -31,13 +31,15 @@
       </div>
     </div>
 
+    <div class="d-flex justify-content-center" >
     <div class="report">
-      <h4> Cooking Report </h4>
+      <h4 class="mb-3"> Cooking Report </h4>
     <ul> 
       <li> <p class="left"> Completed 5 recipes this week </p> </li>
       <li> <p class="left"> Saved $100 on food by cooking compared to grabbing takeout </p> </li> 
       <li> <p class="left"> Saved 5 hours cooking throughout the week </p> </li>
-    </ul>  
+    </ul> 
+    </div> 
     </div>
     <!-- <nav-bar /> -->
   </div>
@@ -126,16 +128,19 @@ h4 {
 }  */
 
 /* Report */
+.report{
+  border: 1px solid #d6d6d6;
+  padding: 32px 64px;
+}
 
-.report {
+/* .report {
   text-align: center;
   display:inline-block;
   border: 1px solid #d6d6d6;
   padding: 20px;
-  margin: 50px;
-  width:60%
-  /* margin-bottom: 200px; */
-}
+  width:50%;
+  margin-bottom: 200px;
+} */
 
 .left {
   text-align: left;
