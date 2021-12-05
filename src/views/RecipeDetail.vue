@@ -40,20 +40,39 @@
         <b-tab title="INSTRUCTIONS">
           <b-table hover :items="this.$thedish.instructions"></b-table>
         </b-tab>
-         <b-tab title="UTENSIL">
-           <b-table hover :items="this.$thedish.utensil"></b-table>
+        <b-tab title="UTENSIL">
+          <b-table hover :items="this.$thedish.utensil"></b-table>
         </b-tab>
-      </b-tabs> 
+      </b-tabs>
 
       <b-row align-h="center" class="text-center">
         <b-col>
-          <button @click="favStatus">Add to Favorite</button>
+          <div>
+            <b-button @click="favStatus"> Add to Favorite </b-button>
+            <b-modal ref="confirmFav" ok-only hide-header>
+              <div class="text-center">
+                <b-icon icon="check-circle" style="width: 35px; height: 35px"> </b-icon>
+              </div>
+              <br>
+              <p class="badge2-text text-center">
+                Recipe is added to farvorite.
+              </p>
+            </b-modal>
+          </div>
         </b-col>
         <b-col>
-          <button @click="planStatus">Add to Meal Plan</button> 
+          <button @click="planStatus">Add to Meal Plan</button>
+          <b-modal ref="confirmPlan" ok-only hide-header>
+             <div class="text-center">
+            <b-icon icon="check-circle" style="width: 35px; height: 35px"> </b-icon>
+            </div>
+            <br>
+            <p class="badge2-text text-center">
+              Recipe is added to meal plan.
+            </p>
+          </b-modal>
         </b-col>
       </b-row>
-      
 
       <!-- <b-row align-h="center" class="text-center">
         <b-col>
@@ -109,11 +128,11 @@ export default {
   // },
   // data: function () {
   //   return {
-  //     show: false,
-  //     modalClass: "",
+      // show: false,
+      // modalClass: "",
 
-  //     dateCatch: datepicker.dateSend,
-  //     planlist: [],
+      // dateCatch: datepicker.dateSend,
+      // planlist: [],
   //   };
   // },
   methods: {
@@ -129,6 +148,7 @@ export default {
     //   return this.show;
     // },
     favStatus: function () {
+      this.$refs['confirmFav'].show();
       console.log("---- favStatus is working ----");
       if (this.$addtofav == "false") {
         this.$addtofav = "true";
@@ -137,6 +157,7 @@ export default {
       }
     },
     planStatus: function () {
+      this.$refs['confirmPlan'].show();
       console.log("---- planStatus is working ----");
       if (this.$addtoplan == "false") {
         this.$addtoplan = "true";
