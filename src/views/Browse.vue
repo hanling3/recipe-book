@@ -23,11 +23,14 @@
 
     <!----------------- "We Recommend" Section --------------->
     <h2 id="sectionTitle" > We Recommend </h2>
-    <div id="buttons" class="inline-block">
-      <button type="button" class="btn btn-dark inline-block" v-on:click="visability">
+    <div class="filter d-flex ">
+       <div class="p-2"><drop-down-menu/></div>
+  <div class="ml-auto p-2">
+       <button type="button" class="btn btn-dark inline-block" v-on:click="visability">
         {{ filter }}
       </button>
-      <drop-down-menu class="inline-block"/>
+    </div>
+
       <!-- <br /> -->
       <!-- <button type="button" class="btn btn-dark inline-block" v-on:click="visability">
         {{ filter }}
@@ -91,6 +94,9 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
 } */
+.filter{
+
+}
 
 </style>
 
