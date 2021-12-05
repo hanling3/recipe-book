@@ -18,7 +18,7 @@
       </h4>
     </b-col>
     <b-col sm="6" class="align-middle">
-      <img class="svg-img" src="../assets/cook.svg" alt="SCG-IMG"/>
+      <img class="svg-img" src="@/assets/cook.svg" alt="SCG-IMG"/>
     </b-col>
   </b-row>
 </b-container>

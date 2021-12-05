@@ -21,6 +21,7 @@ export default {
   background-color: #2c2c2c17;
   position: fixed;
   bottom: 0px;
+  z-index: 1000;
 } 
 
 .btn-group{

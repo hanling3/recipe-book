@@ -1,52 +1,123 @@
 <template>
-  <div id="main-page" class="profile">
-    <h1>Profile </h1>
+  <div id="main-page" class="profile position-relative">
+    <h1>Profile</h1>
+    <img
+      class="position-absolute"
+      src="@/assets/bottle.svg"
+      alt="SCG-IMG"
+      width="350"
+      height="350"
+      style="z-index: -1; transform: rotate(15deg); left: -7%; top: 40%"
+    />
+    <img
+      class="position-absolute"
+      src="@/assets/egg.svg"
+      alt="SCG-IMG"
+      width="300"
+      height="300"
+      style="z-index: -1; transform: rotate(-30deg); left: 80%; top: -15%"
+    />
+    <img
+      class="position-absolute"
+      src="@/assets/pot.svg"
+      alt="SCG-IMG"
+      width="300"
+      height="300"
+      style="z-index: -1; left: 80%; top: 80%"
+    />
 
-    <div class = "header"> 
-      <div> <img src="@/assets/profile_propic.jpg" alt="Robo the persona"> </div>
-      <div> <h3> Robo  <b-icon icon="pencil"></b-icon> </h3> </div>
-      
-      <div class = "badge-header"> <h4>  My Badges </h4> </div>
-      <div class = "badges">
-        <div> 
-          <b-button class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
-          <h5> Newly Joined </h5>
+    <div class="header">
+      <div>
+        <img
+          src="@/assets/profile.jpg"
+          class="circle fluid"
+          alt="Robo the persona"
+          style="width: 200px; height: 200px; border: 4px solid lightgrey"
+        />
+        <h2>Robo <b-icon icon="pencil"></b-icon></h2>
+      </div>
+      <!-- <h3>Robo <b-icon icon="pencil"></b-icon></h3> -->
+
+      <div class="badge-header"><h4 class="fs-2">My Badges</h4></div>
+      <div class="badges mt-4">
+        <div class="badge">
+          <b-button variant="warning">
+            Newly Joined
+            <b-badge variant="light" class="">
+              <img src="https://img.icons8.com/doodle/48/000000/new--v1.png"
+            /></b-badge>
+          </b-button>
+          <!-- <b-button class="circle">
+            <b-icon icon="star" class="star"></b-icon>
+          </b-button>
+          <h5>Newly Joined</h5> -->
         </div>
 
-        <div>   
-          <b-button v-b-modal.consistentcook-details class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
-          <h5> Consistent Cook </h5>
+        <div class="badge">
+          <b-button variant="warning" v-b-modal.consistentcook-details>
+            Consistent cook
+            <b-badge variant="light">
+              <img
+                src="https://img.icons8.com/external-flat-icons-maxicons/85/000000/external-cook-restaurants-and-dining-flat-flat-icons-maxicons-2.png"
+              />
+            </b-badge>
+          </b-button>
+          <!-- <b-button v-b-modal.consistentcook-details class="circle"> <img src="https://img.icons8.com/doodle/48/000000/new--v1.png"/> </b-button>
+          <h5> Consistent Cook </h5> -->
 
           <b-modal id="consistentcook-details" centered title="Consistent Cook">
-     
-          <p class="badge2-text"> <b-icon icon="award" class="star"></b-icon> Awarded for cooking 20 recipes on the app. Keep it up!</p>
+            <p class="badge2-text text-center">
+              <img
+                src="https://img.icons8.com/external-flat-icons-maxicons/85/000000/external-cook-restaurants-and-dining-flat-flat-icons-maxicons-2.png"
+              />
+              <br />
+              Awarded for cooking 20 recipes on the app. Keep it up!
+            </p>
           </b-modal>
         </div>
 
-        <div>
-          <b-button class="circle"> <b-icon icon="star" class="star"></b-icon> </b-button>
-          <h5> Masterchef </h5>
-        </div> 
-
+        <div class="badge">
+          <!-- <b-button class="circle">
+            <b-icon icon="star" class="star"></b-icon>
+          </b-button>
+          <h5>Masterchef</h5> -->
+          <b-button variant="warning">
+            Masterchef
+            <b-badge variant="light">
+              <img
+                src="https://img.icons8.com/color/96/000000/chef-cooking-skin-type-1.png"
+              />
+            </b-badge>
+          </b-button>
+        </div>
       </div>
     </div>
-
-    <div class="d-flex justify-content-center" >
-    <div class="report">
-      <h4 class="mb-3"> Cooking Report </h4>
-    <ul> 
-      <li> <p class="left"> Completed 5 recipes this week </p> </li>
-      <li> <p class="left"> Saved $100 on food by cooking compared to grabbing takeout </p> </li> 
-      <li> <p class="left"> Saved 5 hours cooking throughout the week </p> </li>
-    </ul> 
-    </div> 
+    <h4 class="mb-3 fs-2 text-center">Cooking Report</h4>
+    <div class="d-flex justify-content-center">
+      <div class="report">
+        <ul class="text-secondary">
+          <li>
+            <p class="left">Completed <span>5</span> recipes this week</p>
+          </li>
+          <li>
+            <p class="left">
+              Saved <span>$100</span> on food by cooking compared to grabbing
+              takeout
+            </p>
+          </li>
+          <li>
+            <p class="left">
+              Saved <span>5</span> hours cooking throughout the week
+            </p>
+          </li>
+        </ul>
+      </div>
     </div>
     <!-- <nav-bar /> -->
   </div>
 </template>
 
 <style>
-
 /* this part is moved to the App.vue
 h1 {
   text-align: left;
@@ -78,7 +149,6 @@ img {
   width: 100px;
 }
 
-
 /* Badges */
 
 h4 {
@@ -99,27 +169,29 @@ h4 {
   /* padding: 20px; */
   /* width: 50px;  
   margin: 5px; 
-  padding: 25px; */ 
-
+  padding: 25px; */
 }
 
+.profile {
+  z-index: 1000;
+}
 .star {
   height: 50px;
   width: 50px;
 }
 
-.badges {
+/* .badges {
   margin: auto;
-  width:auto; 
+  width: auto;
   display: flex;
   flex-direction: row;
   text-align: center;
-} 
+} */
 
 .badge-header {
-  margin: auto;
   margin-top: 30px;
   width: auto;
+  font-size: 32px;
 }
 
 /* .badge-section {
@@ -128,9 +200,10 @@ h4 {
 }  */
 
 /* Report */
-.report{
+.report {
   border: 1px solid #d6d6d6;
   padding: 32px 64px;
+  font-size: 24px;
 }
 
 /* .report {
@@ -151,4 +224,21 @@ b-icon {
   width: 50px;
 }
 
+.badges .btn {
+  width: 300px;
+  height: 100px;
+  margin-right: 32px;
+  font-size: 24px;
+}
+
+.badges .btn img {
+  width: 64px;
+  height: 64px;
+}
+
+span {
+  font-size: 40px;
+  font-weight: 700;
+  color: #e57b07;
+}
 </style>

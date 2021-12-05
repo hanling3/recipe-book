@@ -1,5 +1,11 @@
 <template>
-  <div class="MealPlan" id="main-page">
+  <div class="MealPlan position-relative" id="main-page" >
+    <img class="position-absolute" src="@/assets/cooking.svg" alt="SCG-IMG" width="50%" style="z-index: 0; left: 25%;
+  bottom: -100px " >
+  <!-- <img class="position-absolute" src="@/assets/egg.svg" alt="SCG-IMG" width="300" height="300" style="z-index: 0; transform: rotate(-30deg); left: 80%;
+  top: -15%; " >
+  <img class="position-absolute" src="@/assets/pot.svg" alt="SCG-IMG" width="300" height="300" style="z-index: 0; left: 80%;
+  top: 80%;" > -->
     <h1> Meal Plan </h1><br><br>
     <template v-if="$addtoplan == 'true'">
       <!-- <h3> 12/20/2021 </h3> -->

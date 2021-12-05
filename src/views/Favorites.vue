@@ -1,37 +1,50 @@
 <template>
-  <div class="favorites" id="main-page">
+  <div class="favorites position-relative" id="main-page">
     <h1>Favorites</h1>
-    <div class="mt-5 d-flex justify-content-center">
+<img class="position-absolute" src="@/assets/bag.svg" alt="SCG-IMG" width="350" height="350" style="z-index: 0; transform: rotate(15deg); left: -5%;
+  top: 40%; " >
+  <img class="position-absolute" src="@/assets/egg.svg" alt="SCG-IMG" width="300" height="300" style="z-index: 0; transform: rotate(-30deg); left: 80%;
+  top: -15%; " >
+  <img class="position-absolute" src="@/assets/pot.svg" alt="SCG-IMG" width="300" height="300" style="z-index: 0; left: 80%;
+  top: 60%;" >
+    <div class="mt-5 d-flex justify-content-center tab">
       <b-card no-body>
             <b-tabs pills card fill>
         <!---------------  <Display Favorite Recipes> ---------------->
         <b-tab title="Favorites" active>
-          <div class="tab-content">
-          <template v-if="$addtofav=='true'">
+          <div>
+          <div v-if="$addtofav=='true'">
             <recipeCard
               v-for="item in [mockdatafavorite[1]]"
               v-bind:key="item.name"
               v-bind:dish="item"
             />
-          </template>
-          <template v-else>
+          </div>
+          <div v-else class="text-center">
+            <img src="@/assets/404.svg" alt="SCG-IMG" width="400">
             <p>Browse recipes and add them to your favorite list</p>
-          </template>
+          </div>
           </div>
         </b-tab>
         <!---------------  <Display Created Recipes>  ---------------->
-        <b-tab title="Created Recipes" tab-variant="warning">
-          <div v-if="$uploadrecipe !='true'">
-            <p>Upload your recipe by clicking the add button above</p>
+        <b-tab title="Created Recipes" tab-variant="warning ">
+          <div v-if="$uploadrecipe !='true'" class="text-center">
+          <div>
+            <p>Upload your recipe by clicking the add button below</p>
           </div>
-          <recipeCard
+          <div>
+          <b-button v-b-modal.modal-xl class="addbutton">
+            <b-icon icon="plus" style="width: 50px; height: 40px"></b-icon>Upload Recipe
+          </b-button>
+          </div>
+          </div>
+          <div class="mt-3">
+             <recipeCard
             v-for="item in recipes"
             v-bind:key="item.name"
             v-bind:dish="item"
           />
-          <b-button v-b-modal.modal-xl class="addbutton align-middle">
-            <b-icon icon="plus" style="width: 40px; height: 40px"></b-icon>Upload Recipe
-          </b-button>
+          </div>
           <b-modal @ok="handleOk" title="Upload your recipe" id="modal-xl" size="xl" ok-variant="warning" >
             <Upload-Recipe v-on:newrecipe="addRecipe"></Upload-Recipe>
           </b-modal>
@@ -117,10 +130,10 @@ export default {
   background-color: #EFAF00;
   border: none;
 }
-.favorites{
+/* .favorites{
   height: 100vh;
   width: 100%;
-}
+} */
 /* .card-body {
   background-color: #EFAF00;
 } */
@@ -139,8 +152,13 @@ export default {
 
 .tab-pane{ 
   height: 500px;
-  width: 1000px;
+  width: 100%;
   border:none; 
   border-top: 0; 
   background-color:#ffffff;}
+
+  .favorites .card{
+    width: 70%;
+  }
+
 </style>

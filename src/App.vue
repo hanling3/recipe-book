@@ -3,6 +3,7 @@
     <router-view />
     <nav-bar />
   </div>
+  
 </template>
 
 <script>
@@ -25,10 +26,13 @@ export default {
   color:black;
   margin: 0;
   background-color: #F7F3EF;
+  overflow: hidden;
+  z-index: -1;
 }
 #main-page {
   padding-top:1%;
-  padding-bottom:8%
+  padding-bottom:8%;
+  z-index: 3;
 }
 
 #hints {
