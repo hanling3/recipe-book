@@ -23,12 +23,15 @@
 
     <!----------------- "We Recommend" Section --------------->
     <h2 id="sectionTitle" > We Recommend </h2>
-    <div id="buttons">
-      <drop-down-menu class="inline-block"/>
-      <!-- <br /> -->
+    <div id="buttons" class="inline-block">
       <button type="button" class="btn btn-dark inline-block" v-on:click="visability">
         {{ filter }}
       </button>
+      <drop-down-menu class="inline-block"/>
+      <!-- <br /> -->
+      <!-- <button type="button" class="btn btn-dark inline-block" v-on:click="visability">
+        {{ filter }}
+      </button> -->
     </div>
     <br />
     <recipeCard

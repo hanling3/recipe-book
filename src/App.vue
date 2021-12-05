@@ -43,7 +43,7 @@ export default {
 
 h1 {
   text-align: left;
-  margin-left: 2%;
+  margin-left: 5%;
   font-weight: bold;
   font-size: 40pt;
 }

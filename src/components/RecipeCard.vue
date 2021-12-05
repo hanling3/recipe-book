@@ -16,7 +16,7 @@
         img-alt="Image"
         img-top
         img-height="150rem"
-        style="width: 15rem"
+        style="width: 17rem"
         class="nowrap d-flex justify-content-center"
       >
         <b-card-text class="d-flex justify-content-between">
@@ -87,5 +87,9 @@ a {
   width: 300px;
   margin-bottom: 1%;
 
+}
+
+.card-text{
+color: rgb(122, 122, 122)
 }
 </style>

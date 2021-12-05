@@ -22,7 +22,7 @@
         />
         <!--<datepicker />-->
       </b-row>
-      <b-button v-b-modal.weekdays class="mx-5" size="sm" variant="outline-primary" data-toggle="modal" data-target="#weekdays">
+      <b-button v-b-modal.weekdays class="mx-5" size="sm" variant="warning" data-toggle="modal" data-target="#weekdays">
           <b-icon class="mx-1" icon="calendar-event"></b-icon>  Choose a day
       </b-button>
 
