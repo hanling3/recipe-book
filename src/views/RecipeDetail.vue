@@ -1,5 +1,5 @@
 <template>
-  <div id="recipeDetail">
+  <div id="recipeDetail" class="d-flex justify-content-center">
     <!-- <b-card
       :title= thedish.dish
       :img-src="require('../assets/' + $event + '.jpg')"
@@ -48,7 +48,9 @@
       <b-row align-h="center" class="text-center">
         <b-col>
           <div>
-            <b-button @click="favStatus"> Add to Favorite </b-button>
+            <b-button @click="favStatus" class="btn btn-dark inline-block"> 
+              Add to Favorite 
+            </b-button>
             <b-modal ref="confirmFav" ok-only hide-header>
               <div class="text-center">
                 <b-icon icon="check-circle" style="width: 35px; height: 35px"> </b-icon>
@@ -61,7 +63,9 @@
           </div>
         </b-col>
         <b-col>
-          <button @click="planStatus">Add to Meal Plan</button>
+          <b-button @click="planStatus" class="btn btn-dark inline-block">
+            Add to Meal Plan
+          </b-button>
           <b-modal ref="confirmPlan" ok-only hide-header>
              <div class="text-center">
             <b-icon icon="check-circle" style="width: 35px; height: 35px"> </b-icon>
@@ -171,9 +175,11 @@ export default {
 
 <style scoped>
 #recipeDetail {
-  text-align: center;
-  margin-left: 450px;
-  margin-right: auto;
-  margin-bottom: 200px;
+  /* text-align: center; */
+  /* position: relative; */
+  padding-top:1%;
+  /* padding-left:13%; */
+  padding-bottom:8%;
+  z-index: 3
 }
 </style>

@@ -7,6 +7,8 @@
   <img class="position-absolute" src="@/assets/pot.svg" alt="SCG-IMG" width="300" height="300" style="z-index: 0; left: 80%;
   top: 80%;" > -->
     <h1> Meal Plan </h1><br><br>
+
+    <div class="col-10 offset-2 align-items-center">
     <template v-if="$addtoplan == 'true'">
       <!-- <h3> 12/20/2021 </h3> -->
       <div class="input-group-addon mx-4"> 
@@ -46,6 +48,7 @@
     <template v-else id="hint"> 
        <h5 id="hints"> Browse recipes and add them to your meal plan</h5>
     </template>
+    </div>
   </div>
 </template>
 
