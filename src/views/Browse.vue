@@ -25,7 +25,7 @@
     <h2 id="sectionTitle" > We Recommend </h2>
     <div class="filter d-flex ">
        <div class="p-2"><drop-down-menu/></div>
-  <div class="ml-auto p-2">
+    <div class="ml-auto p-2">
        <button type="button" class="btn btn-dark inline-block" v-on:click="visability">
         {{ filter }}
       </button>
@@ -94,9 +94,9 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
 } */
-.filter{
+/* .filter{
 
-}
+} */
 
 </style>
 

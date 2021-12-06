@@ -28,15 +28,15 @@
         </b-tab>
         <!---------------  <Display Created Recipes>  ---------------->
         <b-tab title="Created Recipes" tab-variant="warning ">
-          <div v-if="$uploadrecipe !='true'" class="text-center">
-          <div>
-            <p>Upload your recipe by clicking the add button below</p>
-          </div>
-          <div>
-          <b-button v-b-modal.modal-xl class="addbutton">
-            <b-icon icon="plus" style="width: 50px; height: 40px"></b-icon>Upload Recipe
-          </b-button>
-          </div>
+          <div class="text-center">
+            <!-- <div>
+              <p>Upload your recipe by clicking the add button below</p>
+            </div> -->
+            <div>
+              <b-button v-b-modal.modal-xl class="addbutton">
+                <b-icon icon="plus" style="width: 50px; height: 40px"></b-icon>Upload Recipe
+              </b-button>
+            </div>
           </div>
           <div class="mt-3">
              <recipeCard
