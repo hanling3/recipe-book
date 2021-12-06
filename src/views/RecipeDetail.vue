@@ -16,6 +16,7 @@
       <b-row align-h="center" class="text-center">
         <b-col cols="3">
           <b-icon icon="stopwatch" class="icons"></b-icon><br />
+          <!-- {{ thedish.cooktime }} min -->
           {{ this.$thedish.cooktime }}
           <p>COOK TIME</p>
         </b-col>
@@ -33,6 +34,19 @@
         </b-col>
       </b-row>
 
+      <!-- <b-button-group>
+        <b-button :variant="buttonStyle1" v-on:click="display1"
+          >INGREDIENTS</b-button
+        >
+        <b-button :variant="buttonStyle2" v-on:click="display2"
+          >INSTRUCTIONS</b-button
+        >
+        <b-button :variant="buttonStyle3" v-on:click="display3"
+          >UTENSIL</b-button
+        >
+      </b-button-group>
+
+      <b-table striped hover :items="items"></b-table> -->
       <b-tabs content-class="mt-3" fill>
         <b-tab title="INGREDIENTS" active>
           <b-table hover :items="this.$thedish.ingredients"></b-table>
@@ -115,44 +129,11 @@
 
 <script>
 import mockdata from "@/mock-data.json";
-import StackModal from '@innologica/vue-stackable-modal'
-import datepicker from "@/components/DatePicker.vue";
+// import StackModal from '@innologica/vue-stackable-modal';
+// import datepicker from "@/components/DatePicker.vue";
 
 export default {
   name: "recipeDetail",
-  components: {
-    StackModal,
-    datepicker
-  },
-  data() {
-    return {
-      buttonStyle1: "light",
-      buttonStyle2: "secondary",
-      buttonStyle3: "secondary",
-      items: mockdata[2]["ingredients"],
-      thedish: mockdata[2],
-      
-      recipes: mockdata,
-
-      show: false,
-      modalClass: '',
-
-      dateCatch: datepicker.dateSend,
-      planlist: [],
-    };
-  },
-  // methods: {
-  //   display1: function () {
-  //     (this.buttonStyle1 = "light"),
-  //       (this.buttonStyle2 = "secondary"),
-  //       (this.buttonStyle3 = "secondary"),
-  //       (this.items = mockdata[2]["ingredients"]);
-  //   },
-  //   display2: function () {
-  //     (this.buttonStyle2 = "light"),
-  //       (this.buttonStyle1 = "secondary"),
-  //       (this.buttonStyle3 = "secondary"),
-  //       (this.items = mockdata[2]["instructions"]);
   // components: {
   //   StackModal,
   //   datepicker,
