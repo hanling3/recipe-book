@@ -1,44 +1,58 @@
 <template>
-  <div class="favorites">
+  <div class="favorites position-relative" id="main-page">
     <h1>Favorites</h1>
-    <!-- <h2> Favorites | Created Recipes </h2>  -->
-    <div>
-      <b-tabs content-class="mt-3" fill>
-        <!-- <b-tab title="Favorites" active><p>Please add your favorite recipe here</p></b-tab> -->
+<img class="position-absolute" src="@/assets/bag.svg" alt="SCG-IMG" width="350" height="350" style="z-index: 0; transform: rotate(15deg); left: -5%;
+  top: 40%; " >
+  <img class="position-absolute" src="@/assets/egg.svg" alt="SCG-IMG" width="300" height="300" style="z-index: 0; transform: rotate(-30deg); left: 80%;
+  top: -15%; " >
+  <img class="position-absolute" src="@/assets/pot.svg" alt="SCG-IMG" width="300" height="300" style="z-index: 0; left: 80%;
+  top: 60%;" >
+    <div class="mt-5 d-flex justify-content-center tab">
+      <b-card no-body>
+            <b-tabs pills card fill>
         <!---------------  <Display Favorite Recipes> ---------------->
         <b-tab title="Favorites" active>
-          <template v-if="$addtofav=='true'">
+          <div>
+          <div v-if="$addtofav=='true'">
             <recipeCard
               v-for="item in [mockdatafavorite[1]]"
               v-bind:key="item.name"
               v-bind:dish="item"
             />
-          </template>
-          <template v-else>
+          </div>
+          <div v-else class="text-center">
+            <img src="@/assets/404.svg" alt="SCG-IMG" width="70%">
             <p>Browse recipes and add them to your favorite list</p>
-          </template>
+          </div>
+          </div>
         </b-tab>
         <!---------------  <Display Created Recipes>  ---------------->
-        <b-tab title="Created Recipes">
-          <template v-if="$uploadrecipe !='true'">
-            <p>Upload your recipe by clicking the add button in the bottom right corner</p>
-          </template>
-          <recipeCard
+        <b-tab title="Created Recipes" tab-variant="warning ">
+          <div class="text-center">
+            <!-- <div>
+              <p>Upload your recipe by clicking the add button below</p>
+            </div> -->
+            <div>
+              <b-button v-b-modal.modal-xl class="addbutton">
+                <b-icon icon="plus" style="width: 50px; height: 40px"></b-icon>Upload Recipe
+              </b-button>
+            </div>
+          </div>
+          <div class="mt-3">
+             <recipeCard
             v-for="item in recipes"
             v-bind:key="item.name"
             v-bind:dish="item"
           />
-          <b-button v-b-modal.modal-xl class="addbutton">
-            <b-icon icon="plus" style="width: 45px; height: 45px"></b-icon>
-          </b-button>
-          <b-modal @ok="handleOk" title="BootstrapVue" id="modal-xl" size="xl">
+          </div>
+          <b-modal @ok="handleOk" title="Upload your recipe" id="modal-xl" size="xl" ok-variant="warning" >
             <Upload-Recipe v-on:newrecipe="addRecipe"></Upload-Recipe>
           </b-modal>
         </b-tab>
       </b-tabs>
-      <!-- <b-button @click="UploadRecipe()">Add recipe</b-button> -->
+      </b-card>
     </div>
-    <!-- <nav-bar /> -->
+    
   </div>
 </template>
 
@@ -102,17 +116,49 @@ export default {
 
 <style>
 .addbutton {
-  width: 80px;
+  /* width: 80px;
   height: 80px;
-  padding: 6px 0px;
-  border-radius: 50px;
+  padding: 6px 0px;  */
+  /* /* border-radius: 50px;
   text-align: center;
   font-size: 12px;
-  line-height: 1.42857;
-  float: right;
-  margin-top: 450px;
+  line-height: 1.42857; */
+  width: 50%;
+  border-radius: 8px;
+  font-size: 24px;
   margin-right: 48px;
-  background-color: #ed6e3a;
+  background-color: #EFAF00;
   border: none;
 }
+/* .favorites{
+  height: 100vh;
+  width: 100%;
+} */
+/* .card-body {
+  background-color: #EFAF00;
+} */
+
+.button .btn-primary{
+  color: orange;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #EFAF00;
+}
+
+.nav-link{
+  color: black;
+}
+
+.tab-pane{ 
+  height: 500px;
+  width: 100%;
+  border:none; 
+  border-top: 0; 
+  background-color:#ffffff;}
+
+  .favorites .card{
+    width: 70%;
+  }
+
 </style>

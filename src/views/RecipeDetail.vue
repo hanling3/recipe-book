@@ -1,10 +1,16 @@
 <template>
-  <div id="recipeDetail">
+  <div id="recipeDetail" class="d-flex justify-content-center">
     <!-- <b-card
       :title= thedish.dish
       :img-src="require('../assets/' + $event + '.jpg')"
       img-top
     > -->
+    <div>
+    <router-link to="/browse" class="btn btn-dark">
+      &#8249; Back
+    </router-link>
+    </div>
+
     <b-card
       :title="this.$thedish.dish"
       :img-src="require('../assets/' + $thedish.reference + '.jpg')"
@@ -16,7 +22,7 @@
       <b-row align-h="center" class="text-center">
         <b-col cols="3">
           <b-icon icon="stopwatch" class="icons"></b-icon><br />
-          {{ this.$thedish.cooktime }} min
+          {{ this.$thedish.cooktime }}
           <p>COOK TIME</p>
         </b-col>
 
@@ -40,20 +46,43 @@
         <b-tab title="INSTRUCTIONS">
           <b-table hover :items="this.$thedish.instructions"></b-table>
         </b-tab>
-         <b-tab title="UTENSIL">
-           <b-table hover :items="this.$thedish.utensil"></b-table>
+        <b-tab title="UTENSIL">
+          <b-table hover :items="this.$thedish.utensil"></b-table>
         </b-tab>
-      </b-tabs> 
+      </b-tabs>
 
-      <b-row align-h="center" class="text-center">
+      <b-row align-h="center" class="text-center add-button">
         <b-col>
-          <button @click="favStatus">Add to Favorite</button>
+          <div>
+            <b-button @click="favStatus" class="btn btn-dark inline-block"> 
+              Add to Favorite 
+            </b-button>
+            <b-modal ref="confirmFav" ok-only hide-header ok-variant="warning">
+              <div class="text-center">
+                <b-icon icon="check-circle" style="width: 35px; height: 35px"> </b-icon>
+              </div>
+              <br>
+              <p class="badge2-text text-center">
+                Recipe is added to farvorite.
+              </p>
+            </b-modal>
+          </div>
         </b-col>
         <b-col>
-          <button @click="planStatus">Add to Meal Plan</button> 
+          <b-button @click="planStatus" class="btn btn-dark inline-block">
+            Add to Meal Plan
+          </b-button>
+          <b-modal ref="confirmPlan" ok-only hide-header ok-variant="warning">
+             <div class="text-center">
+            <b-icon icon="check-circle" style="width: 35px; height: 35px"> </b-icon>
+            </div>
+            <br>
+            <p class="badge2-text text-center">
+              Recipe is added to meal plan.
+            </p>
+          </b-modal>
         </b-col>
       </b-row>
-      
 
       <!-- <b-row align-h="center" class="text-center">
         <b-col>
@@ -109,11 +138,11 @@ export default {
   // },
   // data: function () {
   //   return {
-  //     show: false,
-  //     modalClass: "",
+      // show: false,
+      // modalClass: "",
 
-  //     dateCatch: datepicker.dateSend,
-  //     planlist: [],
+      // dateCatch: datepicker.dateSend,
+      // planlist: [],
   //   };
   // },
   methods: {
@@ -129,6 +158,7 @@ export default {
     //   return this.show;
     // },
     favStatus: function () {
+      this.$refs['confirmFav'].show();
       console.log("---- favStatus is working ----");
       if (this.$addtofav == "false") {
         this.$addtofav = "true";
@@ -137,6 +167,7 @@ export default {
       }
     },
     planStatus: function () {
+      this.$refs['confirmPlan'].show();
       console.log("---- planStatus is working ----");
       if (this.$addtoplan == "false") {
         this.$addtoplan = "true";
@@ -150,9 +181,15 @@ export default {
 
 <style scoped>
 #recipeDetail {
-  text-align: center;
-  margin-left: 450px;
-  margin-right: auto;
-  margin-bottom: 200px;
+  /* text-align: center; */
+  /* position: relative; */
+  padding-top:1%;
+  /* padding-left:13%; */
+  padding-bottom:8%;
+  z-index: 3
+}
+
+.add-button .btn{
+  height: 100px;
 }
 </style>
