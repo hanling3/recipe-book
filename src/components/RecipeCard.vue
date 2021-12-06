@@ -16,7 +16,7 @@
         img-alt="Image"
         img-top
         img-height="150rem"
-        style="width: 15rem"
+        style="width: 90%"
         class="nowrap d-flex justify-content-center"
       >
         <b-card-text class="d-flex justify-content-between">
@@ -59,10 +59,10 @@ export default {
     myprop: function (newVal) {
       // watch it
       console.log("Prop changed: ", newVal);
-      if (newVal.budget == undefined) {
-        console.log("here")
-        this.dish.budget = 100;
-      }
+      // if (newVal.budget == undefined) {
+      //   console.log("here")
+      //   this.dish.budget = "unavaible";
+      // }
       if (newVal.image == undefined) {
         console.log("image")
         this.dish.image = "'tomato-and-egg-stir-fry.jpg";
@@ -85,5 +85,12 @@ a {
 #recipeCard {
   display: inline-flex;
   width: 300px;
+  margin-bottom: 1%;
+
+}
+
+.card-text{
+color: rgb(122, 122, 122);
+font-size: 15px;
 }
 </style>

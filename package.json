@@ -40,7 +40,8 @@
   },
   "vue": {
     "pwa": {
-      "name": "Recipe Finder"
+      "name": "Recipe Finder",
+      "themeColor": "#717572"
     }
   }
 }
