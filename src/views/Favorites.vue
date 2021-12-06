@@ -21,7 +21,7 @@
             />
           </div>
           <div v-else class="text-center">
-            <img src="@/assets/404.svg" alt="SCG-IMG" width="400">
+            <img src="@/assets/404.svg" alt="SCG-IMG" width="70%">
             <p>Browse recipes and add them to your favorite list</p>
           </div>
           </div>
@@ -123,7 +123,7 @@ export default {
   text-align: center;
   font-size: 12px;
   line-height: 1.42857; */
-  width: 300px;
+  width: 50%;
   border-radius: 8px;
   font-size: 24px;
   margin-right: 48px;

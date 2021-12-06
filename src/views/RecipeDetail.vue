@@ -45,7 +45,7 @@
         </b-tab>
       </b-tabs>
 
-      <b-row align-h="center" class="text-center">
+      <b-row align-h="center" class="text-center add-button">
         <b-col>
           <div>
             <b-button @click="favStatus" class="btn btn-dark inline-block"> 
@@ -181,5 +181,9 @@ export default {
   /* padding-left:13%; */
   padding-bottom:8%;
   z-index: 3
+}
+
+.add-button .btn{
+  height: 100px;
 }
 </style>
