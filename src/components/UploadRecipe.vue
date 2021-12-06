@@ -36,7 +36,7 @@
 
          <b-form-group
         id="input-group-3"
-        label="Difficulty:"
+        label="Cook Difficulty:"
         label-size="lg"
         label-for="input-3"
         class="mt-3"
@@ -50,8 +50,24 @@
         ></b-form-select>
       </b-form-group>
 
-      <b-form-group
+        <b-form-group
         id="input-group-4"
+        label="Budget:"
+        label-size="lg"
+        label-for="input-4"
+        class="mt-3"
+      >
+        <b-form-select
+          class="col-12"
+          id="input-4"
+          v-model="form.budget"
+          :options="budget"
+          required
+        ></b-form-select>
+      </b-form-group>
+
+      <b-form-group
+        id="input-group-5"
         label="Ingredient:"
         label-size="lg"
         class="mt-3"
@@ -82,10 +98,10 @@
       </b-form-group>
 
       <b-form-group
-        id="input-group-5"
+        id="input-group-6"
         label="Instruction:"
         label-size="lg"
-        label-for="input-5"
+        label-for="input-6"
         class="mt-3"
       >
         <b-form-group v-for="(instruction, k) in form.instruction" :key="k">
@@ -143,6 +159,7 @@ export default {
         dish: "",
         cooktime: null,
         difficulty: null,
+        budget: null,
         ingredient: [""],
         instruction: [""],
         tip: "",
@@ -158,6 +175,13 @@ export default {
         "Easy",
         "Medium",
         "Hard",
+      ],
+      budget: [
+        { text: "Select One", value: null },
+        "$0-$10",
+        "$1-$20",
+        "$21-$30",
+        ">$30"
       ],
       show: true,
     };
@@ -226,6 +250,12 @@ export default {
 }
 
 #input-2{
+  padding: 6px 12px;
+  color: grey;
+  border-color:#e3e7e9;
+}
+
+#input-4{
   padding: 6px 12px;
   color: grey;
   border-color:#e3e7e9;

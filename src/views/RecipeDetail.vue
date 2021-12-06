@@ -45,13 +45,13 @@
         </b-tab>
       </b-tabs>
 
-      <b-row align-h="center" class="text-center">
+      <b-row align-h="center" class="text-center add-button">
         <b-col>
           <div>
             <b-button @click="favStatus" class="btn btn-dark inline-block"> 
               Add to Favorite 
             </b-button>
-            <b-modal ref="confirmFav" ok-only hide-header>
+            <b-modal ref="confirmFav" ok-only hide-header ok-variant="warning">
               <div class="text-center">
                 <b-icon icon="check-circle" style="width: 35px; height: 35px"> </b-icon>
               </div>
@@ -66,7 +66,7 @@
           <b-button @click="planStatus" class="btn btn-dark inline-block">
             Add to Meal Plan
           </b-button>
-          <b-modal ref="confirmPlan" ok-only hide-header>
+          <b-modal ref="confirmPlan" ok-only hide-header ok-variant="warning">
              <div class="text-center">
             <b-icon icon="check-circle" style="width: 35px; height: 35px"> </b-icon>
             </div>
@@ -181,5 +181,9 @@ export default {
   /* padding-left:13%; */
   padding-bottom:8%;
   z-index: 3
+}
+
+.add-button .btn{
+  height: 100px;
 }
 </style>

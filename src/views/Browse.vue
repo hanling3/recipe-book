@@ -60,7 +60,7 @@ export default {
   data: function () {
     return {
       showAllRecipe: true,
-      filter: "Unfiltered",
+      filter: "Save Filter",
       title: "Browse",
       mockdatabefore: mockdatabefore,
       mockdataFilter: mockdatabefore,
@@ -74,11 +74,11 @@ export default {
       this.$thedish=mockdatabefore[0];
       if (this.showAllRecipe == true) {
         this.showAllRecipe = false;
-        this.filter = "Filtered";
+        this.filter = "Clear";
         this.mockdataFilter = [mockdatabefore[0]];
       } else {
         this.showAllRecipe = true;
-        this.filter = "Unfiltered";
+        this.filter = "Save Filter";
         this.mockdataFilter = mockdatabefore;
       }
     },
