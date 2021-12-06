@@ -29,7 +29,7 @@
     <div class="header">
       <div>
         <img
-          src="@/assets/profile.jpg"
+          src="@/assets/profile_propic.jpg"
           class="circle fluid"
           alt="Robo the persona"
           style="width: 200px; height: 200px; border: 4px solid lightgrey"
