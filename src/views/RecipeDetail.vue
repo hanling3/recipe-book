@@ -121,8 +121,8 @@
 
 <script>
 import mockdata from "@/mock-data.json";
-import StackModal from '@innologica/vue-stackable-modal'
-import datepicker from "@/components/DatePicker.vue";
+// import StackModal from '@innologica/vue-stackable-modal'
+// import datepicker from "@/components/DatePicker.vue";
 
 export default {
   name: "recipeDetail",
