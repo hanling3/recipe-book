@@ -110,6 +110,22 @@
     - Constructed the recipe detail page, meal plan page, and the "add to ..." functions
     - Deployed the app
 
+- Ada
+    - Wrote milestone timeline 
+    - Conducted 2 user tests and added notes
+    - Revised profile page and included badge window details
+    - Wrote final sketch justifications and added to milestone writeup
+
+- Xinlu
+    - Extract findings and insights from user testings
+    - Constructed welcome page
+    - Revised final sketch based user testing results and write justifications
+
+- Xuanhui
+    - Conducted 1 user testings and added notes.
+    - Involved in constructing and revising the meal plan page and recipe detail page.
+    - Wrote app usability test protocal and the debrief notes.
+    
 # Milestone 6 
 
 TODO 
