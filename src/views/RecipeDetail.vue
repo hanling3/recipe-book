@@ -51,7 +51,7 @@
             <b-button @click="favStatus" class="btn btn-dark inline-block"> 
               Add to Favorite 
             </b-button>
-            <b-modal ref="confirmFav" ok-only hide-header>
+            <b-modal ref="confirmFav" ok-only hide-header ok-variant="warning">
               <div class="text-center">
                 <b-icon icon="check-circle" style="width: 35px; height: 35px"> </b-icon>
               </div>
@@ -66,7 +66,7 @@
           <b-button @click="planStatus" class="btn btn-dark inline-block">
             Add to Meal Plan
           </b-button>
-          <b-modal ref="confirmPlan" ok-only hide-header>
+          <b-modal ref="confirmPlan" ok-only hide-header ok-variant="warning">
              <div class="text-center">
             <b-icon icon="check-circle" style="width: 35px; height: 35px"> </b-icon>
             </div>

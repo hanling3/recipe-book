@@ -65,7 +65,7 @@
           <!-- <b-button v-b-modal.consistentcook-details class="circle"> <img src="https://img.icons8.com/doodle/48/000000/new--v1.png"/> </b-button>
           <h5> Consistent Cook </h5> -->
 
-          <b-modal id="consistentcook-details" centered title="Consistent Cook" ok-only>
+          <b-modal id="consistentcook-details" centered title="Consistent Cook" ok-only ok-variant="warning">
             <p class="badge2-text text-center">
               <img
                 src="https://img.icons8.com/external-flat-icons-maxicons/85/000000/external-cook-restaurants-and-dining-flat-flat-icons-maxicons-2.png"
