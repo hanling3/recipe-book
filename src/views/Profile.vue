@@ -55,7 +55,7 @@
 
         <div class="badge">
           <b-button variant="warning" v-b-modal.consistentcook-details>
-            Consistent cook
+            Consistent Cook
             <b-badge variant="light">
               <img
                 src="https://img.icons8.com/external-flat-icons-maxicons/85/000000/external-cook-restaurants-and-dining-flat-flat-icons-maxicons-2.png"
