@@ -16,7 +16,6 @@
       <b-row align-h="center" class="text-center">
         <b-col cols="3">
           <b-icon icon="stopwatch" class="icons"></b-icon><br />
-          <!-- {{ thedish.cooktime }} min -->
           {{ this.$thedish.cooktime }}
           <p>COOK TIME</p>
         </b-col>
@@ -34,19 +33,6 @@
         </b-col>
       </b-row>
 
-      <!-- <b-button-group>
-        <b-button :variant="buttonStyle1" v-on:click="display1"
-          >INGREDIENTS</b-button
-        >
-        <b-button :variant="buttonStyle2" v-on:click="display2"
-          >INSTRUCTIONS</b-button
-        >
-        <b-button :variant="buttonStyle3" v-on:click="display3"
-          >UTENSIL</b-button
-        >
-      </b-button-group>
-
-      <b-table striped hover :items="items"></b-table> -->
       <b-tabs content-class="mt-3" fill>
         <b-tab title="INGREDIENTS" active>
           <b-table hover :items="this.$thedish.ingredients"></b-table>
@@ -129,8 +115,8 @@
 
 <script>
 import mockdata from "@/mock-data.json";
-// import StackModal from '@innologica/vue-stackable-modal';
-// import datepicker from "@/components/DatePicker.vue";
+import StackModal from '@innologica/vue-stackable-modal'
+import datepicker from "@/components/DatePicker.vue";
 
 export default {
   name: "recipeDetail",
