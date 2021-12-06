@@ -8,7 +8,9 @@
       </h4>
   </div>
     </div> -->
-    <b-container class="d-flex justify-content-center background">
+    
+  <b-container class="d-flex justify-content-center background">
+  <div class="position-absolute"><img src="../../public/img/icons/android-chrome-maskable-512x512.png" width="100pt"></div>
   <b-row align-v="center" class="d-flex justify-content-center">
     <b-col sm="6" >
       <h2 class="title"> Recipebook </h2> 
@@ -54,6 +56,7 @@ body {
   background-color: #F7F3EF !important;;
 }
 .title {
+  display: inline;
   font-size: 70pt;
   font-family: 'Pacifico', cursive;
   color: #E57B07;
