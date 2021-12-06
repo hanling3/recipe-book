@@ -12,8 +12,8 @@
     </div>
 
     <b-card
-      :title="thedish.dish"
-      :img-src="require('../assets/' + thedish.reference + '.jpg')"
+      :title="this.$thedish.dish"
+      :img-src="require('../assets/' + $thedish.reference + '.jpg')"
       img-top
       img-height="300px"
       style="width: 500px"
@@ -28,13 +28,13 @@
 
         <b-col cols="3">
           <b-icon icon="cash-stack" class="icons"></b-icon><br />
-          {{ thedish.budget }}
+          {{ this.$thedish.budget }}
           <p>PER SERVE</p>
         </b-col>
 
         <b-col cols="3">
           <b-icon icon="star" class="icons"></b-icon><br />
-          {{ thedish.difficulty }}
+          {{ this.$thedish.difficulty }}
           <p>DIFFICULTY</p>
         </b-col>
       </b-row>
@@ -84,46 +84,51 @@
         </b-col>
       </b-row>
 
-      <b-row align-h="center" class="text-center">
+      <!-- <b-row align-h="center" class="text-center">
         <b-col>
-          <button> Add to Favorite </button>
+          <button @click="favStatus">Add to Favorite</button>
         </b-col>
         <b-col>
+          <button @click="planStatus">Add to Meal Plan</button>
           <button @click="show=true">Add to Meal Plan</button>
           <stack-modal
-                :show="show"
-                title="Select A Date"
-                save= "dateReceive"
-                @save="sendShow"
-                @close="show=false"
-                :modal-class="{ [modalClass]: true }"
-                :saveButton="{ visible: true }"
-                :cancelButton="{ title: 'Close', btnClass: { 'btn btn-light': true } }"
+            :show="show"
+            title="Select A Date"
+            save="dateReceive"
+            @save="sendShow"
+            @close="show = false"
+            :modal-class="{ [modalClass]: true }"
+            :saveButton="{ visible: true }"
+            :cancelButton="{
+              title: 'Close',
+              btnClass: { 'btn btn-light': true },
+            }"
           >
-            <datepicker v-on: dateSend="dateReceive"/> 
+            <datepicker v-on: dateSend="dateReceive" />
             <h4>Choose Meal</h4>
             <div class="btn-group" role="group" aria-label="MealSelection">
-              <button type="button" class="btn btn-light"><i class="bi-sunrise"></i>Breakfast</button>
-              <button type="button" class="btn btn-light"><i class="bi-sun"></i>Lunch</button>
-              <button type="button" class="btn btn-light"><i class="bi-moon-stars">Dinner</i></button>
+              <button type="button" class="btn btn-light">
+                <i class="bi-sunrise"></i>Breakfast
+              </button>
+              <button type="button" class="btn btn-light">
+                <i class="bi-sun"></i>Lunch
+              </button>
+              <button type="button" class="btn btn-light">
+                <i class="bi-moon-stars">Dinner</i>
+              </button>
             </div>
-
           </stack-modal>
-          
         </b-col>
-      </b-row>
+      </b-row> -->
       <!--<button class="btn btn-light" @click="show=true">Save To Plan</button>-->
-
-
     </b-card>
   </div>
 </template>
 
 <script>
-import mockdata from "@/mock-data.json";
-// import StackModal from '@innologica/vue-stackable-modal'
+// import mockdataafter from "@/mock-data-after.json";
+// import StackModal from "@innologica/vue-stackable-modal";
 // import datepicker from "@/components/DatePicker.vue";
-
 export default {
   name: "recipeDetail",
   // components: {
@@ -134,7 +139,6 @@ export default {
   //   return {
       // show: false,
       // modalClass: "",
-
       // dateCatch: datepicker.dateSend,
       // planlist: [],
   //   };
@@ -169,24 +173,7 @@ export default {
         this.$addtoplan = "false";
       }
     },
-    display3: function() {
-      this.buttonStyle3 = "light",
-      this.buttonStyle1 = "secondary",
-      this.buttonStyle2 = "secondary",
-      this.items = mockdata[2]["utensil"]
-    }, 
-    dateReceive: function(date) {
-        var plan = this.thedish;
-        plan.date = date;
-        console.log(date+"hi");
-    },
-    sendShow: function() {
-      this.show = false;
-      this.$emit("show-message", this.show);
-      console.log(this.show+"hi")
-      return this.show;
-    },
-  }
+  },
 };
 </script>
 
@@ -199,7 +186,6 @@ export default {
   padding-bottom:8%;
   z-index: 3
 }
-
 .add-button .btn{
   height: 100px;
 }
