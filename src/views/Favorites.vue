@@ -7,7 +7,7 @@
   top: -15%; " >
   <img class="position-absolute" src="@/assets/pot.svg" alt="SCG-IMG" width="300" height="300" style="z-index: 0; left: 80%;
   top: 60%;" >
-    <div class="mt-5 d-flex justify-content-center tab">
+    <div class="mt-5 col-md-10 mx-auto tab ">
       <b-card no-body>
             <b-tabs pills card fill>
         <!---------------  <Display Favorite Recipes> ---------------->
@@ -32,7 +32,7 @@
             <!-- <div>
               <p>Upload your recipe by clicking the add button below</p>
             </div> -->
-            <div>
+            <div class="col-md-10 mx-auto">
               <b-button v-b-modal.modal-xl class="addbutton">
                 <b-icon icon="plus" style="width: 50px; height: 40px"></b-icon>Upload Recipe
               </b-button>
@@ -156,9 +156,5 @@ export default {
   border:none; 
   border-top: 0; 
   background-color:#ffffff;}
-
-  .favorites .card{
-    width: 70%;
-  }
 
 </style>
