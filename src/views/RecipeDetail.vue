@@ -5,6 +5,12 @@
       :img-src="require('../assets/' + $event + '.jpg')"
       img-top
     > -->
+    <div>
+    <router-link to="/browse" class="btn btn-dark">
+      &#8249; Back
+    </router-link>
+    </div>
+
     <b-card
       :title="thedish.dish"
       :img-src="require('../assets/' + thedish.reference + '.jpg')"
