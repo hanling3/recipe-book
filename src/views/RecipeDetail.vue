@@ -63,7 +63,7 @@
               </div>
               <br>
               <p class="badge2-text text-center">
-                Recipe is added to farvorite.
+                This recipe has been added to the "Favorites" section.
               </p>
             </b-modal>
           </div>
@@ -78,7 +78,7 @@
             </div>
             <br>
             <p class="badge2-text text-center">
-              Recipe is added to meal plan.
+              This recipe has been added to the meal plan.
             </p>
           </b-modal>
         </b-col>

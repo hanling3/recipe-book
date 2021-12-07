@@ -241,4 +241,16 @@ span {
   font-weight: 700;
   color: #e57b07;
 }
+
+@media screen and (max-width: 800px) {
+  /* .left, .main, .right {
+    width: 100%; 
+  } */
+  .report {
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
 </style>
