@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+      <!-- <div class="position-absolute"><img src="public/img/icons/android-chrome-maskable-512x512.png" width="100pt"></div> -->
     <router-view />
     <nav-bar />
   </div>
