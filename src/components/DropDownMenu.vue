@@ -43,23 +43,28 @@ export default {
 
 <style >
 select{
+  font-size: 100%;
+  margin-right: 5%;
+  width:130px;
+  border-width: 1px;
+
+
   /* margin-right: 1%; */
   /* background-color: #FEBD2F; */
-  
-  color: rgb(17, 17, 17);
+  /* color: rgb(17, 17, 17);
   margin-right: 16px;
   margin-bottom: 24px;
   border-color: rgb(177, 177, 177);
   border-width: 1px;
   border-radius: 8px;
-  font-size: 18px;
-  padding:6px 16px 6px 16px;
+  font-size: 18px; */
+  /* padding:6px 16px 6px 16px; */
   /* padding-right: 1%; */
   /* border-radius: 1%;  */
 }
 
-#dropDownMenu option{
-  /* padding:6px 0px 6px 0px; */
+#dropDownMenu{
+  margin-top: 6%;
 
 }
 </style>

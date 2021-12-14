@@ -1,6 +1,6 @@
 <template>
   <div class="favorites position-relative" id="main-page">
-    <h1>Favorites</h1>
+    <pageTitle pageTitle="Favorite" />
 <img class="position-absolute" src="@/assets/bag.svg" alt="SCG-IMG" width="350" height="350" style="z-index: 0; transform: rotate(15deg); left: -5%;
   top: 40%; " >
   <img class="position-absolute" src="@/assets/egg.svg" alt="SCG-IMG" width="300" height="300" style="z-index: 0; transform: rotate(-30deg); left: 80%;
@@ -61,11 +61,13 @@ import recipeCard from "../components/RecipeCard.vue";
 import UploadRecipe from "../components/UploadRecipe.vue";
 // import RecipeDetail from './RecipeDetail.vue';
 import mockdatafavorite from "@/mock-data-favorite.json";
+import pageTitle from "@/components/PageTitle.vue";
 
 export default {
   components: {
     recipeCard,
     UploadRecipe,
+    pageTitle
   },
   data() {
     return {

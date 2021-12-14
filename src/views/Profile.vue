@@ -1,6 +1,6 @@
 <template>
   <div id="main-page" class="profile position-relative">
-    <h1>Profile</h1>
+    <pageTitle pageTitle="Profile" />
     <img
       class="position-absolute"
       src="@/assets/bottle.svg"
@@ -116,6 +116,18 @@
     <!-- <nav-bar /> -->
   </div>
 </template>
+
+<script>
+import pageTitle from "@/components/PageTitle.vue";
+
+export default {
+  name: "profile",
+  components: {
+    pageTitle
+  },
+}
+</script>
+
 
 <style>
 /* this part is moved to the App.vue
