@@ -21,8 +21,8 @@
             />
           </div>
           <div v-else class="text-center">
-            <img src="@/assets/404.svg" alt="SCG-IMG" width="70%">
-            <p>Browse recipes and add them to your favorite list</p>
+            <img src="@/assets/404.svg" alt="SCG-IMG" class="favorites-image">
+            <p class="favorites-text">Browse recipes and add them to your favorite list.</p>
           </div>
           </div>
         </b-tab>
@@ -160,5 +160,53 @@ export default {
   border-top: 0; 
   background-color:#ffffff;
   }
+
+
+.favorites-image {
+  /* margin-top: 0%;
+  padding: 0%; */
+  /* width: 50%; */
+  /* height: auto; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: -50px;
+}
+
+@media only screen and (max-width: 812px) {
+
+/* .favorites-image {
+  /* margin-top: 0%;
+  padding: 0%; */
+  /* width: 50%; */
+  /* height: auto; */
+  /* display: block;
+  margin-left: 7.5%;
+  margin-right: auto; 
+  width: 100%;
+  margin-bottom: -50px;
+  margin-top: 30%;
+  text-align: center; */
+  
+/* }  */
+
+.favorites-image {
+  width: 100%;
+  /* height: 50%; */
+  margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -50px;
+}
+
+.favorites-text {
+  text-align: left;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
 
 </style>
