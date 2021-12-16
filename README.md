@@ -4,6 +4,8 @@
 McGraw Studio would like to present Recipebook, a desktop and mobile application dedicated to helping college students find quick and budget-friendly recipes that remind them of home. 
 
 Our live application can be accessed here: https://ms-recipebook.herokuapp.com/
+
+Note: when installing our application, please install from the "Browse" page in the navigation bar, and not from the landing page. Installing from the landing page sometimes results in errors, where pages will not load when using the navigation bar.
 <br/>
 <br/>
 
@@ -39,7 +41,7 @@ Explore the development and design process of our application below.
 <br/>
 
 ### User Research and Insights
-- [Discovery and Planning](documents/discovery-and-planning.md#milestone-2-discovery-and-planning)
+- [User Research and Insights](documents/discovery-and-planning.md#user-research-and-insights)
     - [[Revised] 0. Overview](documents/discovery-and-planning.md#revised-0-overview)
     - [[Revised] 1. Users](documents/discovery-and-planning.md#revised-1-users)
         - [Target Users](documents/discovery-and-planning.md#target-users)
@@ -59,7 +61,7 @@ Explore the development and design process of our application below.
 <br/>
 
 ### Design & Ideation
-- [Design](documents/design.md#milestone-3-design)
+- [Design and Ideation](documents/design.md#design-and-ideation)
     - [0. Overview](documents/design.md#overview)
     - [1. Revisions](documents/design.md#revisions)
     - [2. Persuasive Design](documents/design.md#persuasive-design)
@@ -72,7 +74,7 @@ Explore the development and design process of our application below.
 <br/>
 
 ### Information Hierarchy and Prototyping
-- [High-Fidelity Prototype](documents/high-fidelity-prototype.md#milestone-4-high-fidelity-prototype)
+- [Information Hierarchy and Prototyping](documents/high-fidelity-prototype.md#information-hierarchy-and-prototyping) 
     - [0. Overview](documents/high-fidelity-prototype.md#0-overview)
     - [1. Revisions to Prior Work](documents/high-fidelity-prototype.md#1-revisions-to-prior-work)
     - [2. Planning & Pseudocode](documents/high-fidelity-prototype.md#2-planning-&-pseudocode)
@@ -81,7 +83,7 @@ Explore the development and design process of our application below.
 <br/>
 
 ### Usability Testing and Results
-- [Evaluation & Deployment](documents/evaluation-deployment.md#milestone-5-evaluation--deployment)
+- [Usability Testing & Results](documents/evaluation-deployment.md#usability-testing-and-results)
     - [0. Overview](documents/evaluation-deployment.md#overview)
     - [1. Evaluation](documents/evaluation-deployment.md#evaluation)
     - [2. Revision](documents/evaluation-deployment.md#revision)

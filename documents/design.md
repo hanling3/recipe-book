@@ -1,8 +1,8 @@
-# Milestone 3: Design
+# Design and Ideation 
 
 # Overview
 
-- Project Name: Recipe Finder
+- Project Name: Recipebook (recipe finder app)
 - Team Name: McGraw Studio 
 - Team Members: Ada Chai, Xuanhui Chen, Hedy Yang, Xinlu Zhou
 - Project Focus:

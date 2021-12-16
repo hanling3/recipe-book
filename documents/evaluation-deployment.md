@@ -1,8 +1,8 @@
-# Milestone 5: Evaluation & Deployment
+# Usability Testing and Results
 
 # Overview
 
-- Project Name: Recipe Finder
+- Project Name: Recipebook (recipe finder app)
 - Team Name: McGraw Studio 
 - Team Members: Ada Chai, Xuanhui Chen, Hedy Yang, Xinlu Zhou
 - Project Focus:
@@ -53,8 +53,10 @@ In order to address the issues uncovered above, we revised our final sketches as
 
 Additionally, we revised the navigation bar so that there are now four main functions: a browse page, meal plan page, favorite page, and profile page. This is to make it more evident to the user how they can explore the recipes on the app.
 
+Also, please note that on the profile page, the "Edit" button for changing one's profile name (represented by a pencil icon) is not interactive at this time. We opted to make it non-interactive so that we could focus on other features of our application.
+
 # Deploy App
 
-Our PWA can be found here: https://mcgraw-studio-project.herokuapp.com/
+Our PWA can be found here: https://ms-recipebook.herokuapp.com/
 
 We were able to use Chrome's Lighthouse Audit to verify that our PWA meets progressive web app requirements.

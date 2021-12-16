@@ -1,10 +1,23 @@
 # Team Contract
 
+## Overview
+- Project Name: Recipebook (recipe finder app)
+- Team Members Name: Ada Chai, Xuanhui Chen, Hedy Yang, Xinlu Zhou
+- Project's choice of focus
+    - Budget-friendly. Take advantage of filters and enable users to plan meals according to an inputted budget amount. 
+    - Time-conscious. Rethink meal planning and allow users to customize their meals of the day by filtering recipes based on expected time. 
+- Outline of the content
+    - Team Contract
+</br>
+</br>
+
+## Contract
+
 Working together as a team is critical for your success on this project. Conflicts happen. It's best to develop a plan before conflict arises. This way your team knows exactly the ground rules for dealing with that conflict. You'll be developing a team contract that you'll follow throughout the duration of your project. The team contract is a *living* document. If it's not working, your team should revise it as often as necessary.
 
 You will need to learn to work in groups and resolve conflicts on your own. These skills will be expected of you by your employer after graduation. Use this project as an opportunity to develop these skills. Lastly, you might want to take note of the issues you encounter and how you solved them. I'm almost certain that you will be asked during an interview about a time you had and conflict and what you did to resolve it.
-
-## Contract
+</br>
+</br>
 
 **Your group contract/working agreement should include these elements. Feel free to add other terms, too.**
 

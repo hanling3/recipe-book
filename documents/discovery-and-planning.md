@@ -1,7 +1,7 @@
-# Milestone 2: Discovery and Planning
+# User Research and Insights
 
 # [Revised] 0. Overview
-- Project's Name: Recipe Finder
+- Project Name: Recipebook (recipe finder app)
 - Team Members Name: Ada Chai, Xuanhui Chen, Hedy Yang, Xinlu Zhou
 - Project's choice of focus
     - Budget-friendly. Take advantage of filters and enable users to plan meals according to an inputted budget amount. 
