@@ -1,6 +1,6 @@
 # Summary of Contributions
 
-# Milestone 1
+# Team Agreement
 
 - Ada 
     - wrote responses to questions 4 and 5
@@ -20,7 +20,7 @@
     - contributed to write answers to questions 8 and 9
     - discussed responses and fixed problems.
 
-# Milestone 2 
+# User Research and Insights
 
 - Hedy 
     - wrote part of the interview questions, value propositions.
@@ -51,7 +51,7 @@
     - wrote decision-making and research process throughout milestone 2
 
 
-# Milestone 3
+# Design & Ideation
 
 - Hedy
     - wrote revisions section in milestone 3, overview section in milestone 2 and 3
@@ -80,7 +80,7 @@
     - Developed an information hierarchy and a low-fidelity wireframes with Ada
     - Drew the final sketch of the App
 
-# Milestone 4 
+# Information Hierarchy and Prototyping
 
 - Xinlu
     - Revised our final sketch in milestone 3 based on TA's feedback.
@@ -103,7 +103,7 @@
     - Constructed browse page and created components
     - Wrote the milestone 4 documentation, edited the usability test notes and summary.
 
-# Milestone 5 
+# Usability Testing and Results
 
 - Hedy
     - Conducted 2 user testings
@@ -126,10 +126,14 @@
     - Involved in constructing and revising the meal plan page and recipe detail page.
     - Wrote app usability test protocal and the debrief notes.
     
-# Milestone 6 
+# Live Demo 
 
-TODO 
+- Ada
+    - Revised introduction and demonstrated the app for both scenarios.
+    - Explained design justifications and additional features of the app. 
 
 # Final Submission
 
-TODO 
+- Ada
+    - Updated final report with project overview in table of contents.
+    - Revised profile page and recipe card for mobile responsiveness.
