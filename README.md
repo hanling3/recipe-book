@@ -3,7 +3,7 @@
 ### Overview 
 McGraw Studio would like to present Recipebook, a desktop and mobile application dedicated to helping college students find quick and budget-friendly recipes that remind them of home. 
 
-Our live application can be accessed here: https://ms-recipebook.herokuapp.com/
+Our live application can be accessed here: https://mcgraw-studio-recipebook.herokuapp.com/
 
 Note: when installing our application, please install from the "Browse" page in the navigation bar, and not from the landing page. Installing from the landing page sometimes results in errors, where pages will not load when using the navigation bar.
 
@@ -90,7 +90,7 @@ Explore the development and design process of our application below.
     - [1. Evaluation](documents/evaluation-deployment.md#evaluation)
     - [2. Revision](documents/evaluation-deployment.md#revision)
     - [3. Deploy App](documents/evaluation-deployment.md#deploy-app)
-        - PWA Link: https://ms-recipebook.herokuapp.com/
+        - PWA Link: https://mcgraw-studio-recipebook.herokuapp.com/
 <br/>
 <br/>
 

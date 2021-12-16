@@ -58,6 +58,6 @@ Another thing to notice is that the recipes are designed to be arranged and list
 
 # Deploy App
 
-Our PWA can be found here: https://ms-recipebook.herokuapp.com/
+Our PWA can be found here: https://mcgraw-studio-recipebook.herokuapp.com/
 
 We were able to use Chrome's Lighthouse Audit to verify that our PWA meets progressive web app requirements.
