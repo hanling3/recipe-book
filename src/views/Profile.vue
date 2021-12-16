@@ -29,12 +29,12 @@
     <div class="header">
       <div>
         <img
-          src="@/assets/profile_propic.jpg"
+          src="@/assets/profile_propic.png"
           class="circle fluid"
           alt="Robo the persona"
-          style="width: 200px; height: 200px; border: 4px solid lightgrey"
-        />
+          style="width: 200px; height: 200px; border: 4px solid lightgrey">
         <h2>Robo <b-icon icon="pencil"></b-icon></h2>
+        <!--Image Source: Jason Briscoe (Unsplash) --> 
       </div>
       <!-- <h3>Robo <b-icon icon="pencil"></b-icon></h3> -->
 
