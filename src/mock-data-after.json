@@ -167,5 +167,172 @@
             {"Utensil": "Bowl", "Quantity": "1" }
         ],
         "tips": ""
+    },
+    {
+        "dish": "Ribeye Steak",
+        "difficulty": "Medium",
+        "cooktime": "30 min",
+        "budget": "$15",
+        "type": "American",
+        "reference": "ribeye-steak",
+        "imageCitation": "Photo by Xuanhui Chen from McGraw Studio",
+        "ingredients": [
+            { "Ingredient": "Boneless Ribeye Steak", "Quantity": " 1 x 1lb" },
+            { "Ingredient": "Grounded Black Pepper", "Quantity": "1 teaspoon" },
+            { "Ingredient": "Sea Salt", "Quantity": "1 teaspoon"},
+            { "Ingredient": "Olive Oil", "Quantity": "1/2 tablespoon" },
+            { "Ingredient": "Rosemarry", "Quantity": "1 sprig" },
+            { "Ingredient": "Garlic", "Quantity": "2 cloves" },
+            { "Ingredient": "Unsalted Butter", "Quantity": "3 tablespoons" },
+            { "Ingredient": "Cherry Tomatoes", "Quantity": "3" },
+            { "Ingredient": "A5 Sauce", "Quantity": "3 tablespoons" }
+          ],
+        "instructions": [
+            {"Step": "Step 1", "Detail": "Brush both sides of steak with olive oil with seasalt and grounded black pepper, and massage the steak. Marinate for at least 15 minutes."},
+            {"Step": "Step 2", "Detail": "Heat the non-stick pan until super hot."},
+            {"Step": "Step 3", "Detail": "Add the steak and sear the it on the first side for 2 minutes until a brown crust has formed then flip and cook another 2 minutes."},
+            {"Step": "Step 4", "Detail": "Using tongs, turn the steak on its sides to sear the edges (30 seconds per edge)."},
+            {"Step": "Step 5", "Detail": "Reduce heat to medium and add butter, garlic cloves and rosemary to the pan. Continue spooning the sauce over the steak for 5 minutes and add cherry tomatoes at the last minute."}, 
+            {"Step": "Step 6", "Detail": "Transfer steak to the plate, and then add A5 sauce to it."}       
+        ],
+        "utensil":  [
+            {"Utensil": "Non-stick Pan", "Quantity": "1" },
+            {"Utensil": "Brush", "Quantity": "1" },
+            {"Utensil": "Tongs", "Quantity": "1" },
+            {"Utensil": "Plate", "Quantity": "1" }
+        ],
+        "tips": ""
+    },
+    {
+        "dish": "Baked Cheese Lobster Tail",
+        "difficulty": "Easy",
+        "cooktime": "20 min",
+        "budget": "$20",
+        "type": "American",
+        "reference": "lobster",
+        "imageCitation": "Photo by Xuanhui Chen from McGraw Studio",
+        "ingredients": [
+            { "Ingredient": "Lobster Tail", "Quantity": " 1 x 1lb" },
+            { "Ingredient": "Cheddar and Mozzarella Cheese Mix", "Quantity": "1 cup" },
+            { "Ingredient": "Chopped Garlic", "Quantity": "2 tablespoons"},
+            { "Ingredient": "Unsalted Butter", "Quantity": "1 tablespoon" },
+            { "Ingredient": "Grounded Black Pepper", "Quantity": "1/2 teaspoon" },
+            { "Ingredient": "Parsley Flakes", "Quantity": "1 teaspoon" }
+          ],
+        "instructions": [
+            {"Step": "Step 1", "Detail": "Use a scissor to cut lobster shell from the top and leave the end uncut. Carefully dragged the lobster meat out and put it on the top of the lobster shell."},
+            {"Step": "Step 2", "Detail": "Melt unsalted butter and mix with chopped garlic. Brush the lobster meat with it."},
+            {"Step": "Step 3", "Detail": "Add parsley flake and black pepper on it. Then add cheddar and mozzarella cheese mix on top of it."},
+            {"Step": "Step 4", "Detail": "Heat the oven to 190 Celsius degree/375 Fahrenheit degree and set the timer for 15 minutes. Put the lobster tail on the baking tray and send it into the oven."}, 
+            {"Step": "Step 6", "Detail": "Use oven glove to grab the baking tray out and transfer lobster on the plate."}       
+        ],
+        "utensil":  [
+            {"Utensil": "Scissor", "Quantity": "1" },
+            {"Utensil": "Brush", "Quantity": "1" },
+            {"Utensil": "Baking Tray", "Quantity": "1" },
+            {"Utensil": "Plate", "Quantity": "1" }
+        ],
+        "tips": ""
+    },
+    {
+        "dish": "Coke Chicken Wings",
+        "difficulty": "Medium",
+        "cooktime": "20 min",
+        "budget": "$10",
+        "type": "Chinese",
+        "reference": "coke-chicken-wings",
+        "imageCitation": "Photo by Xuanhui Chen from McGraw Studio",
+        "ingredients": [
+            { "Ingredient": "Chicken Wings", "Quantity": " 10" },
+            { "Ingredient": "Salt", "Quantity": "1/4 teaspoon" },
+            { "Ingredient": "Soy Sauce", "Quantity": "2 teaspoons"},
+            { "Ingredient": "Shaoxing Wine", "Quantity": "1 teaspoon" },
+            { "Ingredient": "Chopped Ginger", "Quantity": "3 slices" },
+            { "Ingredient": "Dark Soysauce", "Quantity": "2 teaspoons" },
+            { "Ingredient": "Oil", "Quantity": "2 teaspoons" },
+            { "Ingredient": "Coke", "Quantity": "250 ml" },
+            { "Ingredient": "Seasame", "Quantity": "4 grams" },
+            { "Ingredient": "Water", "Quantity": "600 ml" }
+          ],
+        "instructions": [
+            {"Step": "Step 1", "Detail": "Wash chicken wings and cut three strokes on both sides of every chicken wings."},
+            {"Step": "Step 2", "Detail": "Put chicken wings and chopped ginger into the boiling pot. Add 600 ml water and shaoxing wine, and heat water until it boils. Wash chicken wings after remove them from the pot."},
+            {"Step": "Step 3", "Detail": "Add oil into the pan and fry both sides of the chicken wings with medium heat until golden brown."},
+            {"Step": "Step 4", "Detail": "Add soy sauce and dark soysauce into the pan. Stir for 1 minute and poor coke into the pan."},
+            {"Step": "Step 5", "Detail": "Cover the pot with the pot lid and wait for 10 minutes. Remove the lid and turn to high heat. Cook until the sauce becomes sticky."}, 
+            {"Step": "Step 6", "Detail": "Put chicken wings on a plate and add seasame on top of them."}       
+        ],
+        "utensil":  [
+            {"Utensil": "Non-stick Pan", "Quantity": "1" },
+            {"Utensil": "Boiling Pot", "Quantity": "1" },
+            {"Utensil": "Plate", "Quantity": "1" }
+        ],
+        "tips": ""
+    },
+    {
+        "dish": "Cold Okra in Hot Sauce",
+        "difficulty": "Easy",
+        "cooktime": "10 min",
+        "budget": "$8",
+        "type": "Chinese",
+        "reference": "okra",
+        "imageCitation": "Photo by Xuanhui Chen from McGraw Studio",
+        "ingredients": [
+            { "Ingredient": "Fresh Okra", "Quantity": "8 pieces" },
+            { "Ingredient": "Chinese Pepper Flakes", "Quantity": "1 teaspoon" },
+            { "Ingredient": "Soy Sauce", "Quantity": "2 teaspoon"},
+            { "Ingredient": "Chinese Vinegar", "Quantity": "3 teaspoon" },
+            { "Ingredient": "Chopped Garlic", "Quantity": "2 tablespoons"},
+            { "Ingredient": "Oil", "Quantity": "1 1/2 teaspoon" },
+            { "Ingredient": "Water", "Quantity": "500 ml" }
+          ],
+        "instructions": [
+            {"Step": "Step 1", "Detail": "Wash okra. Pour water into the pot, wait until it boils, and then put okra into the pot. Cook for 3 minutes."},
+            {"Step": "Step 2", "Detail": "Put okra into cold water and wait until it cools down. Cut each piece of okra into quarter."},
+            {"Step": "Step 3", "Detail": "Mix Chinese pepper flakes, chopped garlic into a bowl. Heat oil and pour into the bowl. Add soy sauce and vinegar into the bowl"},
+            {"Step": "Step 4", "Detail": "Put cutted okra into a bowl and pour in the mixed sauce."},
+            {"Step": "Step 5", "Detail": "Put the okra into the refrigerator and wait until it becomes cold."}     
+        ],
+        "utensil":  [
+            {"Utensil": "Small bowl", "Quantity": "1" },
+            {"Utensil": "Large bowl", "Quantity": "1" },
+            {"Utensil": "Pot", "Quantity": "1" },
+            {"Utensil": "Pan", "Quantity": "1" }
+        ],
+        "tips": ""
+    },
+    {
+        "dish": "Stir Beef Stew with Garlic",
+        "difficulty": "Medium",
+        "cooktime": "20 min",
+        "budget": "$15",
+        "type": "Chinese",
+        "reference": "beef-stew",
+        "imageCitation": "Photo by Xuanhui Chen from McGraw Studio",
+        "ingredients": [
+            { "Ingredient": "Beef Stew Meat", "Quantity": "20 oz" },
+            { "Ingredient": "Corn Starch", "Quantity": "1 teaspoon" },
+            { "Ingredient": "Soy Sauce", "Quantity": "2 teaspoons"},
+            { "Ingredient": "Oyster Sauce", "Quantity": "1 teaspoon"},
+            { "Ingredient": "Shaoxing Wine", "Quantity": "1 teaspoon" },
+            { "Ingredient": "Grounded Black Pepper", "Quantity": "1 1/2 teaspoons" },
+            { "Ingredient": "Egg", "Quantity": "1" },
+            { "Ingredient": "Garlic", "Quantity": "3 heads" },
+            { "Ingredient": "Unsalted Butter", "Quantity": "1 tablespoon" },
+            { "Ingredient": "Suggar", "Quantity": "1 teaspoon" }
+          ],
+        "instructions": [
+            {"Step": "Step 1", "Detail": "Mix Shaoxing wine, soy sauce, corn starch, oil, 1/2 teaspoon of black pepper flakes, egg with the beef stew. Wait for 15 minutes."},
+            {"Step": "Step 2", "Detail": "Add oil and garlic into the pan, fry until golden brown"},
+            {"Step": "Step 3", "Detail": "Add beef stew into the pan and stir fry with medium heat until golden brown. Remove beef stew from pan."},
+            {"Step": "Step 4", "Detail": "Reduce heat and add unsalted butter into the pan. Add garlic and beef stew. Stir fry for 5 minutes."},
+            {"Step": "Step 5", "Detail": "Add sugar and 1 tea spoon of black pepper flakes. Stir fry for 30 seconds."}     
+        ],
+        "utensil":  [
+            {"Utensil": "Non-stick Pan", "Quantity": "1" },
+            {"Utensil": "Bowl", "Quantity": "1" },
+            {"Utensil": "Plate", "Quantity": "1" }
+        ],
+        "tips": ""
     }
 ]
