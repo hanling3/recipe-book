@@ -158,7 +158,8 @@
 
 - Ada
     - Updated final report with project overview in table of contents.
-    - Revised profile page and recipe card for mobile responsiveness.
+    - Revised profile page and recipe card for mobile responsiveness. 
+    - Deployed final version of the site
 
 - Xinlu
     - Fixed some responsiveness problems 
