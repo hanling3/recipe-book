@@ -93,4 +93,21 @@ a {
 color: rgb(122, 122, 122);
 font-size: 15px;
 }
+
+@media only screen and (max-width: 812px) {
+
+.card-text {
+  font-size: 10px;
+}
+
+.tab-pane {
+  height: 0px;
+}
+/* 
+td {
+ text-align: left; 
+} */
+
+}
+
 </style>

@@ -104,5 +104,15 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
 } */
+
+
+/* @media only screen and (max-width: 812px) {
+
+h1 {
+  padding-bottom: 5px;
+}
+
+} */
+
 </style>
 
