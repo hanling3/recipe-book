@@ -140,6 +140,10 @@
 - Ada
     - Revised introduction and demonstrated the app for both scenarios.
     - Explained design justifications and additional features of the app. 
+
+- Xinlu
+    - Presented "created recipe" feature and went through one of the scenarios 
+
 </br>
 </br>
 
@@ -148,3 +152,7 @@
 - Ada
     - Updated final report with project overview in table of contents.
     - Revised profile page and recipe card for mobile responsiveness.
+
+- Xinlu
+    - Fixed some responsiveness problems 
+    - Revised some pages' styling 
