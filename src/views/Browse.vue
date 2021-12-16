@@ -34,6 +34,7 @@
     <!----------------- "We Recommend" Section --------------->
     <!-- <h2 id="sectionTitle" > We Recommend </h2> -->
       <!-- <div class="filter d-inline-flex p-2"> -->
+        <div class="col-10 offset-2 align-items-center">
         <drop-down-menu />
         <div class="ml-auto">
           <button
@@ -45,7 +46,7 @@
           </button>
         </div>
       <!-- </div> -->
-      <div class="col-md-12 mb-5">
+      <!-- <div class="col-md-12 mb-5"> -->
       <recipeCard
         v-for="item in mockdataFilter"
         v-bind:key="item.name"
