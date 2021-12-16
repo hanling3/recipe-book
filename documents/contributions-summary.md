@@ -144,6 +144,9 @@
 - Xinlu
     - Presented "created recipe" feature and went through one of the scenarios 
 
+- Xuanhui
+    - Presented the introduction, introduced users' key problems and our persona.
+
 </br>
 </br>
 
@@ -156,3 +159,7 @@
 - Xinlu
     - Fixed some responsiveness problems 
     - Revised some pages' styling 
+
+- Xuanhui 
+    - Added several self-made recipes to mock data and provided photos.
+    - Revised and explained for certain function of the app.
