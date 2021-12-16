@@ -1,6 +1,6 @@
 # Summary of Contributions
 
-# Team Agreement
+## Team Agreement
 
 - Ada 
     - wrote responses to questions 4 and 5
@@ -19,8 +19,10 @@
 - Xuanhui 
     - contributed to write answers to questions 8 and 9
     - discussed responses and fixed problems.
+</br>
+</br>
 
-# User Research and Insights
+## User Research and Insights
 
 - Hedy 
     - wrote part of the interview questions, value propositions.
@@ -37,7 +39,7 @@
 
 - Xinlu 
     - drafted up part of interview protocols.
-    - conducted two rounds of interviews to define our target users and key problem we wanted to address. Wrote the 4 corrsponding interview summary.
+    - conducted two rounds of interviews to define our target users and key problem we wanted to address. Wrote the 4 corresponding interview summaries.
     - categorized interview notes on the affinity diagram, and extracted insights together with teammates.
     - wrote 2 scenarios for key problems.
     - discussed and brainstormed other parts with teammates.
@@ -49,9 +51,10 @@
     - wrote and revised project themes 
     - discussed and brainstormed for value proposition and provided feedback on other milestone components
     - wrote decision-making and research process throughout milestone 2
+</br>
+</br>
 
-
-# Design & Ideation
+## Design & Ideation
 
 - Hedy
     - wrote revisions section in milestone 3, overview section in milestone 2 and 3
@@ -79,8 +82,10 @@
     - Created several sketches of our ideas.
     - Developed an information hierarchy and a low-fidelity wireframes with Ada
     - Drew the final sketch of the App
+</br>
+</br>
 
-# Information Hierarchy and Prototyping
+## Information Hierarchy and Prototyping
 
 - Xinlu
     - Revised our final sketch in milestone 3 based on TA's feedback.
@@ -102,8 +107,10 @@
     - Digitalized the informatio hierarchy
     - Constructed browse page and created components
     - Wrote the milestone 4 documentation, edited the usability test notes and summary.
+</br>
+</br>
 
-# Usability Testing and Results
+## Usability Testing and Results
 
 - Hedy
     - Conducted 2 user testings
@@ -113,7 +120,7 @@
 - Ada
     - Wrote milestone timeline 
     - Conducted 2 user tests and added notes
-    - Revised profile page and included badge window details
+    - Revised profile page and included badge modal details
     - Wrote final sketch justifications and added to milestone writeup
 
 - Xinlu
@@ -125,14 +132,18 @@
     - Conducted 1 user testings and added notes.
     - Involved in constructing and revising the meal plan page and recipe detail page.
     - Wrote app usability test protocal and the debrief notes.
-    
-# Live Demo 
+</br>
+</br>    
+
+## Live Demo 
 
 - Ada
     - Revised introduction and demonstrated the app for both scenarios.
     - Explained design justifications and additional features of the app. 
+</br>
+</br>
 
-# Final Submission
+## Final Submission
 
 - Ada
     - Updated final report with project overview in table of contents.
