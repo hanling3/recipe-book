@@ -71,12 +71,8 @@
                 src="https://img.icons8.com/external-flat-icons-maxicons/85/000000/external-cook-restaurants-and-dining-flat-flat-icons-maxicons-2.png"
               />
               <br />
-              Earned: December 1, 2021 
-              <br />
-              Awarded for cooking 20 recipes on the app. 
-              Keep it up! 
-
-            </p>
+              <p> Awarded for cooking 20 recipes on the app. Keep it up!  </p>
+              <p> Earned on: December 1, 2021. </p>
           </b-modal>
         </div>
 
@@ -245,8 +241,8 @@ b-icon {
 }
 
 .badges .btn {
-  /* width: 300px;
-  height: 100px; */
+  /* width: 300px; */
+  height: 100px; 
   /* margin-right: 32px; */
   width: 100%;
   /* height: 100px; */
@@ -282,6 +278,23 @@ button.close {
   font-weight: 700;
   color: #e57b07;
   }
+
+  .badges .btn {
+  /* height: 100px; */
+  width: 300px;
+  text-align: center; 
+  /* padding: 16px 32px; */
+  /* height: 100px; */
+  /* margin-right: 32px;
+  font-size: 24px; */
+  padding: 0px;
+  margin: 0px;
+  }
+
+  .badge2-text, .text-center {
+    text-align: left;
+  }
+
 }
 
 </style>
