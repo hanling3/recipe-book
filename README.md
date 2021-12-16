@@ -1,9 +1,44 @@
-# mcgraw-studio-project
+# Recipebook: The Cooking Bible for College Students
 
-### Milestone 1: Team Contract
+### Overview 
+McGraw Studio would like to present Recipebook, a desktop and mobile application dedicated to helping college students find quick and budget-friendly recipes that remind them of home. 
+
+Our live application can be accessed here: https://ms-recipebook.herokuapp.com/
+<br/>
+<br/>
+
+### Team 
+McGraw Studio is composed of four members:
+- Ada Chai
+- Xinlu Zhou
+- Hedy Yang
+- Justice Chen
+<br/>
+<br/>
+
+### Roles
+Each team member served as a user researcher and user experience designer throughout the process. 
+<br/>
+<br/>
+
+### Timeline
+October 2021 - December 2021 (3 months)
+<br/>
+<br/>
+
+### Our Design Process
+
+Explore the development and design process of our application below.
+<br/>
+<br/>
+
+
+### Team Agreement
 - [Team Contract](documents/team-contract.md)
+<br/>
+<br/>
 
-### Milestone 2: Discovery and Planning
+### User Research and Insights
 - [Discovery and Planning](documents/discovery-and-planning.md#milestone-2-discovery-and-planning)
     - [[Revised] 0. Overview](documents/discovery-and-planning.md#revised-0-overview)
     - [[Revised] 1. Users](documents/discovery-and-planning.md#revised-1-users)
@@ -20,8 +55,10 @@
     - [[Revised] 5. Scenarios](documents/discovery-and-planning.md#revised-5-scenarios)
     - [[Revised] 6. Persona](documents/discovery-and-planning.md#6-persona)
     - [7. Project Themes](documents/discovery-and-planning.md#7-project-themes)
+<br/>
+<br/>
 
-### Milestone 3: Design
+### Design & Ideation
 - [Design](documents/design.md#milestone-3-design)
     - [0. Overview](documents/design.md#overview)
     - [1. Revisions](documents/design.md#revisions)
@@ -31,25 +68,32 @@
     - [5. Paper Prototype & Evaluation](documents/design.md#paper-prototype)
     - [[Revised] 6. Final Sketches / Wireframes](documents/design.md#final-sketches)
     - [7. Rationale](documents/design.md#rationale)
+<br/>
+<br/>
 
-### Milestone 4: High-Fidelity Prototype
+### High-Fidelity Prototyping
 - [High-Fidelity Prototype](documents/high-fidelity-prototype.md#milestone-4-high-fidelity-prototype)
     - [0. Overview](documents/high-fidelity-prototype.md#0-overview)
     - [1. Revisions to Prior Work](documents/high-fidelity-prototype.md#1-revisions-to-prior-work)
     - [2. Planning & Pseudocode](documents/high-fidelity-prototype.md#2-planning-&-pseudocode)
     - [3. Coding](documents/high-fidelity-prototype.md#3-coding)
+<br/>
+<br/>
 
-### Milestone 5: Evaluation & Deployment
+### Usability Testing and Results
 - [Evaluation & Deployment](documents/evaluation-deployment.md#milestone-5-evaluation--deployment)
     - [0. Overview](documents/evaluation-deployment.md#overview)
     - [1. Evaluation](documents/evaluation-deployment.md#evaluation)
     - [2. Revision](documents/evaluation-deployment.md#revision)
     - [3. Deploy App](documents/evaluation-deployment.md#deploy-app)
-        - PWA Link: https://mcgraw-studio-project.herokuapp.com/
-
+        - PWA Link: https://ms-recipebook.herokuapp.com/
+<br/>
+<br/>
 
 ### Contributions 
 - [Summary of Contributions](documents/contributions-summary.md)
+<br/>
+<br/>
 
 ### Additional Items
 - Interview
