@@ -7,7 +7,6 @@ Our live application can be accessed here: https://mcgraw-studio-recipebook.hero
 
 Note: when installing our application, please install from the "Browse" page in the navigation bar, and not from the landing page. Installing from the landing page sometimes results in errors, where pages will not load when using the navigation bar.
 <br/>
-<br/>
 
 ### Team 
 McGraw Studio is composed of four members:
@@ -16,28 +15,23 @@ McGraw Studio is composed of four members:
 - Hedy Yang
 - Justice Chen
 <br/>
-<br/>
 
 ### Roles
 Each team member served as a user researcher and user experience designer throughout the process. 
 <br/>
-<br/>
 
 ### Timeline
 October 2021 - December 2021 (3 months)
-<br/>
 <br/>
 
 ### Our Design Process
 
 Explore the development and design process of our application below.
 <br/>
-<br/>
 
 
 ### Team Agreement
 - [Team Contract](documents/team-contract.md)
-<br/>
 <br/>
 
 ### User Research and Insights
@@ -58,7 +52,6 @@ Explore the development and design process of our application below.
     - [[Revised] 6. Persona](documents/discovery-and-planning.md#6-persona)
     - [7. Project Themes](documents/discovery-and-planning.md#7-project-themes)
 <br/>
-<br/>
 
 ### Design & Ideation
 - [Design and Ideation](documents/design.md#design-and-ideation)
@@ -71,7 +64,6 @@ Explore the development and design process of our application below.
     - [[Revised] 6. Final Sketches / Wireframes](documents/design.md#final-sketches)
     - [7. Rationale](documents/design.md#rationale)
 <br/>
-<br/>
 
 ### Information Hierarchy and Prototyping
 - [Information Hierarchy and Prototyping](documents/high-fidelity-prototype.md#information-hierarchy-and-prototyping) 
@@ -79,7 +71,6 @@ Explore the development and design process of our application below.
     - [1. Revisions to Prior Work](documents/high-fidelity-prototype.md#1-revisions-to-prior-work)
     - [2. Planning & Pseudocode](documents/high-fidelity-prototype.md#2-planning-&-pseudocode)
     - [3. Coding](documents/high-fidelity-prototype.md#3-coding)
-<br/>
 <br/>
 
 ### Usability Testing and Results
@@ -90,11 +81,9 @@ Explore the development and design process of our application below.
     - [3. Deploy App](documents/evaluation-deployment.md#deploy-app)
         - PWA Link: https://mcgraw-studio-recipebook.herokuapp.com/
 <br/>
-<br/>
 
 ### Contributions 
 - [Summary of Contributions](documents/contributions-summary.md)
-<br/>
 <br/>
 
 ### Additional Items
