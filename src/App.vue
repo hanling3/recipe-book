@@ -31,29 +31,25 @@ export default {
   z-index: -1;
 }
 #main-page {
-  padding-top:1%;
-  padding-bottom:8%;
+  padding-top:5%;
+  padding-left:5%;
+  padding-right:5%;
+  padding-bottom:5%;
   z-index: 3;
 }
 
 #hints {
   font-size: 16px;
   opacity: 70%;
-  margin-left: 2%;
 }
 
-h1 {
+/* h1 {
   text-align: left;
   margin-left: 5%;
   font-weight: bold;
   font-size: 40pt;
-}
+} */
 
-#sectionTitle {
-  /* text-align: center; */
-  margin-top: 24pt;
-  /* margin-left: 64pt; */
-}
 
 h3{
   text-align: center;

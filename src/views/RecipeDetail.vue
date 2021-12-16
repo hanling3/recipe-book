@@ -1,16 +1,16 @@
 <template>
-  <div id="recipeDetail" class="d-flex justify-content-center">
+  <div id="recipeDetail">
     <!-- <b-card
       :title= thedish.dish
       :img-src="require('../assets/' + $event + '.jpg')"
       img-top
     > -->
-    <div>
+    <div class="position-absolute ml-0 float-left" style="z-index:1000">
     <router-link to="/browse" class="btn btn-dark">
       &#8249; Back
     </router-link>
     </div>
-
+<div class="d-flex justify-content-center">
     <b-card
       :title="this.$thedish.dish"
       :img-src="require('../assets/' + $thedish.reference + '.jpg')"
@@ -23,33 +23,33 @@
         <b-col cols="3">
           <b-icon icon="stopwatch" class="icons"></b-icon><br />
           {{ this.$thedish.cooktime }}
-          <p>COOK TIME</p>
+          <p class = "summary-desc"> COOKING TIME</p>
         </b-col>
 
         <b-col cols="3">
           <b-icon icon="cash-stack" class="icons"></b-icon><br />
           {{ this.$thedish.budget }}
-          <p>PER SERVE</p>
+          <p class = "summary-desc"> PER SERVING</p>
         </b-col>
 
         <b-col cols="3">
           <b-icon icon="star" class="icons"></b-icon><br />
           {{ this.$thedish.difficulty }}
-          <p>DIFFICULTY</p>
+          <p class = "summary-desc">DIFFICULTY LEVEL</p>
         </b-col>
       </b-row>
 
-      <b-tabs content-class="mt-3" fill>
-        <b-tab title="INGREDIENTS" active>
-          <b-table hover :items="this.$thedish.ingredients"></b-table>
+      <b-tabs class="tab-titles" content-class="mt-3" fill>
+        <b-tab class="tab-titles" title="INGREDIENTS" active> 
+          <b-table class="tab-table" hover :items="this.$thedish.ingredients"></b-table>
         </b-tab>
-        <b-tab title="INSTRUCTIONS">
-          <b-table hover :items="this.$thedish.instructions"></b-table>
+        <b-tab class="tab-titles" title="INSTRUCTIONS">
+          <b-table class="tab-table" hover :items="this.$thedish.instructions"></b-table>
         </b-tab>
-        <b-tab title="UTENSIL">
-          <b-table hover :items="this.$thedish.utensil"></b-table>
+        <b-tab class="tab-titles" title="UTENSILS">
+          <b-table class="tab-table" hover :items="this.$thedish.utensil"></b-table>
         </b-tab>
-      </b-tabs>
+      </b-tabs> 
 
       <b-row align-h="center" class="text-center add-button">
         <b-col>
@@ -63,7 +63,7 @@
               </div>
               <br>
               <p class="badge2-text text-center">
-                This recipe has been added to the "Favorites" section.
+                This recipe has been added to the "favorite" page.
               </p>
             </b-modal>
           </div>
@@ -78,7 +78,7 @@
             </div>
             <br>
             <p class="badge2-text text-center">
-              This recipe has been added to the meal plan.
+              This recipe has been added to the "plan" page.
             </p>
           </b-modal>
         </b-col>
@@ -122,6 +122,7 @@
       </b-row> -->
       <!--<button class="btn btn-light" @click="show=true">Save To Plan</button>-->
     </b-card>
+    </div>
   </div>
 </template>
 
@@ -189,4 +190,53 @@ export default {
 .add-button .btn{
   height: 100px;
 }
+
+.tab-table {
+  text-align: left;
+}
+
+@media only screen and (max-width: 812px) {
+   /* <b-tabs content-class="mt-3" fill> */
+/* .tab-pane {
+  width: 200px;
+} */
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+/* nav-tabs {
+  flex-direction: row;
+} */
+
+/* .nav-tabs, .nav-link {
+  font-size: 30px;
+} */
+
+.add-button {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  /* text-align: center; */
+}
+
+.summary-desc {
+  font-size: 12px;
+}
+
+.tab-table {
+  font-size: 16px;
+}
+
+.tab-titles {
+  font-size: 12px;
+} 
+
+.add-button {
+  padding: 0px;
+}
+
+}
+
 </style>

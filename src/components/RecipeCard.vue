@@ -3,7 +3,7 @@
   @click.native="$addtofav='false', $addtoplan='false', $thedish=dish"
   :to="`/recipe-detail/${dish.dish}`"
   >
-    <div id="recipeCard">
+    <div id="recipeCard" class="mx-auto">
       <!-- <router-link 
         :to="'/recipe-detail/' + dish.reference"
         v-on: click="$emit('update-dish', 'kung-pao-chicken')"
@@ -85,7 +85,7 @@ a {
 #recipeCard {
   display: inline-flex;
   width: 300px;
-  margin-bottom: 1%;
+  margin-bottom: 28px;
 
 }
 
@@ -93,4 +93,21 @@ a {
 color: rgb(122, 122, 122);
 font-size: 15px;
 }
+
+@media only screen and (max-width: 812px) {
+
+.card-text {
+  font-size: 10px;
+}
+
+.tab-pane {
+  height: 0px;
+}
+/* 
+td {
+ text-align: left; 
+} */
+
+}
+
 </style>

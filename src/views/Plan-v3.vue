@@ -6,11 +6,10 @@
   top: -15%; " >
   <img class="position-absolute" src="@/assets/pot.svg" alt="SCG-IMG" width="300" height="300" style="z-index: 0; left: 80%;
   top: 80%;" > -->
-    <h1> Meal Plan </h1><br><br>
+    <pageTitle pageTitle="Meal Plan" />
 
-    <div class="col-10 offset-2 align-items-center">
     <template v-if="$addtoplan == 'true'">
-      <!-- <h3> 12/20/2021 </h3> -->
+      <div class="col-10 offset-2 align-items-center">
       <div class="input-group-addon mx-4"> 
         <h2>{{ availableDayString }}</h2>
         <br>
@@ -43,12 +42,13 @@
           </label>
         </div>
       </b-modal>
-      
+      </div>
     </template>
-    <template v-else id="hint"> 
-       <h5 id="hints"> Browse recipes and add them to your meal plan</h5>
+
+    <template v-else> 
+       <h5 id="hints" style="margin-top:10%; text-align:center;"> Browse recipes and add them to your meal plan</h5>
     </template>
-    </div>
+
   </div>
 </template>
 
@@ -57,12 +57,14 @@
 import RecipeCard from '@/components/RecipeCard.vue';
 import mockdatabefore from "@/mock-data-before.json";
 //import datepicker from "@/components/DatePicker.vue";
+import pageTitle from "@/components/PageTitle.vue";
 
   export default {
     name: 'mealplan',
     components: {
       RecipeCard,
       //datepicker
+      pageTitle
     },
     data: function() {
       return {
