@@ -159,7 +159,7 @@
 - Ada
     - Updated final report with project overview in table of contents.
     - Revised profile page and recipe card for mobile responsiveness. 
-    - Deployed final version of the site
+    - Deployed final version of the app
 
 - Xinlu
     - Fixed some responsiveness problems 
