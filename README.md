@@ -71,7 +71,7 @@ Explore the development and design process of our application below.
 <br/>
 <br/>
 
-### High-Fidelity Prototyping
+### Information Hierarchy and Prototyping
 - [High-Fidelity Prototype](documents/high-fidelity-prototype.md#milestone-4-high-fidelity-prototype)
     - [0. Overview](documents/high-fidelity-prototype.md#0-overview)
     - [1. Revisions to Prior Work](documents/high-fidelity-prototype.md#1-revisions-to-prior-work)
