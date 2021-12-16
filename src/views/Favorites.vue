@@ -11,7 +11,7 @@
       <b-card no-body>
             <b-tabs pills card fill>
         <!---------------  <Display Favorite Recipes> ---------------->
-        <b-tab title="Favorites" active>
+        <b-tab title="My Favorites" active>
           <div>
           <div v-if="$addtofav=='true'">
             <recipeCard
@@ -27,14 +27,14 @@
           </div>
         </b-tab>
         <!---------------  <Display Created Recipes>  ---------------->
-        <b-tab title="Created Recipes" tab-variant="warning ">
+        <b-tab title="Add your own recipes" tab-variant="warning ">
           <div class="text-center">
             <!-- <div>
               <p>Upload your recipe by clicking the add button below</p>
             </div> -->
-            <div class="col-md-10 mx-auto">
-              <b-button v-b-modal.modal-xl class="addbutton">
-                <b-icon icon="plus" style="width: 50px; height: 40px"></b-icon>Upload Recipe
+            <div class="row">
+              <b-button v-b-modal.modal-xl class="addbutton col-lg-6 col-md-8 col-sm-12 mx-auto">
+                <b-icon icon="plus" style="width: 30px; height: 30px"></b-icon>Upload Recipe
               </b-button>
             </div>
           </div>
@@ -125,12 +125,13 @@ export default {
   text-align: center;
   font-size: 12px;
   line-height: 1.42857; */
-  width: 50%;
+  /* width: 50%; */
   border-radius: 8px;
-  font-size: 24px;
+  font-size: 20px;
   margin-right: 48px;
   background-color: #EFAF00;
   border: none;
+  font-weight: 700;
 }
 /* .favorites{
   height: 100vh;
@@ -157,6 +158,7 @@ export default {
   width: 100%;
   border:none; 
   border-top: 0; 
-  background-color:#ffffff;}
+  background-color:#ffffff;
+  }
 
 </style>

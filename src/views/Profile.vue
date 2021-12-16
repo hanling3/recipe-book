@@ -1,22 +1,22 @@
 <template>
   <div id="main-page" class="profile position-relative">
     <pageTitle pageTitle="Profile" />
-    <img
+    <!-- <img
       class="position-absolute"
       src="@/assets/bottle.svg"
       alt="SCG-IMG"
       width="350"
       height="350"
       style="z-index: -1; transform: rotate(15deg); left: -7%; top: 40%"
-    />
-    <img
+    /> -->
+    <!-- <img
       class="position-absolute"
       src="@/assets/egg.svg"
       alt="SCG-IMG"
       width="300"
       height="300"
       style="z-index: -1; transform: rotate(-30deg); left: 80%; top: -15%"
-    />
+    /> -->
     <img
       class="position-absolute"
       src="@/assets/pot.svg"
@@ -39,8 +39,8 @@
       <!-- <h3>Robo <b-icon icon="pencil"></b-icon></h3> -->
 
       <div class="badge-header"><h4 class="fs-2">My Badges</h4></div>
-      <div class="badges mt-4">
-        <div class="badge">
+      <div class="badges row mt-4">
+        <div class="badge col-sm">
           <b-button variant="warning">
             Newly Joined
             <b-badge variant="light" class="">
@@ -53,7 +53,7 @@
           <h5>Newly Joined</h5> -->
         </div>
 
-        <div class="badge">
+        <div class="badge col-sm">
           <b-button variant="warning" v-b-modal.consistentcook-details>
             Consistent Cook
             <b-badge variant="light">
@@ -76,7 +76,7 @@
           </b-modal>
         </div>
 
-        <div class="badge">
+        <div class="badge col-sm">
           <!-- <b-button class="circle">
             <b-icon icon="star" class="star"></b-icon>
           </b-button>
@@ -213,7 +213,7 @@ h4 {
 
 /* Report */
 .report {
-  border: 1px solid #d6d6d6;
+  /* border: 1px solid #d6d6d6; */
   padding: 32px 64px;
   font-size: 24px;
 }
@@ -237,8 +237,8 @@ b-icon {
 }
 
 .badges .btn {
-  width: 300px;
-  height: 100px;
+  width: 100%;
+  /* height: 100px; */
   margin-right: 32px;
   font-size: 24px;
 }
@@ -252,5 +252,10 @@ span {
   font-size: 40px;
   font-weight: 700;
   color: #e57b07;
+}
+
+button.close {
+  border: none;
+  background: none;
 }
 </style>

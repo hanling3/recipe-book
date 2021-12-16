@@ -35,6 +35,8 @@ width: 100%;
 
 a.btn:focus{
   background-color: #febd2e;
+  box-shadow: none;
+  outline: none;
 }
 
 .icons {

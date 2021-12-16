@@ -3,19 +3,11 @@
     <pageTitle pageTitle="Browse" />
     <img
       class="position-absolute"
-      src="@/assets/bottle.svg"
-      alt="SCG-IMG"
-      width="350"
-      height="350"
-      style="z-index: 0; transform: rotate(15deg); left: -7%; top: 40%"
-    />
-    <img
-      class="position-absolute"
       src="@/assets/egg.svg"
       alt="SCG-IMG"
       width="300"
       height="300"
-      style="z-index: 0; transform: rotate(-30deg); left: 80%; top: -15%"
+      style="z-index: 0; transform: rotate(-30deg); left: 80%; top: -5%"
     />
     <img
       class="position-absolute"

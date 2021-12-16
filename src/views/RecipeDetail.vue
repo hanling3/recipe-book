@@ -1,16 +1,16 @@
 <template>
-  <div id="recipeDetail" class="d-flex justify-content-center">
+  <div id="recipeDetail">
     <!-- <b-card
       :title= thedish.dish
       :img-src="require('../assets/' + $event + '.jpg')"
       img-top
     > -->
-    <div>
+    <div class="position-absolute ml-0 float-left" style="z-index:1000">
     <router-link to="/browse" class="btn btn-dark">
       &#8249; Back
     </router-link>
     </div>
-
+<div class="d-flex justify-content-center">
     <b-card
       :title="this.$thedish.dish"
       :img-src="require('../assets/' + $thedish.reference + '.jpg')"
@@ -122,6 +122,7 @@
       </b-row> -->
       <!--<button class="btn btn-light" @click="show=true">Save To Plan</button>-->
     </b-card>
+    </div>
   </div>
 </template>
 

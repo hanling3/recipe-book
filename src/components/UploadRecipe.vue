@@ -260,4 +260,10 @@ export default {
   color: grey;
   border-color:#e3e7e9;
 }
+
+button.close {
+  border: none;
+  background: none;
+  box-shadow: none;
+}
 </style>
