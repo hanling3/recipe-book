@@ -6,7 +6,6 @@ McGraw Studio would like to present Recipebook, a desktop and mobile application
 Our live application can be accessed here: https://mcgraw-studio-recipebook.herokuapp.com/
 
 Note: when installing our application, please install from the "Browse" page in the navigation bar, and not from the landing page. Installing from the landing page sometimes results in errors, where pages will not load when using the navigation bar.
-
 <br/>
 <br/>
 
