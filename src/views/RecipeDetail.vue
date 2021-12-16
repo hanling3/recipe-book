@@ -46,7 +46,7 @@
         <b-tab title="INSTRUCTIONS">
           <b-table hover :items="this.$thedish.instructions"></b-table>
         </b-tab>
-        <b-tab title="UTENSIL">
+        <b-tab title="UTENSILS">
           <b-table hover :items="this.$thedish.utensil"></b-table>
         </b-tab>
       </b-tabs>
@@ -63,7 +63,7 @@
               </div>
               <br>
               <p class="badge2-text text-center">
-                Recipe is added to farvorite.
+                This recipe is added to favorites.
               </p>
             </b-modal>
           </div>
