@@ -54,6 +54,7 @@ In order to address the issues uncovered above, we revised our final sketches as
 Additionally, we revised the navigation bar so that there are now four main functions: a browse page, meal plan page, favorite page, and profile page. This is to make it more evident to the user how they can explore the recipes on the app.
 
 Also, please note that on the profile page, the "Edit" button for changing one's profile name (represented by a pencil icon) is not interactive at this time. We opted to make it non-interactive so that we could focus on other features of our application.
+Another thing to notice is that the recipes are designed to be arranged and listed by weekdays and meals once they are added to the meal plan page. According to our scenarios, we will only show one meal plan so that it is clear to see any changes made by users. Recipes will only be considered in the meal plans if they are added to meal plan page in the recipe cards because we want to hide any irrelevant information that the users do not need.
 
 # Deploy App
 
