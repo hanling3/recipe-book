@@ -224,7 +224,7 @@
             {"Step": "Step 2", "Detail": "Melt unsalted butter and mix with chopped garlic. Brush the lobster meat with it."},
             {"Step": "Step 3", "Detail": "Add parsley flake and black pepper on it. Then add cheddar and mozzarella cheese mix on top of it."},
             {"Step": "Step 4", "Detail": "Heat the oven to 190 Celsius degree/375 Fahrenheit degree and set the timer for 15 minutes. Put the lobster tail on the baking tray and send it into the oven."}, 
-            {"Step": "Step 6", "Detail": "Use oven glove to grab the baking tray out and transfer lobster on the plate."}       
+            {"Step": "Step 5", "Detail": "Use oven glove to grab the baking tray out and transfer lobster on the plate."}       
         ],
         "utensil":  [
             {"Utensil": "Scissor", "Quantity": "1" },
