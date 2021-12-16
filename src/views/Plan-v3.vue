@@ -46,7 +46,7 @@
     </template>
 
     <template v-else> 
-       <h5 id="hints" style="margin-top:10%; text-align:center;"> Browse recipes and add them to your meal plan</h5>
+       <h5 id="hints" style="text-align:left; opacity: 70%;"> Browse recipes and add them to your meal plan.</h5>
     </template>
 
   </div>
@@ -150,4 +150,37 @@ h3 {
 .MealPlan{
   height: 100vh;
 }
+
+#hints {
+  /* text-align: left; */
+  /* padding-top: 25%; */
+  opacity: 70%;
+}
+
+
+@media only screen and (max-width: 812px) {
+
+#hints {
+  padding-top: 25%; 
+} 
+
+.position-absolute {
+  /* width: 150%;
+  height: auto; */
+  margin-bottom: 40%; 
+  /* padding-right: 50px;  */
+  /* margin-left: 0%; */
+  /* margin-right: 20%; */
+  /* display: block; */
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+
+
+
+}
+
 </style>
