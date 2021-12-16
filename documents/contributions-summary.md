@@ -147,6 +147,10 @@
 - Xuanhui
     - Presented the introduction, introduced users' key problems and our persona.
 
+- Hedy
+    - Revised introduction script
+    - Presented "browse recipe" and "add recipe to meal plan" features and went through one of the scenarios 
+
 </br>
 </br>
 
@@ -163,3 +167,7 @@
 - Xuanhui 
     - Added several self-made recipes to mock data and provided photos.
     - Revised and explained for certain function of the app.
+
+- Hedy
+    - Revised the browse page for mobile responsiveness
+    - Revised every page title styling
