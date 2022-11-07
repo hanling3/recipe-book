@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.5f213917c53551be4130331b218d16e0.js"
+  "/precache-manifest.a350a51cd234afb47ceafe0414bb2077.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "mcgraw-studio-project"});

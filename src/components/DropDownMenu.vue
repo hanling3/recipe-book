@@ -65,6 +65,7 @@ select{
 
 #dropDownMenu{
   margin-top: 6%;
+  border-radius: 50px;
 
 }
 </style>

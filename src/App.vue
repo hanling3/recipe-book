@@ -4,7 +4,7 @@
     <router-view />
     <nav-bar />
   </div>
-  
+
 </template>
 
 <script>
@@ -31,9 +31,9 @@ export default {
   z-index: -1;
 }
 #main-page {
-  padding-top:5%;
-  padding-left:5%;
-  padding-right:5%;
+  padding-top:10%;
+  padding-left:0%;
+  padding-right:10%;
   padding-bottom:5%;
   z-index: 3;
 }
